@@ -11,11 +11,101 @@
   "keep": [],
   "groups": [
     {
-      "title": "Amazon telemetry, metrics, logs, usage and location reporting",
+      "title": "Additional AFTKRT / karat unit: Fire TV Stick 4K Max 2nd gen, Fire OS 8.1.7.4 (RS8174.3648N),",
       "packages": [
         {
-          "pkg": "com.amazon.client.metrics.api"
+          "pkg": "com.amazon.tv.acr",
+          "optional": true
         },
+        {
+          "pkg": "com.amazon.hybridadidservice",
+          "optional": true
+        },
+        {
+          "pkg": "com.amazon.shoptv.firetv.client",
+          "optional": true
+        },
+        {
+          "pkg": "com.amazon.ceviche",
+          "optional": true
+        },
+        {
+          "pkg": "com.amazon.dp.logger",
+          "optional": true
+        },
+        {
+          "pkg": "com.amazon.client.metrics.api",
+          "optional": true
+        },
+        {
+          "pkg": "com.amazon.tv.easyupgrade",
+          "optional": true
+        },
+        {
+          "pkg": "com.amazon.perfc",
+          "optional": true
+        },
+        {
+          "pkg": "com.amazon.tahoe",
+          "optional": true
+        },
+        {
+          "pkg": "com.amazon.sneakpeek",
+          "optional": true
+        },
+        {
+          "pkg": "com.amazon.storm.lightning.tutorial",
+          "optional": true
+        },
+        {
+          "pkg": "com.amazon.wirelessmetrics.service",
+          "optional": true
+        },
+        {
+          "pkg": "com.amazon.device.telemetry.emitter",
+          "optional": true
+        },
+        {
+          "pkg": "com.amazon.minitv.android.app",
+          "optional": true
+        },
+        {
+          "pkg": "com.amazon.tmm.tutorial",
+          "optional": true
+        },
+        {
+          "pkg": "com.amazon.tv.developer.dataservice",
+          "optional": true
+        },
+        {
+          "pkg": "com.amazon.kso.blackbird",
+          "optional": true
+        },
+        {
+          "pkg": "com.amazon.shoptv.client",
+          "optional": true
+        },
+        {
+          "pkg": "com.amazon.tv.releasenotes",
+          "optional": true
+        },
+        {
+          "pkg": "com.amazon.gamehub",
+          "optional": true
+        },
+        {
+          "pkg": "com.amazon.perfcollection",
+          "optional": true
+        },
+        {
+          "pkg": "com.amazon.bueller.music",
+          "optional": true
+        }
+      ]
+    },
+    {
+      "title": "Amazon telemetry, metrics, logs, usage and location reporting",
+      "packages": [
         {
           "pkg": "com.amazon.device.metrics",
           "note": "protected by Fire OS",
@@ -28,15 +118,6 @@
           "pkg": "com.amazon.neo.minerva.logcat"
         },
         {
-          "pkg": "com.amazon.wirelessmetrics.service"
-        },
-        {
-          "pkg": "com.amazon.perfcollection"
-        },
-        {
-          "pkg": "com.amazon.perfc"
-        },
-        {
           "pkg": "com.amazon.device.logmanager",
           "note": "protected by Fire OS",
           "optional": true
@@ -47,29 +128,14 @@
           "optional": true
         },
         {
-          "pkg": "com.amazon.dp.logger"
-        },
-        {
           "pkg": "com.amazon.diode",
           "note": "protected by Fire OS",
           "optional": true
         },
         {
-          "pkg": "com.amazon.ceviche",
-          "note": "data collection pipelines"
-        },
-        {
-          "pkg": "com.amazon.tv.developer.dataservice",
-          "note": "content personalization data for third-party apps"
-        },
-        {
           "pkg": "com.fireos.usagestats.proxy",
           "note": "protected by Fire OS",
           "optional": true
-        },
-        {
-          "pkg": "com.amazon.device.telemetry.emitter",
-          "note": "new in Fire OS 8, no components of its own"
         },
         {
           "pkg": "com.amazon.livedeviceservice"
@@ -83,10 +149,6 @@
           "note": "uploads Wi-Fi passwords to Amazon"
         },
         {
-          "pkg": "com.amazon.tv.acr",
-          "note": "Automatic Content Recognition"
-        },
-        {
           "pkg": "com.amazon.ftvspatial",
           "note": "presence and indoor-location sensing (SensorDataReceiver, IlsProximityReceiver)"
         }
@@ -95,18 +157,6 @@
     {
       "title": "Ads, sponsored rows, recommendations, promos, shopping",
       "packages": [
-        {
-          "pkg": "com.amazon.kso.blackbird",
-          "note": "launcher ad sync / bidding (aps.GetBidService)"
-        },
-        {
-          "pkg": "com.amazon.sneakpeek",
-          "note": "sponsored \"Sneak Peek\" previews"
-        },
-        {
-          "pkg": "com.amazon.hybridadidservice",
-          "note": "advertising ID service"
-        },
         {
           "pkg": "com.amazon.ftvads.deeplinking",
           "note": "protected by Fire OS",
@@ -117,17 +167,6 @@
         },
         {
           "pkg": "com.amazon.providers.contentsupport"
-        },
-        {
-          "pkg": "com.amazon.tv.easyupgrade",
-          "note": "\"upgrade your Fire TV\" promos"
-        },
-        {
-          "pkg": "com.amazon.shoptv.client",
-          "note": "Amazon Shopping on TV"
-        },
-        {
-          "pkg": "com.amazon.shoptv.firetv.client"
         },
         {
           "pkg": "com.amazon.hedwig",
@@ -145,10 +184,6 @@
           "pkg": "com.amazon.systemnotices"
         },
         {
-          "pkg": "com.amazon.tv.releasenotes",
-          "note": "\"what's new\" release notes"
-        },
-        {
           "pkg": "com.amazon.uxnotification",
           "note": "UX notification popups"
         },
@@ -162,14 +197,6 @@
       "title": "Preloaded Amazon apps and setup helpers (owner's choice)",
       "packages": [
         {
-          "pkg": "com.amazon.gamehub",
-          "note": "Amazon Luna / Game Hub"
-        },
-        {
-          "pkg": "com.amazon.bueller.music",
-          "note": "Amazon Music"
-        },
-        {
           "pkg": "com.amazon.bueller.photos",
           "note": "Amazon Photos"
         },
@@ -180,22 +207,6 @@
         {
           "pkg": "com.amazon.tv.website_launcher",
           "note": "opens websites in Silk"
-        },
-        {
-          "pkg": "com.amazon.tahoe",
-          "note": "Amazon Kids (FreeTime)"
-        },
-        {
-          "pkg": "com.amazon.minitv.android.app",
-          "note": "miniTV stub"
-        },
-        {
-          "pkg": "com.amazon.tmm.tutorial",
-          "note": "remote tutorial"
-        },
-        {
-          "pkg": "com.amazon.storm.lightning.tutorial",
-          "note": "remote app tutorial"
         },
         {
           "pkg": "com.amazon.tv.csapp",
@@ -281,6 +292,6 @@
   "source": {
     "repo": "Gathin23/cleanyourtv",
     "path": "examples/amazon-fire-tv-stick-4k-2023/debloat.txt",
-    "commit": "eb0131a32fd8567086f39002f1782f7c1b078ca6"
+    "commit": "204143007f0bebfb14d6ef001a32e5836b1c90b5"
   }
 }
