@@ -1,0 +1,75 @@
+{
+  "schema": 1,
+  "id": "magcubic-hy300-pro-plus",
+  "name": "Magcubic HY300 Pro+ projector",
+  "tested": {
+    "os": "Android 14",
+    "sdk": 34,
+    "build": null
+  },
+  "launcher": null,
+  "keep": [],
+  "groups": [
+    {
+      "title": "Apps nobody asked for",
+      "packages": [
+        {
+          "pkg": "com.android.music"
+        }
+      ]
+    },
+    {
+      "title": "Printing",
+      "packages": [
+        {
+          "pkg": "com.android.bips"
+        }
+      ]
+    },
+    {
+      "title": "Kept on the tested unit, candidates for owners who don't use them",
+      "packages": [
+        {
+          "pkg": "com.mobisystems.office",
+          "note": "OfficeSuite (it also answers the TV passthrough URI)",
+          "optional": true
+        },
+        {
+          "pkg": "com.hy.storeos",
+          "note": "vendor app store",
+          "optional": true
+        },
+        {
+          "pkg": "com.Hydraprimeonline",
+          "note": "Hydra Prime",
+          "optional": true
+        },
+        {
+          "pkg": "com.mphotool.airplay",
+          "note": "AirPlay receiver (ScreenCast)",
+          "optional": true
+        },
+        {
+          "pkg": "com.mphotool.dlna",
+          "note": "DLNA receiver (ScreenCast)",
+          "optional": true
+        },
+        {
+          "pkg": "com.softwinner.miracastReceiver",
+          "note": "Miracast; re-enable if you cast from a phone",
+          "optional": true
+        },
+        {
+          "pkg": "com.android.toofifi",
+          "note": "phone-remote service on port 8899 (no auth), mic, camera, location",
+          "optional": true
+        }
+      ]
+    }
+  ],
+  "source": {
+    "repo": "Gathin23/cleanyourtv",
+    "path": "examples/magcubic-hy300-pro-plus/debloat.txt",
+    "commit": "985bbd14d0b01517988724668e310211d72d86fc"
+  }
+}
