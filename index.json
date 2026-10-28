@@ -2,7 +2,7 @@
   "schema": 1,
   "source": {
     "repo": "Gathin23/cleanyourtv",
-    "commit": "095b71ad93d99ea28d94d97b06385709d354b795"
+    "commit": "985bbd14d0b01517988724668e310211d72d86fc"
   },
   "devices": [
     {
@@ -227,7 +227,7 @@
       "match": null,
       "sdk": 34,
       "file": "devices/cecotec-shandao.json",
-      "sha256": "fab25dd3eac8019033106cd702d62e7540395bcd5304371336cf9a2adec450a9"
+      "sha256": "d4cfe24b064f441194d7b8348bbfc94e3b0066d1afd4b36f6d8e7ab48e25329e"
     },
     {
       "id": "challenger-32t22bt",
@@ -268,6 +268,14 @@
       "sdk": 30,
       "file": "devices/coocaa-k3-pro-90p3d-max.json",
       "sha256": "e64bc040c04917b3526b98cfed7053bfb9f031e665cb2edefc03f65d4437ab71"
+    },
+    {
+      "id": "coocaa-p9-projector",
+      "name": "Coocaa P9 projector",
+      "match": null,
+      "sdk": 28,
+      "file": "devices/coocaa-p9-projector.json",
+      "sha256": "48b94ee2f4e5d1ecfcbaee603f90e0c8942e0e187d8347ee665834b8cebb3036"
     },
     {
       "id": "dcolor-gd2",
@@ -550,6 +558,14 @@
       "sha256": "54f1633b9f3f6e16ea5d4d9c8c58a2cf33f335880a1429c92adbd630f3d8ccb5"
     },
     {
+      "id": "hotack-l018",
+      "name": "HOTACK L018 Smart Projector",
+      "match": null,
+      "sdk": 30,
+      "file": "devices/hotack-l018.json",
+      "sha256": "30016bc96fd7995326fd0dcc9cc17573e83667bfacbacbebd718128bfb1d883a"
+    },
+    {
       "id": "hotack-smart2kpjt",
       "name": "HOTACK SMART2KPJT projector",
       "match": null,
@@ -564,6 +580,14 @@
       "sdk": 33,
       "file": "devices/hy320.json",
       "sha256": "1a563a02fbd48d6bf7b6fc6f393dc74696ce2f941fa773c6c8476fb471f13f6f"
+    },
+    {
+      "id": "impex-evoq-4k",
+      "name": "Impex evoQ 4K",
+      "match": null,
+      "sdk": 34,
+      "file": "devices/impex-evoq-4k.json",
+      "sha256": "134f4afaf5842f2ee99f6cf2e09301faec9a699edf55160a0e249796edf5d16f"
     },
     {
       "id": "inclo-google-tv-4k",
@@ -670,6 +694,14 @@
       "sha256": "672088d12852484f8959ff2000ee98188f4abf1f4376accdd5385fad735377dc"
     },
     {
+      "id": "koryo-smart-tv-hi3751v553",
+      "name": "Koryo 55\" 4K Smart TV",
+      "match": null,
+      "sdk": null,
+      "file": "devices/koryo-smart-tv-hi3751v553.json",
+      "sha256": "6f87ddc314af0d5638d55a3bc00828370e8f964454a5d628ca0ba3a3b00fd7ec"
+    },
+    {
       "id": "ktc-4k-smart-tv-hongkong",
       "name": "KTC 4K Smart TV",
       "match": null,
@@ -694,6 +726,14 @@
       "sha256": "bcc64127a91ee489e7aa1ab888a0fb3b79962e4064967c8761252dd7987b465e"
     },
     {
+      "id": "magcubic-hy300-pro-plus",
+      "name": "Magcubic HY300 Pro+ projector",
+      "match": null,
+      "sdk": 34,
+      "file": "devices/magcubic-hy300-pro-plus.json",
+      "sha256": "1764336407690c5c2be46362e37590a7a8280f1840403a41a6721c1089504aa0"
+    },
+    {
       "id": "magcubic-hy300-pro",
       "name": "Magcubic HY300 Pro projector",
       "match": null,
@@ -708,6 +748,14 @@
       "sdk": 28,
       "file": "devices/master-g-mga3200.json",
       "sha256": "7e6039fe7bc1ecb9e4b9a604e6ba2790660f4a603abe248a033a91b7080eb402"
+    },
+    {
+      "id": "mecool-km2-plus",
+      "name": "MECOOL KM2 Plus",
+      "match": null,
+      "sdk": 34,
+      "file": "devices/mecool-km2-plus.json",
+      "sha256": "d29210df2b6ddc6dcc100f307df57c07d096b58e853bd4496af4e3ccd8d88c9f"
     },
     {
       "id": "motorola-mt4310",
@@ -1112,6 +1160,14 @@
       "sha256": "dba76e691588092372f0079ebcc27be3959b6a63728585d8f4f1b6c0eea519fb"
     },
     {
+      "id": "prosonic-bodrum-finch",
+      "name": "Prosonic Android TV",
+      "match": null,
+      "sdk": 34,
+      "file": "devices/prosonic-bodrum-finch.json",
+      "sha256": "419d43a17fbaf8743e78abf325aafd9d06dfc657ad8a09627fa05c7ecf0acda9"
+    },
+    {
       "id": "rca-2k-android-tv-lasalle",
       "name": "RCA 2K Android TV",
       "match": null,
@@ -1222,6 +1278,14 @@
       "sdk": 28,
       "file": "devices/seleco-tv39020hda9smart.json",
       "sha256": "16e6c432fba87ae80435ad52a633420a6f555dde38b29052e5ff92ffdc6a133e"
+    },
+    {
+      "id": "sharp-2k-eu",
+      "name": "SHARP 2K EU Android TV",
+      "match": null,
+      "sdk": 34,
+      "file": "devices/sharp-2k-eu.json",
+      "sha256": "391677f81cbef5c3a6aafc0bc02db15d79f9a8e7f578b4f128b1a51d93ca1e6f"
     },
     {
       "id": "sharp-2t-c32gh3000i",
@@ -2520,6 +2584,14 @@
       "sha256": "b684a1d276078bc3500abdf9e287107d6e1b9cdb876567b55d6d6fcc72cb1856"
     },
     {
+      "id": "xiaomi-f2-fire-tv-aftma2857f",
+      "name": "Xiaomi F2 Fire TV",
+      "match": null,
+      "sdk": 28,
+      "file": "devices/xiaomi-f2-fire-tv-aftma2857f.json",
+      "sha256": "8e6c145924c4fecb562b13ee9277a70d398bf156147f4c1d5d587a36974e328b"
+    },
+    {
       "id": "xiaomi-mi-box-3",
       "name": "Xiaomi Mi Box 3",
       "match": null,
@@ -2694,6 +2766,14 @@
       "sdk": null,
       "file": "devices/xiaomi-mitv-mooq2.json",
       "sha256": "0f766864d5426e9ef9f2583338a24dc4d540c1660e4911fd27c23fa4b9e4166f"
+    },
+    {
+      "id": "xiaomi-mitv-moor0",
+      "name": "Xiaomi MiTV-MOOR0",
+      "match": null,
+      "sdk": null,
+      "file": "devices/xiaomi-mitv-moor0.json",
+      "sha256": "011e10c7566486795c9ef5013c8af1a9852f10a4a8e39d3a9e525f1f6a52f497"
     },
     {
       "id": "xiaomi-mitv-moor2",

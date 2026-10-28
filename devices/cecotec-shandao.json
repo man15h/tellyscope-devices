@@ -102,6 +102,11 @@
         {
           "pkg": "com.google.android.tvrecommendations",
           "note": "launcher recommendation rows. Only safe"
+        },
+        {
+          "pkg": "no.rikstv.atv",
+          "note": "RiksTV (Norway units). Off by choice on the Toshiba.",
+          "optional": true
         }
       ]
     },
@@ -163,6 +168,6 @@
   "source": {
     "repo": "Gathin23/cleanyourtv",
     "path": "examples/cecotec-shandao/debloat.txt",
-    "commit": "575d73f0f30c329aa7ebaea2bc863943fd9bf7f9"
+    "commit": "985bbd14d0b01517988724668e310211d72d86fc"
   }
 }
