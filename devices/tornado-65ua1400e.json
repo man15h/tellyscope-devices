@@ -5,7 +5,7 @@
   "tested": {
     "os": "Android TV 11",
     "sdk": 30,
-    "build": null
+    "build": "RTM5.220609.106"
   },
   "launcher": "com.google.android.tvlauncher",
   "keep": [],
@@ -53,6 +53,10 @@
         {
           "pkg": "com.smartdevice.epopplayer",
           "note": "e-POP shop-floor promo player"
+        },
+        {
+          "pkg": "com.smartdevice.speedchannels",
+          "note": "Unit 2: Coocaa recommendation channels and notification listener"
         },
         {
           "pkg": "com.Smartdevice.emanual",
@@ -120,11 +124,41 @@
           "optional": true
         }
       ]
+    },
+    {
+      "title": "--- Also disabled on Unit 2 by its owner's choice (apps they do not use; comment in only what you do not use)",
+      "packages": [
+        {
+          "pkg": "com.google.android.play.games",
+          "note": "Google Play Games",
+          "optional": true
+        },
+        {
+          "pkg": "com.google.android.marvin.talkback",
+          "note": "TalkBack screen reader (off unless switched on)",
+          "optional": true
+        },
+        {
+          "pkg": "com.google.android.videos",
+          "note": "Google TV movies and rentals",
+          "optional": true
+        },
+        {
+          "pkg": "com.google.android.backdrop",
+          "note": "Ambient-mode screensaver; the launcher's clock replaces it",
+          "optional": true
+        },
+        {
+          "pkg": "com.tianci.localmedia",
+          "note": "Skyworth \"Media\" app that plays files from a USB drive",
+          "optional": true
+        }
+      ]
     }
   ],
   "source": {
     "repo": "Gathin23/cleanyourtv",
     "path": "examples/tornado-65ua1400e/debloat.txt",
-    "commit": "575d73f0f30c329aa7ebaea2bc863943fd9bf7f9"
+    "commit": "718f98c96e6823045fd1fd82edd73d70deaf01fa"
   }
 }

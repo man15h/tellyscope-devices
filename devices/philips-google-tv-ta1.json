@@ -111,6 +111,144 @@
       ]
     },
     {
+      "title": "Batch 3, from the second set (TA5). That owner kept Netflix and Prime Video from batch 1 (comment them out",
+      "packages": [
+        {
+          "pkg": "com.android.adservices.api",
+          "note": "Android ad services"
+        },
+        {
+          "pkg": "com.android.ondevicepersonalization.services"
+        },
+        {
+          "pkg": "com.android.federatedcompute.services"
+        },
+        {
+          "pkg": "com.android.tv.feedbackconsent"
+        },
+        {
+          "pkg": "com.google.android.apps.mediashell",
+          "note": "Chromecast built-in, by choice",
+          "optional": true
+        },
+        {
+          "pkg": "com.google.android.katniss",
+          "note": "Google Assistant and voice search, by choice (~230 MB resident)",
+          "optional": true
+        },
+        {
+          "pkg": "com.mediatek.dialservice",
+          "note": "DIAL, casting from phone apps",
+          "optional": true
+        },
+        {
+          "pkg": "com.mediatek.AirplayAPK",
+          "note": "AirPlay TV input, with the two AirPlay packages above"
+        },
+        {
+          "pkg": "org.droidtv.matter",
+          "note": "Matter smart-home"
+        },
+        {
+          "pkg": "com.tpv.screenshotshare"
+        },
+        {
+          "pkg": "com.android.printspooler"
+        },
+        {
+          "pkg": "com.google.android.apps.tv.dreamx",
+          "note": "ambient mode / smart-home dashboard (~190 MB)"
+        },
+        {
+          "pkg": "org.droidtv.contentexplorer",
+          "note": "USB media player, by choice",
+          "optional": true
+        },
+        {
+          "pkg": "org.droidtv.dlna",
+          "note": "DLNA / UPnP, by choice",
+          "optional": true
+        },
+        {
+          "pkg": "org.droidtv.multiview",
+          "note": "Multi View (~80 MB)"
+        },
+        {
+          "pkg": "org.droidtv.hidwizard",
+          "note": "keyboard/mouse setup wizard (~75 MB)"
+        },
+        {
+          "pkg": "org.droidtv.sunrise",
+          "note": "wake-up light alarm"
+        },
+        {
+          "pkg": "org.droidtv.calmancalibrator",
+          "note": "Calman calibration service"
+        },
+        {
+          "pkg": "org.droidtv.personalisedsound",
+          "note": "Mimi personalised sound (~73 MB)"
+        },
+        {
+          "pkg": "io.mimi.sdk.service"
+        },
+        {
+          "pkg": "com.mediatek.browservice",
+          "note": "HbbTV and operator-app browser (~100 MB)",
+          "optional": true
+        },
+        {
+          "pkg": "org.droidtv.astrahdplus",
+          "note": "HD+ satellite operator app",
+          "optional": true
+        },
+        {
+          "pkg": "org.obs.mhegservice",
+          "note": "UK MHEG interactive TV",
+          "optional": true
+        },
+        {
+          "pkg": "tv.mopa.ginga",
+          "note": "Brazilian interactive TV",
+          "optional": true
+        },
+        {
+          "pkg": "org.droidtv.teletext",
+          "optional": true
+        },
+        {
+          "pkg": "org.droidtv.epgdata",
+          "note": "EPG / Freeview Play",
+          "optional": true
+        },
+        {
+          "pkg": "org.droidtv.ci",
+          "note": "CI+ module",
+          "optional": true
+        },
+        {
+          "pkg": "org.droidtv.euinstallersat",
+          "note": "satellite channel installer (~77 MB)",
+          "optional": true
+        },
+        {
+          "pkg": "org.droidtv.euinstallertc",
+          "note": "cable/antenna channel installer",
+          "optional": true
+        },
+        {
+          "pkg": "com.mediatek.dtv.tvinput.dvbtuner",
+          "note": "the DVB tuner input itself (~82 MB)",
+          "optional": true
+        },
+        {
+          "pkg": "org.droidtv.m7opapp",
+          "note": "Canal Digitaal / M7 operator app",
+          "optional": true
+        }
+      ]
+    },
+    {
       "title": "Stock home last, after the new launcher is installed. The Wi-Fi network was forgotten and added again first,",
       "packages": [
         {
@@ -126,6 +264,6 @@
   "source": {
     "repo": "Gathin23/cleanyourtv",
     "path": "examples/philips-google-tv-ta1/debloat.txt",
-    "commit": "baadd07a7d095cc3ea72e6ccb615987bf1fb97c4"
+    "commit": "718f98c96e6823045fd1fd82edd73d70deaf01fa"
   }
 }

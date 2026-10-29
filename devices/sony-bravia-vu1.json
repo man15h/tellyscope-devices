@@ -102,11 +102,11 @@
         },
         {
           "pkg": "com.google.android.tungsten.setupwraith",
-          "note": "setup wizard; its .MainActivity answers HOME (see the Wi-Fi owner check above); also costs phone casting after a reboot (the Cast receiver reads its credentials from setupwraith)"
+          "note": "setup wizard; its .MainActivity answers HOME on the first unit (see the Wi-Fi owner check above); also costs phone casting after a reboot (the Cast receiver reads its credentials from setupwraith); the second unit kept it"
         },
         {
           "pkg": "com.google.android.tvlauncher",
-          "note": "stock launcher: untested as a disable here (removed with uninstall); do it last",
+          "note": "stock launcher: launcher/build-and-install.sh disables it with disable-user after the new launcher owns Home (second unit, reboot-checked); do not disable it by hand first",
           "optional": true
         }
       ]
@@ -115,6 +115,6 @@
   "source": {
     "repo": "Gathin23/cleanyourtv",
     "path": "examples/sony-bravia-vu1/debloat.txt",
-    "commit": "575d73f0f30c329aa7ebaea2bc863943fd9bf7f9"
+    "commit": "718f98c96e6823045fd1fd82edd73d70deaf01fa"
   }
 }

@@ -42,6 +42,10 @@
           "note": "remote-support session service"
         },
         {
+          "pkg": "com.sony.dtv.sonybugreportsys",
+          "note": "Sony bug report service (third unit)"
+        },
+        {
           "pkg": "com.google.android.feedback"
         }
       ]
@@ -71,6 +75,10 @@
         {
           "pkg": "com.sony.dtv.ecodashboard",
           "note": "Eco dashboard tile (second unit)"
+        },
+        {
+          "pkg": "com.sony.dtv.customersupport",
+          "note": "customer support tile (third unit)"
         }
       ]
     },
@@ -103,11 +111,41 @@
       ]
     },
     {
-      "title": "screensaver: set basic screensaver first, or the launcher's clock (com.gathin.tvhome/.ClockDream)",
+      "title": "screensaver: set basic screensaver first, or the launcher's clock (com.gathin.tvhome/.ClockDream). The third",
       "packages": [
         {
           "pkg": "com.google.android.apps.tv.dreamx",
           "note": "Ambient screensaver and background sync jobs",
+          "optional": true
+        }
+      ]
+    },
+    {
+      "title": "streaming apps (off on the third unit by choice; other owners can uncomment them; the remote's Netflix and Prime Video buttons then open the",
+      "packages": [
+        {
+          "pkg": "com.netflix.ninja",
+          "note": "Netflix",
+          "optional": true
+        },
+        {
+          "pkg": "com.amazon.amazonvideo.livingroom",
+          "note": "Prime Video",
+          "optional": true
+        },
+        {
+          "pkg": "com.spotify.tv.android",
+          "note": "Spotify",
+          "optional": true
+        }
+      ]
+    },
+    {
+      "title": "features not used (off on the third unit by choice; other owners can uncomment)",
+      "packages": [
+        {
+          "pkg": "com.sony.dtv.hbbtvplayer",
+          "note": "HbbTV / red button on live TV",
           "optional": true
         }
       ]
@@ -205,6 +243,6 @@
   "source": {
     "repo": "Gathin23/cleanyourtv",
     "path": "examples/sony-bravia-4k-vh21/debloat.txt",
-    "commit": "fcde1eedb4d6cc5ab683a6e0e9e1bc79229b898e"
+    "commit": "718f98c96e6823045fd1fd82edd73d70deaf01fa"
   }
 }
