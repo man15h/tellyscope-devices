@@ -64,7 +64,7 @@
         },
         {
           "pkg": "com.mediatek.MtkDemo",
-          "note": "MediaTek demo app; not on the AU10 units, seen on the AU13 unit"
+          "note": "MediaTek demo app; on one AU10 unit and the AU13 unit; disable.sh skips it (TV_INPUT_HARDWARE)"
         }
       ]
     },
@@ -131,6 +131,6 @@
   "source": {
     "repo": "Gathin23/cleanyourtv",
     "path": "examples/tcl-43s5k/debloat.txt",
-    "commit": "095b71ad93d99ea28d94d97b06385709d354b795"
+    "commit": "718f98c96e6823045fd1fd82edd73d70deaf01fa"
   }
 }

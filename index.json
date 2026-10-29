@@ -2,7 +2,7 @@
   "schema": 1,
   "source": {
     "repo": "Gathin23/cleanyourtv",
-    "commit": "fcde1eedb4d6cc5ab683a6e0e9e1bc79229b898e"
+    "commit": "718f98c96e6823045fd1fd82edd73d70deaf01fa"
   },
   "devices": [
     {
@@ -622,6 +622,14 @@
       "sha256": "74664e038e16e5eb4bf3877672626b7818c39591338505736afc1da3de3ef2e8"
     },
     {
+      "id": "jvc-4k-smart-tv-elliniko",
+      "name": "JVC 4K Smart TV",
+      "match": null,
+      "sdk": 34,
+      "file": "devices/jvc-4k-smart-tv-elliniko.json",
+      "sha256": "1204dc963397b8c106b0d83d844b8aedf037339ddc42b2716eedb3ab6cba1373"
+    },
+    {
       "id": "jvc-android-tv-menlo",
       "name": "JVC Android TV",
       "match": null,
@@ -1101,7 +1109,7 @@
       "match": null,
       "sdk": null,
       "file": "devices/philips-google-tv-ta1.json",
-      "sha256": "e368b1ae1ad88e549e1045d410937f17e5dc4c882699cff9fef271d16299f5b9"
+      "sha256": "597777042d3de470a8de377af57852d95ee6763094b7d9050588388752f1b55c"
     },
     {
       "id": "philips-google-tv-ta7",
@@ -1517,7 +1525,7 @@
       "match": null,
       "sdk": 31,
       "file": "devices/sony-bravia-4k-vh21.json",
-      "sha256": "91314788f96e64d5fabea525da32753afeeca1d2744c1d125b03bc879384ef3c"
+      "sha256": "798a14daea07056a896d552b3257f807244760763b08fc5b69b3c1608f8eb32b"
     },
     {
       "id": "sony-bravia-9-ii",
@@ -1565,7 +1573,7 @@
       "match": null,
       "sdk": 30,
       "file": "devices/sony-bravia-vu1.json",
-      "sha256": "1eb93900faf4eb23b4df132edb386b0a2a8122cb420b3403fa90b9755cc01d62"
+      "sha256": "06a9580bcd47928ad2eec9fc5cd468e1c7573ddd467edbde7423619a390ca0e8"
     },
     {
       "id": "sony-bravia-vu3",
@@ -1909,7 +1917,7 @@
       "match": null,
       "sdk": 34,
       "file": "devices/tcl-43s5k.json",
-      "sha256": "d905abdfd46a013375c4dcdc2f47c135b2fdaa5ba0dbc9b657cde553b644c6b9"
+      "sha256": "2b79fbedd62e6060ab3e64b5bf9eeac9a2847fda2d8fc7a562fa5c3d124841a5"
     },
     {
       "id": "tcl-50c725k",
@@ -2469,7 +2477,7 @@
       "match": null,
       "sdk": 30,
       "file": "devices/tornado-65ua1400e.json",
-      "sha256": "c26c64c01cb2d586a1594428e6a9359ec9ce05bcdd419b4bb2efbedbad704605"
+      "sha256": "4d02d43f13662993b4d18d87bc53969cd826ec93159391aecfb8afe3f7d0be78"
     },
     {
       "id": "toshiba-65ua2363dg",
