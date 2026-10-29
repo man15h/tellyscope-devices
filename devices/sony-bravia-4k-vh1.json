@@ -142,7 +142,8 @@
         },
         {
           "pkg": "com.youview.poa",
-          "note": "YouView (UK); unused on this EU unit"
+          "note": "KEPT on UK sets: Freeview Play, which hosts BBC iPlayer, ITVX, Channel 4 and 5.",
+          "optional": true
         }
       ]
     },
@@ -173,6 +174,6 @@
   "source": {
     "repo": "Gathin23/cleanyourtv",
     "path": "examples/sony-bravia-4k-vh1/debloat.txt",
-    "commit": "575d73f0f30c329aa7ebaea2bc863943fd9bf7f9"
+    "commit": "fcde1eedb4d6cc5ab683a6e0e9e1bc79229b898e"
   }
 }

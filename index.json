@@ -2,7 +2,7 @@
   "schema": 1,
   "source": {
     "repo": "Gathin23/cleanyourtv",
-    "commit": "985bbd14d0b01517988724668e310211d72d86fc"
+    "commit": "fcde1eedb4d6cc5ab683a6e0e9e1bc79229b898e"
   },
   "devices": [
     {
@@ -647,11 +647,11 @@
     },
     {
       "id": "jvc-uk-4k-sadang",
-      "name": "JVC UK 4K Android TV",
+      "name": "JVC LT-58CA810",
       "match": null,
       "sdk": 30,
       "file": "devices/jvc-uk-4k-sadang.json",
-      "sha256": "b1742e70345c37f7faa87b6d3cfb618cadc30832f176c80f39abb855ca838e8a"
+      "sha256": "8b3c9de1c4a1da2e47480f6ce873de0afc58fbe3a008137d6bf712d14856dfde"
     },
     {
       "id": "kalley-43g200",
@@ -1032,6 +1032,14 @@
       "sha256": "aa880118f488b81dec7d5faa2da1a183701c9407c3c5465bdc1c851e2dd8a7a9"
     },
     {
+      "id": "philips-55pos9002",
+      "name": "Philips 55POS9002/12",
+      "match": null,
+      "sdk": 26,
+      "file": "devices/philips-55pos9002.json",
+      "sha256": "857ef5529d3b93f1dd7458f0eb9d38529f07537635cd99d4c025ea8fb2d74b7f"
+    },
+    {
       "id": "philips-55pus7503",
       "name": "Philips 55PUS7503/12",
       "match": null,
@@ -1328,6 +1336,14 @@
       "sha256": "fde96d83830c030604b61c017d6cadd3ac50906ef55c07d2b33c0cbde9df9344"
     },
     {
+      "id": "sharp-aquos-tvx19b",
+      "name": "SHARP AQUOS-TVX19B",
+      "match": null,
+      "sdk": 30,
+      "file": "devices/sharp-aquos-tvx19b.json",
+      "sha256": "7ed4241004a452074a2cbf0a27968a9e66f8b9834e99160d73fe88cf35be6a7b"
+    },
+    {
       "id": "siragon-4k-smart-tv-elliniko",
       "name": "Síragon 4K Smart TV",
       "match": null,
@@ -1469,7 +1485,7 @@
       "match": null,
       "sdk": 31,
       "file": "devices/sony-bravia-4k-vh1.json",
-      "sha256": "a69c1af781e6d94b3a6bdf857d88f36d8c30cc6ed3fe67c512523704c2bbfe9f"
+      "sha256": "bf9eea4cf76c56c5720f96350af2dda51cc0707bf2cf48d822b19015ff2d9739"
     },
     {
       "id": "sony-bravia-4k-vh2",
@@ -1501,7 +1517,7 @@
       "match": null,
       "sdk": 31,
       "file": "devices/sony-bravia-4k-vh21.json",
-      "sha256": "31773f1668a7745f3c20de254c7749dd559bd62d598aaa0b7c30549f6aa8ca0b"
+      "sha256": "91314788f96e64d5fabea525da32753afeeca1d2744c1d125b03bc879384ef3c"
     },
     {
       "id": "sony-bravia-9-ii",
@@ -1582,6 +1598,14 @@
       "sdk": 31,
       "file": "devices/sony-kd-43x80l.json",
       "sha256": "c3b32fdc30a8c50f01bab4fddd8440c8fec5a331e08eba069f5cfe60d19788c1"
+    },
+    {
+      "id": "sony-kd-49x8000g-hk",
+      "name": "Sony BRAVIA KD-49X8000G",
+      "match": null,
+      "sdk": 28,
+      "file": "devices/sony-kd-49x8000g-hk.json",
+      "sha256": "d3974d71285e1fd89d5ea57d3045408aa543ba7e96ba3be072f1de8dec7dbf4e"
     },
     {
       "id": "sony-kd-49x8307c",
@@ -1829,7 +1853,7 @@
       "match": null,
       "sdk": 30,
       "file": "devices/tcl-40s5400a.json",
-      "sha256": "2083ef45ecae41b0651dab303ae9bee993f3686ad7fc9e1730350203660b374a"
+      "sha256": "3c41ba7f13233209dce6a5d11c6cb468f413e91fe42a26b5e612ef583e81a163"
     },
     {
       "id": "tcl-43c645",
@@ -2112,6 +2136,14 @@
       "sha256": "80716450e939533d78396fa61a6854561e38b88a0b9f2762046b34357f89c7e2"
     },
     {
+      "id": "tcl-65p615",
+      "name": "TCL 65P615",
+      "match": null,
+      "sdk": 28,
+      "file": "devices/tcl-65p615.json",
+      "sha256": "84fa0cdc828771c8dfab5e7c620491db0a5c1ca47b97cb1036c80d94d96f630f"
+    },
+    {
       "id": "tcl-65q550g",
       "name": "TCL 65Q550G",
       "match": null,
@@ -2325,7 +2357,7 @@
       "match": null,
       "sdk": 31,
       "file": "devices/tcl-g10-google-tv.json",
-      "sha256": "6ad50dae3a37f88a14b44d615cd37c1d535f955cc85b98a25e17d6901c70940a"
+      "sha256": "046857cc57d19b2b36c5b9da78044c6751a5078649ba4349bf9087d6f01faa1f"
     },
     {
       "id": "tcl-l40s66e",
@@ -2645,7 +2677,7 @@
       "match": null,
       "sdk": 34,
       "file": "devices/xiaomi-mitv-afmu0.json",
-      "sha256": "8db5835c545a4f247fe035effe91284a6f3bf8f344de431c746a1ba40853ab38"
+      "sha256": "bbdad2522694eac7089a6beb4aa87948f26e6a5b2c21dcaa83efa14bcf7f180b"
     },
     {
       "id": "xiaomi-mitv-afmu1",

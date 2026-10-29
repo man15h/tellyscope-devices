@@ -19,7 +19,7 @@
         },
         {
           "pkg": "com.tcl.channelplus",
-          "note": "TCL Live FAST channels, also removes them from Live TV"
+          "note": "TCL Live FAST channels, also removes them from Live TV; see quirks"
         },
         {
           "pkg": "com.tcl.tv.tclhome_passive",
@@ -126,6 +126,34 @@
           "optional": true
         },
         {
+          "pkg": "com.tcl.messagebox",
+          "optional": true
+        },
+        {
+          "pkg": "com.tcl.usercenter",
+          "note": "TCL account prompts",
+          "optional": true
+        },
+        {
+          "pkg": "com.tcl.useragreement",
+          "note": "TCL EULA screen, only needed during setup",
+          "optional": true
+        },
+        {
+          "pkg": "com.tcl.smartalexa",
+          "note": "Works with Alexa",
+          "optional": true
+        },
+        {
+          "pkg": "com.google.android.play.games",
+          "optional": true
+        },
+        {
+          "pkg": "com.google.android.videos",
+          "note": "Google TV movies and shows",
+          "optional": true
+        },
+        {
           "pkg": "com.tcl.airplay2",
           "note": "AirPlay, together with the next line",
           "optional": true
@@ -151,6 +179,26 @@
         {
           "pkg": "com.google.android.youtube.tv",
           "optional": true
+        },
+        {
+          "pkg": "com.tcl.t_solo",
+          "note": "TCL promo app",
+          "optional": true
+        },
+        {
+          "pkg": "com.tcl.hearaid",
+          "note": "hearing-aid audio app",
+          "optional": true
+        },
+        {
+          "pkg": "com.tcl.browser",
+          "note": "TCL web browser",
+          "optional": true
+        },
+        {
+          "pkg": "com.google.android.youtube.tvmusic",
+          "note": "YouTube Music",
+          "optional": true
         }
       ]
     }
@@ -158,6 +206,6 @@
   "source": {
     "repo": "Gathin23/cleanyourtv",
     "path": "examples/tcl-g10-google-tv/debloat.txt",
-    "commit": "575d73f0f30c329aa7ebaea2bc863943fd9bf7f9"
+    "commit": "fcde1eedb4d6cc5ab683a6e0e9e1bc79229b898e"
   }
 }

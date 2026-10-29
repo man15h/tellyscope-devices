@@ -86,7 +86,8 @@
           "pkg": "com.wbd.hbomax"
         },
         {
-          "pkg": "com.google.android.youtube.tvmusic"
+          "pkg": "com.google.android.youtube.tvmusic",
+          "note": "YouTube Music; the second unit kept it (in use)"
         },
         {
           "pkg": "com.google.android.play.games"
@@ -108,6 +109,23 @@
         },
         {
           "pkg": "com.mitv.gallery"
+        }
+      ]
+    },
+    {
+      "title": "Ad personalisation (Privacy Sandbox and on-device ad services): second unit only, as on xiaomi-mitv-afmu1 (provisional: one evening, one reboot)",
+      "packages": [
+        {
+          "pkg": "com.android.adservices.api",
+          "optional": true
+        },
+        {
+          "pkg": "com.android.ondevicepersonalization.services",
+          "optional": true
+        },
+        {
+          "pkg": "com.android.federatedcompute.services",
+          "optional": true
         }
       ]
     },
@@ -163,6 +181,6 @@
   "source": {
     "repo": "Gathin23/cleanyourtv",
     "path": "examples/xiaomi-mitv-afmu0/debloat.txt",
-    "commit": "575d73f0f30c329aa7ebaea2bc863943fd9bf7f9"
+    "commit": "fcde1eedb4d6cc5ab683a6e0e9e1bc79229b898e"
   }
 }

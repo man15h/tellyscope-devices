@@ -47,7 +47,7 @@
       ]
     },
     {
-      "title": "Sony ads, promos and recommendation rows",
+      "title": "Sony ads, promos, help and recommendation rows",
       "packages": [
         {
           "pkg": "com.sony.dtv.promos"
@@ -59,6 +59,18 @@
         {
           "pkg": "com.sony.dtv.sonytab",
           "note": "Sony content tab / partner rows"
+        },
+        {
+          "pkg": "com.sony.dtv.smarthelp",
+          "note": "Sony help tile (second unit)"
+        },
+        {
+          "pkg": "com.sony.dtv.helpguidecontents",
+          "note": "help guide contents (second unit)"
+        },
+        {
+          "pkg": "com.sony.dtv.ecodashboard",
+          "note": "Eco dashboard tile (second unit)"
         }
       ]
     },
@@ -87,6 +99,16 @@
         },
         {
           "pkg": "com.sony.dtv.assistantadapter"
+        }
+      ]
+    },
+    {
+      "title": "screensaver: set basic screensaver first, or the launcher's clock (com.gathin.tvhome/.ClockDream)",
+      "packages": [
+        {
+          "pkg": "com.google.android.apps.tv.dreamx",
+          "note": "Ambient screensaver and background sync jobs",
+          "optional": true
         }
       ]
     },
@@ -141,16 +163,41 @@
           "note": "Sony smart-home / phone-app link (BRAVIA Connect, remote start)"
         },
         {
+          "pkg": "com.sony.dtv.seeds.auth",
+          "note": "Sony seeds authentication service (second unit)"
+        },
+        {
+          "pkg": "com.sony.dtv.seeds.iot.remotestart",
+          "note": "remote start receiver for seeds IoT (second unit)"
+        },
+        {
           "pkg": "com.sony.dtv.gestureapp",
           "note": "BRAVIA CAM gestures (no camera on this set)"
+        },
+        {
+          "pkg": "com.sony.dtv.sensingcamera.fwupdate",
+          "note": "BRAVIA CAM firmware update checker; no camera on this set, the TV's own updater (systemupdate) stays on (second unit)"
+        },
+        {
+          "pkg": "com.sony.dtv.sensingcamera.settings",
+          "note": "BRAVIA CAM settings provider (second unit)"
+        },
+        {
+          "pkg": "com.sony.dtv.distancealert",
+          "note": "BRAVIA CAM proximity/distance alert (second unit)"
+        },
+        {
+          "pkg": "com.sony.dtv.livingfit",
+          "note": "BRAVIA CAM Living Fit feature (second unit)"
         }
       ]
     },
     {
-      "title": "Google TV setup wizard: with launcherx disabled its RecoveryActivity (HOME priority 1) outranks",
+      "title": "Google TV setup wizard: with launcherx disabled (Unit 1, Ethernet), RecoveryActivity claims Home",
       "packages": [
         {
-          "pkg": "com.google.android.tungsten.setupwraith"
+          "pkg": "com.google.android.tungsten.setupwraith",
+          "optional": true
         }
       ]
     }
@@ -158,6 +205,6 @@
   "source": {
     "repo": "Gathin23/cleanyourtv",
     "path": "examples/sony-bravia-4k-vh21/debloat.txt",
-    "commit": "575d73f0f30c329aa7ebaea2bc863943fd9bf7f9"
+    "commit": "fcde1eedb4d6cc5ab683a6e0e9e1bc79229b898e"
   }
 }
