@@ -54,11 +54,56 @@
           "pkg": "com.google.android.leanbacklauncher.recommendations"
         }
       ]
+    },
+    {
+      "title": "Additional packages disabled on the 50PUS7303/12, not tested on the 55PUS7503.",
+      "packages": [
+        {
+          "pkg": "tv.inscape.tvclient.inscapeacr",
+          "note": "Inscape ACR client",
+          "optional": true
+        },
+        {
+          "pkg": "org.droidtv.candeebug",
+          "note": "Philips DAC analytics; disabled together with gel",
+          "optional": true
+        },
+        {
+          "pkg": "org.droidtv.gel",
+          "note": "Philips metrics collector",
+          "optional": true
+        },
+        {
+          "pkg": "org.droidtv.sticker",
+          "note": "Philips store-demo stickers",
+          "optional": true
+        },
+        {
+          "pkg": "org.droidtv.twittershare",
+          "note": "Philips Twitter sharing",
+          "optional": true
+        },
+        {
+          "pkg": "org.droidtv.nettv.market",
+          "note": "Philips NetTV app gallery; Play Store kept",
+          "optional": true
+        },
+        {
+          "pkg": "com.amazon.amazonvideo.livingroom",
+          "note": "Prime Video; owner choice, keep if used",
+          "optional": true
+        },
+        {
+          "pkg": "org.droidtv.amazonalexa",
+          "note": "Alexa; owner choice, Google Assistant kept",
+          "optional": true
+        }
+      ]
     }
   ],
   "source": {
     "repo": "Gathin23/cleanyourtv",
     "path": "examples/philips-55pus7503/debloat.txt",
-    "commit": "575d73f0f30c329aa7ebaea2bc863943fd9bf7f9"
+    "commit": "001a44883f2bdbd02717728568d14a6e08f721df"
   }
 }

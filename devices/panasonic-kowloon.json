@@ -38,11 +38,68 @@
           "note": "Play Games"
         }
       ]
+    },
+    {
+      "title": "Android ad services and on-device personalisation (second unit; both accepted pm disable-user)",
+      "packages": [
+        {
+          "pkg": "com.android.adservices.api"
+        },
+        {
+          "pkg": "com.android.ondevicepersonalization.services"
+        }
+      ]
+    },
+    {
+      "title": "Telemetry and feedback (second unit)",
+      "packages": [
+        {
+          "pkg": "com.google.android.feedback",
+          "note": "Google feedback reports"
+        },
+        {
+          "pkg": "com.vestel.vestelreporter",
+          "note": "Vestel usage reporter"
+        }
+      ]
+    },
+    {
+      "title": "Retail and setup leftovers (second unit)",
+      "packages": [
+        {
+          "pkg": "fusion.android.tv.demo",
+          "note": "retail demo mode"
+        },
+        {
+          "pkg": "com.vestel.easysatelliteinstallation",
+          "note": "satellite setup wizard; the second unit uses the aerial only, untested with a dish",
+          "optional": true
+        }
+      ]
+    },
+    {
+      "title": "Accessibility, off by choice (second unit)",
+      "packages": [
+        {
+          "pkg": "com.google.android.marvin.talkback",
+          "note": "TalkBack screen reader; the second unit has it off by choice, uncomment if you never use it",
+          "optional": true
+        }
+      ]
+    },
+    {
+      "title": "Ethernet only (second unit): the setup wizard owns the saved Wi-Fi, see the header; keep it on Wi-Fi",
+      "packages": [
+        {
+          "pkg": "com.google.android.tungsten.setupwraith",
+          "optional": true
+        }
+      ]
     }
   ],
   "source": {
     "repo": "Gathin23/cleanyourtv",
     "path": "examples/panasonic-kowloon/debloat.txt",
-    "commit": "575d73f0f30c329aa7ebaea2bc863943fd9bf7f9"
+    "commit": "001a44883f2bdbd02717728568d14a6e08f721df"
   }
 }
