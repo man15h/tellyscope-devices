@@ -137,7 +137,7 @@
         },
         {
           "pkg": "com.google.android.tungsten.setupwraith",
-          "note": "setup wizard: gives Home back, costs casting (comment out to keep casting)"
+          "note": "setup wizard: gives Home back, costs casting (comment out to keep casting); keep it if it owns the saved Wi-Fi (fourth set)"
         },
         {
           "pkg": "com.google.android.partnersetup"
@@ -248,6 +248,6 @@
   "source": {
     "repo": "Gathin23/cleanyourtv",
     "path": "examples/xiaomi-mitv-aesp0/debloat.txt",
-    "commit": "575d73f0f30c329aa7ebaea2bc863943fd9bf7f9"
+    "commit": "001a44883f2bdbd02717728568d14a6e08f721df"
   }
 }

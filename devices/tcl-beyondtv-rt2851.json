@@ -187,7 +187,7 @@
         },
         {
           "pkg": "com.tcl.micmanager",
-          "note": "remote microphone manager"
+          "note": "remote microphone manager (~83 MB footprint)"
         },
         {
           "pkg": "com.google.android.tv.assistant",
@@ -199,6 +199,6 @@
   "source": {
     "repo": "Gathin23/cleanyourtv",
     "path": "examples/tcl-beyondtv-rt2851/debloat.txt",
-    "commit": "575d73f0f30c329aa7ebaea2bc863943fd9bf7f9"
+    "commit": "001a44883f2bdbd02717728568d14a6e08f721df"
   }
 }
