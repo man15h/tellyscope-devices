@@ -1,0 +1,140 @@
+{
+  "schema": 1,
+  "id": "xiaomi-mitv4i-magnolia",
+  "name": "Xiaomi MiTV4I",
+  "tested": {
+    "os": "Android TV 9",
+    "sdk": 28,
+    "build": null
+  },
+  "launcher": "com.google.android.tvlauncher",
+  "keep": [],
+  "groups": [
+    {
+      "title": "Xiaomi & Google telemetry",
+      "packages": [
+        {
+          "pkg": "com.miui.tv.analytics"
+        },
+        {
+          "pkg": "com.xiaomi.statistic"
+        },
+        {
+          "pkg": "com.google.android.feedback"
+        }
+      ]
+    },
+    {
+      "title": "PatchWall, content & promo rows",
+      "packages": [
+        {
+          "pkg": "com.mitv.tvhome.atv"
+        },
+        {
+          "pkg": "com.mitv.tvhome.mitvplus"
+        },
+        {
+          "pkg": "com.xm.webcontent"
+        },
+        {
+          "pkg": "co.sensara.tv.mitv"
+        },
+        {
+          "pkg": "co.sensara.tv.mitv.res"
+        },
+        {
+          "pkg": "android.autoinstalls.config.xiaomi.amelie"
+        },
+        {
+          "pkg": "android.autoinstalls.config.xioami.dangal"
+        },
+        {
+          "pkg": "com.google.android.tvrecommendations"
+        },
+        {
+          "pkg": "com.google.android.leanbacklauncher.recommendations"
+        }
+      ]
+    },
+    {
+      "title": "Xiaomi background services & cleaners",
+      "packages": [
+        {
+          "pkg": "com.xiaomi.mitv.tvmanager"
+        },
+        {
+          "pkg": "com.mitv.milinkservice",
+          "note": "phone-remote service; shared lists keep it on, this set had it off",
+          "optional": true
+        },
+        {
+          "pkg": "com.mitv.tvlock"
+        },
+        {
+          "pkg": "com.xiaomo.tv.milegal"
+        },
+        {
+          "pkg": "com.xiaomi.android.tvsetup.partnercustomizer"
+        },
+        {
+          "pkg": "com.google.android.tv.bugreportsender"
+        }
+      ]
+    },
+    {
+      "title": "Preloaded media & tools",
+      "packages": [
+        {
+          "pkg": "com.xiaomi.mimusic2"
+        },
+        {
+          "pkg": "com.google.android.play.games"
+        },
+        {
+          "pkg": "com.google.android.videos"
+        },
+        {
+          "pkg": "com.mitv.gallery"
+        },
+        {
+          "pkg": "com.mitv.videoplayer"
+        }
+      ]
+    },
+    {
+      "title": "Optional / User choice (commented out by default; uncomment if not needed)",
+      "packages": [
+        {
+          "pkg": "com.google.android.katniss",
+          "note": "Google Assistant / voice search",
+          "optional": true
+        },
+        {
+          "pkg": "com.xiaomi.mitv.updateservice",
+          "note": "Xiaomi firmware updater; re-enable to check for updates",
+          "optional": true
+        },
+        {
+          "pkg": "com.google.android.backdrop",
+          "note": "Ambient screensaver",
+          "optional": true
+        },
+        {
+          "pkg": "com.graymatrix.did",
+          "note": "ZEE5 streaming app",
+          "optional": true
+        },
+        {
+          "pkg": "com.crunchyroll.crunchyroid",
+          "note": "Crunchyroll streaming app",
+          "optional": true
+        }
+      ]
+    }
+  ],
+  "source": {
+    "repo": "Gathin23/cleanyourtv",
+    "path": "examples/xiaomi-mitv4i-magnolia/debloat.txt",
+    "commit": "57c00a40dafe040b0be1f32086e96c05a1a37054"
+  }
+}

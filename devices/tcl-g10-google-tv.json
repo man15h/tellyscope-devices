@@ -201,11 +201,41 @@
           "optional": true
         }
       ]
+    },
+    {
+      "title": "Off on the 55C69B unit (France); this set has them off, uncomment if you don't use them",
+      "packages": [
+        {
+          "pkg": "com.google.android.katniss",
+          "note": "Google Assistant",
+          "optional": true
+        },
+        {
+          "pkg": "fr.francetv.pluzz",
+          "note": "France TV",
+          "optional": true
+        },
+        {
+          "pkg": "fr.tf1.mytf1",
+          "note": "TF1+",
+          "optional": true
+        },
+        {
+          "pkg": "fr.m6.m6replay",
+          "note": "M6+",
+          "optional": true
+        },
+        {
+          "pkg": "tv.wuaki.apptv",
+          "note": "Rakuten TV",
+          "optional": true
+        }
+      ]
     }
   ],
   "source": {
     "repo": "Gathin23/cleanyourtv",
     "path": "examples/tcl-g10-google-tv/debloat.txt",
-    "commit": "fcde1eedb4d6cc5ab683a6e0e9e1bc79229b898e"
+    "commit": "57c00a40dafe040b0be1f32086e96c05a1a37054"
   }
 }

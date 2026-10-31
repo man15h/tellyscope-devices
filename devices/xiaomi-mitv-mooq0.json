@@ -20,6 +20,10 @@
           "pkg": "com.xiaomi.statistic"
         },
         {
+          "pkg": "com.xiaomi.tvqs.overseas",
+          "note": "TV quality service (telemetry); from the Q1 75 (#1520)"
+        },
+        {
           "pkg": "com.google.android.tv.bugreportsender",
           "note": "automatic bug report upload"
         },
@@ -217,6 +221,6 @@
   "source": {
     "repo": "Gathin23/cleanyourtv",
     "path": "examples/xiaomi-mitv-mooq0/debloat.txt",
-    "commit": "575d73f0f30c329aa7ebaea2bc863943fd9bf7f9"
+    "commit": "57c00a40dafe040b0be1f32086e96c05a1a37054"
   }
 }
