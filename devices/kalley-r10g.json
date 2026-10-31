@@ -35,6 +35,44 @@
         {
           "pkg": "com.amazon.amazonvideo.livingroom",
           "note": "Prime Video preinstall, off by choice"
+        },
+        {
+          "pkg": "com.realtek.leanbacklauncher.partnercustomizer"
+        },
+        {
+          "pkg": "com.apps.wifihotspot"
+        }
+      ]
+    },
+    {
+      "title": "Privacy Sandbox and telemetry",
+      "packages": [
+        {
+          "pkg": "com.android.tv.feedbackconsent"
+        },
+        {
+          "pkg": "com.android.adservices.api"
+        },
+        {
+          "pkg": "com.android.federatedcompute.services"
+        },
+        {
+          "pkg": "com.android.ondevicepersonalization.services"
+        }
+      ]
+    },
+    {
+      "title": "Health Connect",
+      "packages": [
+        {
+          "pkg": "com.android.healthconnect.controller",
+          "note": "untested across reboots",
+          "optional": true
+        },
+        {
+          "pkg": "com.android.health.connect.backuprestore",
+          "note": "untested across reboots",
+          "optional": true
         }
       ]
     },
@@ -79,6 +117,14 @@
         {
           "pkg": "com.yodo1.crossyroad",
           "note": "Crossy Road"
+        },
+        {
+          "pkg": "com.mercadolibre.android.mplay_tv",
+          "note": "Mercado Play"
+        },
+        {
+          "pkg": "com.iqiyi.i18n.tv",
+          "note": "iQiyi TV"
         }
       ]
     },
@@ -99,6 +145,6 @@
   "source": {
     "repo": "Gathin23/cleanyourtv",
     "path": "examples/kalley-r10g/debloat.txt",
-    "commit": "baadd07a7d095cc3ea72e6ccb615987bf1fb97c4"
+    "commit": "57c00a40dafe040b0be1f32086e96c05a1a37054"
   }
 }

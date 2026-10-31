@@ -5,7 +5,7 @@
   "tested": {
     "os": "Android 11",
     "sdk": 30,
-    "build": null
+    "build": "683"
   },
   "launcher": "com.google.android.apps.tv.launcherx",
   "keep": [],
@@ -88,6 +88,25 @@
         },
         {
           "pkg": "com.android.printspooler"
+        },
+        {
+          "pkg": "com.google.android.youtube.tv",
+          "note": "optional: disable when using SmartTube (org.smarttube.stable)",
+          "optional": true
+        },
+        {
+          "pkg": "com.netflix.ninja",
+          "note": "optional: disable if unused",
+          "optional": true
+        }
+      ]
+    },
+    {
+      "title": "Remote shortcut handler on Mi Box S 2nd gen; disable when using CleanYourTV app_keys + InputKeyService",
+      "packages": [
+        {
+          "pkg": "com.xiaomi.android.tvsetup.partnercustomizer",
+          "optional": true
         }
       ]
     },
@@ -103,6 +122,6 @@
   "source": {
     "repo": "Gathin23/cleanyourtv",
     "path": "examples/xiaomi-mi-box-s-2nd-gen/debloat.txt",
-    "commit": "baadd07a7d095cc3ea72e6ccb615987bf1fb97c4"
+    "commit": "57c00a40dafe040b0be1f32086e96c05a1a37054"
   }
 }

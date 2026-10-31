@@ -14,6 +14,11 @@
       "title": "Xiaomi telemetry / push / cloud control",
       "packages": [
         {
+          "pkg": "com.xiaomi.tvqs",
+          "note": "quality/crash uploads; off on the 2026-firmware unit",
+          "optional": true
+        },
+        {
           "pkg": "com.miui.analytics"
         },
         {
@@ -199,6 +204,6 @@
   "source": {
     "repo": "Gathin23/cleanyourtv",
     "path": "examples/xiaomi-mitv-astp0/debloat.txt",
-    "commit": "575d73f0f30c329aa7ebaea2bc863943fd9bf7f9"
+    "commit": "57c00a40dafe040b0be1f32086e96c05a1a37054"
   }
 }

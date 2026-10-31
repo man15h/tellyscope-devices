@@ -400,11 +400,61 @@
           "optional": true
         }
       ]
+    },
+    {
+      "title": "ALSO DISABLED on that unit (this set has them off; commented out for other Q7C owners)",
+      "packages": [
+        {
+          "pkg": "com.tcl.partnercustomizer",
+          "optional": true
+        },
+        {
+          "pkg": "com.tcl.interactive",
+          "optional": true
+        },
+        {
+          "pkg": "com.tcl.hotelmenu",
+          "note": "hotel mode menu",
+          "optional": true
+        },
+        {
+          "pkg": "com.tcl.useragreement",
+          "note": "EULA screen",
+          "optional": true
+        },
+        {
+          "pkg": "com.google.android.partnersetup",
+          "optional": true
+        },
+        {
+          "pkg": "com.google.android.tv.remote.service",
+          "note": "Google TV phone-app virtual remote",
+          "optional": true
+        },
+        {
+          "pkg": "com.android.healthconnect.controller",
+          "optional": true
+        },
+        {
+          "pkg": "com.android.health.connect.backuprestore",
+          "optional": true
+        },
+        {
+          "pkg": "com.android.uwb.resources",
+          "note": "no UWB radio",
+          "optional": true
+        },
+        {
+          "pkg": "com.android.cameraextensions",
+          "note": "no camera",
+          "optional": true
+        }
+      ]
     }
   ],
   "source": {
     "repo": "Gathin23/cleanyourtv",
     "path": "examples/tcl-q7c-google-tv/debloat.txt",
-    "commit": "095b71ad93d99ea28d94d97b06385709d354b795"
+    "commit": "57c00a40dafe040b0be1f32086e96c05a1a37054"
   }
 }

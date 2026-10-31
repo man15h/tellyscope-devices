@@ -11,20 +11,8 @@
   "keep": [],
   "groups": [
     {
-      "title": "Telemetry and diagnostics",
+      "title": "Telemetry (optional)",
       "packages": [
-        {
-          "pkg": "com.skyworth.performance.monitors",
-          "note": "Performance monitors and telemetry"
-        },
-        {
-          "pkg": "com.skyworth.testtime",
-          "note": "Factory testing timer"
-        },
-        {
-          "pkg": "com.skyworthdigital.stb.dataprovider",
-          "note": "STB diagnostics data provider"
-        },
         {
           "pkg": "com.skyworth.device",
           "note": "Device information and location reporting"
@@ -32,52 +20,72 @@
       ]
     },
     {
-      "title": "Ads and manufacturer content",
+      "title": "Other optional telemetry and apps (commented out by default)",
       "packages": [
         {
-          "pkg": "com.coocaa.tvmanager",
-          "note": "CooCaa content recommendation manager"
+          "pkg": "com.skyworth.performance.monitors",
+          "note": "Performance monitors and telemetry",
+          "optional": true
         },
         {
-          "pkg": "com.coocaa.guide",
-          "note": "EPG program guide and content pushes"
+          "pkg": "com.skyworth.testtime",
+          "note": "Factory testing timer",
+          "optional": true
         },
         {
-          "pkg": "com.tianci.de",
-          "note": "Tianci DE advertising engine"
-        },
-        {
-          "pkg": "com.tianci.user",
-          "note": "Tianci user account and notification service"
-        },
-        {
-          "pkg": "com.coocaa.theme_package_ccos_nine",
-          "note": "Default theme package"
+          "pkg": "com.skyworthdigital.stb.dataprovider",
+          "note": "STB diagnostics data provider",
+          "optional": true
         }
       ]
     },
     {
-      "title": "Preloaded content and stores",
+      "title": "Ads and manufacturer content (optional to disable)",
+      "packages": [
+        {
+          "pkg": "com.coocaa.tvmanager",
+          "note": "CooCaa content recommendation manager",
+          "optional": true
+        },
+        {
+          "pkg": "com.coocaa.guide",
+          "note": "EPG program guide and content pushes",
+          "optional": true
+        },
+        {
+          "pkg": "com.tianci.de",
+          "note": "Tianci DE advertising engine",
+          "optional": true
+        },
+        {
+          "pkg": "com.coocaa.theme_package_ccos_nine",
+          "note": "Default theme package",
+          "optional": true
+        }
+      ]
+    },
+    {
+      "title": "Preloaded content and stores (optional to disable)",
       "packages": [
         {
           "pkg": "com.coocaa.tvpitv",
-          "note": "CooCaa Live TV preloaded streaming"
-        },
-        {
-          "pkg": "com.tianci.movieplatform",
-          "note": "Tianci video platform"
+          "note": "CooCaa Live TV preloaded streaming",
+          "optional": true
         },
         {
           "pkg": "com.tianci.appstore",
-          "note": "Tianci app store"
+          "note": "Tianci app store",
+          "optional": true
         },
         {
           "pkg": "com.skyworth.skymarket",
-          "note": "Skyworth market"
+          "note": "Skyworth market",
+          "optional": true
         },
         {
           "pkg": "com.coocaa.app_browser",
-          "note": "CooCaa built-in browser"
+          "note": "CooCaa built-in browser",
+          "optional": true
         }
       ]
     },
@@ -85,12 +93,9 @@
       "title": "Factory and tuning tools",
       "packages": [
         {
-          "pkg": "com.loostone.tuning",
-          "note": "Factory picture calibration utility"
-        },
-        {
           "pkg": "com.coocaa.factory",
-          "note": "Factory menu test package (do not launch)"
+          "note": "Factory menu test package (do not launch)",
+          "optional": true
         }
       ]
     }
@@ -98,6 +103,6 @@
   "source": {
     "repo": "Gathin23/cleanyourtv",
     "path": "examples/skyworth-7t861-a23/debloat.txt",
-    "commit": "baadd07a7d095cc3ea72e6ccb615987bf1fb97c4"
+    "commit": "57c00a40dafe040b0be1f32086e96c05a1a37054"
   }
 }

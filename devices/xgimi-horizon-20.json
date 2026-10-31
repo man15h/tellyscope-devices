@@ -1,0 +1,147 @@
+{
+  "schema": 1,
+  "id": "xgimi-horizon-20",
+  "name": "XGIMI Horizon 20",
+  "tested": {
+    "os": "Google TV 14",
+    "sdk": null,
+    "build": "UKN6.260116.134"
+  },
+  "launcher": "com.google.android.apps.tv.launcherx",
+  "keep": [],
+  "groups": [
+    {
+      "title": "Telemetry and store demo",
+      "packages": [
+        {
+          "pkg": "com.google.android.feedback"
+        },
+        {
+          "pkg": "com.xgimi.bugreportsender"
+        },
+        {
+          "pkg": "com.mediatek.tv.retaildemo"
+        },
+        {
+          "pkg": "com.android.tv.feedbackconsent"
+        },
+        {
+          "pkg": "com.google.android.partnersetup"
+        },
+        {
+          "pkg": "com.android.adservices.api"
+        }
+      ]
+    },
+    {
+      "title": "Android leftovers the procedure allows",
+      "packages": [
+        {
+          "pkg": "com.android.providers.calendar"
+        },
+        {
+          "pkg": "com.google.android.syncadapters.calendar"
+        },
+        {
+          "pkg": "com.android.providers.contacts"
+        },
+        {
+          "pkg": "com.android.providers.userdictionary"
+        }
+      ]
+    },
+    {
+      "title": "Already disabled at the factory on this unit",
+      "packages": [
+        {
+          "pkg": "com.mediatek.dtv.tvinput.atsctuner"
+        },
+        {
+          "pkg": "com.mediatek.dtv.tvinput.isdbtuner"
+        },
+        {
+          "pkg": "com.mediatek.tv.oneworld.tvcenter"
+        }
+      ]
+    },
+    {
+      "title": "Home handover. launcherx stays enabled: see the header.",
+      "packages": [
+        {
+          "pkg": "com.google.android.tungsten.setupwraith"
+        }
+      ]
+    },
+    {
+      "title": "Off on this unit, owner's choice. Uncomment a line to disable that app on yours.",
+      "packages": [
+        {
+          "pkg": "com.apple.atve.androidtv.appletv",
+          "optional": true
+        },
+        {
+          "pkg": "fr.francetv.pluzz",
+          "optional": true
+        },
+        {
+          "pkg": "tv.arte.plus7",
+          "optional": true
+        },
+        {
+          "pkg": "com.spotify.tv.android",
+          "optional": true
+        },
+        {
+          "pkg": "fr.m6.m6replay",
+          "optional": true
+        },
+        {
+          "pkg": "com.google.android.youtube.tvmusic",
+          "optional": true
+        },
+        {
+          "pkg": "com.google.android.play.games",
+          "optional": true
+        },
+        {
+          "pkg": "com.esaba.downloader",
+          "optional": true
+        },
+        {
+          "pkg": "info.kodono.pop_files",
+          "optional": true
+        },
+        {
+          "pkg": "info.kodono.popvideoplayer",
+          "optional": true
+        },
+        {
+          "pkg": "org.videolan.vlc",
+          "optional": true
+        },
+        {
+          "pkg": "com.mediatek.wwtv.mediaplayer",
+          "optional": true
+        },
+        {
+          "pkg": "com.tcl.browser",
+          "note": "BrowseHere",
+          "optional": true
+        },
+        {
+          "pkg": "com.canal.android.canal",
+          "optional": true
+        },
+        {
+          "pkg": "fr.tf1.mytf1",
+          "optional": true
+        }
+      ]
+    }
+  ],
+  "source": {
+    "repo": "Gathin23/cleanyourtv",
+    "path": "examples/xgimi-horizon-20/debloat.txt",
+    "commit": "57c00a40dafe040b0be1f32086e96c05a1a37054"
+  }
+}
