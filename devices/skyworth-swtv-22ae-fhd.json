@@ -37,19 +37,10 @@
           "pkg": "com.smartdevice.recordactivation"
         },
         {
-          "pkg": "com.smartdevice.dailymanage"
-        },
-        {
-          "pkg": "com.smartdevice.dailyshortcut"
-        },
-        {
           "pkg": "com.smartdevice.recommendation"
         },
         {
           "pkg": "com.smartdevice.leanbacklauncher.customizer"
-        },
-        {
-          "pkg": "com.smartdevice.myapp"
         },
         {
           "pkg": "com.Smartdevice.emanual"
@@ -87,6 +78,6 @@
   "source": {
     "repo": "Gathin23/cleanyourtv",
     "path": "examples/skyworth-swtv-22ae-fhd/debloat.txt",
-    "commit": "575d73f0f30c329aa7ebaea2bc863943fd9bf7f9"
+    "commit": "57c00a40dafe040b0be1f32086e96c05a1a37054"
   }
 }

@@ -69,6 +69,14 @@
         {
           "pkg": "com.android.wallpaper.livepicker",
           "note": "live wallpaper picker"
+        },
+        {
+          "pkg": "com.google.android.play.games",
+          "note": "Play Games (third unit, 8 days)"
+        },
+        {
+          "pkg": "android.autoinstalls.config.Sony.BRAVIA_VU1",
+          "note": "Play partner auto-installs (third unit, 8 days)"
         }
       ]
     },
@@ -90,6 +98,16 @@
         {
           "pkg": "com.google.android.katniss",
           "note": "Assistant / voice search, ~110-125 MB RSS at baseline; the remote's mic stops"
+        },
+        {
+          "pkg": "com.google.android.youtube.tvmusic",
+          "note": "YouTube Music: the third unit's owner disabled it (8 days)",
+          "optional": true
+        },
+        {
+          "pkg": "com.disney.disneyplus",
+          "note": "Disney+: the third unit's owner disabled it (8 days)",
+          "optional": true
         }
       ]
     },
@@ -115,6 +133,6 @@
   "source": {
     "repo": "Gathin23/cleanyourtv",
     "path": "examples/sony-bravia-vu1/debloat.txt",
-    "commit": "718f98c96e6823045fd1fd82edd73d70deaf01fa"
+    "commit": "57c00a40dafe040b0be1f32086e96c05a1a37054"
   }
 }

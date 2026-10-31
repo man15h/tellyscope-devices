@@ -11,78 +11,103 @@
   "keep": [],
   "groups": [
     {
-      "title": "Group 1: telemetry, ACR and tracking",
+      "title": "Telemetry, ACR and tracking",
       "packages": [
         {
-          "pkg": "com.google.android.partnersetup"
+          "pkg": "com.google.android.partnersetup",
+          "note": "Applies settings the manufacturer agreed with Google"
         },
         {
-          "pkg": "com.google.android.feedback"
+          "pkg": "com.google.android.feedback",
+          "note": "Collects and sends error reports and optional screenshots"
         },
         {
-          "pkg": "com.android.tv.feedbackconsent"
+          "pkg": "com.android.tv.feedbackconsent",
+          "note": "Consent screen for automatic diagnostic logs and bug reports"
         },
         {
-          "pkg": "com.android.adservices.api"
+          "pkg": "com.android.adservices.api",
+          "note": "Core of Android's Privacy Sandbox ad system"
         },
         {
-          "pkg": "com.android.ondevicepersonalization.services"
+          "pkg": "com.android.ondevicepersonalization.services",
+          "note": "On-device personalised recommendations for apps"
         },
         {
-          "pkg": "com.android.federatedcompute.services"
+          "pkg": "com.android.federatedcompute.services",
+          "note": "Federated Compute service"
+        },
+        {
+          "pkg": "tv.anoki.acr.anokiacroptin",
+          "note": "Commercial ACR and ad telemetry client"
         }
       ]
     },
     {
-      "title": "Stock Launcher",
+      "title": "Not used",
+      "packages": [
+        {
+          "pkg": "fusion.android.tv.demo",
+          "note": "Demo mode"
+        }
+      ]
+    },
+    {
+      "title": "Stock launcher",
       "packages": [
         {
           "pkg": "com.google.android.apps.tv.launcherx"
-        },
+        }
+      ]
+    },
+    {
+      "title": "TV setup wizard",
+      "packages": [
         {
           "pkg": "com.google.android.tungsten.setupwraith"
         }
       ]
     },
     {
-      "title": "Group 3: preloaded streaming apps, optional",
+      "title": "Preloaded extras, optional",
       "packages": [
         {
-          "pkg": "com.amazon.amazonvideo.livingroom"
-        },
-        {
           "pkg": "com.mediatek.androidbox",
-          "note": "wifi display sink"
+          "note": "Wi-Fi display sink"
         },
         {
           "pkg": "com.google.android.apps.tv.dreamx",
-          "note": "salvapantallas de google",
+          "note": "Google screensaver"
+        }
+      ]
+    },
+    {
+      "title": "Unused on a television",
+      "packages": [
+        {
+          "pkg": "com.google.android.syncadapters.calendar",
+          "note": "Google Calendar sync"
+        },
+        {
+          "pkg": "com.android.providers.calendar",
+          "note": "Calendar storage"
+        },
+        {
+          "pkg": "com.android.providers.contacts",
+          "note": "Contacts storage"
+        },
+        {
+          "pkg": "com.mediatek.android.leanbacklauncher.partnercustomizer",
+          "note": "Partner customizer"
+        },
+        {
+          "pkg": "com.cltv.hybrid",
+          "note": "TV middleware, kept on in shared lists (this set has it off)",
           "optional": true
-        }
-      ]
-    },
-    {
-      "title": "Group 4: unused on a television",
-      "packages": [
-        {
-          "pkg": "com.google.android.syncadapters.calendar"
         },
         {
-          "pkg": "com.android.providers.calendar"
-        },
-        {
-          "pkg": "com.android.providers.contacts"
-        },
-        {
-          "pkg": "com.mediatek.android.leanbacklauncher.partnercustomizer"
-        }
-      ]
-    },
-    {
-      "title": "Voice assistants. The remote's microphone button stops working.",
-      "packages": [
-        {
-          "pkg": "com.google.android.katniss"
+          "pkg": "com.google.android.katniss",
+          "note": "Voice search and Google Assistant"
         }
       ]
     },
@@ -96,16 +121,20 @@
           "pkg": "com.google.android.youtube.tvmusic"
         },
         {
-          "pkg": "com.google.android.marvin.talkback"
+          "pkg": "com.google.android.marvin.talkback",
+          "note": "Google's screen reader"
         },
         {
-          "pkg": "com.google.android.apps.mediashell"
+          "pkg": "com.google.android.apps.mediashell",
+          "note": "Cast"
         },
         {
-          "pkg": "com.google.android.tts"
+          "pkg": "com.google.android.tts",
+          "note": "Text-to-speech"
         },
         {
-          "pkg": "com.google.android.tv.remote.service"
+          "pkg": "com.google.android.tv.remote.service",
+          "note": "Control the TV from a phone (carries the mic, #1441; see the header)"
         }
       ]
     }
@@ -113,6 +142,6 @@
   "source": {
     "repo": "Gathin23/cleanyourtv",
     "path": "examples/panavox-google-tv/debloat.txt",
-    "commit": "575d73f0f30c329aa7ebaea2bc863943fd9bf7f9"
+    "commit": "57c00a40dafe040b0be1f32086e96c05a1a37054"
   }
 }

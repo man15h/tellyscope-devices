@@ -15,6 +15,10 @@
       "packages": [
         {
           "pkg": "com.google.android.feedback"
+        },
+        {
+          "pkg": "com.heytap.tv.remotediagnosing",
+          "note": "OnePlus remote diagnostics (second unit)"
         }
       ]
     },
@@ -53,6 +57,43 @@
         {
           "pkg": "com.tcl.browser",
           "note": "\"BrowseHere\" web browser (not a system app: can also be uninstalled)"
+        },
+        {
+          "pkg": "com.jio.web.androidtv",
+          "note": "JioPages browser (second unit)"
+        },
+        {
+          "pkg": "com.oneplus.tv.userguide",
+          "note": "E-manual (second unit)"
+        },
+        {
+          "pkg": "com.google.android.play.games",
+          "note": "Play Games (second unit)"
+        }
+      ]
+    },
+    {
+      "title": "Off on the second unit by the owner's choice; uncomment to disable.",
+      "packages": [
+        {
+          "pkg": "com.google.android.youtube.tvmusic",
+          "note": "YouTube Music",
+          "optional": true
+        },
+        {
+          "pkg": "com.google.android.videos",
+          "note": "Play Movies & TV",
+          "optional": true
+        },
+        {
+          "pkg": "com.vectorunit.red",
+          "note": "Riptide GP game",
+          "optional": true
+        },
+        {
+          "pkg": "pl.idreams.skyforcehdtv",
+          "note": "Sky Force game",
+          "optional": true
         }
       ]
     },
@@ -71,6 +112,6 @@
   "source": {
     "repo": "Gathin23/cleanyourtv",
     "path": "examples/oneplus-tv-dubai/debloat.txt",
-    "commit": "57733360177173c880a023380a864114a03feb25"
+    "commit": "57c00a40dafe040b0be1f32086e96c05a1a37054"
   }
 }

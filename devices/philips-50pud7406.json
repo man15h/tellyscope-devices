@@ -26,6 +26,11 @@
           "note": "persistent TPV logger: GET_TOP_ACTIVITY_INFO, EPG read, boot receiver"
         },
         {
+          "pkg": "org.droidtv.tv.packageinfo",
+          "note": "PackageInfo service; candidate from the fifth unit (Italy), one unit only",
+          "optional": true
+        },
+        {
           "pkg": "com.tpv.xmic.ots.cms.client",
           "note": "TPV \"CMS client\" 0.6.04_ad: INTERNET, boot receiver, channel/EPG write"
         }
@@ -65,6 +70,11 @@
           "note": "partner rows for the stock launcher"
         },
         {
+          "pkg": "com.mediatek.tv.freeviewplay",
+          "note": "UK service; off on the Italian 43PUS7406/12 unit",
+          "optional": true
+        },
+        {
           "pkg": "com.mediatek.wwtv.mediaplayer",
           "note": "MMP USB media player; disabled on the EU unit, HDMI unchecked (see Second unit); needs TVINPUT_ALLOW=1",
           "optional": true
@@ -99,6 +109,36 @@
         },
         {
           "pkg": "com.google.android.play.games"
+        },
+        {
+          "pkg": "com.google.android.marvin.talkback",
+          "note": "screen reader; off on the Italian 43PUS7406/12 unit, disable only when nobody needs it",
+          "optional": true
+        },
+        {
+          "pkg": "com.google.android.feedback",
+          "note": "Market Feedback Agent"
+        },
+        {
+          "pkg": "com.google.android.partnersetup",
+          "note": "partner referrer and attribution"
+        },
+        {
+          "pkg": "com.google.android.onetimeinitializer",
+          "note": "first-setup task, not needed afterwards"
+        },
+        {
+          "pkg": "com.google.android.sss.authbridge",
+          "note": "set-up-from-phone helper; candidate from the fifth unit (Italy), one unit only",
+          "optional": true
+        },
+        {
+          "pkg": "com.google.android.syncadapters.calendar",
+          "note": "no calendar app on the Italian unit"
+        },
+        {
+          "pkg": "android.autoinstalls.config.tpv.device",
+          "note": "TPV's Play auto-install list"
         }
       ]
     },
@@ -113,6 +153,11 @@
         },
         {
           "pkg": "com.spotify.tv.android"
+        },
+        {
+          "pkg": "com.mgmedia.androidApp",
+          "note": "CHILI; off on the Italian 43PUS7406/12 unit",
+          "optional": true
         }
       ]
     },
@@ -126,33 +171,21 @@
       ]
     },
     {
-      "title": "Candidates from the third unit, disabled there with no regression in one evening (not yet lived with)",
+      "title": "Candidate from the third unit, disabled there with no regression in one evening (not yet lived with)",
       "packages": [
-        {
-          "pkg": "com.google.android.partnersetup",
-          "note": "Google partner setup: INTERNET, boot receiver",
-          "optional": true
-        },
-        {
-          "pkg": "com.google.android.feedback",
-          "optional": true
-        },
-        {
-          "pkg": "com.google.android.onetimeinitializer",
-          "optional": true
-        },
-        {
-          "pkg": "android.autoinstalls.config.tpv.device",
-          "note": "PlayAutoInstallConfig: TPV's auto-install list",
-          "optional": true
-        },
         {
           "pkg": "com.android.providers.calendar",
           "note": "no calendar app on a TV; boot receiver, runs in the background",
           "optional": true
-        },
+        }
+      ]
+    },
+    {
+      "title": "Candidates from the seventh unit (Android 14, TPM216E), disabled there with no regression in one evening",
+      "packages": [
         {
-          "pkg": "com.google.android.syncadapters.calendar",
+          "pkg": "org.droidtv.fastip",
+          "note": "Philips free-channel promos: promo, TOU and advertising-ID activities",
           "optional": true
         }
       ]
@@ -161,6 +194,6 @@
   "source": {
     "repo": "Gathin23/cleanyourtv",
     "path": "examples/philips-50pud7406/debloat.txt",
-    "commit": "575d73f0f30c329aa7ebaea2bc863943fd9bf7f9"
+    "commit": "57c00a40dafe040b0be1f32086e96c05a1a37054"
   }
 }
