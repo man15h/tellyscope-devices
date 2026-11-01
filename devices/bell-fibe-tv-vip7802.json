@@ -1,0 +1,179 @@
+{
+  "schema": 1,
+  "id": "bell-fibe-tv-vip7802",
+  "name": "Bell Fibe TV",
+  "tested": {
+    "os": "Android TV 11",
+    "sdk": 30,
+    "build": "11.02.02.02.160-RC.149"
+  },
+  "launcher": "com.custom.tvlauncher",
+  "keep": [],
+  "groups": [
+    {
+      "title": "Bell / ARRIS / CommScope telemetry and reporting",
+      "packages": [
+        {
+          "pkg": "com.commscope.report.bell"
+        },
+        {
+          "pkg": "com.commscope.report.companion.bell"
+        },
+        {
+          "pkg": "com.commscope.notification.bell.merlin"
+        },
+        {
+          "pkg": "com.arris.notificationlistener.bell"
+        },
+        {
+          "pkg": "com.arris.bugreport"
+        }
+      ]
+    },
+    {
+      "title": "ARRIS stub packages with no logic at all: no activities, services or receivers of their own,",
+      "packages": [
+        {
+          "pkg": "com.arris.android.stb.fti"
+        },
+        {
+          "pkg": "com.arris.quickactions"
+        }
+      ]
+    },
+    {
+      "title": "Google TV services most owners would not miss. Comment out any line if you want it back.",
+      "packages": [
+        {
+          "pkg": "com.google.android.play.games",
+          "note": "Play Games: achievements/leaderboards/cloud saves for"
+        },
+        {
+          "pkg": "com.google.android.videos",
+          "note": "Google Play Movies & TV, Google's own movie storefront;"
+        },
+        {
+          "pkg": "com.google.android.youtube.tvmusic",
+          "note": "YouTube Music; the regular YouTube app is a separate"
+        },
+        {
+          "pkg": "com.google.android.feedback",
+          "note": "Android TV's own crash/feedback reporter to Google,"
+        },
+        {
+          "pkg": "com.google.android.tvrecommendations",
+          "note": "populates the stock Google TV home screen's \"recommended"
+        }
+      ]
+    },
+    {
+      "title": "ARRIS firmware updater (RC-146+ branch): not in this list, so firmware updates keep arriving.",
+      "packages": [
+        {
+          "pkg": "com.arris.arus.updater",
+          "optional": true
+        }
+      ]
+    },
+    {
+      "title": "--- Opt-in: preloaded content apps. Not disabled by default - kept the same way Fire TV lists in",
+      "packages": [
+        {
+          "pkg": "ca.bell.chiclet.fibehelper",
+          "note": "the Fibe TV player itself - disables live TV entirely",
+          "optional": true
+        },
+        {
+          "pkg": "ca.bellmedia.cravetv",
+          "note": "CraveTV, a paid Bell Media service (needs a subscription,",
+          "optional": true
+        },
+        {
+          "pkg": "ca.ctv.ctvgo",
+          "note": "CTV, Bell Media's free ad-supported network app",
+          "optional": true
+        },
+        {
+          "pkg": "ca.tsn.mobile.android",
+          "note": "TSN: free scores/highlights, paid tier for live games",
+          "optional": true
+        },
+        {
+          "pkg": "com.vmediagroup.noovo",
+          "note": "Noovo, Bell Media's free French-language network",
+          "optional": true
+        },
+        {
+          "pkg": "tv.toutv.androidtv",
+          "note": "ICI TOU.TV, Radio-Canada's free streaming app",
+          "optional": true
+        },
+        {
+          "pkg": "com.clearchannel.iheartradio.tv",
+          "note": "iHeartRadio: free radio, not Bell-specific",
+          "optional": true
+        },
+        {
+          "pkg": "com.pelmorex.WeatherEyeAndroid.tv",
+          "note": "the Weather Network, Canada's most-used weather app",
+          "optional": true
+        },
+        {
+          "pkg": "com.tubitv",
+          "note": "Tubi: free ad-supported movies and TV, not Bell-specific",
+          "optional": true
+        },
+        {
+          "pkg": "com.quickplay.android.bellmediaplayer",
+          "note": "see the README for its permissions; also content",
+          "optional": true
+        }
+      ]
+    },
+    {
+      "title": "--- Opt-in: minor ARRIS features. Commented out by default; each line says what it does.",
+      "packages": [
+        {
+          "pkg": "com.arris.upnpapp",
+          "note": "UPnP/DLNA discovery - lets other devices on your network",
+          "optional": true
+        },
+        {
+          "pkg": "com.arris.customizer.rro.merlin",
+          "note": "Runtime Resource Overlay for com.arris.customizer, kept -",
+          "optional": true
+        },
+        {
+          "pkg": "android.autoinstalls.config.arris.vip7802w",
+          "note": "Play Auto Install config: on a fresh box or after a",
+          "optional": true
+        }
+      ]
+    },
+    {
+      "title": "--- Opt-in: mainstream streaming apps. Not disabled by default - these are the services most",
+      "packages": [
+        {
+          "pkg": "com.netflix.ninja",
+          "note": "Netflix. The remote's dedicated Netflix button needs",
+          "optional": true
+        },
+        {
+          "pkg": "com.amazon.amazonvideo.livingroom",
+          "note": "Prime Video",
+          "optional": true
+        },
+        {
+          "pkg": "com.google.android.youtube.tv",
+          "note": "YouTube",
+          "optional": true
+        }
+      ]
+    }
+  ],
+  "source": {
+    "repo": "Gathin23/cleanyourtv",
+    "path": "examples/bell-fibe-tv-vip7802/debloat.txt",
+    "commit": "f47c893d285172d175c8f72c32658b1d767b3270"
+  }
+}

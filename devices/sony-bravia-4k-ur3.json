@@ -1,7 +1,7 @@
 {
   "schema": 1,
   "id": "sony-bravia-4k-ur3",
-  "name": "Sony BRAVIA 4K UR3 / KD-55X8000H",
+  "name": "Sony BRAVIA 4K UR3 / KD-55X8000H / KD-65A8",
   "tested": {
     "os": "Android 10",
     "sdk": 29,
@@ -87,11 +87,46 @@
           "pkg": "com.google.android.videos"
         }
       ]
+    },
+    {
+      "title": "KD-65A8 (#2717) only, disabled and reboot-checked there; one evening of use so far.",
+      "packages": [
+        {
+          "pkg": "com.sony.dtv.usercontext",
+          "note": "user context providers",
+          "optional": true
+        },
+        {
+          "pkg": "com.sony.dtv.sonybugreportsys",
+          "note": "Sony bug-report/log uploader",
+          "optional": true
+        },
+        {
+          "pkg": "com.sony.dtv.b2b.hotelmode",
+          "note": "hotel mode",
+          "optional": true
+        },
+        {
+          "pkg": "com.sony.dtv.b2b.rs232csupport",
+          "note": "RS-232 control for hotel installs",
+          "optional": true
+        },
+        {
+          "pkg": "com.sony.dtv.recservice",
+          "note": "USB recording of broadcast TV (also a DLNA receiver for recordings)",
+          "optional": true
+        },
+        {
+          "pkg": "com.google.android.backdrop",
+          "note": "Ambient screensaver: point screensaver_components and",
+          "optional": true
+        }
+      ]
     }
   ],
   "source": {
     "repo": "Gathin23/cleanyourtv",
     "path": "examples/sony-bravia-4k-ur3/debloat.txt",
-    "commit": "76a9312cd9ac378fc8698f31427805af32c6f965"
+    "commit": "f47c893d285172d175c8f72c32658b1d767b3270"
   }
 }

@@ -1,0 +1,93 @@
+{
+  "schema": 1,
+  "id": "artel-43d1200b",
+  "name": "Artel 43D1200B",
+  "tested": {
+    "os": "Android 9",
+    "sdk": 28,
+    "build": "PPR2.180905.006.A1"
+  },
+  "launcher": null,
+  "keep": [],
+  "groups": [
+    {
+      "title": "Yandex telemetry and leftovers",
+      "packages": [
+        {
+          "pkg": "com.yandex.android.advid",
+          "note": "Yandex advertising ID"
+        },
+        {
+          "pkg": "com.yandex.tv.bugreportsender",
+          "note": "bug report sender"
+        },
+        {
+          "pkg": "com.yandex.prebuiltstub",
+          "note": "empty stub, no components"
+        },
+        {
+          "pkg": "com.yandex.tv.daydream",
+          "note": "Yandex video screensaver; the screensaver setting still names it (README.md)"
+        },
+        {
+          "pkg": "com.yandex.tv.webplayer",
+          "note": "Yandex web player; YouTube and Kinopoisk play without it"
+        }
+      ]
+    },
+    {
+      "title": "Off on the tested set by the owner's choice; uncomment what you do not use",
+      "packages": [
+        {
+          "pkg": "com.yandex.tv.alice",
+          "note": "Alice voice assistant",
+          "optional": true
+        },
+        {
+          "pkg": "com.yandex.browser.tv",
+          "note": "Yandex Browser",
+          "optional": true
+        },
+        {
+          "pkg": "com.yandex.tv.music",
+          "note": "Yandex Music",
+          "optional": true
+        },
+        {
+          "pkg": "com.yandex.tv.videoplayer",
+          "note": "Yandex video player, also smart-home camera streams",
+          "optional": true
+        },
+        {
+          "pkg": "com.yandex.tv.input.efir",
+          "note": "Yandex online channels (\"Efir\") input and EPG; HDMI/tuner/AV stay on com.mediatek.tvinput",
+          "optional": true
+        },
+        {
+          "pkg": "com.cultraview.newfilemanager",
+          "note": "USB media player and file manager",
+          "optional": true
+        },
+        {
+          "pkg": "com.mediatek.androidbox",
+          "note": "WFDSinkTest: the Miracast receiver",
+          "optional": true
+        }
+      ]
+    },
+    {
+      "title": "Stock Home, last: only after the new launcher is Home and survived a reboot (CVTE rule)",
+      "packages": [
+        {
+          "pkg": "com.yandex.tv.home",
+          "note": "Yandex TV Home, about 80 MB with its Metrica process"
+        }
+      ]
+    }
+  ],
+  "source": {
+    "repo": "Gathin23/cleanyourtv",
+    "path": "examples/artel-43d1200b/debloat.txt",
+    "commit": "f47c893d285172d175c8f72c32658b1d767b3270"
+  }
+}

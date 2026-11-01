@@ -213,6 +213,11 @@
         {
           "pkg": "com.sony.huey.dlna.renderersettings",
           "optional": true
+        },
+        {
+          "pkg": "com.sony.dtv.ecodashboard",
+          "note": "Eco dashboard; seventh unit only, lived with six days",
+          "optional": true
         }
       ]
     },
@@ -242,6 +247,6 @@
   "source": {
     "repo": "Gathin23/cleanyourtv",
     "path": "examples/sony-bravia-4k-vh2/debloat.txt",
-    "commit": "575d73f0f30c329aa7ebaea2bc863943fd9bf7f9"
+    "commit": "f47c893d285172d175c8f72c32658b1d767b3270"
   }
 }
