@@ -146,11 +146,39 @@
           "note": "Google TV / Play Movies"
         }
       ]
+    },
+    {
+      "title": "Extras, disabled on the 55C655 unit (Italy)",
+      "packages": [
+        {
+          "pkg": "com.tcl.UpdatePeripheral",
+          "note": "TCL soundbar firmware updater, kept here as shared lists keep updaters;",
+          "optional": true
+        },
+        {
+          "pkg": "com.android.printspooler"
+        },
+        {
+          "pkg": "com.google.android.syncadapters.calendar"
+        },
+        {
+          "pkg": "com.google.android.onetimeinitializer"
+        },
+        {
+          "pkg": "com.google.android.youtube.tvmusic",
+          "note": "YouTube Music; the 55C655 unit has it off",
+          "optional": true
+        },
+        {
+          "pkg": "com.google.android.play.games",
+          "note": "Play Games"
+        }
+      ]
     }
   ],
   "source": {
     "repo": "Gathin23/cleanyourtv",
     "path": "examples/tcl-55p7k/debloat.txt",
-    "commit": "575d73f0f30c329aa7ebaea2bc863943fd9bf7f9"
+    "commit": "f47c893d285172d175c8f72c32658b1d767b3270"
   }
 }

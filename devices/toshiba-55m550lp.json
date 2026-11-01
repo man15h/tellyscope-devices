@@ -1,0 +1,138 @@
+{
+  "schema": 1,
+  "id": "toshiba-55m550lp",
+  "name": "Toshiba 55M550LP",
+  "tested": {
+    "os": "Android 11",
+    "sdk": 30,
+    "build": null
+  },
+  "launcher": "com.google.android.apps.tv.launcherx",
+  "keep": [],
+  "groups": [
+    {
+      "title": "Retail / store demo",
+      "packages": [
+        {
+          "pkg": "com.hisense.storemode"
+        },
+        {
+          "pkg": "fusion.android.tv.demo"
+        }
+      ]
+    },
+    {
+      "title": "First-time experience (setup already complete)",
+      "packages": [
+        {
+          "pkg": "com.hisense.fte"
+        }
+      ]
+    },
+    {
+      "title": "Google partner auto-install stub (silent partner app installs)",
+      "packages": [
+        {
+          "pkg": "android.autoinstalls.config.google.gtvpai"
+        }
+      ]
+    },
+    {
+      "title": "On-screen disclaimer app",
+      "packages": [
+        {
+          "pkg": "com.mstar.android.tv.disclaimercustomization"
+        }
+      ]
+    },
+    {
+      "title": "Google partner referral tracking and the crash/feedback uploader",
+      "packages": [
+        {
+          "pkg": "com.google.android.partnersetup"
+        },
+        {
+          "pkg": "com.google.android.feedback"
+        }
+      ]
+    },
+    {
+      "title": "Google TV setup wizard. Its RecoveryActivity claims HOME once launcherx is disabled. It also owns a saved",
+      "packages": [
+        {
+          "pkg": "com.google.android.tungsten.setupwraith"
+        }
+      ]
+    },
+    {
+      "title": "--- Owner's checklist choices: this set had these off; uncomment only what you don't use ---",
+      "packages": [
+        {
+          "pkg": "com.netflix.ninja",
+          "note": "Netflix",
+          "optional": true
+        },
+        {
+          "pkg": "com.amazon.amazonvideo.livingroom",
+          "note": "Prime Video",
+          "optional": true
+        },
+        {
+          "pkg": "com.wbd.stream",
+          "note": "Max",
+          "optional": true
+        },
+        {
+          "pkg": "in.startv.hotstar.dplus.tv",
+          "note": "Disney+ Hotstar",
+          "optional": true
+        },
+        {
+          "pkg": "com.iqiyi.i18n.tv",
+          "note": "iQIYI",
+          "optional": true
+        },
+        {
+          "pkg": "com.google.android.videos",
+          "note": "Google TV Movies storefront",
+          "optional": true
+        },
+        {
+          "pkg": "com.google.android.play.games",
+          "note": "Play Games",
+          "optional": true
+        },
+        {
+          "pkg": "com.hisense.hibrowser",
+          "note": "HiBrowser (Hisense web browser)",
+          "optional": true
+        },
+        {
+          "pkg": "com.google.android.katniss",
+          "note": "Google Assistant (the remote's mic button)",
+          "optional": true
+        },
+        {
+          "pkg": "com.google.android.tv.assistant",
+          "note": "Assistant LED/voice service (LedService)",
+          "optional": true
+        },
+        {
+          "pkg": "com.hisense.alexa",
+          "note": "Alexa",
+          "optional": true
+        },
+        {
+          "pkg": "com.google.android.apps.mediashell",
+          "note": "Chromecast built-in",
+          "optional": true
+        }
+      ]
+    }
+  ],
+  "source": {
+    "repo": "Gathin23/cleanyourtv",
+    "path": "examples/toshiba-55m550lp/debloat.txt",
+    "commit": "f47c893d285172d175c8f72c32658b1d767b3270"
+  }
+}

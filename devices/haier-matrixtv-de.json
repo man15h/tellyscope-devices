@@ -1,0 +1,119 @@
+{
+  "schema": 1,
+  "id": "haier-matrixtv-de",
+  "name": "Haier MatrixTV DE",
+  "tested": {
+    "os": "Google TV 14",
+    "sdk": 34,
+    "build": null
+  },
+  "launcher": "com.google.android.apps.tv.launcherx",
+  "keep": [],
+  "groups": [
+    {
+      "title": "Haier content, IoT, cleaner, e-manual",
+      "packages": [
+        {
+          "pkg": "it.hon.service",
+          "note": "Haier hOn IoT service"
+        },
+        {
+          "pkg": "com.haier.apps",
+          "note": "Haier promo content app"
+        },
+        {
+          "pkg": "com.haier.tvhousekeeper",
+          "note": "\"TV housekeeper\" cleaner"
+        },
+        {
+          "pkg": "com.haier.emanual9603",
+          "note": "e-manual"
+        },
+        {
+          "pkg": "com.haier.oemtabprovider",
+          "note": "the \"Haier\" tab on the Google TV home"
+        },
+        {
+          "pkg": "com.haier.launcher.haiermatrix",
+          "note": "Zeasn content launcher, not the system Home"
+        }
+      ]
+    },
+    {
+      "title": "Telemetry, partner rows, retail demo, preloads",
+      "packages": [
+        {
+          "pkg": "com.google.android.feedback",
+          "note": "Google usage feedback"
+        },
+        {
+          "pkg": "tv.anoki.acr.controller",
+          "note": "Anoki ACR: recognises what is on screen, persistent, boot receiver"
+        },
+        {
+          "pkg": "com.mediatek.tv.launcher.partner",
+          "note": "partner rows on the stock home"
+        },
+        {
+          "pkg": "com.mediatek.tv.retaildemo",
+          "note": "retail demo mode"
+        },
+        {
+          "pkg": "com.google.android.play.games",
+          "note": "preloaded"
+        },
+        {
+          "pkg": "com.haier.overseastv.bluetoothspeaker",
+          "note": "TV as Bluetooth speaker, not wanted"
+        },
+        {
+          "pkg": "com.google.android.marvin.talkback",
+          "note": "TalkBack, not used"
+        }
+      ]
+    },
+    {
+      "title": "By owner choice: apps the owner does not use. This set has these off; uncomment the ones you don't use.",
+      "packages": [
+        {
+          "pkg": "com.netflix.ninja",
+          "note": "not used; the firmware re-enables it at every boot, so hidden with hidden_apps",
+          "optional": true
+        },
+        {
+          "pkg": "com.amazon.amazonvideo.livingroom",
+          "note": "Prime Video, not used",
+          "optional": true
+        },
+        {
+          "pkg": "com.google.android.youtube.tvmusic",
+          "note": "YouTube Music, not used",
+          "optional": true
+        },
+        {
+          "pkg": "com.mediatek.miracast",
+          "note": "Miracast, not used",
+          "optional": true
+        },
+        {
+          "pkg": "com.google.android.apps.tv.dreamx",
+          "note": "Ambient, not used; the screensaver default points at it",
+          "optional": true
+        }
+      ]
+    },
+    {
+      "title": "Google TV home handover. Check the Wi-Fi note above before disabling it.",
+      "packages": [
+        {
+          "pkg": "com.google.android.tungsten.setupwraith"
+        }
+      ]
+    }
+  ],
+  "source": {
+    "repo": "Gathin23/cleanyourtv",
+    "path": "examples/haier-matrixtv-de/debloat.txt",
+    "commit": "f47c893d285172d175c8f72c32658b1d767b3270"
+  }
+}

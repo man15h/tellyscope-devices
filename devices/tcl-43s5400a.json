@@ -42,6 +42,10 @@
       "note": "source panel / Quick Panel"
     },
     {
+      "pkg": "com.android.location.fused",
+      "note": "boot loop into recovery when disabled on V325 (#2803)"
+    },
+    {
       "pkg": "com.tcl.keyhelp",
       "note": "virtual keys"
     },
@@ -171,6 +175,6 @@
   "source": {
     "repo": "Gathin23/cleanyourtv",
     "path": "examples/tcl-43s5400a/debloat.txt",
-    "commit": "575d73f0f30c329aa7ebaea2bc863943fd9bf7f9"
+    "commit": "f47c893d285172d175c8f72c32658b1d767b3270"
   }
 }
