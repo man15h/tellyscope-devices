@@ -7,6 +7,12 @@
         "org.droidtv.settings": "settings",
         "org.droidtv.eum": "tv_inputs_remote"
       }
+    },
+    {
+      "name": "Xiaomi",
+      "packages": {
+        "mitv.service": "settings"
+      }
     }
   ]
 }
