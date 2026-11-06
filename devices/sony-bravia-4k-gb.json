@@ -167,11 +167,46 @@
           "optional": true
         }
       ]
+    },
+    {
+      "title": "Optional if Live TV is not watched: disabled on the KD-55XE9005. Keep com.sony.dtv.tvx, it carries the HDMI inputs.",
+      "packages": [
+        {
+          "pkg": "com.sony.dtv.youview",
+          "note": "YouView, a UK service",
+          "optional": true
+        },
+        {
+          "pkg": "com.youview.tv.servicehost",
+          "note": "YouView's reporting and update services",
+          "optional": true
+        },
+        {
+          "pkg": "com.sony.dtv.hbbtvlauncher",
+          "note": "HbbTV",
+          "optional": true
+        },
+        {
+          "pkg": "com.sony.dtv.tuningconfirmation_dvbt",
+          "note": "DVB-T tuning prompt",
+          "optional": true
+        },
+        {
+          "pkg": "com.sony.dtv.tuningconfirmation_dvbs",
+          "note": "DVB-S tuning prompt",
+          "optional": true
+        },
+        {
+          "pkg": "com.sony.dtv.tvxlauncher.titlelist",
+          "note": "Recorded Title List tile",
+          "optional": true
+        }
+      ]
     }
   ],
   "source": {
     "repo": "Gathin23/cleanyourtv",
     "path": "examples/sony-bravia-4k-gb/debloat.txt",
-    "commit": "575d73f0f30c329aa7ebaea2bc863943fd9bf7f9"
+    "commit": "3c122bc073f7a9a83de251621e6e31d90dd96109"
   }
 }

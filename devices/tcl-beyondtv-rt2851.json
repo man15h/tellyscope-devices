@@ -36,10 +36,6 @@
     {
       "pkg": "com.tcl.xian.StartandroidService",
       "note": "device authentication"
-    },
-    {
-      "pkg": "com.tcl.appstatecontroller",
-      "note": "boot/network/package receivers, purpose unclear"
     }
   ],
   "groups": [
@@ -194,11 +190,37 @@
           "note": "Assistant LED service"
         }
       ]
+    },
+    {
+      "title": "7. Apps the TV turns back on (second unit, 50EP640X1). Undo also enables the four that ship disabled.",
+      "packages": [
+        {
+          "pkg": "com.tcl.appstatecontroller",
+          "note": "off on the 50EP640X1 only (12 days fine); uncomment if TCL apps come back on",
+          "optional": true
+        },
+        {
+          "pkg": "com.tcl.smartalexa",
+          "note": "Alexa bridge; ships disabled, came back on by itself"
+        },
+        {
+          "pkg": "com.tcl.usercenter",
+          "note": "TCL account centre; ships disabled, came back on by itself"
+        },
+        {
+          "pkg": "com.tcl.notereminder",
+          "note": "TCL reminders; ships disabled, came back on by itself"
+        },
+        {
+          "pkg": "tv.wuaki.apptv",
+          "note": "Rakuten TV; ships disabled, came back on by itself"
+        }
+      ]
     }
   ],
   "source": {
     "repo": "Gathin23/cleanyourtv",
     "path": "examples/tcl-beyondtv-rt2851/debloat.txt",
-    "commit": "001a44883f2bdbd02717728568d14a6e08f721df"
+    "commit": "3c122bc073f7a9a83de251621e6e31d90dd96109"
   }
 }

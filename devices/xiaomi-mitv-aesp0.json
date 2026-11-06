@@ -101,7 +101,8 @@
         },
         {
           "pkg": "com.xiaomi.android.tvsetup.partnercustomizer",
-          "note": "partner customisation that seeds partner apps at setup"
+          "note": "partner customisation that seeds partner apps at setup",
+          "optional": true
         }
       ]
     },
@@ -137,7 +138,7 @@
         },
         {
           "pkg": "com.google.android.tungsten.setupwraith",
-          "note": "setup wizard: gives Home back, costs casting (comment out to keep casting); keep it if it owns the saved Wi-Fi (fourth set)"
+          "note": "setup wizard: gives Home back, costs casting (comment out to keep casting)"
         },
         {
           "pkg": "com.google.android.partnersetup"
@@ -216,6 +217,16 @@
       ]
     },
     {
+      "title": "Casting (kept by the original, second and fourth sets; the third set disabled it)",
+      "packages": [
+        {
+          "pkg": "com.google.android.apps.mediashell",
+          "note": "Chromecast receiver; uncomment if you never cast",
+          "optional": true
+        }
+      ]
+    },
+    {
       "title": "Voice, accessibility, phone remote (second set, optional; the original set keeps voice, so these stay",
       "packages": [
         {
@@ -239,7 +250,7 @@
         },
         {
           "pkg": "com.google.android.tv.remote.service",
-          "note": "kept enabled: phone-as-remote and the remote's mic bridge",
+          "note": "phone-as-remote and the remote's mic bridge; the third set disabled it",
           "optional": true
         }
       ]
@@ -248,6 +259,6 @@
   "source": {
     "repo": "Gathin23/cleanyourtv",
     "path": "examples/xiaomi-mitv-aesp0/debloat.txt",
-    "commit": "001a44883f2bdbd02717728568d14a6e08f721df"
+    "commit": "3c122bc073f7a9a83de251621e6e31d90dd96109"
   }
 }

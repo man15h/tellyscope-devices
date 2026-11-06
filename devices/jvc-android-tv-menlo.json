@@ -24,6 +24,21 @@
         {
           "pkg": "com.vestel.smartcenter",
           "note": "no UI, holds GET_TASKS (sees which apps you run) + INTERNET"
+        },
+        {
+          "pkg": "com.vestel.smartlogger",
+          "note": "Finlux: Vestel logger, no UI, BOOT_COMPLETED. Persistent:",
+          "optional": true
+        }
+      ]
+    },
+    {
+      "title": "Ad-funded FAST channels (left on, as in other shared lists: TV middleware)",
+      "packages": [
+        {
+          "pkg": "com.cltv.fast",
+          "note": "Finlux: \"Live TVx\" by iWedia, its own TvInputService, not",
+          "optional": true
         }
       ]
     },
@@ -77,6 +92,11 @@
         {
           "pkg": "com.tcl.browser",
           "note": "TCL Browser, preinstalled as a user app"
+        },
+        {
+          "pkg": "com.amazon.amazonvideo.livingroom",
+          "note": "Prime Video: kept on the JVC, off by choice on the Finlux",
+          "optional": true
         }
       ]
     },
@@ -142,6 +162,6 @@
   "source": {
     "repo": "Gathin23/cleanyourtv",
     "path": "examples/jvc-android-tv-menlo/debloat.txt",
-    "commit": "575d73f0f30c329aa7ebaea2bc863943fd9bf7f9"
+    "commit": "3c122bc073f7a9a83de251621e6e31d90dd96109"
   }
 }

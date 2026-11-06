@@ -108,7 +108,7 @@
         },
         {
           "pkg": "com.tcl.t_solo",
-          "note": "TCL promo app"
+          "note": "T-Solo \"listen alone\": TV sound to Bluetooth headphones"
         },
         {
           "pkg": "com.tcl.messagebox",
@@ -175,6 +175,6 @@
   "source": {
     "repo": "Gathin23/cleanyourtv",
     "path": "examples/tcl-43s5400a/debloat.txt",
-    "commit": "f47c893d285172d175c8f72c32658b1d767b3270"
+    "commit": "3c122bc073f7a9a83de251621e6e31d90dd96109"
   }
 }

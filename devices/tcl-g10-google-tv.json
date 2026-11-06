@@ -182,7 +182,7 @@
         },
         {
           "pkg": "com.tcl.t_solo",
-          "note": "TCL promo app",
+          "note": "T-Solo \"listen alone\": TV sound to Bluetooth headphones",
           "optional": true
         },
         {
@@ -236,6 +236,6 @@
   "source": {
     "repo": "Gathin23/cleanyourtv",
     "path": "examples/tcl-g10-google-tv/debloat.txt",
-    "commit": "57c00a40dafe040b0be1f32086e96c05a1a37054"
+    "commit": "3c122bc073f7a9a83de251621e6e31d90dd96109"
   }
 }

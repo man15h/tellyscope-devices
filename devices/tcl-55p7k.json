@@ -19,7 +19,8 @@
         },
         {
           "pkg": "com.tcl.ttvs",
-          "note": "TCL analytics service; re-enable if firmware updates stop arriving"
+          "note": "kept: on G10_4K_GB it also holds SystemUpdateActivity (firmware updates); the 55P7K unit had it off",
+          "optional": true
         },
         {
           "pkg": "com.tcl.logkit",
@@ -174,11 +175,41 @@
           "note": "Play Games"
         }
       ]
+    },
+    {
+      "title": "Extras, disabled on the 55T7B unit (Turkey); left commented here, as they are features some households use",
+      "packages": [
+        {
+          "pkg": "com.google.android.partnersetup",
+          "note": "partner setup helper",
+          "optional": true
+        },
+        {
+          "pkg": "com.netflix.tokenmanager",
+          "note": "Netflix sign-in helper, with com.netflix.ninja off",
+          "optional": true
+        },
+        {
+          "pkg": "com.tcl.miracast",
+          "note": "Miracast screen mirroring (Chromecast still casts)",
+          "optional": true
+        },
+        {
+          "pkg": "com.tcl.magiconnectfree",
+          "note": "T-Cast phone app link",
+          "optional": true
+        },
+        {
+          "pkg": "com.tcl.gamebar",
+          "note": "game bar overlay",
+          "optional": true
+        }
+      ]
     }
   ],
   "source": {
     "repo": "Gathin23/cleanyourtv",
     "path": "examples/tcl-55p7k/debloat.txt",
-    "commit": "f47c893d285172d175c8f72c32658b1d767b3270"
+    "commit": "3c122bc073f7a9a83de251621e6e31d90dd96109"
   }
 }
