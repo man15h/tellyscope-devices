@@ -134,11 +134,41 @@
           "note": "remote tutorial"
         }
       ]
+    },
+    {
+      "title": "Optional, disabled on the German unit by the owner's choice: remove the \"# \" to disable",
+      "packages": [
+        {
+          "pkg": "com.amazon.cloud9",
+          "note": "Silk browser",
+          "optional": true
+        },
+        {
+          "pkg": "com.amazon.tv.website_launcher",
+          "note": "opens websites in Silk",
+          "optional": true
+        },
+        {
+          "pkg": "com.amazon.cast.sink",
+          "note": "Miracast / screen mirroring",
+          "optional": true
+        },
+        {
+          "pkg": "com.amazon.dialservice",
+          "note": "DIAL: phone apps start Netflix/YouTube on the stick",
+          "optional": true
+        },
+        {
+          "pkg": "com.amazon.awvflingreceiver",
+          "note": "fling receiver for casting from a phone",
+          "optional": true
+        }
+      ]
     }
   ],
   "source": {
     "repo": "Gathin23/cleanyourtv",
     "path": "examples/amazon-fire-tv-stick-4k-max-2021/debloat.txt",
-    "commit": "575d73f0f30c329aa7ebaea2bc863943fd9bf7f9"
+    "commit": "3c122bc073f7a9a83de251621e6e31d90dd96109"
   }
 }

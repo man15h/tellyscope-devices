@@ -122,7 +122,7 @@
         },
         {
           "pkg": "com.tcl.t_solo",
-          "note": "TCL background service"
+          "note": "T-Solo \"listen alone\": TV sound to Bluetooth headphones"
         },
         {
           "pkg": "com.tcl.keyhelp",
@@ -236,6 +236,6 @@
   "source": {
     "repo": "Gathin23/cleanyourtv",
     "path": "examples/tcl-43p725/debloat.txt",
-    "commit": "575d73f0f30c329aa7ebaea2bc863943fd9bf7f9"
+    "commit": "3c122bc073f7a9a83de251621e6e31d90dd96109"
   }
 }

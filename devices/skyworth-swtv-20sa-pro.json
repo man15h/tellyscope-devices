@@ -1,0 +1,150 @@
+{
+  "schema": 1,
+  "id": "skyworth-swtv-20sa-pro",
+  "name": "Skyworth SWTV-20SA-PRO",
+  "tested": {
+    "os": "Android TV 10",
+    "sdk": 29,
+    "build": null
+  },
+  "launcher": "com.google.android.tvlauncher",
+  "keep": [],
+  "groups": [
+    {
+      "title": "Skyworth ads, shop demo and recommendation rows",
+      "packages": [
+        {
+          "pkg": "com.smartdevice.leanbacklauncher.customizer"
+        },
+        {
+          "pkg": "com.smartdevice.acr.recommendation"
+        },
+        {
+          "pkg": "com.smartdevice.recommendation"
+        },
+        {
+          "pkg": "com.smartdevice.epopplayer"
+        },
+        {
+          "pkg": "com.Smartdevice.emanual"
+        },
+        {
+          "pkg": "com.mstar.android.tv.disclaimercustomization"
+        },
+        {
+          "pkg": "com.google.android.leanbacklauncher.partnercustomizer"
+        },
+        {
+          "pkg": "android.autoinstalls.config.SW"
+        }
+      ]
+    },
+    {
+      "title": "Telemetry, feedback and the ambient ad screensaver",
+      "packages": [
+        {
+          "pkg": "com.google.android.feedback"
+        },
+        {
+          "pkg": "com.google.android.tv.bugreportsender"
+        },
+        {
+          "pkg": "com.google.android.backdrop"
+        }
+      ]
+    },
+    {
+      "title": "Stock home recommendation rows. Disable only after the new launcher owns Home.",
+      "packages": [
+        {
+          "pkg": "com.google.android.tvrecommendations"
+        }
+      ]
+    },
+    {
+      "title": "Stock launcher: launcher/build-and-install.sh disables it after Home has moved.",
+      "packages": [
+        {
+          "pkg": "com.google.android.tvlauncher",
+          "optional": true
+        }
+      ]
+    },
+    {
+      "title": "Setup wizard. Owns a saved Wi-Fi network on this unit; see the header.",
+      "packages": [
+        {
+          "pkg": "com.google.android.tungsten.setupwraith",
+          "optional": true
+        }
+      ]
+    },
+    {
+      "title": "Shop demo player. May receive the remote's Input key on this platform; see the header.",
+      "packages": [
+        {
+          "pkg": "fusion.android.tv.demo",
+          "optional": true
+        }
+      ]
+    },
+    {
+      "title": "This unit's owner left these off. Uncomment only what you do not use.",
+      "packages": [
+        {
+          "pkg": "com.facebook.katana",
+          "optional": true
+        },
+        {
+          "pkg": "com.qjy.browser",
+          "optional": true
+        },
+        {
+          "pkg": "com.tcl.browser",
+          "optional": true
+        },
+        {
+          "pkg": "com.phlox.tvwebbrowser",
+          "optional": true
+        },
+        {
+          "pkg": "de.stefanpledl.localcast",
+          "optional": true
+        },
+        {
+          "pkg": "com.uptodown.installer",
+          "optional": true
+        },
+        {
+          "pkg": "com.netflix.ninja",
+          "optional": true
+        },
+        {
+          "pkg": "com.amazon.amazonvideo.livingroom",
+          "optional": true
+        },
+        {
+          "pkg": "com.google.android.videos",
+          "optional": true
+        },
+        {
+          "pkg": "com.google.android.play.games",
+          "optional": true
+        },
+        {
+          "pkg": "com.smartdevice.dtv.icast",
+          "optional": true
+        },
+        {
+          "pkg": "com.smartdevice.firewall",
+          "optional": true
+        }
+      ]
+    }
+  ],
+  "source": {
+    "repo": "Gathin23/cleanyourtv",
+    "path": "examples/skyworth-swtv-20sa-pro/debloat.txt",
+    "commit": "3c122bc073f7a9a83de251621e6e31d90dd96109"
+  }
+}

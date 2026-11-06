@@ -1,0 +1,94 @@
+{
+  "schema": 1,
+  "id": "visio-32",
+  "name": "VISIO 32\"",
+  "tested": {
+    "os": "Android TV 11",
+    "sdk": null,
+    "build": "RTO9.231120.001"
+  },
+  "launcher": "com.google.android.tvlauncher",
+  "keep": [],
+  "groups": [
+    {
+      "title": "Skyworth OEM demos, customizers and user manuals",
+      "packages": [
+        {
+          "pkg": "android.autoinstalls.config.skyworth"
+        },
+        {
+          "pkg": "com.smartdevice.common.demonow"
+        },
+        {
+          "pkg": "com.smartdevice.leanbacklauncher.customizer"
+        },
+        {
+          "pkg": "com.Smartdevice.emanual"
+        },
+        {
+          "pkg": "fusion.android.tv.demo"
+        }
+      ]
+    },
+    {
+      "title": "Telemetry, feedback and partner setup",
+      "packages": [
+        {
+          "pkg": "com.google.android.feedback"
+        },
+        {
+          "pkg": "com.google.android.partnersetup"
+        },
+        {
+          "pkg": "com.google.android.boot.appsplashscreen"
+        }
+      ]
+    },
+    {
+      "title": "Unused Google and preloaded streaming apps (comment out if you use them)",
+      "packages": [
+        {
+          "pkg": "com.google.android.play.games"
+        },
+        {
+          "pkg": "com.google.android.videos"
+        },
+        {
+          "pkg": "com.google.android.youtube.tvmusic"
+        },
+        {
+          "pkg": "com.amazon.amazonvideo.livingroom",
+          "note": "this set has it off",
+          "optional": true
+        },
+        {
+          "pkg": "com.netflix.ninja",
+          "note": "this set has it off",
+          "optional": true
+        },
+        {
+          "pkg": "com.google.android.marvin.talkback"
+        },
+        {
+          "pkg": "com.google.android.syncadapters.calendar"
+        }
+      ]
+    },
+    {
+      "title": "Stock Android TV launcher and recommendation channels",
+      "packages": [
+        {
+          "pkg": "com.google.android.tvlauncher"
+        },
+        {
+          "pkg": "com.google.android.tvrecommendations"
+        }
+      ]
+    }
+  ],
+  "source": {
+    "repo": "Gathin23/cleanyourtv",
+    "path": "examples/visio-32/debloat.txt",
+    "commit": "3c122bc073f7a9a83de251621e6e31d90dd96109"
+  }
+}

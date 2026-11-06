@@ -1,0 +1,82 @@
+{
+  "schema": 1,
+  "id": "artel-a55lu8500",
+  "name": "Artel A55LU8500 55\"",
+  "tested": {
+    "os": "Android 14",
+    "sdk": 34,
+    "build": "UKR1.250314.001"
+  },
+  "launcher": "com.google.android.apps.tv.launcherx",
+  "keep": [],
+  "groups": [
+    {
+      "title": "Telemetry",
+      "packages": [
+        {
+          "pkg": "com.android.tv.feedbackconsent"
+        }
+      ]
+    },
+    {
+      "title": "Android ad and personalisation services",
+      "packages": [
+        {
+          "pkg": "com.android.adservices.api"
+        },
+        {
+          "pkg": "com.android.ondevicepersonalization.services"
+        },
+        {
+          "pkg": "com.android.federatedcompute.services"
+        }
+      ]
+    },
+    {
+      "title": "Partner home-screen config and auto-installs",
+      "packages": [
+        {
+          "pkg": "com.realtek.leanbacklauncher.partnercustomizer",
+          "note": "partner config that injects apps and rows into the home screen"
+        },
+        {
+          "pkg": "android.autoinstalls.config.google.gtvpai",
+          "note": "Play auto-installs of partner apps"
+        }
+      ]
+    },
+    {
+      "title": "Not needed on a TV",
+      "packages": [
+        {
+          "pkg": "com.android.healthconnect.controller"
+        },
+        {
+          "pkg": "com.android.health.connect.backuprestore"
+        },
+        {
+          "pkg": "com.android.printspooler"
+        },
+        {
+          "pkg": "com.apps.wifihotspot",
+          "note": "MOKA hotspot app"
+        }
+      ]
+    },
+    {
+      "title": "HbbTV (the red button on antenna TV) stays on in this shared list; the tested set, which only uses apps and HDMI,",
+      "packages": [
+        {
+          "pkg": "com.seraphic.media.tv.interactive.app",
+          "note": "HbbTV interactive app (Seraphic)",
+          "optional": true
+        }
+      ]
+    }
+  ],
+  "source": {
+    "repo": "Gathin23/cleanyourtv",
+    "path": "examples/artel-a55lu8500/debloat.txt",
+    "commit": "3c122bc073f7a9a83de251621e6e31d90dd96109"
+  }
+}

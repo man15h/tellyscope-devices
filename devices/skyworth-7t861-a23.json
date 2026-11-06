@@ -11,11 +11,23 @@
   "keep": [],
   "groups": [
     {
-      "title": "Telemetry (optional)",
+      "title": "Telemetry and background monitoring (disabled by default)",
       "packages": [
         {
           "pkg": "com.skyworth.device",
-          "note": "Device information and location reporting"
+          "note": "Device information and location reporting (SensorsData analytics)"
+        },
+        {
+          "pkg": "com.tianci.de",
+          "note": "Tianci Data Engine daemons listening for package changes"
+        },
+        {
+          "pkg": "com.tianci.ad",
+          "note": "Tianci advertising cloud push receiver"
+        },
+        {
+          "pkg": "com.coocaa.tvmanager",
+          "note": "CooCaa content recommendation and app scanning manager; also scans USB/storage, so re-enable it if USB drives stop showing up"
         }
       ]
     },
@@ -43,18 +55,8 @@
       "title": "Ads and manufacturer content (optional to disable)",
       "packages": [
         {
-          "pkg": "com.coocaa.tvmanager",
-          "note": "CooCaa content recommendation manager",
-          "optional": true
-        },
-        {
           "pkg": "com.coocaa.guide",
           "note": "EPG program guide and content pushes",
-          "optional": true
-        },
-        {
-          "pkg": "com.tianci.de",
-          "note": "Tianci DE advertising engine",
           "optional": true
         },
         {
@@ -103,6 +105,6 @@
   "source": {
     "repo": "Gathin23/cleanyourtv",
     "path": "examples/skyworth-7t861-a23/debloat.txt",
-    "commit": "57c00a40dafe040b0be1f32086e96c05a1a37054"
+    "commit": "3c122bc073f7a9a83de251621e6e31d90dd96109"
   }
 }

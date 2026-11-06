@@ -25,6 +25,10 @@
         },
         {
           "pkg": "com.android.adservices.api"
+        },
+        {
+          "pkg": "tv.anoki.acr.anokiacroptin",
+          "note": "Anoki ACR opt-in (content recognition); on UKN6 only, see README.md"
         }
       ]
     },
@@ -86,6 +90,6 @@
   "source": {
     "repo": "Gathin23/cleanyourtv",
     "path": "examples/chiq-gtvu65/debloat.txt",
-    "commit": "575d73f0f30c329aa7ebaea2bc863943fd9bf7f9"
+    "commit": "3c122bc073f7a9a83de251621e6e31d90dd96109"
   }
 }
