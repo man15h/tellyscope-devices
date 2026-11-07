@@ -1,0 +1,119 @@
+{
+  "schema": 1,
+  "id": "xiaomi-mi-box-4s-pro-frozen",
+  "name": "Xiaomi Mi Box 4S Pro",
+  "tested": {
+    "os": "Android 9",
+    "sdk": 28,
+    "build": null
+  },
+  "launcher": null,
+  "keep": [],
+  "groups": [
+    {
+      "title": "Analytics: already disabled before the 2026-10-30 session; retained through reboot.",
+      "packages": [
+        {
+          "pkg": "com.miui.tv.analytics"
+        },
+        {
+          "pkg": "com.miui.analytics"
+        },
+        {
+          "pkg": "com.xiaomi.statistic"
+        }
+      ]
+    },
+    {
+      "title": "Quality reports and remote configuration; restore/reapply exercised on 2026-10-30.",
+      "packages": [
+        {
+          "pkg": "com.xiaomi.tvqs",
+          "note": "Log uploads and resident performance.MitvPerfService"
+        },
+        {
+          "pkg": "com.mitv.cloudcontrol",
+          "note": "Network/boot receivers and DownloadService"
+        }
+      ]
+    },
+    {
+      "title": "Shopping and promotional content.",
+      "packages": [
+        {
+          "pkg": "com.xiaomi.mitv.shop",
+          "note": "TV shopping; already disabled before the session"
+        },
+        {
+          "pkg": "com.mitv.shoplugin",
+          "note": "Taobao shopping plugin; observed version 6.8.24"
+        },
+        {
+          "pkg": "com.xm.webcontent",
+          "note": "Promotional container, not Android WebView; screensaver-start receiver"
+        }
+      ]
+    },
+    {
+      "title": "Optional features this owner does not use. Comment out any feature you need.",
+      "packages": [
+        {
+          "pkg": "com.xiaomi.gamecenter.sdk.service.mibox",
+          "note": "Game SDK"
+        },
+        {
+          "pkg": "com.xiaomi.screenrecorder",
+          "note": "Screen recording"
+        },
+        {
+          "pkg": "com.xiaomi.mitv.calendar",
+          "note": "Calendar"
+        },
+        {
+          "pkg": "com.mitv.gallery",
+          "note": "Xiaomi gallery and its push service; photo data was not cleared"
+        }
+      ]
+    },
+    {
+      "title": "Explicitly kept enabled on the tested box.",
+      "packages": [
+        {
+          "pkg": "com.mitv.tvhome",
+          "note": "Stock Home",
+          "optional": true
+        },
+        {
+          "pkg": "com.xiaomi.mitv.upgrade",
+          "note": "Firmware updater; OTA installation untested",
+          "optional": true
+        },
+        {
+          "pkg": "com.xiaomi.mitv.smartshare",
+          "note": "Kept casting component; not independently tested",
+          "optional": true
+        },
+        {
+          "pkg": "com.xiaomi.miplay",
+          "note": "Kept casting component; not independently tested",
+          "optional": true
+        },
+        {
+          "pkg": "com.duokan.airkan.tvbox",
+          "note": "Kept casting component; not independently tested",
+          "optional": true
+        },
+        {
+          "pkg": "com.xiaomi.wfdsinkhelperservice",
+          "note": "Kept casting component; not independently tested",
+          "optional": true
+        }
+      ]
+    }
+  ],
+  "source": {
+    "repo": "Gathin23/cleanyourtv",
+    "path": "examples/xiaomi-mi-box-4s-pro-frozen/debloat.txt",
+    "commit": "3f175120f9802ab4364f61d040db9aa78ec71493"
+  }
+}

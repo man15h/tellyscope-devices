@@ -2,7 +2,7 @@
   "schema": 1,
   "source": {
     "repo": "Gathin23/cleanyourtv",
-    "commit": "3c122bc073f7a9a83de251621e6e31d90dd96109"
+    "commit": "3f175120f9802ab4364f61d040db9aa78ec71493"
   },
   "devices": [
     {
@@ -318,6 +318,14 @@
       "sha256": "0e242221960dcb31926038d3b2583e47b592cb59c8365698bbe7c503778dce6d"
     },
     {
+      "id": "challenger-r3",
+      "name": "Challenger R3",
+      "match": null,
+      "sdk": 30,
+      "file": "devices/challenger-r3.json",
+      "sha256": "bebee04504227aad38eedb8cfdacd5bc7fb04e3009edc7d76f120402fbc0f797"
+    },
+    {
       "id": "chihi-hx-p30",
       "name": "Chihi HX P30 projector",
       "match": null,
@@ -444,6 +452,14 @@
       "sdk": 30,
       "file": "devices/ffalcon-65s585c-pro.json",
       "sha256": "00986f9553b55fdd9eb6d361f7d00a7a08fb9cd2343c89973d5434d3a8280bef"
+    },
+    {
+      "id": "ffalcon-peng6-55s375c",
+      "name": "FFalcon",
+      "match": null,
+      "sdk": 30,
+      "file": "devices/ffalcon-peng6-55s375c.json",
+      "sha256": "f666791030dfaeb68b2b2518dc29184276d3e82239ea015f4fd50e06f7ce2bcf"
     },
     {
       "id": "ffalcon-r34a0-cn",
@@ -1235,7 +1251,7 @@
       "match": null,
       "sdk": 29,
       "file": "devices/panasonic-4ktv-0su.json",
-      "sha256": "ba7eb2b54cc4c4eec806f2b488583ac2fc1f7300f288a03ea8ba67f4f33b8053"
+      "sha256": "d6d55f3cd8198e723b3439509c6eb11f8354917ff01be29763bc4eb9d26cee1c"
     },
     {
       "id": "panasonic-4ktv-3mup",
@@ -1422,6 +1438,14 @@
       "sdk": 30,
       "file": "devices/philips-65pml9506.json",
       "sha256": "8eef896454791f3a99d7c3397a6e49ef137ee1ced85df30d621a9b6120a84de9"
+    },
+    {
+      "id": "philips-65pqt8169",
+      "name": "Philips 65PQT8169/56",
+      "match": null,
+      "sdk": null,
+      "file": "devices/philips-65pqt8169.json",
+      "sha256": "6b17cc7dc7316c4a00ddf3dd7dd917520392b5e4ee95c8338bb41f41c5ccfbc9"
     },
     {
       "id": "philips-65pus8102",
@@ -1725,7 +1749,7 @@
       "match": null,
       "sdk": null,
       "file": "devices/sharp-aquos-tve19c.json",
-      "sha256": "e7a0d572a90d1135c7f395512738adde6e226b57f18c6d8e6973cf044a226cd6"
+      "sha256": "081e4f3293f88124d112ad29e81c0eb07e3ae2f7c9ad6aaee35c6e138e0898ed"
     },
     {
       "id": "sharp-aquos-tve21f",
@@ -1813,7 +1837,7 @@
       "match": null,
       "sdk": 29,
       "file": "devices/skyworth-7t861-a23.json",
-      "sha256": "27cea151f9d830778f35d9ec1145730cbf0cd8011ae69b79d36c59a41739f86b"
+      "sha256": "2ecbabef371a23c6a4de2b87b6ddc251a8f13c3f741f7044bafaf79cf9eef604"
     },
     {
       "id": "skyworth-8r40-k5c",
@@ -2053,7 +2077,7 @@
       "match": null,
       "sdk": 34,
       "file": "devices/sony-bravia-vu31.json",
-      "sha256": "d660e3198cb64e87a2b2cdd7d4e07860ebe00ad31b4fbdc0e5f1550e529802c8"
+      "sha256": "820ef6246ef784606b95ef5766c7673369bb791b908050dc82ee58db777f8ac0"
     },
     {
       "id": "sony-kd-43x8000g",
@@ -2760,6 +2784,14 @@
       "sha256": "64dfe7713e1261bc46c4cce7055bc28c5abb0a1751a4a0b855219790b61ce03f"
     },
     {
+      "id": "tcl-beyondtv-jp",
+      "name": "TCL BeyondTV",
+      "match": null,
+      "sdk": 28,
+      "file": "devices/tcl-beyondtv-jp.json",
+      "sha256": "2717f80df23e65c8fe5e19d29fbbcb03d92ade48bfbe1a4d0922ee59f08c0922"
+    },
+    {
       "id": "tcl-beyondtv-pl",
       "name": "TCL BeyondTV",
       "match": null,
@@ -3112,6 +3144,14 @@
       "sha256": "8645f10724919eeb18dcd1dd6e95cb6101272528bc48d598d720157faf0ae28f"
     },
     {
+      "id": "toshiba-shandao-atv11",
+      "name": "Toshiba Android TV",
+      "match": null,
+      "sdk": 30,
+      "file": "devices/toshiba-shandao-atv11.json",
+      "sha256": "e934dd041d9717d28837547ec38c99d958cebf1819f2135958783a0a2a24023e"
+    },
+    {
       "id": "turkcell-tv-plus-4k-box-dv6069y",
       "name": "Turkcell TV+ 4K Box",
       "match": null,
@@ -3294,6 +3334,14 @@
       "sdk": 28,
       "file": "devices/xiaomi-mi-box-3.json",
       "sha256": "2b00f69d1b916a7738c913bef6d6594a3d50da29232c91e23d042b44ae074d9d"
+    },
+    {
+      "id": "xiaomi-mi-box-4s-pro-frozen",
+      "name": "Xiaomi Mi Box 4S Pro",
+      "match": null,
+      "sdk": 28,
+      "file": "devices/xiaomi-mi-box-4s-pro-frozen.json",
+      "sha256": "0c73fa2609637e27aa77184216bc1217bbef27b2c1f2cca649d0bc3ff346aa24"
     },
     {
       "id": "xiaomi-mi-box-s-2nd-gen",
@@ -3549,7 +3597,7 @@
       "match": null,
       "sdk": 28,
       "file": "devices/xiaomi-mitv-mssp3-android9.json",
-      "sha256": "98ae19237d38a7d5aa5e52abd004e4e69f2e1ecba08803b470aaca2edc1180fa"
+      "sha256": "ed7bff3376aa09a84adce7a528139d7d163dd53b89bd0a3655543ac4f1a3c8e1"
     },
     {
       "id": "xiaomi-mitv-mssp3",
