@@ -59,7 +59,7 @@
         },
         {
           "pkg": "com.google.android.videos",
-          "note": "Google TV / Play Movies",
+          "note": "Google TV / Play Movies (the TVE19A unit disabled it)",
           "optional": true
         },
         {
@@ -68,6 +68,16 @@
         },
         {
           "pkg": "com.google.android.play.games",
+          "optional": true
+        }
+      ]
+    },
+    {
+      "title": "Preload on the TVE19A unit (disabled there)",
+      "packages": [
+        {
+          "pkg": "com.rma.speedtesttv",
+          "note": "Speedtest",
           "optional": true
         }
       ]
@@ -103,6 +113,6 @@
   "source": {
     "repo": "Gathin23/cleanyourtv",
     "path": "examples/sharp-aquos-tve19c/debloat.txt",
-    "commit": "001a44883f2bdbd02717728568d14a6e08f721df"
+    "commit": "3f175120f9802ab4364f61d040db9aa78ec71493"
   }
 }

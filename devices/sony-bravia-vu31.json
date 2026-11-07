@@ -148,6 +148,21 @@
         {
           "pkg": "com.viacom18.tv.voot",
           "note": "Voot streaming preload"
+        },
+        {
+          "pkg": "com.google.android.katniss",
+          "note": "Google Assistant / voice search; the mic button stops working (5th)",
+          "optional": true
+        },
+        {
+          "pkg": "com.sony.dtv.assistantadapter",
+          "note": "Sony's Assistant setup glue, boot receiver only (5th)",
+          "optional": true
+        },
+        {
+          "pkg": "com.google.android.youtube.tvmusic",
+          "note": "YouTube Music (system app) (5th)",
+          "optional": true
         }
       ]
     },
@@ -169,6 +184,6 @@
   "source": {
     "repo": "Gathin23/cleanyourtv",
     "path": "examples/sony-bravia-vu31/debloat.txt",
-    "commit": "57733360177173c880a023380a864114a03feb25"
+    "commit": "3f175120f9802ab4364f61d040db9aa78ec71493"
   }
 }

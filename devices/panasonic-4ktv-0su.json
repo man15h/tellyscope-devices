@@ -57,6 +57,18 @@
         {
           "pkg": "com.smartdevice.dtv.icast",
           "note": "\"CastPlay\" screen mirroring, 4 services at boot; the Apple TV box handles mirroring here"
+        },
+        {
+          "pkg": "com.community.oneroom",
+          "note": "second unit: telemetry daemon listening on TCP :33367"
+        },
+        {
+          "pkg": "com.sky.market",
+          "note": "second unit: preloaded Skyworth app store"
+        },
+        {
+          "pkg": "com.smartdevice.tvworkwithalexa",
+          "note": "second unit: Alexa voice companion"
         }
       ]
     },
@@ -67,7 +79,9 @@
           "pkg": "com.google.android.feedback"
         },
         {
-          "pkg": "com.google.android.partnersetup"
+          "pkg": "com.google.android.partnersetup",
+          "note": "kept: needed for YouTube and Play Store sign-in / playback on second unit",
+          "optional": true
         },
         {
           "pkg": "com.google.android.onetimeinitializer"
@@ -193,6 +207,6 @@
   "source": {
     "repo": "Gathin23/cleanyourtv",
     "path": "examples/panasonic-4ktv-0su/debloat.txt",
-    "commit": "575d73f0f30c329aa7ebaea2bc863943fd9bf7f9"
+    "commit": "3f175120f9802ab4364f61d040db9aa78ec71493"
   }
 }

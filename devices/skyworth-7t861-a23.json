@@ -11,7 +11,7 @@
   "keep": [],
   "groups": [
     {
-      "title": "Telemetry and background monitoring (disabled by default)",
+      "title": "Telemetry, push services, and stock themes (disabled by default)",
       "packages": [
         {
           "pkg": "com.skyworth.device",
@@ -28,6 +28,30 @@
         {
           "pkg": "com.coocaa.tvmanager",
           "note": "CooCaa content recommendation and app scanning manager; also scans USB/storage, so re-enable it if USB drives stop showing up"
+        },
+        {
+          "pkg": "com.coocaa.guide",
+          "note": "Boot guide & EPG program guide / push receiver",
+          "optional": true
+        },
+        {
+          "pkg": "com.coocaa.theme_package_ccos_nine",
+          "note": "Stock Coocaa OS theme package (GoldenFaith)"
+        }
+      ]
+    },
+    {
+      "title": "Voice assistant and karaoke microphone: off on the tested set, optional; uncomment to disable",
+      "packages": [
+        {
+          "pkg": "com.skyworth.angel.voice",
+          "note": "Skyworth XiaoWei AI voice assistant",
+          "optional": true
+        },
+        {
+          "pkg": "com.skyworth.microphone",
+          "note": "Skyworth karaoke and external microphone manager",
+          "optional": true
         }
       ]
     },
@@ -47,21 +71,6 @@
         {
           "pkg": "com.skyworthdigital.stb.dataprovider",
           "note": "STB diagnostics data provider",
-          "optional": true
-        }
-      ]
-    },
-    {
-      "title": "Ads and manufacturer content (optional to disable)",
-      "packages": [
-        {
-          "pkg": "com.coocaa.guide",
-          "note": "EPG program guide and content pushes",
-          "optional": true
-        },
-        {
-          "pkg": "com.coocaa.theme_package_ccos_nine",
-          "note": "Default theme package",
           "optional": true
         }
       ]
@@ -105,6 +114,6 @@
   "source": {
     "repo": "Gathin23/cleanyourtv",
     "path": "examples/skyworth-7t861-a23/debloat.txt",
-    "commit": "3c122bc073f7a9a83de251621e6e31d90dd96109"
+    "commit": "3f175120f9802ab4364f61d040db9aa78ec71493"
   }
 }

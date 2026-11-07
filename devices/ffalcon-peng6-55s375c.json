@@ -1,0 +1,161 @@
+{
+  "schema": 1,
+  "id": "ffalcon-peng6-55s375c",
+  "name": "FFalcon",
+  "tested": {
+    "os": "Android 11",
+    "sdk": 30,
+    "build": "RQ3A.210705.001.2024052816"
+  },
+  "launcher": "com.tcl.cyberui",
+  "keep": [],
+  "groups": [
+    {
+      "title": "Boot advertisement, vendor telemetry and log upload — the three this unit ran with",
+      "packages": [
+        {
+          "pkg": "com.tcl.bootadservice",
+          "note": "full-screen ad before Home; the ad is gone on this unit"
+        },
+        {
+          "pkg": "com.tcl.bi",
+          "note": "vendor behaviour analytics"
+        },
+        {
+          "pkg": "com.tcl.logkit",
+          "note": "log collection and upload"
+        }
+      ]
+    },
+    {
+      "title": "Vendor ads, push and silent install",
+      "packages": [
+        {
+          "pkg": "com.tcl.c2dm.client",
+          "note": "TCL push, long-lived connection",
+          "optional": true
+        },
+        {
+          "pkg": "android.autoinstalls.config.tcl.device",
+          "note": "first-boot auto-install of preloaded apps",
+          "optional": true
+        },
+        {
+          "pkg": "com.tcl.recognize.service",
+          "note": "screen recognition; silent-install channel",
+          "optional": true
+        }
+      ]
+    },
+    {
+      "title": "Preloaded content and promo apps",
+      "packages": [
+        {
+          "pkg": "com.tcl.appreciate.art",
+          "note": "art wallpaper / screensaver with a membership pitch",
+          "optional": true
+        },
+        {
+          "pkg": "com.tcl.playskill",
+          "note": "\"tips\" promo app",
+          "optional": true
+        },
+        {
+          "pkg": "com.tcl.useragreement",
+          "note": "user-agreement popup",
+          "optional": true
+        },
+        {
+          "pkg": "com.tcl.wholenetsearch",
+          "note": "whole-net search with VOD promotions",
+          "optional": true
+        },
+        {
+          "pkg": "com.tcl.vod",
+          "note": "TCL's own video app",
+          "optional": true
+        },
+        {
+          "pkg": "com.tcl.tliveplay",
+          "note": "live-TV promo channels",
+          "optional": true
+        },
+        {
+          "pkg": "com.tcl.browser",
+          "note": "preloaded browser",
+          "optional": true
+        },
+        {
+          "pkg": "com.tcl.common.weather",
+          "note": "weather widget and its background service",
+          "optional": true
+        },
+        {
+          "pkg": "com.tcl.ffeducation",
+          "note": "kids / education content",
+          "optional": true
+        },
+        {
+          "pkg": "com.tcl.ffkaraoke",
+          "note": "karaoke",
+          "optional": true
+        },
+        {
+          "pkg": "com.audiocn.karaoke.micmanager",
+          "note": "karaoke microphone manager",
+          "optional": true
+        },
+        {
+          "pkg": "com.tcl.gamebar",
+          "note": "game bar",
+          "optional": true
+        },
+        {
+          "pkg": "com.tcl.weixin",
+          "note": "WeChat on TV",
+          "optional": true
+        }
+      ]
+    },
+    {
+      "title": "Kept on this unit by choice: uncomment one to try it, and expect the feature it carries to stop.",
+      "packages": [
+        {
+          "pkg": "com.tcl.usercenter",
+          "note": "TCL account and VIP",
+          "optional": true
+        },
+        {
+          "pkg": "com.tcl.appmarket2",
+          "note": "TCL app store (当贝市场 installs apps instead)",
+          "optional": true
+        },
+        {
+          "pkg": "com.tcl.guard",
+          "note": "电视卫士, also the USB APK installer",
+          "optional": true
+        },
+        {
+          "pkg": "com.tcl.ui_mediaCenter",
+          "note": "USB playback",
+          "optional": true
+        },
+        {
+          "pkg": "com.tcl.t_solo",
+          "note": "蓝牙单独听",
+          "optional": true
+        },
+        {
+          "pkg": "com.kookong.tvplus",
+          "note": "机顶盒设置, IR learning for a set-top box",
+          "optional": true
+        }
+      ]
+    }
+  ],
+  "source": {
+    "repo": "Gathin23/cleanyourtv",
+    "path": "examples/ffalcon-peng6-55s375c/debloat.txt",
+    "commit": "3f175120f9802ab4364f61d040db9aa78ec71493"
+  }
+}
