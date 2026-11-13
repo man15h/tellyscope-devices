@@ -84,7 +84,8 @@
         },
         {
           "pkg": "com.amazon.providers.contentsupport",
-          "note": "content support provider"
+          "note": "KEEP: with it off, the keyboard turns off voice input inside apps (see header)",
+          "optional": true
         },
         {
           "pkg": "com.amazon.shoptv.client",
@@ -252,6 +253,6 @@
   "source": {
     "repo": "Gathin23/cleanyourtv",
     "path": "examples/hisense-fire-tv-55qd6qf/debloat.txt",
-    "commit": "baadd07a7d095cc3ea72e6ccb615987bf1fb97c4"
+    "commit": "b121838a666832fda3e7bddb702df9a6610d67aa"
   }
 }

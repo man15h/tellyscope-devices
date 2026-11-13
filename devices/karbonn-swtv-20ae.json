@@ -114,6 +114,35 @@
       ]
     },
     {
+      "title": "Also disabled on Unit 3 (Thomson)",
+      "packages": [
+        {
+          "pkg": "com.google.android.leanbacklauncher.partnercustomizer",
+          "note": "sponsored partner channels on the stock home"
+        },
+        {
+          "pkg": "com.mstar.netflixobserver",
+          "note": "Netflix measurement service; the Netflix app is untouched"
+        },
+        {
+          "pkg": "com.google.android.partnersetup",
+          "note": "partner-app attribution"
+        },
+        {
+          "pkg": "android.autoinstalls.config.SW",
+          "note": "Play auto-install config for partner apps"
+        },
+        {
+          "pkg": "com.android.printspooler",
+          "note": "printing"
+        },
+        {
+          "pkg": "com.android.dreams.basic",
+          "note": "stock \"colours\" screensaver; ClockDream replaces it"
+        }
+      ]
+    },
+    {
       "title": "Ask the owner first: streaming apps disabled on Unit 2 by its owner's choice. Uncomment only what is not used.",
       "packages": [
         {
@@ -134,6 +163,21 @@
         {
           "pkg": "com.google.android.videos",
           "note": "Google Play Movies",
+          "optional": true
+        },
+        {
+          "pkg": "com.google.android.apps.mediashell",
+          "note": "Chromecast built-in",
+          "optional": true
+        },
+        {
+          "pkg": "com.smartdevice.dtv.icast",
+          "note": "Miracast + DLNA",
+          "optional": true
+        },
+        {
+          "pkg": "com.google.android.tv.remote.service",
+          "note": "Android TV phone-app remote",
           "optional": true
         }
       ]
@@ -157,6 +201,6 @@
   "source": {
     "repo": "Gathin23/cleanyourtv",
     "path": "examples/karbonn-swtv-20ae/debloat.txt",
-    "commit": "76a9312cd9ac378fc8698f31427805af32c6f965"
+    "commit": "b121838a666832fda3e7bddb702df9a6610d67aa"
   }
 }

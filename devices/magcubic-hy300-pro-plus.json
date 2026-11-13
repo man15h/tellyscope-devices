@@ -36,7 +36,7 @@
         },
         {
           "pkg": "com.hy.storeos",
-          "note": "vendor app store",
+          "note": "vendor app store; on another unit it ran a persistent CheckUpdateService.",
           "optional": true
         },
         {
@@ -70,6 +70,6 @@
   "source": {
     "repo": "Gathin23/cleanyourtv",
     "path": "examples/magcubic-hy300-pro-plus/debloat.txt",
-    "commit": "985bbd14d0b01517988724668e310211d72d86fc"
+    "commit": "b121838a666832fda3e7bddb702df9a6610d67aa"
   }
 }

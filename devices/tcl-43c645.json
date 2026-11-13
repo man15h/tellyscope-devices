@@ -109,7 +109,8 @@
         },
         {
           "pkg": "com.tcl.usercenter",
-          "note": "TCL account"
+          "note": "TCL account: a 43C641 reboots on waking from standby with it off (#3533)",
+          "optional": true
         },
         {
           "pkg": "com.tcl.channelplus",
@@ -172,6 +173,6 @@
   "source": {
     "repo": "Gathin23/cleanyourtv",
     "path": "examples/tcl-43c645/debloat.txt",
-    "commit": "575d73f0f30c329aa7ebaea2bc863943fd9bf7f9"
+    "commit": "b121838a666832fda3e7bddb702df9a6610d67aa"
   }
 }

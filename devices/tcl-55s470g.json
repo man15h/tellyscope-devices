@@ -5,7 +5,7 @@
   "tested": {
     "os": "Android 12",
     "sdk": null,
-    "build": null
+    "build": "STT2.230203.001"
   },
   "launcher": "com.google.android.apps.tv.launcherx",
   "keep": [],
@@ -140,6 +140,31 @@
       ]
     },
     {
+      "title": "Off by choice on the 65S450G-CA only; uncomment to disable them too",
+      "packages": [
+        {
+          "pkg": "com.netflix.ninja",
+          "note": "Netflix",
+          "optional": true
+        },
+        {
+          "pkg": "com.netflix.tokenmanager",
+          "note": "Netflix sign-in, goes with it",
+          "optional": true
+        },
+        {
+          "pkg": "com.tcl.tv.plus",
+          "note": "TCL TV+",
+          "optional": true
+        },
+        {
+          "pkg": "com.tcl.channelplus",
+          "note": "TCL Live FAST channels; reboot after re-enabling it",
+          "optional": true
+        }
+      ]
+    },
+    {
       "title": "Needed for the custom launcher. Disable only AFTER launcher/ is installed",
       "packages": [
         {
@@ -151,6 +176,6 @@
   "source": {
     "repo": "Gathin23/cleanyourtv",
     "path": "examples/tcl-55s470g/debloat.txt",
-    "commit": "baadd07a7d095cc3ea72e6ccb615987bf1fb97c4"
+    "commit": "b121838a666832fda3e7bddb702df9a6610d67aa"
   }
 }

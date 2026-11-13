@@ -189,11 +189,21 @@
           "optional": true
         }
       ]
+    },
+    {
+      "title": "Candidate from the ninth unit (43PUS8007, Android 14, TPM216E), disabled there with no regression in three days",
+      "packages": [
+        {
+          "pkg": "com.google.android.tts",
+          "note": "Google text-to-speech; TalkBack was disabled with it, keep both if anyone needs a screen reader",
+          "optional": true
+        }
+      ]
     }
   ],
   "source": {
     "repo": "Gathin23/cleanyourtv",
     "path": "examples/philips-50pud7406/debloat.txt",
-    "commit": "57c00a40dafe040b0be1f32086e96c05a1a37054"
+    "commit": "b121838a666832fda3e7bddb702df9a6610d67aa"
   }
 }

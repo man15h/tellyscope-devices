@@ -76,6 +76,16 @@
       ]
     },
     {
+      "title": "Firmware updater (kept enabled by default; uncomment to disable OTA updates)",
+      "packages": [
+        {
+          "pkg": "com.coocaa.os.upgrade",
+          "note": "CooCaa OS system OTA updater",
+          "optional": true
+        }
+      ]
+    },
+    {
       "title": "Preloaded content and stores (optional to disable)",
       "packages": [
         {
@@ -114,6 +124,6 @@
   "source": {
     "repo": "Gathin23/cleanyourtv",
     "path": "examples/skyworth-7t861-a23/debloat.txt",
-    "commit": "3f175120f9802ab4364f61d040db9aa78ec71493"
+    "commit": "b121838a666832fda3e7bddb702df9a6610d67aa"
   }
 }

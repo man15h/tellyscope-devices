@@ -53,10 +53,12 @@
           "pkg": "com.sony.dtv.da.service"
         },
         {
-          "pkg": "com.sonyericsson.idd.agent"
+          "pkg": "com.sonyericsson.idd.agent",
+          "optional": true
         },
         {
-          "pkg": "com.sony.dtv.sonybugreportsys"
+          "pkg": "com.sony.dtv.sonybugreportsys",
+          "optional": true
         },
         {
           "pkg": "com.google.android.feedback"
@@ -247,6 +249,6 @@
   "source": {
     "repo": "Gathin23/cleanyourtv",
     "path": "examples/sony-bravia-4k-vh2/debloat.txt",
-    "commit": "f47c893d285172d175c8f72c32658b1d767b3270"
+    "commit": "b121838a666832fda3e7bddb702df9a6610d67aa"
   }
 }

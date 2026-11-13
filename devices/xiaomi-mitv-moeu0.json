@@ -66,6 +66,31 @@
       ]
     },
     {
+      "title": "Fourth unit, first day: disabled there with no change seen on screen; uncomment once lived with",
+      "packages": [
+        {
+          "pkg": "com.miui.misightservice",
+          "note": "MiSight: DiagnosisReceiver, RemoteDiagnosis; mioffice.cn, mitvos.com",
+          "optional": true
+        },
+        {
+          "pkg": "com.xiaomi.mitv.detection",
+          "note": "diagnosis and benchmark (benchmarkcn); ad and tracking SDK",
+          "optional": true
+        },
+        {
+          "pkg": "com.mitv.toolhouse",
+          "note": "network speed test (speedtest.cn), no activities",
+          "optional": true
+        },
+        {
+          "pkg": "com.xiaomi.mi_connect_service",
+          "note": "Mi Connect / Milink (Airkan) casting for Xiaomi phones",
+          "optional": true
+        }
+      ]
+    },
+    {
       "title": "Preloaded apps",
       "packages": [
         {
@@ -109,6 +134,6 @@
   "source": {
     "repo": "Gathin23/cleanyourtv",
     "path": "examples/xiaomi-mitv-moeu0/debloat.txt",
-    "commit": "575d73f0f30c329aa7ebaea2bc863943fd9bf7f9"
+    "commit": "b121838a666832fda3e7bddb702df9a6610d67aa"
   }
 }
