@@ -171,6 +171,10 @@
           "note": "\"BRAVIA notifications\" inbox"
         },
         {
+          "pkg": "com.sony.dtv.promos",
+          "note": "\"My BRAVIA\" promos tile; enabled at the factory on the second unit"
+        },
+        {
           "pkg": "fi.mtv.svod",
           "note": "old MTV app (v1.0.56, last updated 2024-01); MTV Katsomo is fi.mtvkatsomo"
         }
@@ -183,11 +187,108 @@
           "pkg": "com.google.android.tungsten.setupwraith"
         }
       ]
+    },
+    {
+      "title": "Batch 9: second unit only, disabled there by owner's choice (applied 2026-11-07, reboot-checked, not",
+      "packages": [
+        {
+          "pkg": "com.google.android.katniss",
+          "note": "Google Assistant / voice search: the mic button stops working",
+          "optional": true
+        },
+        {
+          "pkg": "com.sony.dtv.voicesearch",
+          "optional": true
+        },
+        {
+          "pkg": "com.sony.dtv.assistantadapter",
+          "optional": true
+        },
+        {
+          "pkg": "com.google.android.youtube.tvmusic",
+          "note": "YouTube Music (enabled at the factory on the second unit)",
+          "optional": true
+        },
+        {
+          "pkg": "com.google.android.videos",
+          "note": "Google TV / Play Movies store",
+          "optional": true
+        },
+        {
+          "pkg": "com.google.android.play.games",
+          "optional": true
+        },
+        {
+          "pkg": "com.sony.dtv.recapp",
+          "note": "\"Recorded Title List\" tile; recservice stays (also a DLNA receiver)",
+          "optional": true
+        },
+        {
+          "pkg": "com.sony.dtv.livingfit",
+          "note": "Living Decor",
+          "optional": true
+        },
+        {
+          "pkg": "com.sony.dtv.osat.music",
+          "note": "\"Music\" player for USB files",
+          "optional": true
+        },
+        {
+          "pkg": "com.sony.dtv.calibrationmonitor",
+          "note": "\"Calman for BRAVIA\" tile",
+          "optional": true
+        },
+        {
+          "pkg": "com.sony.dtv.ecodashboard",
+          "note": "Eco Dashboard tile",
+          "optional": true
+        },
+        {
+          "pkg": "com.sony.dtv.timers",
+          "note": "Timers & Clock: the sleep timer and on/off timers go too",
+          "optional": true
+        },
+        {
+          "pkg": "com.google.android.apps.tv.dreamx",
+          "note": "Ambient mode screensaver",
+          "optional": true
+        },
+        {
+          "pkg": "com.sony.dtv.lastaccess",
+          "note": "usage agent",
+          "optional": true
+        },
+        {
+          "pkg": "com.sony.dtv.interactivetvutil",
+          "note": "ActionLogCollector / ApplicationLogCollector",
+          "optional": true
+        },
+        {
+          "pkg": "com.sony.dtv.usercontext",
+          "note": "user-context provider",
+          "optional": true
+        },
+        {
+          "pkg": "com.vewd.core.service",
+          "note": "Vewd browser engine (HbbTV, old Sony store)",
+          "optional": true
+        },
+        {
+          "pkg": "com.google.android.marvin.talkback",
+          "note": "TalkBack screen reader",
+          "optional": true
+        },
+        {
+          "pkg": "com.google.android.tts",
+          "note": "Google text-to-speech",
+          "optional": true
+        }
+      ]
     }
   ],
   "source": {
     "repo": "Gathin23/cleanyourtv",
     "path": "examples/sony-xr-65a80j/debloat.txt",
-    "commit": "575d73f0f30c329aa7ebaea2bc863943fd9bf7f9"
+    "commit": "2a27befe119ec418cd39f90305dec102d02fdc4e"
   }
 }
