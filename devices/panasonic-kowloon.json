@@ -95,11 +95,103 @@
           "optional": true
         }
       ]
+    },
+    {
+      "title": "Telemetry and feedback (third unit)",
+      "packages": [
+        {
+          "pkg": "com.android.tv.feedbackconsent",
+          "note": "the \"send diagnostic reports\" consent screen"
+        },
+        {
+          "pkg": "com.google.android.partnersetup",
+          "note": "partner setup leftovers"
+        },
+        {
+          "pkg": "com.android.federatedcompute.services",
+          "note": "federated learning / on-device personalisation"
+        }
+      ]
+    },
+    {
+      "title": "Setup and backup leftovers (third unit)",
+      "packages": [
+        {
+          "pkg": "com.android.htmlviewer",
+          "note": "internal HTML viewer"
+        },
+        {
+          "pkg": "com.android.backupconfirm",
+          "note": "backup confirmation dialogs"
+        },
+        {
+          "pkg": "com.android.sharedstoragebackup",
+          "note": "shared-storage backup transport"
+        },
+        {
+          "pkg": "com.android.wallpaperbackup",
+          "note": "wallpaper backup transport"
+        },
+        {
+          "pkg": "com.android.cameraextensions",
+          "note": "camera extensions; the set has no camera"
+        },
+        {
+          "pkg": "com.android.health.connect.backuprestore",
+          "note": "Health Connect backup transport"
+        },
+        {
+          "pkg": "com.android.hotspot2.osulogin",
+          "note": "Passpoint / Hotspot 2.0 web login"
+        }
+      ]
+    },
+    {
+      "title": "Screensaver (third unit): the basic daydream is off, the Google one (com.google.android.apps.tv.dreamx) stays",
+      "packages": [
+        {
+          "pkg": "com.android.dreams.basic"
+        }
+      ]
+    },
+    {
+      "title": "Calendar on a TV nobody signs in to (third unit; the provider is one the tools allow)",
+      "packages": [
+        {
+          "pkg": "com.android.providers.calendar"
+        },
+        {
+          "pkg": "com.google.android.syncadapters.calendar"
+        }
+      ]
+    },
+    {
+      "title": "Apps the third unit does not use",
+      "packages": [
+        {
+          "pkg": "com.google.android.videos",
+          "note": "Google TV movies and rentals  (off on the third unit by the owner's choice)",
+          "optional": true
+        },
+        {
+          "pkg": "com.hbo.hbonow",
+          "note": "HBO Max  (off on the third unit by the owner's choice)",
+          "optional": true
+        },
+        {
+          "pkg": "com.vestel.tv.eib",
+          "note": "the on-screen e-manual (its label was confirmed on screen)"
+        },
+        {
+          "pkg": "com.vewd.core.browser",
+          "note": "the Vewd browser"
+        }
+      ]
     }
   ],
   "source": {
     "repo": "Gathin23/cleanyourtv",
     "path": "examples/panasonic-kowloon/debloat.txt",
-    "commit": "001a44883f2bdbd02717728568d14a6e08f721df"
+    "commit": "2a27befe119ec418cd39f90305dec102d02fdc4e"
   }
 }

@@ -1,0 +1,97 @@
+{
+  "schema": 1,
+  "id": "engy-ai-pont",
+  "name": "ENGY AI PONT",
+  "tested": {
+    "os": "Google TV 14",
+    "sdk": 34,
+    "build": null
+  },
+  "launcher": "com.google.android.apps.tv.launcherx",
+  "keep": [],
+  "groups": [
+    {
+      "title": "--- Manufacturer content, ads and ACR telemetry ---",
+      "packages": [
+        {
+          "pkg": "com.homwee.store",
+          "note": "Homwee app store (content + ads)"
+        },
+        {
+          "pkg": "com.homwee.help",
+          "note": "e-manual"
+        },
+        {
+          "pkg": "tv.anoki.acr.anokiacroptin",
+          "note": "Anoki automatic-content-recognition telemetry"
+        },
+        {
+          "pkg": "com.google.android.partnersetup",
+          "note": "Google partner promo / preload setup"
+        },
+        {
+          "pkg": "com.google.android.feedback",
+          "note": "feedback telemetry"
+        },
+        {
+          "pkg": "com.android.tv.feedbackconsent",
+          "note": "feedback consent"
+        },
+        {
+          "pkg": "com.google.android.syncadapters.calendar",
+          "note": "calendar sync adapter, not needed on a TV"
+        }
+      ]
+    },
+    {
+      "title": "--- Preloaded apps this set's owner does not use ---",
+      "packages": [
+        {
+          "pkg": "com.google.android.youtube.tvmusic",
+          "note": "YouTube Music",
+          "optional": true
+        },
+        {
+          "pkg": "com.google.android.play.games",
+          "note": "Play Games"
+        },
+        {
+          "pkg": "com.kick.mobile",
+          "note": "Kick",
+          "optional": true
+        },
+        {
+          "pkg": "com.audiocn.karaoke.global.micmanager",
+          "note": "karaoke mic manager"
+        }
+      ]
+    },
+    {
+      "title": "--- Region middleware and misc preloads ---",
+      "packages": [
+        {
+          "pkg": "org.obs.mhegservice",
+          "note": "MHEG-5 (UK Freeview) — not used in LatAm",
+          "optional": true
+        },
+        {
+          "pkg": "com.esaba.downloader",
+          "note": "SABA URL downloader preload"
+        }
+      ]
+    },
+    {
+      "title": "--- Google TV setup wizard (see the Wi-Fi and casting note above) ---",
+      "packages": [
+        {
+          "pkg": "com.google.android.tungsten.setupwraith"
+        }
+      ]
+    }
+  ],
+  "source": {
+    "repo": "Gathin23/cleanyourtv",
+    "path": "examples/engy-ai-pont/debloat.txt",
+    "commit": "2a27befe119ec418cd39f90305dec102d02fdc4e"
+  }
+}

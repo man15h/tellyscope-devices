@@ -5,7 +5,7 @@
   "tested": {
     "os": "Android TV 9",
     "sdk": 28,
-    "build": null
+    "build": "PI.6157"
   },
   "launcher": "com.google.android.tvlauncher",
   "keep": [],
@@ -189,6 +189,6 @@
   "source": {
     "repo": "Gathin23/cleanyourtv",
     "path": "examples/xiaomi-mitv-axso1/debloat.txt",
-    "commit": "57c00a40dafe040b0be1f32086e96c05a1a37054"
+    "commit": "2a27befe119ec418cd39f90305dec102d02fdc4e"
   }
 }

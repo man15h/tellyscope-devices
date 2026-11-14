@@ -55,6 +55,16 @@
       ]
     },
     {
+      "title": "Xiaomi's app updater, which turns the four com.mitv.tvhome.* packages above back on.",
+      "packages": [
+        {
+          "pkg": "com.xiaomi.mitv.updateservice",
+          "note": "updates PatchWall and the Mi home rows; not the firmware",
+          "optional": true
+        }
+      ]
+    },
+    {
       "title": "Retail demo mode",
       "packages": [
         {
@@ -215,10 +225,6 @@
           "optional": true
         },
         {
-          "pkg": "com.xiaomi.mitv.updateservice",
-          "optional": true
-        },
-        {
           "pkg": "com.mitv.upgrader",
           "optional": true
         },
@@ -232,6 +238,6 @@
   "source": {
     "repo": "Gathin23/cleanyourtv",
     "path": "examples/xiaomi-mitv-moor2/debloat.txt",
-    "commit": "baadd07a7d095cc3ea72e6ccb615987bf1fb97c4"
+    "commit": "2a27befe119ec418cd39f90305dec102d02fdc4e"
   }
 }

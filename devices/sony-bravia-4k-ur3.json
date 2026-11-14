@@ -5,7 +5,7 @@
   "tested": {
     "os": "Android 10",
     "sdk": 29,
-    "build": null
+    "build": "QTG3.200305.006.S97"
   },
   "launcher": "com.google.android.tvlauncher",
   "keep": [],
@@ -89,16 +89,16 @@
       ]
     },
     {
-      "title": "KD-65A8 (#2717) only, disabled and reboot-checked there; one evening of use so far.",
+      "title": "KD-65A8 (#2717), disabled and reboot-checked there; one evening of use so far. The first two were",
       "packages": [
         {
           "pkg": "com.sony.dtv.usercontext",
-          "note": "user context providers",
+          "note": "user context providers; also KD-43XH8196",
           "optional": true
         },
         {
           "pkg": "com.sony.dtv.sonybugreportsys",
-          "note": "Sony bug-report/log uploader",
+          "note": "Sony bug-report/log uploader; also KD-43XH8196",
           "optional": true
         },
         {
@@ -122,11 +122,36 @@
           "optional": true
         }
       ]
+    },
+    {
+      "title": "KD-43XH8196 only, disabled by choice and reboot-checked there (its owner does not cast to the TV).",
+      "packages": [
+        {
+          "pkg": "com.sony.dtv.videoframeserver",
+          "note": "reads Samba TV data and the EPG; INTERNET",
+          "optional": true
+        },
+        {
+          "pkg": "com.google.android.apps.mediashell",
+          "note": "Chromecast built-in",
+          "optional": true
+        },
+        {
+          "pkg": "com.sony.dtv.airplayapp",
+          "note": "AirPlay receiver (persistent)",
+          "optional": true
+        },
+        {
+          "pkg": "com.sony.dtv.homekit",
+          "note": "HomeKit (persistent)",
+          "optional": true
+        }
+      ]
     }
   ],
   "source": {
     "repo": "Gathin23/cleanyourtv",
     "path": "examples/sony-bravia-4k-ur3/debloat.txt",
-    "commit": "f47c893d285172d175c8f72c32658b1d767b3270"
+    "commit": "2a27befe119ec418cd39f90305dec102d02fdc4e"
   }
 }
