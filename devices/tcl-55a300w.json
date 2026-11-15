@@ -31,7 +31,8 @@
         },
         {
           "pkg": "com.tcl.exhibit",
-          "note": "store demo"
+          "note": "art mode on the 65A300W, kept (header); was disabled here as store demo",
+          "optional": true
         },
         {
           "pkg": "com.tcl.tv.tclhome_passive",
@@ -110,11 +111,81 @@
           "pkg": "com.google.android.apps.tv.launcherx"
         }
       ]
+    },
+    {
+      "title": "Installed on the 65A300W (AS24), not named above. None disabled; descriptions are from other TCL lists, not checked.",
+      "packages": [
+        {
+          "pkg": "com.tcl.android.webview",
+          "note": "TCL WebView",
+          "optional": true
+        },
+        {
+          "pkg": "com.tcl.autopair",
+          "note": "Bluetooth remote pairing; keep",
+          "optional": true
+        },
+        {
+          "pkg": "com.tcl.browser",
+          "note": "TCL Browser",
+          "optional": true
+        },
+        {
+          "pkg": "com.tcl.globalkeyoverlay",
+          "note": "remote keys; keep",
+          "optional": true
+        },
+        {
+          "pkg": "com.tcl.onlinesupport",
+          "note": "TCL online support; no other list describes it",
+          "optional": true
+        },
+        {
+          "pkg": "com.tcl.partnercustomizer",
+          "note": "TCL tweaks to Google TV home rows",
+          "optional": true
+        },
+        {
+          "pkg": "com.tcl.providers.config",
+          "note": "TCL config provider; keep",
+          "optional": true
+        },
+        {
+          "pkg": "com.tcl.smartlink.core",
+          "note": "silent partner-app installer",
+          "optional": true
+        },
+        {
+          "pkg": "com.tcl.systemserver",
+          "note": "TCL system service; keep",
+          "optional": true
+        },
+        {
+          "pkg": "com.tcl.ttvs",
+          "note": "Samba TV ACR / TCL analytics, and on some TCL sets the firmware updater",
+          "optional": true
+        },
+        {
+          "pkg": "com.tcl.tv.tclchannel",
+          "note": "TCL Channel, bundles Google Mobile Ads",
+          "optional": true
+        },
+        {
+          "pkg": "com.tcl.ui_mediaCenter",
+          "note": "USB media player",
+          "optional": true
+        },
+        {
+          "pkg": "com.tvos",
+          "note": "tvos framework resources; keep",
+          "optional": true
+        }
+      ]
     }
   ],
   "source": {
     "repo": "Gathin23/cleanyourtv",
     "path": "examples/tcl-55a300w/debloat.txt",
-    "commit": "57733360177173c880a023380a864114a03feb25"
+    "commit": "ddc3b2cdce299a5f30aa2da2437edc40f3cf6f2e"
   }
 }

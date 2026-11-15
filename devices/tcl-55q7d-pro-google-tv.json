@@ -159,11 +159,26 @@
           "note": "setup wizard; its RecoveryActivity takes Home when launcherx is off"
         }
       ]
+    },
+    {
+      "title": "Optional, tested on the second unit only (24 days, 50QM8B, Germany). Uncomment what you do not use.",
+      "packages": [
+        {
+          "pkg": "com.tcl.smartalexa",
+          "note": "TCL's Alexa; the owner uses neither Alexa nor TCL's voice layer, Katniss kept",
+          "optional": true
+        },
+        {
+          "pkg": "com.tcl.ui_mediaCenter",
+          "note": "TCL's media player for USB drives; the owner plays nothing from USB",
+          "optional": true
+        }
+      ]
     }
   ],
   "source": {
     "repo": "Gathin23/cleanyourtv",
     "path": "examples/tcl-55q7d-pro-google-tv/debloat.txt",
-    "commit": "3c122bc073f7a9a83de251621e6e31d90dd96109"
+    "commit": "ddc3b2cdce299a5f30aa2da2437edc40f3cf6f2e"
   }
 }

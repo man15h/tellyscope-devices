@@ -231,11 +231,76 @@
           "optional": true
         }
       ]
+    },
+    {
+      "title": "Extras the US 55QM5K ships, off on that unit (uncomment what you don't use; its owner also",
+      "packages": [
+        {
+          "pkg": "com.tcl.hotelmenu",
+          "note": "hotel-mode portal",
+          "optional": true
+        },
+        {
+          "pkg": "com.roku.web.trc",
+          "note": "Roku ad-engagement SDK left on this TCL",
+          "optional": true
+        },
+        {
+          "pkg": "com.hulu.livingroomplus",
+          "note": "Hulu",
+          "optional": true
+        },
+        {
+          "pkg": "com.disney.disneyplus",
+          "note": "Disney+",
+          "optional": true
+        },
+        {
+          "pkg": "com.peacocktv.peacockandroid",
+          "note": "Peacock",
+          "optional": true
+        },
+        {
+          "pkg": "com.cbs.ott",
+          "note": "Paramount+",
+          "optional": true
+        },
+        {
+          "pkg": "com.wbd.stream",
+          "note": "Max",
+          "optional": true
+        },
+        {
+          "pkg": "com.tubitv",
+          "note": "Tubi",
+          "optional": true
+        },
+        {
+          "pkg": "tv.pluto.android",
+          "note": "Pluto TV",
+          "optional": true
+        },
+        {
+          "pkg": "com.spotify.tv.android",
+          "note": "Spotify",
+          "optional": true
+        },
+        {
+          "pkg": "com.fox.foxone",
+          "note": "FOX ONE",
+          "optional": true
+        },
+        {
+          "pkg": "com.google.android.youtube.tvunplugged",
+          "note": "YouTube TV, the live service",
+          "optional": true
+        }
+      ]
     }
   ],
   "source": {
     "repo": "Gathin23/cleanyourtv",
     "path": "examples/tcl-g10-google-tv/debloat.txt",
-    "commit": "3c122bc073f7a9a83de251621e6e31d90dd96109"
+    "commit": "ddc3b2cdce299a5f30aa2da2437edc40f3cf6f2e"
   }
 }
