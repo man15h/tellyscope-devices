@@ -77,6 +77,15 @@ class ParseList(unittest.TestCase):
         self.assertEqual([p["pkg"] for p in d["keep"]], ["com.a.b"])
         self.assertEqual([p["pkg"] for g in d["groups"] for p in g["packages"]], ["com.c.d"])
 
+    def test_a_title_cut_mid_sentence_runs_to_its_end(self):
+        d = build.parse_list("# T (SDK 30)\n\n# Duplicate webviews (uncomment to do the same). First check\n"
+                             "# that the active provider is not one of them.\n# Notes after that stay out.\n# com.a.b\n\n"
+                             "# Junk\n# More about junk.\ncom.c.d\n")
+        self.assertEqual([g["title"] for g in d["groups"]], [
+            "Duplicate webviews (uncomment to do the same). First check that the active provider is not one of them.",
+            "Junk",
+        ])
+
     def test_build_is_an_id_not_the_next_word(self):
         for prose, want in [
             ("Android TV 14, firmware UKR1.260308 Build UKR1.260308, incremental 3272", "UKR1.260308"),
@@ -203,6 +212,20 @@ class Lists(unittest.TestCase):
         self.assertIn("org.droidtv.eum: reason must be one of", errors)
         self.assertIn("not a package name", errors)
         self.assertIn("org.droidtv.settings is listed twice", errors)
+
+    def test_a_bad_warning_is_caught(self):
+        def bad(d):
+            d["warn"] = [{"name": "Bad", "packages": {
+                "org.droidtv.settings": "Settings stop opening.",
+                "com.acme.long": "x" * (build.WARN_MAX + 1),
+                "com.acme.two": "One.\nTwo.",
+            }}, {"name": "Again", "packages": {"com.acme.two": "Two."}}]
+        self.edit("protected", bad)
+        errors = "\n".join(build.check_lists())
+        self.assertIn("org.droidtv.settings is protected", errors)
+        self.assertIn("com.acme.long: the warning must be one line", errors)
+        self.assertIn("com.acme.two: the warning must be one line", errors)
+        self.assertIn("com.acme.two is listed twice", errors)
 
     def test_a_logo_without_a_source_row_is_caught(self):
         sources = self.root / "logos" / "SOURCES.md"

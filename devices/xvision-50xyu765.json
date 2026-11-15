@@ -83,7 +83,7 @@
       ]
     },
     {
-      "title": "CVTE app store. The stock launcher's Apps grid and \"AppStore\" tile are its AppSelectActivity, and the firmware has",
+      "title": "CVTE app store. The stock launcher's Apps grid and \"AppStore\" tile are its AppSelectActivity, and the firmware has no other app list or uninstall screen, so keep it if you keep the stock launcher. The tested set turned it off.",
       "packages": [
         {
           "pkg": "com.stark.store",
@@ -95,6 +95,6 @@
   "source": {
     "repo": "Gathin23/cleanyourtv",
     "path": "examples/xvision-50xyu765/debloat.txt",
-    "commit": "8672e68e8a24c1258e4662cd11daa4ed13795dad"
+    "commit": "3f175120f9802ab4364f61d040db9aa78ec71493"
   }
 }

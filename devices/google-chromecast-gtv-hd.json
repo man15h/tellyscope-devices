@@ -73,7 +73,7 @@
       ]
     },
     {
-      "title": "Stock home. launcher/build-and-install.sh disables launcherx itself once the new launcher is installed",
+      "title": "Stock home. launcher/build-and-install.sh disables launcherx itself once the new launcher is installed and verified, and restore.sh re-enables it; setupwraith has to go too (see quirks: fix Wi-Fi ownership first, and it breaks casting), so it stays in the list for restore.sh to bring back.",
       "packages": [
         {
           "pkg": "com.google.android.apps.tv.launcherx",
@@ -89,6 +89,6 @@
   "source": {
     "repo": "Gathin23/cleanyourtv",
     "path": "examples/google-chromecast-gtv-hd/debloat.txt",
-    "commit": "575d73f0f30c329aa7ebaea2bc863943fd9bf7f9"
+    "commit": "3f175120f9802ab4364f61d040db9aa78ec71493"
   }
 }

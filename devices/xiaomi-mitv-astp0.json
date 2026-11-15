@@ -146,7 +146,7 @@
       ]
     },
     {
-      "title": "Phone remote, air mouse and the TV assistant relay. It reconnects to relay01.c.assistant.tv.mi.com,",
+      "title": "Phone remote, air mouse and the TV assistant relay. It reconnects to relay01.c.assistant.tv.mi.com, which no longer resolves, about 19 times a second with no backoff: ~190% CPU in GC after every boot.",
       "packages": [
         {
           "pkg": "com.xiaomi.mitv.remotecontroller.service"
@@ -193,7 +193,7 @@
       ]
     },
     {
-      "title": "Keyboard: Gboard for Android TV 16.1.02 (com.google.android.inputmethod.latin, tv_release armeabi-v7a,",
+      "title": "Keyboard: Gboard for Android TV 16.1.02 (com.google.android.inputmethod.latin, tv_release armeabi-v7a, minSdk 26; 17.x needs Android 10) is the only IME: ime enable/set .../com.android.inputmethod.latin.LatinIME.",
       "packages": [
         {
           "pkg": "com.sohu.inputmethod.sogou.tv"
@@ -204,6 +204,6 @@
   "source": {
     "repo": "Gathin23/cleanyourtv",
     "path": "examples/xiaomi-mitv-astp0/debloat.txt",
-    "commit": "57c00a40dafe040b0be1f32086e96c05a1a37054"
+    "commit": "3f175120f9802ab4364f61d040db9aa78ec71493"
   }
 }

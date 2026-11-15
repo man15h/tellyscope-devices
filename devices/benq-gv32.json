@@ -50,7 +50,7 @@
       ]
     },
     {
-      "title": "Disabling setupwraith gives Home back but can break casting (Chromecast built-in); comment out its",
+      "title": "Disabling setupwraith gives Home back but can break casting (Chromecast built-in); comment out its line below if you want to keep casting.",
       "packages": [
         {
           "pkg": "com.google.android.tungsten.setupwraith"
@@ -61,6 +61,6 @@
   "source": {
     "repo": "Gathin23/cleanyourtv",
     "path": "examples/benq-gv32/debloat.txt",
-    "commit": "575d73f0f30c329aa7ebaea2bc863943fd9bf7f9"
+    "commit": "3f175120f9802ab4364f61d040db9aa78ec71493"
   }
 }

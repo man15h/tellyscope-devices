@@ -75,7 +75,7 @@
       ]
     },
     {
-      "title": "Batch 3: the CN stock launcher, AFTER another launcher (here Emotn UI, already on the set)",
+      "title": "Batch 3: the CN stock launcher, AFTER another launcher (here Emotn UI, already on the set) answers HOME. With both Dangbei entries off, HOME falls to com.oversea.aslauncher.",
       "packages": [
         {
           "pkg": "com.dangbei.TVHomeLauncher",
@@ -91,6 +91,6 @@
   "source": {
     "repo": "Gathin23/cleanyourtv",
     "path": "examples/sony-xr-85x90l-cn/debloat.txt",
-    "commit": "f47c893d285172d175c8f72c32658b1d767b3270"
+    "commit": "3f175120f9802ab4364f61d040db9aa78ec71493"
   }
 }

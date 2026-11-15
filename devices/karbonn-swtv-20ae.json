@@ -139,7 +139,7 @@
       ]
     },
     {
-      "title": "Stock home and setup wizard: Unit 2 disabled these only after the new launcher was confirmed as Home,",
+      "title": "Stock home and setup wizard: Unit 2 disabled these only after the new launcher was confirmed as Home, and both reboots came back to it. Check the Wi-Fi owner (header) before setupwraith.",
       "packages": [
         {
           "pkg": "com.google.android.tungsten.setupwraith",
@@ -157,6 +157,6 @@
   "source": {
     "repo": "Gathin23/cleanyourtv",
     "path": "examples/karbonn-swtv-20ae/debloat.txt",
-    "commit": "76a9312cd9ac378fc8698f31427805af32c6f965"
+    "commit": "3f175120f9802ab4364f61d040db9aa78ec71493"
   }
 }

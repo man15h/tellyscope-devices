@@ -71,7 +71,7 @@
       ]
     },
     {
-      "title": "Switched off on 2026-11-04 and fine after a restart, but not yet lived with for several days, so left",
+      "title": "Switched off on 2026-11-04 and fine after a restart, but not yet lived with for several days, so left commented. They are the other entries of the Compac list that exist on this TV.",
       "packages": [
         {
           "pkg": "com.apps.function.gdpr",
@@ -104,6 +104,6 @@
   "source": {
     "repo": "Gathin23/cleanyourtv",
     "path": "examples/nokia-atv-r2/debloat.txt",
-    "commit": "3c122bc073f7a9a83de251621e6e31d90dd96109"
+    "commit": "3f175120f9802ab4364f61d040db9aa78ec71493"
   }
 }

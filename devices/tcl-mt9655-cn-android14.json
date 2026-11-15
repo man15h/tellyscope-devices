@@ -68,7 +68,7 @@
       ]
     },
     {
-      "title": "OPTIONAL: OTA. Re-enable when you want firmware updates. Keeping it off also stops an update from",
+      "title": "OPTIONAL: OTA. Re-enable when you want firmware updates. Keeping it off also stops an update from bringing the packages above back.",
       "packages": [
         {
           "pkg": "com.tcl.versionUpdateApp",
@@ -142,6 +142,6 @@
   "source": {
     "repo": "Gathin23/cleanyourtv",
     "path": "examples/tcl-mt9655-cn-android14/debloat.txt",
-    "commit": "575d73f0f30c329aa7ebaea2bc863943fd9bf7f9"
+    "commit": "3f175120f9802ab4364f61d040db9aa78ec71493"
   }
 }

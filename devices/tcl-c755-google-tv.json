@@ -158,7 +158,7 @@
       ]
     },
     {
-      "title": "Needed for the custom launcher. Disable only AFTER launcher/ is installed and set as Home",
+      "title": "Needed for the custom launcher. Disable only AFTER launcher/ is installed and set as Home: with launcherx gone, setupwraith's RecoveryActivity claims HOME at priority 1 (blank screen).",
       "packages": [
         {
           "pkg": "com.google.android.apps.tv.dreamx",
@@ -211,6 +211,6 @@
   "source": {
     "repo": "Gathin23/cleanyourtv",
     "path": "examples/tcl-c755-google-tv/debloat.txt",
-    "commit": "575d73f0f30c329aa7ebaea2bc863943fd9bf7f9"
+    "commit": "3f175120f9802ab4364f61d040db9aa78ec71493"
   }
 }

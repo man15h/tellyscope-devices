@@ -96,7 +96,7 @@
       ]
     },
     {
-      "title": "The 拍信创意 ad screensaver; not the active screensaver here, and Aerial's dream owns",
+      "title": "The 拍信创意 ad screensaver; not the active screensaver here, and Aerial's dream owns screensaver_components by the time this list runs",
       "packages": [
         {
           "pkg": "com.jamdeo.screensaver"
@@ -160,6 +160,6 @@
   "source": {
     "repo": "Gathin23/cleanyourtv",
     "path": "examples/vidda-c1s-mt9669/debloat.txt",
-    "commit": "a1e948c665abf5af86c3aab08fe05053686a6bf3"
+    "commit": "3f175120f9802ab4364f61d040db9aa78ec71493"
   }
 }

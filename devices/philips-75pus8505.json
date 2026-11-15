@@ -11,7 +11,7 @@
   "keep": [],
   "groups": [
     {
-      "title": "TP Vision telemetry. org.droidtv.gel runs inside the candeebug process. 17 TV components bind",
+      "title": "TP Vision telemetry. org.droidtv.gel runs inside the candeebug process. 17 TV components bind candeebug's CollectionService (channels, playtv, settings, tptvservice, tvpowermanagerservice, usbbreakin and others); none of them retried after it was disabled. Idle log unchanged, except that the storage monitor's 10-minute pass now logs \"TvStorageCULLogger: Binder NOT available\" once per channel source instead of handing the counts over.",
       "packages": [
         {
           "pkg": "org.droidtv.candeebug",
@@ -28,7 +28,7 @@
       ]
     },
     {
-      "title": "Philips content promos and the app gallery. Nothing persistent binds these; nettvrecommender is",
+      "title": "Philips content promos and the app gallery. Nothing persistent binds these; nettvrecommender is only a client of epgdata, not the other way round. Idle log unchanged afterwards.",
       "packages": [
         {
           "pkg": "org.droidtv.nettvrecommender",
@@ -49,7 +49,7 @@
       ]
     },
     {
-      "title": "Retail demo. Both run under org.droidtv.eum.* process names (eum.sticker, eum.demome) but are",
+      "title": "Retail demo. Both run under org.droidtv.eum.* process names (eum.sticker, eum.demome) but are separate packages: org.droidtv.eum itself keeps running and must stay (see below). The persistent tptvservice storage monitor asks demome for the size of its clips every 30 s, and did so before too; with demome disabled it logs \"iDemo null\" at the same 30 s pace instead and its 10-minute pass still completes. The demo clips (~410 MB) stay on disk, disabling does not delete them.",
       "packages": [
         {
           "pkg": "org.droidtv.sticker",
@@ -62,7 +62,7 @@
       ]
     },
     {
-      "title": "Google telemetry and first-setup leftovers. None was running, so no memory is freed; they just",
+      "title": "Google telemetry and first-setup leftovers. None was running, so no memory is freed; they just stop starting. Nothing binds them. Idle log unchanged.",
       "packages": [
         {
           "pkg": "com.google.android.feedback",
@@ -83,7 +83,7 @@
       ]
     },
     {
-      "title": "Voice assistants this owner does not use. Chromecast (com.google.android.apps.mediashell) is kept",
+      "title": "Voice assistants this owner does not use. Chromecast (com.google.android.apps.mediashell) is kept: katniss only binds into it as a client, mediashell kept running with the same PID afterwards, and casting from YouTube and a Chrome tab still worked.",
       "packages": [
         {
           "pkg": "com.google.android.katniss",
@@ -96,7 +96,7 @@
       ]
     },
     {
-      "title": "DTS Play-Fi, wireless multi-room speakers. It holds MODIFY_AUDIO_SETTINGS and may capture audio",
+      "title": "DTS Play-Fi, wireless multi-room speakers. It holds MODIFY_AUDIO_SETTINGS and may capture audio playback, but nothing in the system binds it and dumpsys audio was identical before and after: output stayed on HDMI ARC (mMainType=0x8) to a soundbar, and sound and remote volume were checked by ear afterwards. Keep both if you own Play-Fi speakers.",
       "packages": [
         {
           "pkg": "com.phorus.playfi.tv",
@@ -123,7 +123,7 @@
       ]
     },
     {
-      "title": "Stock launcher and its content engine, replaced by launcher/. ORDER MATTERS, as on",
+      "title": "Stock launcher and its content engine, replaced by launcher/. ORDER MATTERS, as on examples/philips-50pus8517: disable the launcher FIRST, it holds a provider reference into tvrecommendations. After disabling tvlauncher, run set-home-activity again (Android drops the preference when the set of HOME apps changes); Home then resolved to com.gathin.tvhome, and both an injected KEYCODE_HOME and the remote's Home key landed there. tvrecommendations also owns the system notification panel, which is gone device-wide afterwards.",
       "packages": [
         {
           "pkg": "com.google.android.tvlauncher",
@@ -140,6 +140,6 @@
   "source": {
     "repo": "Gathin23/cleanyourtv",
     "path": "examples/philips-75pus8505/debloat.txt",
-    "commit": "575d73f0f30c329aa7ebaea2bc863943fd9bf7f9"
+    "commit": "3f175120f9802ab4364f61d040db9aa78ec71493"
   }
 }

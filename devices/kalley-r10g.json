@@ -129,7 +129,7 @@
       ]
     },
     {
-      "title": "Stock home and the Google TV setup wizard: keep both. The first set ran with both disabled for two",
+      "title": "Stock home and the Google TV setup wizard: keep both. The first set ran with both disabled for two days, but on a second set (#1807) disabling them made system_server crash in a boot loop (watchdog, positionChildAt in Task.moveToBack). With launcherx alone off, setupwraith's RecoveryActivity claims Home. Use stock_home_redirect with the key helpers instead (see the header).",
       "packages": [
         {
           "pkg": "com.google.android.apps.tv.launcherx",
@@ -145,6 +145,6 @@
   "source": {
     "repo": "Gathin23/cleanyourtv",
     "path": "examples/kalley-r10g/debloat.txt",
-    "commit": "57c00a40dafe040b0be1f32086e96c05a1a37054"
+    "commit": "3f175120f9802ab4364f61d040db9aa78ec71493"
   }
 }

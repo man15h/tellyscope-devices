@@ -177,7 +177,7 @@
       ]
     },
     {
-      "title": "6. Streaming apps and preloads, off by choice on this unit: reinstalled from the Play Store",
+      "title": "6. Streaming apps and preloads, off by choice on this unit: reinstalled from the Play Store as wanted. All reversible; tools/restore.sh re-enables them.",
       "packages": [
         {
           "pkg": "com.netflix.ninja",
@@ -255,6 +255,6 @@
   "source": {
     "repo": "Gathin23/cleanyourtv",
     "path": "examples/tcl-43p615/debloat.txt",
-    "commit": "baadd07a7d095cc3ea72e6ccb615987bf1fb97c4"
+    "commit": "3f175120f9802ab4364f61d040db9aa78ec71493"
   }
 }

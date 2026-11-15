@@ -318,7 +318,7 @@
       ]
     },
     {
-      "title": "Second unit, disabled since 2026-10-22, 10 days on a signage stick running one player app all day (rebooted on day one, then up",
+      "title": "Second unit, disabled since 2026-10-22, 10 days on a signage stick running one player app all day (rebooted on day one, then up for all 10 days, little remote use): nothing broke. It also had voice search, Prime Video and casting off, so the groups below stay commented out as options: the combination with those kept on was not tried.",
       "packages": [
         {
           "pkg": "com.amazon.vizzini",
@@ -401,7 +401,7 @@
       ]
     },
     {
-      "title": "Added 2026-11-01 from the second unit, also disabled in other Fire OS lists here. Their role is not documented;",
+      "title": "Added 2026-11-01 from the second unit, also disabled in other Fire OS lists here. Their role is not documented; nothing visible changed in 10 days, but see the note above on what that stick had off.",
       "packages": [
         {
           "pkg": "com.amazon.recess"
@@ -426,6 +426,6 @@
   "source": {
     "repo": "Gathin23/cleanyourtv",
     "path": "examples/amazon-fire-tv-stick-4k-2018/debloat.txt",
-    "commit": "a1e948c665abf5af86c3aab08fe05053686a6bf3"
+    "commit": "3f175120f9802ab4364f61d040db9aa78ec71493"
   }
 }

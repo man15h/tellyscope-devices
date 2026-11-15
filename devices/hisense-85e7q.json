@@ -107,7 +107,7 @@
       ]
     },
     {
-      "title": "Stock launcher (JuUI 聚好看). This unit ran the launcher swap, so it is off here. Disabling it does not",
+      "title": "Stock launcher (JuUI 聚好看). This unit ran the launcher swap, so it is off here. Disabling it does not leave the TV without a Home: com.keylab.speech.view.vidaa and com.hisense.widget.pro answer HOME at -150 and stay enabled, so tools/disable.sh's Home guard lets this line through. Keeping the stock Home instead? Comment this line out and drop the second argument to restore.sh.",
       "packages": [
         {
           "pkg": "com.jamdeo.tv.vod"
@@ -118,6 +118,6 @@
   "source": {
     "repo": "Gathin23/cleanyourtv",
     "path": "examples/hisense-85e7q/debloat.txt",
-    "commit": "8672e68e8a24c1258e4662cd11daa4ed13795dad"
+    "commit": "3f175120f9802ab4364f61d040db9aa78ec71493"
   }
 }

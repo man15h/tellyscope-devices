@@ -85,7 +85,7 @@
       ]
     },
     {
-      "title": "ambient screensaver: shows \"Unable to load content\" once launcherx is off. First point the",
+      "title": "ambient screensaver: shows \"Unable to load content\" once launcherx is off. First point the screensaver at the launcher's clock, then disable it: settings put secure screensaver_components com.gathin.tvhome/.ClockDream",
       "packages": [
         {
           "pkg": "com.google.android.apps.tv.dreamx",
@@ -95,7 +95,7 @@
       ]
     },
     {
-      "title": "voice search (optional, NOT applied on the tested TV): removes the remote's mic button and the",
+      "title": "voice search (optional, NOT applied on the tested TV): removes the remote's mic button and the on-screen search box. Frees ~115 MB (katniss runs two processes).",
       "packages": [
         {
           "pkg": "com.google.android.katniss",
@@ -113,6 +113,6 @@
   "source": {
     "repo": "Gathin23/cleanyourtv",
     "path": "examples/sony-bravia-bf1/debloat.txt",
-    "commit": "575d73f0f30c329aa7ebaea2bc863943fd9bf7f9"
+    "commit": "3f175120f9802ab4364f61d040db9aa78ec71493"
   }
 }

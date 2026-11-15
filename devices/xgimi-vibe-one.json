@@ -143,7 +143,7 @@
       ]
     },
     {
-      "title": "Preinstalled streaming apps the owner does not use (they ship as user apps on this Canadian unit). Shared lists",
+      "title": "Preinstalled streaming apps the owner does not use (they ship as user apps on this Canadian unit). Shared lists keep streaming apps on, so they are comments: uncomment the ones you never open.",
       "packages": [
         {
           "pkg": "com.quickplay.android.bellmediaplayer",
@@ -181,6 +181,6 @@
   "source": {
     "repo": "Gathin23/cleanyourtv",
     "path": "examples/xgimi-vibe-one/debloat.txt",
-    "commit": "3c122bc073f7a9a83de251621e6e31d90dd96109"
+    "commit": "3f175120f9802ab4364f61d040db9aa78ec71493"
   }
 }

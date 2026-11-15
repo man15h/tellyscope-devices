@@ -158,7 +158,7 @@
       ]
     },
     {
-      "title": "Stock launcher: left enabled here. Disabling it before the new launcher is Home leaves the box with",
+      "title": "Stock launcher: left enabled here. Disabling it before the new launcher is Home leaves the box with none; STOCK_LAUNCHER=net.oqee.launcher makes build-and-install.sh disable it after the swap.",
       "packages": [
         {
           "pkg": "net.oqee.launcher",
@@ -171,6 +171,6 @@
   "source": {
     "repo": "Gathin23/cleanyourtv",
     "path": "examples/freebox-player-pop/debloat.txt",
-    "commit": "575d73f0f30c329aa7ebaea2bc863943fd9bf7f9"
+    "commit": "3f175120f9802ab4364f61d040db9aa78ec71493"
   }
 }

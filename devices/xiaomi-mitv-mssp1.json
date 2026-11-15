@@ -69,7 +69,7 @@
       ]
     },
     {
-      "title": "Heavy screensavers. REASSIGN THE SCREENSAVER FIRST (e.g. the launcher's ClockDream via",
+      "title": "Heavy screensavers. REASSIGN THE SCREENSAVER FIRST (e.g. the launcher's ClockDream via `settings put secure screensaver_components`, or tools/theme.sh) — otherwise the screensaver setting dangles until reassigned. Ambient Mode is also what shows the stock backdrop loop.",
       "packages": [
         {
           "pkg": "com.google.android.backdrop"
@@ -105,7 +105,7 @@
       ]
     },
     {
-      "title": "Xiaomi media leftovers and accessibility suite. The gallery doubles as the photo screensaver,",
+      "title": "Xiaomi media leftovers and accessibility suite. The gallery doubles as the photo screensaver, so keep com.mitv.gallery enabled if you want Photos screensaver instead of reassigning it.",
       "packages": [
         {
           "pkg": "com.xiaomi.mimusic2"
@@ -133,6 +133,6 @@
   "source": {
     "repo": "Gathin23/cleanyourtv",
     "path": "examples/xiaomi-mitv-mssp1/debloat.txt",
-    "commit": "8672e68e8a24c1258e4662cd11daa4ed13795dad"
+    "commit": "3f175120f9802ab4364f61d040db9aa78ec71493"
   }
 }

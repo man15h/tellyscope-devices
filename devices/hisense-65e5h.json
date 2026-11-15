@@ -157,7 +157,7 @@
       ]
     },
     {
-      "title": "Disabled in the same pass and re-enabled at the owner's request: the karaoke microphone manager is",
+      "title": "Disabled in the same pass and re-enabled at the owner's request: the karaoke microphone manager is a service with no launcher icon (its MainActivity has no CATEGORY_LAUNCHER), so it never shows in the app grid; it starts on USB microphone attach and on boot. Kept on for karaoke use.",
       "packages": [
         {
           "pkg": "com.audiocn.karaoke.micmanager",
@@ -169,6 +169,6 @@
   "source": {
     "repo": "Gathin23/cleanyourtv",
     "path": "examples/hisense-65e5h/debloat.txt",
-    "commit": "001a44883f2bdbd02717728568d14a6e08f721df"
+    "commit": "3f175120f9802ab4364f61d040db9aa78ec71493"
   }
 }

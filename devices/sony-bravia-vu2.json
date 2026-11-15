@@ -83,7 +83,7 @@
       ]
     },
     {
-      "title": "Stock Android TV home and its recommendation rows, replaced by launcher/",
+      "title": "Stock Android TV home and its recommendation rows, replaced by launcher/ (tools/disable.sh skips the launcher until another app is Home)",
       "packages": [
         {
           "pkg": "com.google.android.tvlauncher"
@@ -97,6 +97,6 @@
   "source": {
     "repo": "Gathin23/cleanyourtv",
     "path": "examples/sony-bravia-vu2/debloat.txt",
-    "commit": "f47c893d285172d175c8f72c32658b1d767b3270"
+    "commit": "3f175120f9802ab4364f61d040db9aa78ec71493"
   }
 }

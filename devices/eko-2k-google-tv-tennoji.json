@@ -76,7 +76,7 @@
       ]
     },
     {
-      "title": "Batch 4: launcher handover. setupwraith's RecoveryActivity claims HOME at priority 1, behind launcherx, and",
+      "title": "Batch 4: launcher handover. setupwraith's RecoveryActivity claims HOME at priority 1, behind launcherx, and would take Home once launcherx is off. It owned the Wi-Fi saved at setup on this TV: forget the network and join it again in Settings first (owner becomes android.uid.system), or disabling it deletes the network.",
       "packages": [
         {
           "pkg": "com.google.android.tungsten.setupwraith"
@@ -84,7 +84,7 @@
       ]
     },
     {
-      "title": "Batch 5: after the launcher is Home. Point the screensaver at the launcher's clock first",
+      "title": "Batch 5: after the launcher is Home. Point the screensaver at the launcher's clock first: settings put secure screensaver_components com.gathin.tvhome/.ClockDream",
       "packages": [
         {
           "pkg": "com.google.android.apps.tv.dreamx",
@@ -96,6 +96,6 @@
   "source": {
     "repo": "Gathin23/cleanyourtv",
     "path": "examples/eko-2k-google-tv-tennoji/debloat.txt",
-    "commit": "575d73f0f30c329aa7ebaea2bc863943fd9bf7f9"
+    "commit": "3f175120f9802ab4364f61d040db9aa78ec71493"
   }
 }

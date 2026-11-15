@@ -69,7 +69,7 @@
       ]
     },
     {
-      "title": "Stock launcher and unused services: only once another launcher answers the Home key and the HOME role has",
+      "title": "Stock launcher and unused services: only once another launcher answers the Home key and the HOME role has moved. The launcher in this repo doesn't take Home on this box yet, so these stay commented out here.",
       "packages": [
         {
           "pkg": "com.google.android.tvlauncher",
@@ -136,6 +136,6 @@
   "source": {
     "repo": "Gathin23/cleanyourtv",
     "path": "examples/tivo-stream-4k/debloat.txt",
-    "commit": "575d73f0f30c329aa7ebaea2bc863943fd9bf7f9"
+    "commit": "3f175120f9802ab4364f61d040db9aa78ec71493"
   }
 }

@@ -90,7 +90,7 @@
       ]
     },
     {
-      "title": "Google TV's setup wizard. Its RecoveryActivity claims HOME and beats the new launcher once launcherx is",
+      "title": "Google TV's setup wizard. Its RecoveryActivity claims HOME and beats the new launcher once launcherx is disabled. It owned the saved Wi-Fi here (see the header), and native AirPlay stops without it.",
       "packages": [
         {
           "pkg": "com.google.android.tungsten.setupwraith",
@@ -102,6 +102,6 @@
   "source": {
     "repo": "Gathin23/cleanyourtv",
     "path": "examples/hisense-u7-wutaishan/debloat.txt",
-    "commit": "001a44883f2bdbd02717728568d14a6e08f721df"
+    "commit": "3f175120f9802ab4364f61d040db9aa78ec71493"
   }
 }

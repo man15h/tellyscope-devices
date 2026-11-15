@@ -220,7 +220,7 @@
       ]
     },
     {
-      "title": "Alexa extras (voice search on the remote mic stays: vizzini, aria, cardinal, tcomm, ivona TTS, alexa.datastore,",
+      "title": "Alexa extras (voice search on the remote mic stays: vizzini, aria, cardinal, tcomm, ivona TTS, alexa.datastore, alexadirectivebrokerservice are not listed)",
       "packages": [
         {
           "pkg": "com.amazon.tv.alexaalerts",
@@ -281,6 +281,6 @@
   "source": {
     "repo": "Gathin23/cleanyourtv",
     "path": "examples/amazon-fire-tv-stick-4k-2023/debloat.txt",
-    "commit": "575d73f0f30c329aa7ebaea2bc863943fd9bf7f9"
+    "commit": "3f175120f9802ab4364f61d040db9aa78ec71493"
   }
 }

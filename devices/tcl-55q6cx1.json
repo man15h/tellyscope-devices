@@ -106,7 +106,7 @@
       ]
     },
     {
-      "title": "Duplicate webviews on this firmware, disabled on the tested unit (uncomment to do the same). First check",
+      "title": "Duplicate webviews on this firmware, disabled on the tested unit (uncomment to do the same). First check that `dumpsys webviewupdate` names com.google.android.webview as the current provider: if the active WebView provider is disabled, apps that show web content stop opening.",
       "packages": [
         {
           "pkg": "com.tcl.android.webview",
@@ -157,6 +157,6 @@
   "source": {
     "repo": "Gathin23/cleanyourtv",
     "path": "examples/tcl-55q6cx1/debloat.txt",
-    "commit": "baadd07a7d095cc3ea72e6ccb615987bf1fb97c4"
+    "commit": "3f175120f9802ab4364f61d040db9aa78ec71493"
   }
 }

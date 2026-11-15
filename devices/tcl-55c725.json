@@ -121,7 +121,7 @@
       ]
     },
     {
-      "title": "Google TV setup wizard: claims Home once launcherx is disabled. On Ethernet there is no Wi-Fi to lose; on Wi-Fi,",
+      "title": "Google TV setup wizard: claims Home once launcherx is disabled. On Ethernet there is no Wi-Fi to lose; on Wi-Fi, re-join every network it saved first (README.md, Brazilian unit).",
       "packages": [
         {
           "pkg": "com.google.android.tungsten.setupwraith"
@@ -167,6 +167,6 @@
   "source": {
     "repo": "Gathin23/cleanyourtv",
     "path": "examples/tcl-55c725/debloat.txt",
-    "commit": "575d73f0f30c329aa7ebaea2bc863943fd9bf7f9"
+    "commit": "3f175120f9802ab4364f61d040db9aa78ec71493"
   }
 }
