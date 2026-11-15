@@ -94,7 +94,7 @@
       ]
     },
     {
-      "title": "Google TV setup wizard: with launcherx disabled its RecoveryActivity (HOME priority 1) outranks set-home-activity. Disable it only after Home resolves to the new launcher, and re-enable it before a factory reset. It can own the Wi-Fi network saved during first setup, and disabling it deletes the networks it owns: check `dumpsys wifi | grep -o 'cname=[^ ]*'` first. On this set (on Wi-Fi) the network read cname=android.uid.system, so it stayed; if it reads setupwraith, forget and re-join the network in Settings first. On Google TV, casting is reported to stop without it; this set was not used for casting.",
+      "title": "Google TV setup wizard: with launcherx disabled its RecoveryActivity (HOME priority 1) outranks",
       "packages": [
         {
           "pkg": "com.google.android.tungsten.setupwraith"
@@ -105,6 +105,6 @@
   "source": {
     "repo": "Gathin23/cleanyourtv",
     "path": "examples/sony-bravia-4k-vh21-sa/debloat.txt",
-    "commit": "3f175120f9802ab4364f61d040db9aa78ec71493"
+    "commit": "a1e948c665abf5af86c3aab08fe05053686a6bf3"
   }
 }

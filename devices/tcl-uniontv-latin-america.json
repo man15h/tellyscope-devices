@@ -128,7 +128,7 @@
       ]
     },
     {
-      "title": "The 32S6500S owner also switched off their own streaming apps and Miracast. Left commented out here, since most owners use them; uncomment any you don't",
+      "title": "The 32S6500S owner also switched off their own streaming apps and Miracast. Left commented out here,",
       "packages": [
         {
           "pkg": "com.netflix.ninja",
@@ -166,7 +166,7 @@
       ]
     },
     {
-      "title": "Second pass, applied the same day. The launcher's Clock screensaver replaces Ambient Mode: tools/tv.py 'settings put secure screensaver_components com.gathin.tvhome/.ClockDream'",
+      "title": "Second pass, applied the same day. The launcher's Clock screensaver replaces Ambient Mode",
       "packages": [
         {
           "pkg": "com.google.android.backdrop",
@@ -204,6 +204,6 @@
   "source": {
     "repo": "Gathin23/cleanyourtv",
     "path": "examples/tcl-uniontv-latin-america/debloat.txt",
-    "commit": "3f175120f9802ab4364f61d040db9aa78ec71493"
+    "commit": "a1e948c665abf5af86c3aab08fe05053686a6bf3"
   }
 }

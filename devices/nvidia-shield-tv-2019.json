@@ -52,7 +52,7 @@
       ]
     },
     {
-      "title": "Sponsored rows, promos and auto-installs com.google.android.tvrecommendations - keep it enabled. Disabled, Android stops binding the SHIELD TV phone app's input service (com.nvidia.shield.remote.server, virtualinput.InputService, a TvRemoteProvider) at boot: the app still connects, but every key fails (\"Key injection failed\", \"Beyonder_VIS ...",
+      "title": "Sponsored rows, promos and auto-installs",
       "packages": [
         {
           "pkg": "android.autoinstalls.config.nvidia",
@@ -216,7 +216,7 @@
       ]
     },
     {
-      "title": "Already disabled before 2026-10-20 (not by this project). Left commented so restore.sh / restore.ps1 don't re-enable them; uncomment to manage them with this list.",
+      "title": "Already disabled before 2026-10-20 (not by this project). Left commented so restore.sh / restore.ps1",
       "packages": [
         {
           "pkg": "com.google.android.feedback",
@@ -244,6 +244,6 @@
   "source": {
     "repo": "Gathin23/cleanyourtv",
     "path": "examples/nvidia-shield-tv-2019/debloat.txt",
-    "commit": "3f175120f9802ab4364f61d040db9aa78ec71493"
+    "commit": "8672e68e8a24c1258e4662cd11daa4ed13795dad"
   }
 }

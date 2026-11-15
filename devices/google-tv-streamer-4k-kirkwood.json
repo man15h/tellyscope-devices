@@ -55,7 +55,7 @@
       ]
     },
     {
-      "title": "Stock home. launcher/build-and-install.sh disables launcherx itself once the new launcher is installed and verified, and restore.sh re-enables it.",
+      "title": "Stock home. launcher/build-and-install.sh disables launcherx itself once the new launcher is",
       "packages": [
         {
           "pkg": "com.google.android.apps.tv.launcherx",
@@ -70,6 +70,6 @@
   "source": {
     "repo": "Gathin23/cleanyourtv",
     "path": "examples/google-tv-streamer-4k-kirkwood/debloat.txt",
-    "commit": "3f175120f9802ab4364f61d040db9aa78ec71493"
+    "commit": "575d73f0f30c329aa7ebaea2bc863943fd9bf7f9"
   }
 }

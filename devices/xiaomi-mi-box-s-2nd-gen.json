@@ -102,7 +102,7 @@
       ]
     },
     {
-      "title": "Remote shortcut handler on Mi Box S 2nd gen; disable when using CleanYourTV app_keys + InputKeyService (see README.md, build 683). Safe on 737 when you do not rely on app_keys.",
+      "title": "Remote shortcut handler on Mi Box S 2nd gen; disable when using CleanYourTV app_keys + InputKeyService",
       "packages": [
         {
           "pkg": "com.xiaomi.android.tvsetup.partnercustomizer",
@@ -122,6 +122,6 @@
   "source": {
     "repo": "Gathin23/cleanyourtv",
     "path": "examples/xiaomi-mi-box-s-2nd-gen/debloat.txt",
-    "commit": "3f175120f9802ab4364f61d040db9aa78ec71493"
+    "commit": "57c00a40dafe040b0be1f32086e96c05a1a37054"
   }
 }

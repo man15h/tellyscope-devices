@@ -86,7 +86,7 @@
       ]
     },
     {
-      "title": "Needed for a custom launcher. Disable only AFTER the new launcher is installed, and setupwraith only after forgetting and re-joining Wi-Fi in Settings (see quirks).",
+      "title": "Needed for a custom launcher. Disable only AFTER the new launcher is installed, and setupwraith only",
       "packages": [
         {
           "pkg": "com.google.android.tungsten.setupwraith",
@@ -122,7 +122,7 @@
       ]
     },
     {
-      "title": "Also present on this firmware (untested on the 75P8K; all but UpdatePeripheral disabled on the 55\" unit, and on tcl-55p8ls/ and tcl-55p7k/)",
+      "title": "Also present on this firmware (untested on the 75P8K; all but UpdatePeripheral disabled on the 55\" unit,",
       "packages": [
         {
           "pkg": "tv.samba.ssm.ui",
@@ -224,6 +224,6 @@
   "source": {
     "repo": "Gathin23/cleanyourtv",
     "path": "examples/tcl-75p8k/debloat.txt",
-    "commit": "3f175120f9802ab4364f61d040db9aa78ec71493"
+    "commit": "095b71ad93d99ea28d94d97b06385709d354b795"
   }
 }

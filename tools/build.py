@@ -25,9 +25,6 @@ ACTIVE_PACKAGE = re.compile(r"(" + PACKAGE.pattern + r")\s*(?:#\s*(.*))?")
 # A heading that marks its commented-out packages as load-bearing rather than merely untested.
 KEEP_HEADING = re.compile(r"do not disable|don't disable|must stay|^keep\b|^kept on purpose", re.I)
 UNCOMMENT = re.compile(r"uncomment", re.I)
-# A heading line not ending a sentence carries on into a next line that starts like the rest of one.
-SENTENCE_END = (".", "!", "?")
-GOES_ON = re.compile(r"[a-z`(]")
 MATCH_KEYS = ("manufacturer", "model", "device")
 # The app-wide lists in lists/, by the name the index gives them.
 LISTS = ("launchers", "labels", "streaming", "protected")
@@ -70,19 +67,12 @@ def parse_list(text):
                 packages.append(entry(m, optional=line.startswith("#")))
             elif not packages:
                 heading.append(line.lstrip("#").strip())
-        first = heading[0].rstrip(":") if heading else ""
-        # A first line that stops mid-sentence would cut a warning in half: the title runs to the sentence's end.
-        title = heading[0] if heading else ""
-        for more in heading[1:]:
-            if title.endswith(SENTENCE_END) or (title == heading[0] and not GOES_ON.match(more)):
-                break
-            title += " " + more
-        title = title.rstrip(":")
+        title = heading[0].rstrip(":") if heading else ""
         if not packages:
             if not groups and not keep:
                 header += [line.lstrip("#").strip() for line in block]
             continue
-        if KEEP_HEADING.search(first) and not UNCOMMENT.search(" ".join(heading)):
+        if KEEP_HEADING.search(title) and not UNCOMMENT.search(" ".join(heading)):
             keep += [p for p in packages if p.pop("optional", False)]
             packages = [p for p in packages if p not in keep]
         if packages:

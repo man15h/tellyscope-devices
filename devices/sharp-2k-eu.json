@@ -114,7 +114,7 @@
       ]
     },
     {
-      "title": "5. Stock launcher and setup wizard — ONLY after the new launcher is Home. If ADB is on Wi-Fi, re-join the network first so it is no longer owned by setupwraith (see header WARNING).",
+      "title": "5. Stock launcher and setup wizard — ONLY after the new launcher is Home. If ADB is on Wi-Fi,",
       "packages": [
         {
           "pkg": "com.google.android.tungsten.setupwraith"
@@ -128,6 +128,6 @@
   "source": {
     "repo": "Gathin23/cleanyourtv",
     "path": "examples/sharp-2k-eu/debloat.txt",
-    "commit": "3f175120f9802ab4364f61d040db9aa78ec71493"
+    "commit": "985bbd14d0b01517988724668e310211d72d86fc"
   }
 }

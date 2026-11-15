@@ -185,7 +185,7 @@
       ]
     },
     {
-      "title": "The other HOME candidate, disabled while launcherx still owns Home and before build-and-install.sh: with launcherx gone, setupwraith's RecoveryActivity claims HOME at priority 1.",
+      "title": "The other HOME candidate, disabled while launcherx still owns Home and before build-and-install.sh",
       "packages": [
         {
           "pkg": "com.google.android.tungsten.setupwraith"
@@ -193,7 +193,7 @@
       ]
     },
     {
-      "title": "launcherx is disabled by launcher/build-and-install.sh. Switch screensaver_components to com.gathin.tvhome/.ClockDream before disabling dreamx.",
+      "title": "launcherx is disabled by launcher/build-and-install.sh. Switch screensaver_components to",
       "packages": [
         {
           "pkg": "com.google.android.apps.tv.launcherx",
@@ -209,6 +209,6 @@
   "source": {
     "repo": "Gathin23/cleanyourtv",
     "path": "examples/tcl-55c7k-uk/debloat.txt",
-    "commit": "3f175120f9802ab4364f61d040db9aa78ec71493"
+    "commit": "575d73f0f30c329aa7ebaea2bc863943fd9bf7f9"
   }
 }

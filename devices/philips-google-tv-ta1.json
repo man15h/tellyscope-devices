@@ -111,7 +111,7 @@
       ]
     },
     {
-      "title": "Batch 3, from the second set (TA5). That owner kept Netflix and Prime Video from batch 1 (comment them out above if you use them) and dropped Chromecast and the Assistant. Checked with dumpsys package first.",
+      "title": "Batch 3, from the second set (TA5). That owner kept Netflix and Prime Video from batch 1 (comment them out",
       "packages": [
         {
           "pkg": "com.android.adservices.api",
@@ -249,7 +249,7 @@
       ]
     },
     {
-      "title": "Stock home last, after the new launcher is installed. The Wi-Fi network was forgotten and added again first, so setupwraith no longer owns it (disabling it while it did would have taken the TV off Wi-Fi and ADB).",
+      "title": "Stock home last, after the new launcher is installed. The Wi-Fi network was forgotten and added again first,",
       "packages": [
         {
           "pkg": "com.google.android.tungsten.setupwraith",
@@ -304,6 +304,6 @@
   "source": {
     "repo": "Gathin23/cleanyourtv",
     "path": "examples/philips-google-tv-ta1/debloat.txt",
-    "commit": "3f175120f9802ab4364f61d040db9aa78ec71493"
+    "commit": "8672e68e8a24c1258e4662cd11daa4ed13795dad"
   }
 }

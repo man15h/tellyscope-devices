@@ -46,7 +46,7 @@
       ]
     },
     {
-      "title": "Google TV setup wizard. Its RecoveryActivity claims HOME and beats the new launcher once com.google.android.apps.tv.launcherx is disabled, so it has to go for a launcher swap.",
+      "title": "Google TV setup wizard. Its RecoveryActivity claims HOME and beats the new launcher once",
       "packages": [
         {
           "pkg": "com.google.android.tungsten.setupwraith"
@@ -54,7 +54,7 @@
       ]
     },
     {
-      "title": "Second and third units only: disabled for one session and its reboots (normal boot; Home and the key helper back on the second unit), not yet lived with for days. Hisense ACR (\"Enhanced Viewing\" content recognition), as on the huangshan FFM list.",
+      "title": "Second and third units only: disabled for one session and its reboots (normal boot; Home and the key helper",
       "packages": [
         {
           "pkg": "com.hisense.evservice",
@@ -63,7 +63,7 @@
       ]
     },
     {
-      "title": "Third unit only, the same one session: the feed of the \"Hisense\" (VIDAA) tab on the Google TV home, as on the hengshan list; partner referral tracking, as on the lushan and hengshan lists; the crash and feedback uploader, which came disabled from the factory on the first unit.",
+      "title": "Third unit only, the same one session: the feed of the \"Hisense\" (VIDAA) tab on the Google TV home, as on",
       "packages": [
         {
           "pkg": "com.vidaa.oemtabcontentprovider",
@@ -83,6 +83,6 @@
   "source": {
     "repo": "Gathin23/cleanyourtv",
     "path": "examples/hisense-smarttv-4k-ffm-android11/debloat.txt",
-    "commit": "3f175120f9802ab4364f61d040db9aa78ec71493"
+    "commit": "575d73f0f30c329aa7ebaea2bc863943fd9bf7f9"
   }
 }

@@ -279,7 +279,7 @@
       ]
     },
     {
-      "title": "Personal choice: Alexa (the voice remote stops working), Miracast/DIAL casting, OTA firmware updates (re-enable to update), Matter and the Amazon single-sign-on helper some apps use to log in. Comment out what you rely on.",
+      "title": "Personal choice: Alexa (the voice remote stops working), Miracast/DIAL casting, OTA firmware updates (re-enable to",
       "packages": [
         {
           "pkg": "com.amazon.alexamediaplayer.runtime.ftv"
@@ -360,6 +360,6 @@
   "source": {
     "repo": "Gathin23/cleanyourtv",
     "path": "examples/insignia-ns55f301na25/debloat.txt",
-    "commit": "3f175120f9802ab4364f61d040db9aa78ec71493"
+    "commit": "a1e948c665abf5af86c3aab08fe05053686a6bf3"
   }
 }

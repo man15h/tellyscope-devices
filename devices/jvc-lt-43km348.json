@@ -110,7 +110,7 @@
       ]
     },
     {
-      "title": "Launcher handover. setupwraith's RecoveryActivity took Home on the first launcher install (the install script rolled back). It also owned the Wi-Fi network saved at setup: forget the network and join it again in Settings first (owner becomes android.uid.system), or disabling it deletes the network. On this build it also holds the Cast credentials (CastInfoProvider), so Chromecast is expected to fail after a reboot.",
+      "title": "Launcher handover. setupwraith's RecoveryActivity took Home on the first launcher install (the install",
       "packages": [
         {
           "pkg": "com.google.android.tungsten.setupwraith"
@@ -135,6 +135,6 @@
   "source": {
     "repo": "Gathin23/cleanyourtv",
     "path": "examples/jvc-lt-43km348/debloat.txt",
-    "commit": "3f175120f9802ab4364f61d040db9aa78ec71493"
+    "commit": "baadd07a7d095cc3ea72e6ccb615987bf1fb97c4"
   }
 }

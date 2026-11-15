@@ -22,7 +22,7 @@
       ]
     },
     {
-      "title": "Privacy Sandbox / federated learning (second unit; also on the onn 4K Plus list, same build). APEX modules under com.android.* names. Play Store, voice search (with launcherx enabled) and YouTube kept working.",
+      "title": "Privacy Sandbox / federated learning (second unit; also on the onn 4K Plus list, same build). APEX modules",
       "packages": [
         {
           "pkg": "com.android.adservices.api"
@@ -64,7 +64,7 @@
       ]
     },
     {
-      "title": "Stock home. launcher/build-and-install.sh disables launcherx itself once the new launcher is installed and verified, and restore.sh re-enables it; setupwraith has to go too (it re-enables launcherx), so it stays in the list for restore.sh to bring back.",
+      "title": "Stock home. launcher/build-and-install.sh disables launcherx itself once the new launcher is installed",
       "packages": [
         {
           "pkg": "com.google.android.apps.tv.launcherx",
@@ -80,6 +80,6 @@
   "source": {
     "repo": "Gathin23/cleanyourtv",
     "path": "examples/onn-4k-streaming-box-2023/debloat.txt",
-    "commit": "3f175120f9802ab4364f61d040db9aa78ec71493"
+    "commit": "575d73f0f30c329aa7ebaea2bc863943fd9bf7f9"
   }
 }

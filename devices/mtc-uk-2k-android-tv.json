@@ -63,7 +63,7 @@
       ]
     },
     {
-      "title": "Freeview Play app layer (RTE bridge). Note: on the tested unit the whole uk.co.freeview.* suite was already disabled out of the box; disabling again throws SecurityException - the end state is the same, the list is safe to apply.",
+      "title": "Freeview Play app layer (RTE bridge). Note: on the tested unit the whole",
       "packages": [
         {
           "pkg": "com.twentyfouri.tvbridge.rte"
@@ -74,6 +74,6 @@
   "source": {
     "repo": "Gathin23/cleanyourtv",
     "path": "examples/mtc-uk-2k-android-tv/debloat.txt",
-    "commit": "3f175120f9802ab4364f61d040db9aa78ec71493"
+    "commit": "575d73f0f30c329aa7ebaea2bc863943fd9bf7f9"
   }
 }

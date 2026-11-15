@@ -173,7 +173,7 @@
       ]
     },
     {
-      "title": "XiaoAI voice assistant. The remote's mic key only reaches com.xiaomi.voicecontrol (no key event), so it does nothing once disabled; Google voice search cannot replace it without Google services.",
+      "title": "XiaoAI voice assistant. The remote's mic key only reaches com.xiaomi.voicecontrol (no key event),",
       "packages": [
         {
           "pkg": "com.xiaomi.voicecontrol"
@@ -233,7 +233,7 @@
       ]
     },
     {
-      "title": "The only keyboard on the set; it switches to Chinese input. Disable only after installing and selecting another IME (LeanKey Keyboard worked: ime enable / ime set), or text input is gone.",
+      "title": "The only keyboard on the set; it switches to Chinese input. Disable only after installing and",
       "packages": [
         {
           "pkg": "com.sohu.inputmethod.sogou.tv",
@@ -245,6 +245,6 @@
   "source": {
     "repo": "Gathin23/cleanyourtv",
     "path": "examples/xiaomi-mitv-mteq0/debloat.txt",
-    "commit": "3f175120f9802ab4364f61d040db9aa78ec71493"
+    "commit": "575d73f0f30c329aa7ebaea2bc863943fd9bf7f9"
   }
 }

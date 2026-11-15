@@ -50,7 +50,7 @@
       ]
     },
     {
-      "title": "Stock screensaver, replaced by the launcher's ClockDream: settings put secure screensaver_components com.gathin.tvhome/.ClockDream",
+      "title": "Stock screensaver, replaced by the launcher's ClockDream",
       "packages": [
         {
           "pkg": "com.mitv.screensaver"
@@ -58,7 +58,7 @@
       ]
     },
     {
-      "title": "OTA updater: stops firmware updates re-enabling everything above. Trade-off: no security updates either; re-enable it for a while when you want an OTA.",
+      "title": "OTA updater: stops firmware updates re-enabling everything above. Trade-off: no security updates",
       "packages": [
         {
           "pkg": "com.xiaomi.mitv.upgrade"
@@ -89,6 +89,6 @@
   "source": {
     "repo": "Gathin23/cleanyourtv",
     "path": "examples/redmi-mitv-antl0/debloat.txt",
-    "commit": "3f175120f9802ab4364f61d040db9aa78ec71493"
+    "commit": "575d73f0f30c329aa7ebaea2bc863943fd9bf7f9"
   }
 }

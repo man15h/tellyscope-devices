@@ -77,7 +77,7 @@
       ]
     },
     {
-      "title": "Factory and engineering menus, and legacy backup transports. Re-enabled by the firmware at every boot (see the header).",
+      "title": "Factory and engineering menus, and legacy backup transports. Re-enabled by the firmware at every",
       "packages": [
         {
           "pkg": "com.realtek.factorymenu",
@@ -113,6 +113,6 @@
   "source": {
     "repo": "Gathin23/cleanyourtv",
     "path": "examples/rca-2k-android-tv-lasalle/debloat.txt",
-    "commit": "3f175120f9802ab4364f61d040db9aa78ec71493"
+    "commit": "baadd07a7d095cc3ea72e6ccb615987bf1fb97c4"
   }
 }

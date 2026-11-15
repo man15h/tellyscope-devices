@@ -151,7 +151,7 @@
       ]
     },
     {
-      "title": "Batch 5: Philips web-app tiles this owner does not use. All are /data apps; the name is the application-label from the APK.",
+      "title": "Batch 5: Philips web-app tiles this owner does not use. All are /data apps; the name is the",
       "packages": [
         {
           "pkg": "org.droidtv.nettvapp3463",
@@ -176,7 +176,7 @@
       ]
     },
     {
-      "title": "Batch 6: Broadcast / DVB tuner suite, for streaming-only sets with no aerial. Left as comments: uncomment them only if you never watch broadcast TV; Live TV, channel scans and teletext stop working. The tester had them off.",
+      "title": "Batch 6: Broadcast / DVB tuner suite, for streaming-only sets with no aerial. Left as comments: uncomment",
       "packages": [
         {
           "pkg": "org.droidtv.playtv",
@@ -204,6 +204,6 @@
   "source": {
     "repo": "Gathin23/cleanyourtv",
     "path": "examples/philips-65pus9435/debloat.txt",
-    "commit": "3f175120f9802ab4364f61d040db9aa78ec71493"
+    "commit": "04aec4b7c763ed642d3994d25e5b89dd57014a6d"
   }
 }

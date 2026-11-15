@@ -47,7 +47,7 @@
       ]
     },
     {
-      "title": "Personal choice: Miracast screen mirroring, off on the tested set. Shared lists keep casting on: uncomment it if you never mirror a phone.",
+      "title": "Personal choice: Miracast screen mirroring, off on the tested set. Shared lists keep casting on: uncomment it",
       "packages": [
         {
           "pkg": "com.mediatek.miracast",
@@ -64,7 +64,7 @@
       ]
     },
     {
-      "title": "Stock launcher, replaced by launcher/. Left to launcher/build-and-install.sh, which disables it only after the new home is installed and set as default.",
+      "title": "Stock launcher, replaced by launcher/. Left to launcher/build-and-install.sh,",
       "packages": [
         {
           "pkg": "com.google.android.apps.tv.launcherx",
@@ -76,6 +76,6 @@
   "source": {
     "repo": "Gathin23/cleanyourtv",
     "path": "examples/tesla-q55e655gus/debloat.txt",
-    "commit": "3f175120f9802ab4364f61d040db9aa78ec71493"
+    "commit": "3c122bc073f7a9a83de251621e6e31d90dd96109"
   }
 }

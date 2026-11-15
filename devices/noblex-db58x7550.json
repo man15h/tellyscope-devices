@@ -70,7 +70,7 @@
       ]
     },
     {
-      "title": "Personal choice: comment out what you use. Casting and streaming apps were off on the tested set; their lines are comments, uncomment them if you don't use them.",
+      "title": "Personal choice: comment out what you use. Casting and streaming apps were off on the tested set;",
       "packages": [
         {
           "pkg": "com.google.android.katniss",
@@ -102,7 +102,7 @@
       ]
     },
     {
-      "title": "Stock launcher, replaced by launcher/. Left to launcher/build-and-install.sh, which disables it only after the new home is installed and set as default; restore.sh re-enables it.",
+      "title": "Stock launcher, replaced by launcher/. Left to launcher/build-and-install.sh, which disables it only",
       "packages": [
         {
           "pkg": "com.google.android.tvlauncher",
@@ -114,6 +114,6 @@
   "source": {
     "repo": "Gathin23/cleanyourtv",
     "path": "examples/noblex-db58x7550/debloat.txt",
-    "commit": "3f175120f9802ab4364f61d040db9aa78ec71493"
+    "commit": "8672e68e8a24c1258e4662cd11daa4ed13795dad"
   }
 }

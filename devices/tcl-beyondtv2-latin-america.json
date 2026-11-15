@@ -41,7 +41,7 @@
       ]
     },
     {
-      "title": "com.tcl.usercenter (account sign-in nags) and com.tcl.useragreement (one-time ToS screen) and com.tcl.copydatatotv (phone-to-TV copy helper) were left alone above on the first unit, out of caution; the second unit disabled all three cleanly, remote/HDMI/Settings/launcher unaffected (usercenter is also one of the four the firmware restores on its own, see the note above).",
+      "title": "com.tcl.usercenter (account sign-in nags) and com.tcl.useragreement (one-time ToS screen) and",
       "packages": [
         {
           "pkg": "com.tcl.usercenter"
@@ -125,7 +125,7 @@
       ]
     },
     {
-      "title": "Second pass, applied after the launcher. The launcher's Clock screensaver replaces Ambient Mode: tools/tv.py 'settings put secure screensaver_components com.gathin.tvhome/.ClockDream'",
+      "title": "Second pass, applied after the launcher. The launcher's Clock screensaver replaces Ambient Mode",
       "packages": [
         {
           "pkg": "com.google.android.backdrop",
@@ -152,6 +152,6 @@
   "source": {
     "repo": "Gathin23/cleanyourtv",
     "path": "examples/tcl-beyondtv2-latin-america/debloat.txt",
-    "commit": "3f175120f9802ab4364f61d040db9aa78ec71493"
+    "commit": "57733360177173c880a023380a864114a03feb25"
   }
 }

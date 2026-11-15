@@ -105,7 +105,7 @@
       ]
     },
     {
-      "title": "Off by choice on this set: the voice assistant and its microphone. Comment out to keep the remote's voice button working.",
+      "title": "Off by choice on this set: the voice assistant and its microphone. Comment out to keep the remote's",
       "packages": [
         {
           "pkg": "com.tcl.assistant"
@@ -122,7 +122,7 @@
       ]
     },
     {
-      "title": "Off by choice: casting and screen mirroring. Comment out if you cast from a phone; Chromecast is com.google.android.apps.mediashell and also answers the Cast ports 8008/8009/8443.",
+      "title": "Off by choice: casting and screen mirroring. Comment out if you cast from a phone; Chromecast is",
       "packages": [
         {
           "pkg": "com.google.android.apps.mediashell"
@@ -176,6 +176,6 @@
   "source": {
     "repo": "Gathin23/cleanyourtv",
     "path": "examples/tcl-65ep68/debloat.txt",
-    "commit": "3f175120f9802ab4364f61d040db9aa78ec71493"
+    "commit": "575d73f0f30c329aa7ebaea2bc863943fd9bf7f9"
   }
 }

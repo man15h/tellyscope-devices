@@ -111,7 +111,7 @@
       ]
     },
     {
-      "title": "Disabling setupwraith gives Home to a new launcher but can break casting (Chromecast built-in) on some sets; casting kept working on this one. Comment out its line if you want to keep the stock setup.",
+      "title": "Disabling setupwraith gives Home to a new launcher but can break casting (Chromecast built-in) on some",
       "packages": [
         {
           "pkg": "com.google.android.tungsten.setupwraith"
@@ -122,6 +122,6 @@
   "source": {
     "repo": "Gathin23/cleanyourtv",
     "path": "examples/tcl-g06-us-google-tv/debloat.txt",
-    "commit": "3f175120f9802ab4364f61d040db9aa78ec71493"
+    "commit": "a1e948c665abf5af86c3aab08fe05053686a6bf3"
   }
 }

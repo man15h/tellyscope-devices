@@ -96,7 +96,7 @@
       ]
     },
     {
-      "title": "NOT disabled, ever: com.tpv.tvinput             the only TvInputService on this set: tuner, HDMI, VGA, composite, component, SCART. Without it the inputs go black.",
+      "title": "NOT disabled, ever",
       "packages": [
         {
           "pkg": "org.droidtv.devicesetup",
@@ -116,6 +116,6 @@
   "source": {
     "repo": "Gathin23/cleanyourtv",
     "path": "examples/philips-50puf7099-t3/debloat.txt",
-    "commit": "3f175120f9802ab4364f61d040db9aa78ec71493"
+    "commit": "baadd07a7d095cc3ea72e6ccb615987bf1fb97c4"
   }
 }

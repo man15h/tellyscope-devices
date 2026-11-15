@@ -78,7 +78,7 @@
       ]
     },
     {
-      "title": "Google TV home handover. setupwraith's RecoveryActivity claims HOME at priority 1 and takes over once launcherx is disabled, so both go - see the Wi-Fi note above before disabling setupwraith.",
+      "title": "Google TV home handover. setupwraith's RecoveryActivity claims HOME at priority 1 and takes over",
       "packages": [
         {
           "pkg": "com.google.android.tungsten.setupwraith"
@@ -89,6 +89,6 @@
   "source": {
     "repo": "Gathin23/cleanyourtv",
     "path": "examples/haier-hr9216eu/debloat.txt",
-    "commit": "3f175120f9802ab4364f61d040db9aa78ec71493"
+    "commit": "575d73f0f30c329aa7ebaea2bc863943fd9bf7f9"
   }
 }

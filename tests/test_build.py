@@ -77,15 +77,6 @@ class ParseList(unittest.TestCase):
         self.assertEqual([p["pkg"] for p in d["keep"]], ["com.a.b"])
         self.assertEqual([p["pkg"] for g in d["groups"] for p in g["packages"]], ["com.c.d"])
 
-    def test_a_title_cut_mid_sentence_runs_to_its_end(self):
-        d = build.parse_list("# T (SDK 30)\n\n# Duplicate webviews (uncomment to do the same). First check\n"
-                             "# that the active provider is not one of them.\n# Notes after that stay out.\n# com.a.b\n\n"
-                             "# Junk\n# More about junk.\ncom.c.d\n")
-        self.assertEqual([g["title"] for g in d["groups"]], [
-            "Duplicate webviews (uncomment to do the same). First check that the active provider is not one of them.",
-            "Junk",
-        ])
-
     def test_build_is_an_id_not_the_next_word(self):
         for prose, want in [
             ("Android TV 14, firmware UKR1.260308 Build UKR1.260308, incremental 3272", "UKR1.260308"),

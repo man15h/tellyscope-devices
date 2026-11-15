@@ -121,7 +121,7 @@
       ]
     },
     {
-      "title": "Stock home. Disable only after the new launcher and the homepage shim work (README.md): with it gone, nothing brings the Coocaa home back over the launcher after boot.",
+      "title": "Stock home. Disable only after the new launcher and the homepage shim work (README.md): with it",
       "packages": [
         {
           "pkg": "com.tianci.movieplatform",
@@ -133,6 +133,6 @@
   "source": {
     "repo": "Gathin23/cleanyourtv",
     "path": "examples/skyworth-7s60-a5/debloat.txt",
-    "commit": "3f175120f9802ab4364f61d040db9aa78ec71493"
+    "commit": "575d73f0f30c329aa7ebaea2bc863943fd9bf7f9"
   }
 }
