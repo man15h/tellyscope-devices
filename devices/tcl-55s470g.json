@@ -140,7 +140,7 @@
       ]
     },
     {
-      "title": "Needed for the custom launcher. Disable only AFTER launcher/ is installed",
+      "title": "Needed for the custom launcher. Disable only AFTER launcher/ is installed (see docs/TROUBLESHOOTING.md, \"The new launcher still doesn't own Home\").",
       "packages": [
         {
           "pkg": "com.google.android.tungsten.setupwraith"
@@ -151,6 +151,6 @@
   "source": {
     "repo": "Gathin23/cleanyourtv",
     "path": "examples/tcl-55s470g/debloat.txt",
-    "commit": "baadd07a7d095cc3ea72e6ccb615987bf1fb97c4"
+    "commit": "3f175120f9802ab4364f61d040db9aa78ec71493"
   }
 }

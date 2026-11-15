@@ -11,7 +11,7 @@
   "keep": [],
   "groups": [
     {
-      "title": "TP Vision telemetry. org.droidtv.gel runs inside the candeebug process",
+      "title": "TP Vision telemetry. org.droidtv.gel runs inside the candeebug process (android:process=\"org.droidtv.candeebug\"), so disabling candeebug alone leaves a process with that name still running and looks like a failure. Disable both.",
       "packages": [
         {
           "pkg": "org.droidtv.candeebug",
@@ -155,7 +155,7 @@
       ]
     },
     {
-      "title": "Preinstalled streaming apps. All of these sit in /data/app rather than on the system",
+      "title": "Preinstalled streaming apps. All of these sit in /data/app rather than on the system partition, so unlike the vendor packages above they are ordinary user-installed apps.",
       "packages": [
         {
           "pkg": "com.netflix.ninja"
@@ -218,6 +218,6 @@
   "source": {
     "repo": "Gathin23/cleanyourtv",
     "path": "examples/philips-50pus8517/debloat.txt",
-    "commit": "575d73f0f30c329aa7ebaea2bc863943fd9bf7f9"
+    "commit": "3f175120f9802ab4364f61d040db9aa78ec71493"
   }
 }

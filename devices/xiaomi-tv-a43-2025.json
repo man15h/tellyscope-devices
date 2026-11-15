@@ -106,7 +106,7 @@
       ]
     },
     {
-      "title": "Stock Google TV launcher, replaced by launcher/. Disable setupwraith too (it can take Home",
+      "title": "Stock Google TV launcher, replaced by launcher/. Disable setupwraith too (it can take Home after the stock launcher is gone). Before disabling setupwraith check the saved Wi-Fi network does not belong to it: `dumpsys wifi | grep -o 'cname=[^ ]*'`.",
       "packages": [
         {
           "pkg": "com.google.android.tvlauncher"
@@ -121,6 +121,6 @@
   "source": {
     "repo": "Gathin23/cleanyourtv",
     "path": "examples/xiaomi-tv-a43-2025/debloat.txt",
-    "commit": "76a9312cd9ac378fc8698f31427805af32c6f965"
+    "commit": "3f175120f9802ab4364f61d040db9aa78ec71493"
   }
 }

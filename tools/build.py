@@ -25,11 +25,16 @@ ACTIVE_PACKAGE = re.compile(r"(" + PACKAGE.pattern + r")\s*(?:#\s*(.*))?")
 # A heading that marks its commented-out packages as load-bearing rather than merely untested.
 KEEP_HEADING = re.compile(r"do not disable|don't disable|must stay|^keep\b|^kept on purpose", re.I)
 UNCOMMENT = re.compile(r"uncomment", re.I)
+# A heading line not ending a sentence carries on into a next line that starts like the rest of one.
+SENTENCE_END = (".", "!", "?")
+GOES_ON = re.compile(r"[a-z`(]")
 MATCH_KEYS = ("manufacturer", "model", "device")
 # The app-wide lists in lists/, by the name the index gives them.
 LISTS = ("launchers", "labels", "streaming", "protected")
 # What protected.json may give as a package's reason: the app's own reasons a list can claim.
 PROTECT_REASONS = ("system", "settings", "play_services", "keyboard", "tv_inputs_remote", "setup_wizard", "updates")
+# A protected.json warning is one line the app shows as it is.
+WARN_MAX = 120
 HEX = re.compile(r"#[0-9A-Fa-f]{6}")
 # The Remote's sheet in dark mode; a service's `dark` fill replaces a colour that sinks into it.
 DARK_SHEET = "#161D1D"
@@ -65,12 +70,19 @@ def parse_list(text):
                 packages.append(entry(m, optional=line.startswith("#")))
             elif not packages:
                 heading.append(line.lstrip("#").strip())
-        title = heading[0].rstrip(":") if heading else ""
+        first = heading[0].rstrip(":") if heading else ""
+        # A first line that stops mid-sentence would cut a warning in half: the title runs to the sentence's end.
+        title = heading[0] if heading else ""
+        for more in heading[1:]:
+            if title.endswith(SENTENCE_END) or (title == heading[0] and not GOES_ON.match(more)):
+                break
+            title += " " + more
+        title = title.rstrip(":")
         if not packages:
             if not groups and not keep:
                 header += [line.lstrip("#").strip() for line in block]
             continue
-        if KEEP_HEADING.search(title) and not UNCOMMENT.search(" ".join(heading)):
+        if KEEP_HEADING.search(first) and not UNCOMMENT.search(" ".join(heading)):
             keep += [p for p in packages if p.pop("optional", False)]
             packages = [p for p in packages if p not in keep]
         if packages:
@@ -264,6 +276,19 @@ def check_lists():
                 if pkg in seen:
                     errors.append(f"{where}: {pkg} is listed twice")
                 seen.add(pkg)
+        warned = set()
+        for g in protected.get("warn", []):
+            where = f"lists/protected.json: warn {g.get('name')!r}"
+            text(where, g, "name")
+            for pkg, line in g.get("packages", {}).items():
+                package(where, pkg)
+                if not (isinstance(line, str) and line.strip() and "\n" not in line and len(line) <= WARN_MAX):
+                    errors.append(f"{where}: {pkg}: the warning must be one line of at most {WARN_MAX} characters")
+                if pkg in seen:
+                    errors.append(f"{where}: {pkg} is protected, so it can't be turned off to warn about")
+                if pkg in warned:
+                    errors.append(f"{where}: {pkg} is listed twice")
+                warned.add(pkg)
 
     streaming = load("streaming")
     if streaming:

@@ -204,7 +204,7 @@
       ]
     },
     {
-      "title": "HbbTV interactive-broadcast launcher entry (Indian broadcasts don't trigger it); the underlying",
+      "title": "HbbTV interactive-broadcast launcher entry (Indian broadcasts don't trigger it); the underlying webapi.core/browser.webappruntime/webappservice/browser.ceb runtime is left enabled, see header",
       "packages": [
         {
           "pkg": "com.sony.dtv.hbbtvlauncher"
@@ -295,7 +295,7 @@
       ]
     },
     {
-      "title": "Home handover ONLY after installing, launching and verifying the new launcher (com.gathin.tvhome",
+      "title": "Home handover ONLY after installing, launching and verifying the new launcher (com.gathin.tvhome confirmed as ResumedActivity). com.google.android.tvlauncher is also disabled automatically by launcher/build-and-install.sh; it is listed here too for a from-scratch run of this list.",
       "packages": [
         {
           "pkg": "com.google.android.leanbacklauncher"
@@ -327,6 +327,6 @@
   "source": {
     "repo": "Gathin23/cleanyourtv",
     "path": "examples/sony-kdl-43w950d/debloat.txt",
-    "commit": "575d73f0f30c329aa7ebaea2bc863943fd9bf7f9"
+    "commit": "3f175120f9802ab4364f61d040db9aa78ec71493"
   }
 }

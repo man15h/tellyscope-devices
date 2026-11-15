@@ -138,7 +138,7 @@
       ]
     },
     {
-      "title": "Handover (applied 2026-10-21: build-and-install.sh disabled launcherx as Home was handed over;",
+      "title": "Handover (applied 2026-10-21: build-and-install.sh disabled launcherx as Home was handed over; setupwraith applied in a FORCE_SETUPWRAITH=1 pass after the connected network had been forgotten + re-joined — dumpsys events show Globe1524 re-added under android.uid.system; the stale setupwraith networks (Globe1524masters etc.) went with it, harmlessly).",
       "packages": [
         {
           "pkg": "com.google.android.apps.tv.launcherx",
@@ -154,6 +154,6 @@
   "source": {
     "repo": "Gathin23/cleanyourtv",
     "path": "examples/skyworth-sw-22sa/debloat.txt",
-    "commit": "575d73f0f30c329aa7ebaea2bc863943fd9bf7f9"
+    "commit": "3f175120f9802ab4364f61d040db9aa78ec71493"
   }
 }

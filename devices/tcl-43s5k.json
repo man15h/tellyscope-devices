@@ -77,7 +77,7 @@
       ]
     },
     {
-      "title": "Batch 4: after launcher/ is Home and the screensaver is switched to the launcher's clock",
+      "title": "Batch 4: after launcher/ is Home and the screensaver is switched to the launcher's clock: tools/tv.py 'settings put secure screensaver_components com.gathin.tvhome/.ClockDream' (it was unset, so the default com.google.android.apps.tv.dreamx/.service.Backdrop ran; undo with 'settings delete secure screensaver_components')",
       "packages": [
         {
           "pkg": "com.google.android.apps.tv.dreamx",
@@ -86,7 +86,7 @@
       ]
     },
     {
-      "title": "Brazilian unit only: partner apps preloaded on the Brazilian firmware, disabled there by choice. The Indian",
+      "title": "Brazilian unit only: partner apps preloaded on the Brazilian firmware, disabled there by choice. The Indian units do not ship them, so they stay commented; uncomment them on a Brazilian unit if nobody uses them.",
       "packages": [
         {
           "pkg": "br.com.claro.now.smarttvclient",
@@ -131,6 +131,6 @@
   "source": {
     "repo": "Gathin23/cleanyourtv",
     "path": "examples/tcl-43s5k/debloat.txt",
-    "commit": "718f98c96e6823045fd1fd82edd73d70deaf01fa"
+    "commit": "3f175120f9802ab4364f61d040db9aa78ec71493"
   }
 }

@@ -147,7 +147,7 @@
       ]
     },
     {
-      "title": "Trade-off: setupwraith is the first-run setup wizard. Everyday use is unaffected, but re-enable it",
+      "title": "Trade-off: setupwraith is the first-run setup wizard. Everyday use is unaffected, but re-enable it before a factory reset - tools/restore.sh does that for you while this line is in the list.",
       "packages": [
         {
           "pkg": "com.google.android.tungsten.setupwraith",
@@ -159,6 +159,6 @@
   "source": {
     "repo": "Gathin23/cleanyourtv",
     "path": "examples/xiaomi-mitv-mosr4/debloat.txt",
-    "commit": "575d73f0f30c329aa7ebaea2bc863943fd9bf7f9"
+    "commit": "3f175120f9802ab4364f61d040db9aa78ec71493"
   }
 }

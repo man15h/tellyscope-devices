@@ -123,7 +123,7 @@
       ]
     },
     {
-      "title": "Home takeover for launcher/. On the tested set the saved Wi-Fi belonged to com.android.tv.settings, so the",
+      "title": "Home takeover for launcher/. On the tested set the saved Wi-Fi belonged to com.android.tv.settings, so the setup wizard could go; disable.sh skips it by itself when the network belongs to setupwraith.",
       "packages": [
         {
           "pkg": "com.google.android.apps.tv.launcherx",
@@ -139,6 +139,6 @@
   "source": {
     "repo": "Gathin23/cleanyourtv",
     "path": "examples/tcl-g08-au-android12/debloat.txt",
-    "commit": "575d73f0f30c329aa7ebaea2bc863943fd9bf7f9"
+    "commit": "3f175120f9802ab4364f61d040db9aa78ec71493"
   }
 }

@@ -109,7 +109,7 @@
       ]
     },
     {
-      "title": "--- Memory pass: the set has ~1 GB RAM and was swapping ---",
+      "title": "--- Memory pass: the set has ~1 GB RAM and was swapping --- dreamx: set the screensaver to the launcher's Clock first: settings put secure screensaver_components com.gathin.tvhome/.ClockDream Back to Google's: settings put secure screensaver_components com.google.android.apps.tv.dreamx/.service.Backdrop",
       "packages": [
         {
           "pkg": "com.google.android.apps.tv.dreamx",
@@ -141,6 +141,6 @@
   "source": {
     "repo": "Gathin23/cleanyourtv",
     "path": "examples/sharp-2t-c32gh3000i/debloat.txt",
-    "commit": "575d73f0f30c329aa7ebaea2bc863943fd9bf7f9"
+    "commit": "3f175120f9802ab4364f61d040db9aa78ec71493"
   }
 }

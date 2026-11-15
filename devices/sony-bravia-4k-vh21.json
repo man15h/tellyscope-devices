@@ -111,7 +111,7 @@
       ]
     },
     {
-      "title": "screensaver: set basic screensaver first, or the launcher's clock (com.gathin.tvhome/.ClockDream). The third",
+      "title": "screensaver: set basic screensaver first, or the launcher's clock (com.gathin.tvhome/.ClockDream). The third unit did that (settings put secure screensaver_components com.gathin.tvhome/.ClockDream) and then disabled it.",
       "packages": [
         {
           "pkg": "com.google.android.apps.tv.dreamx",
@@ -121,7 +121,7 @@
       ]
     },
     {
-      "title": "streaming apps (off on the third unit by choice; other owners can uncomment them; the remote's Netflix and Prime Video buttons then open the",
+      "title": "streaming apps (off on the third unit by choice; other owners can uncomment them; the remote's Netflix and Prime Video buttons then open the app's Play Store page, which has an Enable button)",
       "packages": [
         {
           "pkg": "com.netflix.ninja",
@@ -231,7 +231,7 @@
       ]
     },
     {
-      "title": "Google TV setup wizard: with launcherx disabled (Unit 1, Ethernet), RecoveryActivity claims Home",
+      "title": "Google TV setup wizard: with launcherx disabled (Unit 1, Ethernet), RecoveryActivity claims Home so setupwraith had to go. For the redirect route (Unit 2, config.json) and on Wi-Fi, KEEP IT ENABLED: setupwraith owns the saved Wi-Fi network (dumpsys wifi), so disabling it breaks Wi-Fi and ADB.",
       "packages": [
         {
           "pkg": "com.google.android.tungsten.setupwraith",
@@ -243,6 +243,6 @@
   "source": {
     "repo": "Gathin23/cleanyourtv",
     "path": "examples/sony-bravia-4k-vh21/debloat.txt",
-    "commit": "718f98c96e6823045fd1fd82edd73d70deaf01fa"
+    "commit": "3f175120f9802ab4364f61d040db9aa78ec71493"
   }
 }

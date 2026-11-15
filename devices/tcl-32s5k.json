@@ -114,7 +114,7 @@
       ]
     },
     {
-      "title": "Stock home recommendation rows. The stock launcher itself is NOT disabled here: launcher/ was",
+      "title": "Stock home recommendation rows. The stock launcher itself is NOT disabled here: launcher/ was built and installed, worked and survived a reboot, but was reverted by choice on this unit.",
       "packages": [
         {
           "pkg": "com.google.android.tvlauncher",
@@ -188,6 +188,6 @@
   "source": {
     "repo": "Gathin23/cleanyourtv",
     "path": "examples/tcl-32s5k/debloat.txt",
-    "commit": "575d73f0f30c329aa7ebaea2bc863943fd9bf7f9"
+    "commit": "3f175120f9802ab4364f61d040db9aa78ec71493"
   }
 }

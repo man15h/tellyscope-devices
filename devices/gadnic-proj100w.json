@@ -112,7 +112,7 @@
       ]
     },
     {
-      "title": "Stock home, only for a replacement launcher. Re-enable both before a factory reset or if you",
+      "title": "Stock home, only for a replacement launcher. Re-enable both before a factory reset or if you stop using a third-party launcher. See the Wi-Fi/setupwraith gotcha above before disabling these.",
       "packages": [
         {
           "pkg": "com.google.android.apps.tv.launcherx"
@@ -127,6 +127,6 @@
   "source": {
     "repo": "Gathin23/cleanyourtv",
     "path": "examples/gadnic-proj100w/debloat.txt",
-    "commit": "575d73f0f30c329aa7ebaea2bc863943fd9bf7f9"
+    "commit": "3f175120f9802ab4364f61d040db9aa78ec71493"
   }
 }

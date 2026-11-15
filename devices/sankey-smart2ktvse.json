@@ -88,7 +88,7 @@
       ]
     },
     {
-      "title": "Camera app: this set has none. Disabled by hand on that unit, not by this list;",
+      "title": "Camera app: this set has none. Disabled by hand on that unit, not by this list; uncomment the line to have the list do it.",
       "packages": [
         {
           "pkg": "com.android.camera2",
@@ -132,6 +132,6 @@
   "source": {
     "repo": "Gathin23/cleanyourtv",
     "path": "examples/sankey-smart2ktvse/debloat.txt",
-    "commit": "575d73f0f30c329aa7ebaea2bc863943fd9bf7f9"
+    "commit": "3f175120f9802ab4364f61d040db9aa78ec71493"
   }
 }

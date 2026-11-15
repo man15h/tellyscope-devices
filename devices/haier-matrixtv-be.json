@@ -59,7 +59,7 @@
       ]
     },
     {
-      "title": "Google TV setup recovery claims HOME alongside the stock launcher. Disable only after",
+      "title": "Google TV setup recovery claims HOME alongside the stock launcher. Disable only after checking Wi-Fi ownership; tools/disable.sh applies that guard.",
       "packages": [
         {
           "pkg": "com.google.android.tungsten.setupwraith"
@@ -70,6 +70,6 @@
   "source": {
     "repo": "Gathin23/cleanyourtv",
     "path": "examples/haier-matrixtv-be/debloat.txt",
-    "commit": "a1e948c665abf5af86c3aab08fe05053686a6bf3"
+    "commit": "3f175120f9802ab4364f61d040db9aa78ec71493"
   }
 }

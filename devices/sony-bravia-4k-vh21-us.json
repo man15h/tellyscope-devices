@@ -83,7 +83,7 @@
       ]
     },
     {
-      "title": "Google TV setup wizard: with launcherx disabled its RecoveryActivity (HOME priority 1) outranks",
+      "title": "Google TV setup wizard: with launcherx disabled its RecoveryActivity (HOME priority 1) outranks set-home-activity. Disable it only after Home resolves to the new launcher, and re-enable it before a factory reset.",
       "packages": [
         {
           "pkg": "com.google.android.tungsten.setupwraith"
@@ -94,6 +94,6 @@
   "source": {
     "repo": "Gathin23/cleanyourtv",
     "path": "examples/sony-bravia-4k-vh21-us/debloat.txt",
-    "commit": "76a9312cd9ac378fc8698f31427805af32c6f965"
+    "commit": "3f175120f9802ab4364f61d040db9aa78ec71493"
   }
 }

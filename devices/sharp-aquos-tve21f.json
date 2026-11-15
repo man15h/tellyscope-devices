@@ -60,7 +60,7 @@
       ]
     },
     {
-      "title": "--- Google telemetry, recommendations, first-run wizard and phone remote ---",
+      "title": "--- Google telemetry, recommendations, first-run wizard and phone remote --- setupwraith: checked first with `dumpsys wifi | grep -o 'cname=[^ ]*'`; the saved network belongs to android.uid.system / com.google.uid.shared, not to setupwraith, and it stayed connected.",
       "packages": [
         {
           "pkg": "com.google.android.tvrecommendations"
@@ -147,6 +147,6 @@
   "source": {
     "repo": "Gathin23/cleanyourtv",
     "path": "examples/sharp-aquos-tve21f/debloat.txt",
-    "commit": "575d73f0f30c329aa7ebaea2bc863943fd9bf7f9"
+    "commit": "3f175120f9802ab4364f61d040db9aa78ec71493"
   }
 }

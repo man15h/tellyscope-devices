@@ -135,7 +135,7 @@
       ]
     },
     {
-      "title": "Google TV setup wizard: with launcherx disabled its RecoveryActivity takes Home. Re-enable before a",
+      "title": "Google TV setup wizard: with launcherx disabled its RecoveryActivity takes Home. Re-enable before a factory reset. See the Wi-Fi note above first.",
       "packages": [
         {
           "pkg": "com.google.android.tungsten.setupwraith"
@@ -146,6 +146,6 @@
   "source": {
     "repo": "Gathin23/cleanyourtv",
     "path": "examples/sony-bravia-4k-vh21-eu/debloat.txt",
-    "commit": "575d73f0f30c329aa7ebaea2bc863943fd9bf7f9"
+    "commit": "3f175120f9802ab4364f61d040db9aa78ec71493"
   }
 }

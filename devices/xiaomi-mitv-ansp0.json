@@ -166,7 +166,7 @@
       ]
     },
     {
-      "title": "Stock screensaver, replaced by the launcher's ClockDream. Apply only AFTER the launcher is Home and",
+      "title": "Stock screensaver, replaced by the launcher's ClockDream. Apply only AFTER the launcher is Home and its screensaver is selected, otherwise the TV has no screensaver: settings put secure screensaver_components com.gathin.tvhome/.ClockDream settings put secure screensaver_enabled 1",
       "packages": [
         {
           "pkg": "com.mitv.screensaver"
@@ -174,7 +174,7 @@
       ]
     },
     {
-      "title": "Stock launcher: KEEP ENABLED (see \"Home\" above). It is the only app left that can answer HOME if the",
+      "title": "Stock launcher: KEEP ENABLED (see \"Home\" above). It is the only app left that can answer HOME if the preferred-home setting is ever cleared, and disabling it lands on FallbackHome's black screen.",
       "packages": [
         {
           "pkg": "com.mitv.tvhome",
@@ -186,6 +186,6 @@
   "source": {
     "repo": "Gathin23/cleanyourtv",
     "path": "examples/xiaomi-mitv-ansp0/debloat.txt",
-    "commit": "575d73f0f30c329aa7ebaea2bc863943fd9bf7f9"
+    "commit": "3f175120f9802ab4364f61d040db9aa78ec71493"
   }
 }

@@ -242,7 +242,7 @@
       ]
     },
     {
-      "title": "Google mainline overlays (RROs), verified on the fifth unit. Never add the com.google.android.overlay.modules.*",
+      "title": "Google mainline overlays (RROs), verified on the fifth unit. Never add the com.google.android.overlay.modules.* overlays, com.google.android.modulemetadata, com.google.android.overlay.modules.permissioncontroller or com.google.android.overlay.modules.modulemetadata.forframework - disable.sh refuses them (brick class, #884).",
       "packages": [
         {
           "pkg": "com.google.android.overlay.googlewebview",
@@ -353,7 +353,7 @@
       ]
     },
     {
-      "title": "Seventh unit: TCL 65Q7C (Smart TV Pro), Android 14 (SDK 34), tcl9618-user 14 UTT2.250416.001 AU02: reboot, home, casting checked; hdmi input & airplay not tested; its other nine are already active above",
+      "title": "Seventh unit: TCL 65Q7C (Smart TV Pro), Android 14 (SDK 34), tcl9618-user 14 UTT2.250416.001 AU02: reboot, home, casting checked; hdmi input & airplay not tested; its other nine are already active above streaming",
       "packages": [
         {
           "pkg": "com.crunchyroll.crunchyroid",
@@ -455,6 +455,6 @@
   "source": {
     "repo": "Gathin23/cleanyourtv",
     "path": "examples/tcl-q7c-google-tv/debloat.txt",
-    "commit": "a1e948c665abf5af86c3aab08fe05053686a6bf3"
+    "commit": "3f175120f9802ab4364f61d040db9aa78ec71493"
   }
 }

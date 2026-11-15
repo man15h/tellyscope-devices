@@ -8,5 +8,33 @@
         "org.droidtv.eum": "tv_inputs_remote"
       }
     }
+  ],
+  "warn": [
+    {
+      "name": "Google",
+      "packages": {
+        "com.google.android.apps.mediashell": "Casting to this TV stops working."
+      }
+    },
+    {
+      "name": "MediaTek",
+      "packages": {
+        "com.mediatek.speakerservice": "Runs the TV's own speakers: sound may get quieter or stop.",
+        "com.mediatek.support.webview": "If this is the TV's active WebView, apps that show web pages stop opening."
+      }
+    },
+    {
+      "name": "TCL",
+      "packages": {
+        "com.tcl.hearaid": "Hearing test and volume adaptation: TV sound may get quieter.",
+        "com.tcl.android.webview": "If this is the TV's active WebView, apps that show web pages stop opening."
+      }
+    },
+    {
+      "name": "Other makers",
+      "packages": {
+        "com.iplayer.android.webview": "If this is the TV's active WebView, apps that show web pages stop opening."
+      }
+    }
   ]
 }

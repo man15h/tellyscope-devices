@@ -55,7 +55,7 @@
       ]
     },
     {
-      "title": "Streaming and media apps. Netflix, Prime Video and YouTube Music are in the system image; the rest are not",
+      "title": "Streaming and media apps. Netflix, Prime Video and YouTube Music are in the system image; the rest are not: the Play Store installs them in the first minutes after sign-in, from the partner list the auto-install stub above points at (the same batch brought ANT+, Meet and Google TV). Off on this set; left commented so a shared run keeps the ones you use. Uncomment the rest.",
       "packages": [
         {
           "pkg": "com.netflix.ninja",
@@ -187,6 +187,6 @@
   "source": {
     "repo": "Gathin23/cleanyourtv",
     "path": "examples/prosonic-bodrum-finch/debloat.txt",
-    "commit": "985bbd14d0b01517988724668e310211d72d86fc"
+    "commit": "3f175120f9802ab4364f61d040db9aa78ec71493"
   }
 }

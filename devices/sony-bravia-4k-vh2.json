@@ -180,7 +180,7 @@
       ]
     },
     {
-      "title": "Asia-Pacific unit, one day only so far: disabled on the third unit four days after the rest, no",
+      "title": "Asia-Pacific unit, one day only so far: disabled on the third unit four days after the rest, no problem yet. Uncomment to try them. On the seventh (Latin American) unit hotelmode, rs232csupport, accessibility.tutorial and gestureapp were disabled on 25-26 October and lived with for at least five days; the DLNA packages were kept there by choice.",
       "packages": [
         {
           "pkg": "com.sony.dtv.b2b.hotelmode",
@@ -230,7 +230,7 @@
       ]
     },
     {
-      "title": "Stock Google TV launcher. Left ENABLED on the original EU unit, where Home resolved to the new launcher",
+      "title": "Stock Google TV launcher. Left ENABLED on the original EU unit, where Home resolved to the new launcher by itself. Uncomment on UC, PA and the XR-65A83J M_EU unit, where launcherx outranks set-home-activity at priority=2 and Home stays on it otherwise. Only ever with the replacement launcher installed and claiming HOME first: disable.sh's Home guard refuses it otherwise, and restore.sh puts it back.",
       "packages": [
         {
           "pkg": "com.google.android.apps.tv.launcherx",
@@ -247,6 +247,6 @@
   "source": {
     "repo": "Gathin23/cleanyourtv",
     "path": "examples/sony-bravia-4k-vh2/debloat.txt",
-    "commit": "f47c893d285172d175c8f72c32658b1d767b3270"
+    "commit": "3f175120f9802ab4364f61d040db9aa78ec71493"
   }
 }

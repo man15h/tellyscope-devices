@@ -95,7 +95,8 @@ it, never pre-tick it. Every `pkg` matches `[A-Za-z][A-Za-z0-9_]*(\.[A-Za-z0-9_]
 otherwise.
 
 How a `debloat.txt` becomes a device file: blocks are split on blank lines and bare `#` lines. Prose
-before the first package is the header. Each block's first comment line is its group title. A commented
+before the first package is the header. Each block's first comment line is its group title; when that
+line stops mid-sentence and the next starts in lowercase, the title runs on to the end of the sentence. A commented
 package under a heading that says "do not disable", "keep" or "kept on purpose" goes to `keep`; any
 other commented package is `optional`. Quirk notes are not copied: follow `source` to read them.
 
@@ -132,6 +133,13 @@ The file can only add: leaving a package out, or giving a built-in one another r
 A package appears once across all groups. `<reason>` picks the line the app shows and is one of
 `system`, `settings`, `play_services`, `keyboard`, `tv_inputs_remote`, `setup_wizard` or `updates`.
 Packages any Android TV, Google TV or Fire TV can have belong in the app's built-in list instead.
+
+`warn` is optional: `[{"name", "packages": {"<package>": "<what breaks>"}}]`, packages that can be
+turned off but take something with them. The app still lets them go, and shows the line wherever the
+app appears, so a new entry needs no app release. `<what breaks>` is one line of at most 120
+characters, shown as it is, like `TV sound may get quieter.` Any package may have one, on any maker's
+TV; a package appears once across `warn`, and never in `groups` too (a protected app can't be turned
+off). Groups are only for people reading the file. Apps older than this section ignore it.
 
 ### `logos/<logo>.png`
 

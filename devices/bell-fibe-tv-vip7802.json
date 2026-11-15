@@ -31,7 +31,7 @@
       ]
     },
     {
-      "title": "ARRIS stub packages with no logic at all: no activities, services or receivers of their own,",
+      "title": "ARRIS stub packages with no logic at all: no activities, services or receivers of their own, permission shells only (BIND_ATTENTION_SERVICE, BIND_JOB_SERVICE, BIND_NETWORK_RECOMMENDATION_SERVICE, shared with other packages on this box's UID).",
       "packages": [
         {
           "pkg": "com.arris.android.stb.fti"
@@ -174,6 +174,6 @@
   "source": {
     "repo": "Gathin23/cleanyourtv",
     "path": "examples/bell-fibe-tv-vip7802/debloat.txt",
-    "commit": "f47c893d285172d175c8f72c32658b1d767b3270"
+    "commit": "3f175120f9802ab4364f61d040db9aa78ec71493"
   }
 }

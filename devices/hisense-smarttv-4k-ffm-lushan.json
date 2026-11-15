@@ -137,7 +137,7 @@
       ]
     },
     {
-      "title": "Sharing and screensaver: the second unit disabled these by choice, the first kept them. Uncomment any",
+      "title": "Sharing and screensaver: the second unit disabled these by choice, the first kept them. Uncomment any you do not use. AirPlay and Chromecast stayed on and are not part of these packages.",
       "packages": [
         {
           "pkg": "com.vt.tv.dlna",
@@ -165,7 +165,7 @@
       ]
     },
     {
-      "title": "Google TV setup wizard. Its RecoveryActivity claims HOME and beats the new launcher once",
+      "title": "Google TV setup wizard. Its RecoveryActivity claims HOME and beats the new launcher once com.google.android.apps.tv.launcherx is disabled; `pm disable` of that one component is refused, so the whole package has to go for a launcher swap. It also owns saved Wi-Fi networks, so check first: `dumpsys wifi | grep -o 'cname=[^ ]*'`. If the network the TV is actually connected to belongs to setupwraith, forget and re-join it in Settings before running this, or the disable deletes that network and takes the TV off Wi-Fi and ADB. Needs FORCE_SETUPWRAITH=1 to pass disable.sh's Wi-Fi guard.",
       "packages": [
         {
           "pkg": "com.google.android.tungsten.setupwraith"
@@ -176,6 +176,6 @@
   "source": {
     "repo": "Gathin23/cleanyourtv",
     "path": "examples/hisense-smarttv-4k-ffm-lushan/debloat.txt",
-    "commit": "a1e948c665abf5af86c3aab08fe05053686a6bf3"
+    "commit": "3f175120f9802ab4364f61d040db9aa78ec71493"
   }
 }

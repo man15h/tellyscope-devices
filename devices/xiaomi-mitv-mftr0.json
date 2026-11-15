@@ -110,7 +110,7 @@
       ]
     },
     {
-      "title": "Stock launcher - LEFT COMMENTED OUT by default: on this build the stock launcher",
+      "title": "Stock launcher - LEFT COMMENTED OUT by default: on this build the stock launcher was replaced through the com.ts.launcher allowlist trampoline (see the device doc) before disabling it; uncomment only together with that setup. Undo path: pm enable com.mitv.tvhome + reboot.",
       "packages": [
         {
           "pkg": "com.mitv.tvhome",
@@ -122,6 +122,6 @@
   "source": {
     "repo": "Gathin23/cleanyourtv",
     "path": "examples/xiaomi-mitv-mftr0/debloat.txt",
-    "commit": "575d73f0f30c329aa7ebaea2bc863943fd9bf7f9"
+    "commit": "3f175120f9802ab4364f61d040db9aa78ec71493"
   }
 }

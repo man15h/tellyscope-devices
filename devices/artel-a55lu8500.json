@@ -64,7 +64,7 @@
       ]
     },
     {
-      "title": "HbbTV (the red button on antenna TV) stays on in this shared list; the tested set, which only uses apps and HDMI,",
+      "title": "HbbTV (the red button on antenna TV) stays on in this shared list; the tested set, which only uses apps and HDMI, has it off: uncomment it if you never watch antenna TV.",
       "packages": [
         {
           "pkg": "com.seraphic.media.tv.interactive.app",
@@ -77,6 +77,6 @@
   "source": {
     "repo": "Gathin23/cleanyourtv",
     "path": "examples/artel-a55lu8500/debloat.txt",
-    "commit": "3c122bc073f7a9a83de251621e6e31d90dd96109"
+    "commit": "3f175120f9802ab4364f61d040db9aa78ec71493"
   }
 }

@@ -184,7 +184,7 @@
       ]
     },
     {
-      "title": "First-run wizard. On this Android TV set it does not claim Home, and the saved Wi-Fi network belonged to",
+      "title": "First-run wizard. On this Android TV set it does not claim Home, and the saved Wi-Fi network belonged to android.uid.system (dumpsys wifi | grep -o 'cname=[^ ]*'), so disabling it was safe. If setupwraith owns your saved Wi-Fi network, disabling it deletes that network: forget and re-join it in Settings first.",
       "packages": [
         {
           "pkg": "com.google.android.tungsten.setupwraith"
@@ -192,7 +192,7 @@
       ]
     },
     {
-      "title": "Stock launcher content engine. Disable it only after launcher/build-and-install.sh has moved Home and",
+      "title": "Stock launcher content engine. Disable it only after launcher/build-and-install.sh has moved Home and disabled com.google.android.tvlauncher: tvlauncher holds a provider reference into it. It is also the only handler of the Android TV notification panel, which goes with it.",
       "packages": [
         {
           "pkg": "com.google.android.tvrecommendations"
@@ -203,6 +203,6 @@
   "source": {
     "repo": "Gathin23/cleanyourtv",
     "path": "examples/philips-65oled807/debloat.txt",
-    "commit": "001a44883f2bdbd02717728568d14a6e08f721df"
+    "commit": "3f175120f9802ab4364f61d040db9aa78ec71493"
   }
 }

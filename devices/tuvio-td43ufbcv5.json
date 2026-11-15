@@ -118,7 +118,7 @@
       ]
     },
     {
-      "title": "Batch 4: screensaver. First set the launcher's clock as screensaver",
+      "title": "Batch 4: screensaver. First set the launcher's clock as screensaver: settings put secure screensaver_components com.gathin.tvhome/.ClockDream settings put secure screensaver_default_component com.gathin.tvhome/.ClockDream",
       "packages": [
         {
           "pkg": "com.google.android.apps.tv.dreamx",
@@ -147,6 +147,6 @@
   "source": {
     "repo": "Gathin23/cleanyourtv",
     "path": "examples/tuvio-td43ufbcv5/debloat.txt",
-    "commit": "a1e948c665abf5af86c3aab08fe05053686a6bf3"
+    "commit": "3f175120f9802ab4364f61d040db9aa78ec71493"
   }
 }
