@@ -32,7 +32,7 @@
       ]
     },
     {
-      "title": "Sony's preloaded 应用中心 (a partner build of 当贝市场): it is what fills the home's 推荐 row with paid-app cards.",
+      "title": "Sony's preloaded 应用中心 (a partner build of 当贝市场): it is what fills the home's 推荐 row with",
       "packages": [
         {
           "pkg": "com.sony.dangbeimarket"
@@ -127,7 +127,7 @@
       ]
     },
     {
-      "title": "Hotel / commercial / pro mode com.sony.dtv.b2b.hotelmode is NOT here: it provides the com.sony.dtv.b2b.hotelsettings provider that com.android.tv.settings' MainFragment reads while it builds the menu. Disabled, Settings opens to a blank screen (the fragment dies on the missing provider) and HomeKeyService-style Settings buttons look broken. One evening of use found this; keep it enabled.",
+      "title": "Hotel / commercial / pro mode",
       "packages": [
         {
           "pkg": "com.sony.dtv.b2b.importexport"
@@ -154,7 +154,7 @@
       ]
     },
     {
-      "title": "Firmware update, left enabled: the other SVP-DTV15 lists keep it too, and an updater is the one service worth leaving on. The owner turns it off on this set by choice; uncomment the line to disable OTA.",
+      "title": "Firmware update, left enabled: the other SVP-DTV15 lists keep it too, and an updater is the one service",
       "packages": [
         {
           "pkg": "com.sony.dtv.systemupdate",
@@ -217,6 +217,6 @@
   "source": {
     "repo": "Gathin23/cleanyourtv",
     "path": "examples/sony-kd-55x8000c/debloat.txt",
-    "commit": "3f175120f9802ab4364f61d040db9aa78ec71493"
+    "commit": "575d73f0f30c329aa7ebaea2bc863943fd9bf7f9"
   }
 }

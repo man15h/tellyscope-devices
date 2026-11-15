@@ -11,7 +11,7 @@
   "keep": [],
   "groups": [
     {
-      "title": "Anoki ACR: automatic content recognition. Starts at BOOT_COMPLETED, marked PERSISTENT, and requests REAL_GET_TASKS, INTERNET and com.google.android.gms.permission.AD_ID. It also publishes a FastSupportProvider feeding the FAST channel app below.",
+      "title": "Anoki ACR: automatic content recognition. Starts at BOOT_COMPLETED, marked PERSISTENT, and",
       "packages": [
         {
           "pkg": "tv.anoki.acr.controller"
@@ -38,7 +38,7 @@
       ]
     },
     {
-      "title": "Stock launcher ad and recommendation rows (the launcher itself is disabled by launcher/build-and-install.sh, so it is not listed here)",
+      "title": "Stock launcher ad and recommendation rows (the launcher itself is disabled by",
       "packages": [
         {
           "pkg": "com.google.android.tvrecommendations"
@@ -112,6 +112,6 @@
   "source": {
     "repo": "Gathin23/cleanyourtv",
     "path": "examples/eko-4k-bangbae/debloat.txt",
-    "commit": "3f175120f9802ab4364f61d040db9aa78ec71493"
+    "commit": "baadd07a7d095cc3ea72e6ccb615987bf1fb97c4"
   }
 }

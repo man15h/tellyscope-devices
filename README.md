@@ -95,8 +95,7 @@ it, never pre-tick it. Every `pkg` matches `[A-Za-z][A-Za-z0-9_]*(\.[A-Za-z0-9_]
 otherwise.
 
 How a `debloat.txt` becomes a device file: blocks are split on blank lines and bare `#` lines. Prose
-before the first package is the header. Each block's first comment line is its group title; when that
-line stops mid-sentence and the next starts in lowercase, the title runs on to the end of the sentence. A commented
+before the first package is the header. Each block's first comment line is its group title. A commented
 package under a heading that says "do not disable", "keep" or "kept on purpose" goes to `keep`; any
 other commented package is `optional`. Quirk notes are not copied: follow `source` to read them.
 

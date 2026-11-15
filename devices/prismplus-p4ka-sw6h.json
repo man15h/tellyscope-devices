@@ -88,7 +88,7 @@
       ]
     },
     {
-      "title": "--- deliberately kept --- com.google.android.katniss            (Assistant) com.google.android.apps.mediashell    (Chromecast receiver)",
+      "title": "--- deliberately kept ---",
       "packages": [
         {
           "pkg": "com.google.android.partnersetup",
@@ -104,6 +104,6 @@
   "source": {
     "repo": "Gathin23/cleanyourtv",
     "path": "examples/prismplus-p4ka-sw6h/debloat.txt",
-    "commit": "3f175120f9802ab4364f61d040db9aa78ec71493"
+    "commit": "001a44883f2bdbd02717728568d14a6e08f721df"
   }
 }

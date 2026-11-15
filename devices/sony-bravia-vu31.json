@@ -102,7 +102,7 @@
       ]
     },
     {
-      "title": "Screensaver: set `settings put secure screensaver_components com.android.dreams.basic/.Colors` first, or with the launcher installed its clock, com.gathin.tvhome/.ClockDream (2nd; runs in the launcher's process)",
+      "title": "Screensaver: set `settings put secure screensaver_components com.android.dreams.basic/.Colors` first, or",
       "packages": [
         {
           "pkg": "com.google.android.apps.tv.dreamx",
@@ -111,7 +111,7 @@
       ]
     },
     {
-      "title": "Off by choice (owner does not use them). Alexa (m2.seeds.iot), Chromecast, AirPlay, the phone remote and Assistant were kept on purpose.",
+      "title": "Off by choice (owner does not use them). Alexa (m2.seeds.iot), Chromecast, AirPlay, the phone",
       "packages": [
         {
           "pkg": "com.google.android.videos",
@@ -167,7 +167,7 @@
       ]
     },
     {
-      "title": "Launcher handover (2nd): setupwraith is safe to disable before the launcher (launcherx keeps Home), but only once the Wi-Fi owner check above is clean.",
+      "title": "Launcher handover (2nd): setupwraith is safe to disable before the launcher (launcherx keeps Home), but",
       "packages": [
         {
           "pkg": "com.google.android.tungsten.setupwraith",

@@ -209,7 +209,7 @@
       ]
     },
     {
-      "title": "Also disabled on 2026-11-02 and not yet reboot-checked: the packages examples/sony-kd-55xf7596/ lists and this list leaves on (same board, same firmware build).",
+      "title": "Also disabled on 2026-11-02 and not yet reboot-checked: the packages examples/sony-kd-55xf7596/ lists and",
       "packages": [
         {
           "pkg": "com.google.android.leanbacklauncher",
@@ -252,6 +252,6 @@
   "source": {
     "repo": "Gathin23/cleanyourtv",
     "path": "examples/sony-kd-55xf8096/debloat.txt",
-    "commit": "3f175120f9802ab4364f61d040db9aa78ec71493"
+    "commit": "8672e68e8a24c1258e4662cd11daa4ed13795dad"
   }
 }

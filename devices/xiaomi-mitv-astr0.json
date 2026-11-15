@@ -123,7 +123,7 @@
       ]
     },
     {
-      "title": "Stock launcher - LEFT COMMENTED OUT by default: uncomment ONLY together with the allowlist trampoline from the device doc (§Home), or Home lands on FallbackHome's black screen. disable.sh's Home guard normally skips it anyway. Undo path: pm enable com.mitv.tvhome + reboot.",
+      "title": "Stock launcher - LEFT COMMENTED OUT by default: uncomment ONLY together with the",
       "packages": [
         {
           "pkg": "com.mitv.tvhome",
@@ -135,6 +135,6 @@
   "source": {
     "repo": "Gathin23/cleanyourtv",
     "path": "examples/xiaomi-mitv-astr0/debloat.txt",
-    "commit": "3f175120f9802ab4364f61d040db9aa78ec71493"
+    "commit": "575d73f0f30c329aa7ebaea2bc863943fd9bf7f9"
   }
 }

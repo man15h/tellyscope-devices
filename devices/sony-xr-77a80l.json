@@ -191,7 +191,7 @@
       ]
     },
     {
-      "title": "Batch 4: Google TV setup wizard. Its RecoveryActivity claims HOME (priority 1) and would keep Home away from the new launcher once launcherx is disabled. Re-enable before a factory reset.",
+      "title": "Batch 4: Google TV setup wizard. Its RecoveryActivity claims HOME (priority 1) and would keep Home",
       "packages": [
         {
           "pkg": "com.google.android.tungsten.setupwraith"
@@ -202,6 +202,6 @@
   "source": {
     "repo": "Gathin23/cleanyourtv",
     "path": "examples/sony-xr-77a80l/debloat.txt",
-    "commit": "3f175120f9802ab4364f61d040db9aa78ec71493"
+    "commit": "a1e948c665abf5af86c3aab08fe05053686a6bf3"
   }
 }

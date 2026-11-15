@@ -58,7 +58,7 @@
       ]
     },
     {
-      "title": "Stock launcher, replaced by launcher/. Left to launcher/build-and-install.sh, which disables it only after the new home is installed and set as default; restore.sh re-enables it.",
+      "title": "Stock launcher, replaced by launcher/. Left to launcher/build-and-install.sh, which disables it only",
       "packages": [
         {
           "pkg": "com.google.android.tvlauncher",
@@ -70,6 +70,6 @@
   "source": {
     "repo": "Gathin23/cleanyourtv",
     "path": "examples/strong-srt-43ud6593/debloat.txt",
-    "commit": "3f175120f9802ab4364f61d040db9aa78ec71493"
+    "commit": "3c122bc073f7a9a83de251621e6e31d90dd96109"
   }
 }

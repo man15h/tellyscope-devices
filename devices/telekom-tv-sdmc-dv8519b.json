@@ -85,7 +85,7 @@
       ]
     },
     {
-      "title": "Telekom TV app: live TV, guide, recordings, and the stock Home. It is the only live-TV app, so KEEP it unless the box is streaming-only -- disabling it leaves no live TV and no stock launcher to fall back to.",
+      "title": "Telekom TV app: live TV, guide, recordings, and the stock Home. It is the only live-TV app, so KEEP it",
       "packages": [
         {
           "pkg": "com.telekom.onetv.tv",
@@ -97,6 +97,6 @@
   "source": {
     "repo": "Gathin23/cleanyourtv",
     "path": "examples/telekom-tv-sdmc-dv8519b/debloat.txt",
-    "commit": "3f175120f9802ab4364f61d040db9aa78ec71493"
+    "commit": "001a44883f2bdbd02717728568d14a6e08f721df"
   }
 }

@@ -100,7 +100,7 @@
       ]
     },
     {
-      "title": "--- Casting, remote, updates, screensaver: off by choice. Chromecast itself is kept (com.google.android.apps.mediashell stays), only Miracast screen mirroring goes.",
+      "title": "--- Casting, remote, updates, screensaver: off by choice. Chromecast itself is kept",
       "packages": [
         {
           "pkg": "com.tcl.miracast",
@@ -133,6 +133,6 @@
   "source": {
     "repo": "Gathin23/cleanyourtv",
     "path": "examples/tcl-beyondtv2-android-11/debloat.txt",
-    "commit": "3f175120f9802ab4364f61d040db9aa78ec71493"
+    "commit": "095b71ad93d99ea28d94d97b06385709d354b795"
   }
 }

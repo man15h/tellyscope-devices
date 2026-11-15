@@ -191,7 +191,7 @@
       ]
     },
     {
-      "title": "Disabled last, after the new launcher was confirmed as Home with `dumpsys activity activities | grep mFocusedApp`. It comes back on its own: see the header.",
+      "title": "Disabled last, after the new launcher was confirmed as Home with",
       "packages": [
         {
           "pkg": "com.google.android.apps.tv.launcherx"
@@ -202,6 +202,6 @@
   "source": {
     "repo": "Gathin23/cleanyourtv",
     "path": "examples/xgimi-mogo-4/debloat.txt",
-    "commit": "3f175120f9802ab4364f61d040db9aa78ec71493"
+    "commit": "575d73f0f30c329aa7ebaea2bc863943fd9bf7f9"
   }
 }

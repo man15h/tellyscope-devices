@@ -79,7 +79,7 @@
       ]
     },
     {
-      "title": "Launcher partner customization (rows and branding for the stock home). Unlike the Google variant on the Android 11 CHiQ, this MediaTek one only provides tvlauncher.config, not tvlauncher.widget; checked across a reboot, com.mediatek.tv.service does not crash and the Input key still works.",
+      "title": "Launcher partner customization (rows and branding for the stock home). Unlike the Google variant on",
       "packages": [
         {
           "pkg": "com.mediatek.android.leanbacklauncher.partnercustomizer"
@@ -90,6 +90,6 @@
   "source": {
     "repo": "Gathin23/cleanyourtv",
     "path": "examples/chiq-gtvu65/debloat.txt",
-    "commit": "3f175120f9802ab4364f61d040db9aa78ec71493"
+    "commit": "3c122bc073f7a9a83de251621e6e31d90dd96109"
   }
 }

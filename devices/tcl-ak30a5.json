@@ -146,7 +146,7 @@
       ]
     },
     {
-      "title": "The 20250610 unit disabled these first, and that broke the stock desktop: the 影视 row on com.tcl.cyberui is the 腾讯视频版权 channel, and pressing OK has to hand the playback over to com.tcl.vod. With com.tcl.vod disabled the row still shows - the data lives in cyberui - and OK fails silently, with no activity started at all. The same goes for the 儿童 / 音乐 / 购物 / 微信 rows and for com.tcl.usercenter, whose UserCenterService cyberui asks for.",
+      "title": "The 20250610 unit disabled these first, and that broke the stock desktop: the 影视 row on",
       "packages": [
         {
           "pkg": "com.tcl.tshop",
@@ -164,6 +164,6 @@
   "source": {
     "repo": "Gathin23/cleanyourtv",
     "path": "examples/tcl-ak30a5/debloat.txt",
-    "commit": "3f175120f9802ab4364f61d040db9aa78ec71493"
+    "commit": "baadd07a7d095cc3ea72e6ccb615987bf1fb97c4"
   }
 }

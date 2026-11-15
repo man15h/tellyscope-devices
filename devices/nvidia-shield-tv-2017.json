@@ -31,7 +31,7 @@
       ]
     },
     {
-      "title": "Batch 2: sponsored rows, promos, auto-installs, gaming leftovers com.google.android.tvrecommendations - keep it enabled. Disabled, Android stops binding the SHIELD TV phone app's input service (com.nvidia.shield.remote.server) at boot: the app still connects, but every key fails (docs/TROUBLESHOOTING.md). It was disabled on this unit for four days, then re-enabled; with launcher/ as Home its sponsored rows have nowhere to show.",
+      "title": "Batch 2: sponsored rows, promos, auto-installs, gaming leftovers",
       "packages": [
         {
           "pkg": "android.autoinstalls.config.nvidia",
@@ -163,6 +163,6 @@
   "source": {
     "repo": "Gathin23/cleanyourtv",
     "path": "examples/nvidia-shield-tv-2017/debloat.txt",
-    "commit": "3f175120f9802ab4364f61d040db9aa78ec71493"
+    "commit": "baadd07a7d095cc3ea72e6ccb615987bf1fb97c4"
   }
 }

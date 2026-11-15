@@ -183,7 +183,7 @@
       ]
     },
     {
-      "title": "Preloaded apps, off by choice on this unit. The streaming services are commented out (most owners use one); uncomment any you never use, and comment out any other line you want to keep.",
+      "title": "Preloaded apps, off by choice on this unit. The streaming services are commented out (most owners use one);",
       "packages": [
         {
           "pkg": "com.netflix.ninja",
@@ -262,6 +262,6 @@
   "source": {
     "repo": "Gathin23/cleanyourtv",
     "path": "examples/philips-49pus6561/debloat.txt",
-    "commit": "3f175120f9802ab4364f61d040db9aa78ec71493"
+    "commit": "8672e68e8a24c1258e4662cd11daa4ed13795dad"
   }
 }

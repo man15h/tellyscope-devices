@@ -53,7 +53,7 @@
       ]
     },
     {
-      "title": "Account service. Verified safe in one batch, BUT the reporter saw the About page crash after disabling com.coocaa.sky.ccapi \"and/or\" this package. Disable it LAST and re-check About.",
+      "title": "Account service. Verified safe in one batch, BUT the reporter saw the About page crash after",
       "packages": [
         {
           "pkg": "com.tianci.user",
@@ -110,6 +110,6 @@
   "source": {
     "repo": "Gathin23/cleanyourtv",
     "path": "examples/skyworth-8r40-k5c/debloat.txt",
-    "commit": "3f175120f9802ab4364f61d040db9aa78ec71493"
+    "commit": "575d73f0f30c329aa7ebaea2bc863943fd9bf7f9"
   }
 }

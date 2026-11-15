@@ -105,7 +105,7 @@
       ]
     },
     {
-      "title": "Batch 5: also disabled on the Nikkei DVB91NK (second unit): Google setup leftovers and Android extras nobody opens on a TV. Reboot-checked there; the list was unchanged afterwards.",
+      "title": "Batch 5: also disabled on the Nikkei DVB91NK (second unit): Google setup leftovers and Android extras nobody",
       "packages": [
         {
           "pkg": "com.google.android.onetimeinitializer"
@@ -136,7 +136,7 @@
       ]
     },
     {
-      "title": "Stock launcher, replaced by launcher/. Left to launcher/build-and-install.sh, which disables it only after the new home is installed and set as default; restore.sh re-enables it.",
+      "title": "Stock launcher, replaced by launcher/. Left to launcher/build-and-install.sh, which disables it only",
       "packages": [
         {
           "pkg": "com.google.android.tvlauncher",
@@ -148,6 +148,6 @@
   "source": {
     "repo": "Gathin23/cleanyourtv",
     "path": "examples/ok-ai-pont-ikebukuro/debloat.txt",
-    "commit": "3f175120f9802ab4364f61d040db9aa78ec71493"
+    "commit": "baadd07a7d095cc3ea72e6ccb615987bf1fb97c4"
   }
 }

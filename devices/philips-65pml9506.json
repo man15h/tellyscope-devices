@@ -117,7 +117,7 @@
       ]
     },
     {
-      "title": "Batch 4: silent installer. On every screen-on it re-installed the ~26 \"NetTV\" apps (Toon Goggles and others) and Play Protect popped up for each one it blocked.",
+      "title": "Batch 4: silent installer. On every screen-on it re-installed the ~26 \"NetTV\" apps",
       "packages": [
         {
           "pkg": "org.droidtv.nettvapps"
@@ -128,6 +128,6 @@
   "source": {
     "repo": "Gathin23/cleanyourtv",
     "path": "examples/philips-65pml9506/debloat.txt",
-    "commit": "3f175120f9802ab4364f61d040db9aa78ec71493"
+    "commit": "575d73f0f30c329aa7ebaea2bc863943fd9bf7f9"
   }
 }

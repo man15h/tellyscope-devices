@@ -131,7 +131,7 @@
       ]
     },
     {
-      "title": "Firmware updates stay on by default. The tested unit disabled both at its owner's request since 21 October, with no side effects seen; StarServicesCore is still started at boot by the system even when disabled.",
+      "title": "Firmware updates stay on by default. The tested unit disabled both at its owner's request since 21 October,",
       "packages": [
         {
           "pkg": "ru.sberdevices.updater",
@@ -157,6 +157,6 @@
   "source": {
     "repo": "Gathin23/cleanyourtv",
     "path": "examples/sber-salute-tv-at30a6/debloat.txt",
-    "commit": "3f175120f9802ab4364f61d040db9aa78ec71493"
+    "commit": "575d73f0f30c329aa7ebaea2bc863943fd9bf7f9"
   }
 }

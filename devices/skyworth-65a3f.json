@@ -11,7 +11,7 @@
   "keep": [],
   "groups": [
     {
-      "title": "Kept on purpose: com.coocaa.aigc.home, com.skyworth.setting, com.tianci.system, com.coocaa.os.* (including com.coocaa.os.control and com.coocaa.os.softsettings), com.coocaa.safelauncher, com.tianci.movieplatform, input methods, voice/mic, casting and audio/PQ packages.",
+      "title": "Kept on purpose: com.coocaa.aigc.home, com.skyworth.setting, com.tianci.system, com.coocaa.os.*",
       "packages": [
         {
           "pkg": "com.tianci.ad"
@@ -46,6 +46,6 @@
   "source": {
     "repo": "Gathin23/cleanyourtv",
     "path": "examples/skyworth-65a3f/debloat.txt",
-    "commit": "3f175120f9802ab4364f61d040db9aa78ec71493"
+    "commit": "575d73f0f30c329aa7ebaea2bc863943fd9bf7f9"
   }
 }

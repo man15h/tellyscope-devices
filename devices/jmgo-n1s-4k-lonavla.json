@@ -70,7 +70,7 @@
       ]
     },
     {
-      "title": "Google TV setup wizard: only its RecoveryActivity matters after setup. Re-join the Wi-Fi first (above), and disable it before build-and-install.sh. Disabling it gives Home back but can cost casting.",
+      "title": "Google TV setup wizard: only its RecoveryActivity matters after setup. Re-join the Wi-Fi first (above),",
       "packages": [
         {
           "pkg": "com.google.android.tungsten.setupwraith"
@@ -89,6 +89,6 @@
   "source": {
     "repo": "Gathin23/cleanyourtv",
     "path": "examples/jmgo-n1s-4k-lonavla/debloat.txt",
-    "commit": "3f175120f9802ab4364f61d040db9aa78ec71493"
+    "commit": "a1e948c665abf5af86c3aab08fe05053686a6bf3"
   }
 }

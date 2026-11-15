@@ -182,7 +182,7 @@
       ]
     },
     {
-      "title": "5. Launcher handover (setupwraith's RecoveryActivity claims HOME once launcherx is off; the install script disables launcherx itself). Ambient mode replaced by the launcher's Clock screensaver.",
+      "title": "5. Launcher handover (setupwraith's RecoveryActivity claims HOME once launcherx is off; the install",
       "packages": [
         {
           "pkg": "com.google.android.tungsten.setupwraith"
@@ -197,6 +197,6 @@
   "source": {
     "repo": "Gathin23/cleanyourtv",
     "path": "examples/tcl-g07-google-tv/debloat.txt",
-    "commit": "3f175120f9802ab4364f61d040db9aa78ec71493"
+    "commit": "575d73f0f30c329aa7ebaea2bc863943fd9bf7f9"
   }
 }

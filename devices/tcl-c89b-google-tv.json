@@ -155,7 +155,7 @@
       ]
     },
     {
-      "title": "Ambient screensaver (shows promos). Switch screensaver_components to com.android.dreams.basic/.Colors before disabling it.",
+      "title": "Ambient screensaver (shows promos). Switch screensaver_components to",
       "packages": [
         {
           "pkg": "com.google.android.apps.tv.dreamx"
@@ -240,6 +240,6 @@
   "source": {
     "repo": "Gathin23/cleanyourtv",
     "path": "examples/tcl-c89b-google-tv/debloat.txt",
-    "commit": "3f175120f9802ab4364f61d040db9aa78ec71493"
+    "commit": "8672e68e8a24c1258e4662cd11daa4ed13795dad"
   }
 }

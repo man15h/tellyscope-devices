@@ -11,7 +11,7 @@
   "keep": [],
   "groups": [
     {
-      "title": "Kept by choice - the two units disagreed here. One kept all of these, the other disabled them and saw no problem; uncomment the ones you are happy to lose. The Assistant line costs voice search, and the four after it cost casting (Chromecast, Miracast and Mi Connect; phone casting was not tested on the second unit).",
+      "title": "Kept by choice - the two units disagreed here. One kept all of these, the other disabled them and saw no",
       "packages": [
         {
           "pkg": "com.google.android.katniss",
@@ -51,7 +51,7 @@
       ]
     },
     {
-      "title": "Streaming apps, kept enabled: uncomment the ones you never use (Netflix and Prime Video are already off at the firmware level on this build).",
+      "title": "Streaming apps, kept enabled: uncomment the ones you never use (Netflix and Prime Video are already off at",
       "packages": [
         {
           "pkg": "com.netflix.ninja",
@@ -197,6 +197,6 @@
   "source": {
     "repo": "Gathin23/cleanyourtv",
     "path": "examples/xiaomi-mitv-afmu1/debloat.txt",
-    "commit": "3f175120f9802ab4364f61d040db9aa78ec71493"
+    "commit": "575d73f0f30c329aa7ebaea2bc863943fd9bf7f9"
   }
 }
