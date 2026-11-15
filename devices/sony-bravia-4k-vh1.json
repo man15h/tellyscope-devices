@@ -169,11 +169,150 @@
           "pkg": "com.netflix.partner.ncm"
         }
       ]
+    },
+    {
+      "title": "XBR-65X900H (BRAVIA_VH1_UC, build S159): Sony IoT, usage agents, BRAVIA CAM (no camera on X900H) and Vewd",
+      "packages": [
+        {
+          "pkg": "com.sony.dtv.seeds.iot",
+          "optional": true
+        },
+        {
+          "pkg": "com.sony.dtv.seeds.iot.remotestart",
+          "optional": true
+        },
+        {
+          "pkg": "com.sony.dtv.seeds.auth",
+          "optional": true
+        },
+        {
+          "pkg": "com.sony.dtv.usercontext",
+          "note": "usage agent",
+          "optional": true
+        },
+        {
+          "pkg": "com.sony.dtv.lastaccess",
+          "note": "usage agent",
+          "optional": true
+        },
+        {
+          "pkg": "com.sony.dtv.ecodashboard",
+          "note": "Eco dashboard",
+          "optional": true
+        },
+        {
+          "pkg": "com.sony.dtv.sonyloglevelsettingsys",
+          "optional": true
+        },
+        {
+          "pkg": "com.vewd.core.service",
+          "note": "Vewd (Opera TV) HTML5 store service",
+          "optional": true
+        },
+        {
+          "pkg": "com.sony.dtv.sensingcamera.fwupdate",
+          "note": "BRAVIA CAM firmware updater",
+          "optional": true
+        },
+        {
+          "pkg": "com.sony.dtv.sensingcamera.settings",
+          "note": "BRAVIA CAM settings",
+          "optional": true
+        },
+        {
+          "pkg": "com.sony.dtv.sensingfusionservice",
+          "note": "BRAVIA CAM sensing service",
+          "optional": true
+        },
+        {
+          "pkg": "com.sony.dtv.distancealert",
+          "note": "BRAVIA CAM viewing distance alert",
+          "optional": true
+        }
+      ]
+    },
+    {
+      "title": "XBR-65X900H (BRAVIA_VH1_UC, build S159): hotel/B2B Node.js and pro-mode stack",
+      "packages": [
+        {
+          "pkg": "com.sony.dtv.b2b.noderuntime.normal",
+          "optional": true
+        },
+        {
+          "pkg": "com.sony.dtv.b2b.noderuntime.privilege",
+          "optional": true
+        },
+        {
+          "pkg": "com.sony.dtv.b2b.noderuntimeextension.bpk",
+          "optional": true
+        },
+        {
+          "pkg": "com.sony.dtv.b2b.noderuntimeextension.node_20_11_1",
+          "optional": true
+        },
+        {
+          "pkg": "com.sony.dtv.b2b.prosettings",
+          "optional": true
+        },
+        {
+          "pkg": "com.sony.dtv.b2b.adminpassword",
+          "optional": true
+        },
+        {
+          "pkg": "com.sony.dtv.b2b.deviceadminsettings",
+          "optional": true
+        },
+        {
+          "pkg": "com.sony.dtv.b2b.importexport",
+          "optional": true
+        },
+        {
+          "pkg": "com.sony.dtv.b2b.frameworkextension",
+          "optional": true
+        },
+        {
+          "pkg": "com.sony.dtv.b2b.webappruntimedrm",
+          "optional": true
+        }
+      ]
+    },
+    {
+      "title": "XBR-65X900H (BRAVIA_VH1_UC, build S159): DLNA renderer/server (Chromecast and AirPlay are separate) and calendar/contacts providers",
+      "packages": [
+        {
+          "pkg": "com.sonyericsson.dlna",
+          "optional": true
+        },
+        {
+          "pkg": "com.sony.huey.dlna.module",
+          "optional": true
+        },
+        {
+          "pkg": "com.sony.huey.dlna.renderersettings",
+          "optional": true
+        },
+        {
+          "pkg": "com.google.android.syncadapters.calendar",
+          "optional": true
+        },
+        {
+          "pkg": "com.android.providers.calendar",
+          "optional": true
+        },
+        {
+          "pkg": "com.android.providers.contacts",
+          "optional": true
+        },
+        {
+          "pkg": "com.android.providers.userdictionary",
+          "optional": true
+        }
+      ]
     }
   ],
   "source": {
     "repo": "Gathin23/cleanyourtv",
     "path": "examples/sony-bravia-4k-vh1/debloat.txt",
-    "commit": "fcde1eedb4d6cc5ab683a6e0e9e1bc79229b898e"
+    "commit": "ddc3b2cdce299a5f30aa2da2437edc40f3cf6f2e"
   }
 }
