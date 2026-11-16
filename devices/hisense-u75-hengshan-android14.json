@@ -1,0 +1,215 @@
+{
+  "schema": 1,
+  "id": "hisense-u75-hengshan-android14",
+  "name": "Hisense 65U75K",
+  "tested": {
+    "os": "Android 14",
+    "sdk": null,
+    "build": "UKN4.250714.107"
+  },
+  "launcher": null,
+  "keep": [],
+  "groups": [
+    {
+      "title": "Hisense ACR / content / promo",
+      "packages": [
+        {
+          "pkg": "com.vt.tv.evservice",
+          "note": "Vtp_ACR automatic content recognition"
+        },
+        {
+          "pkg": "com.vt.hishow",
+          "note": "Family Moment / photo surfaces"
+        },
+        {
+          "pkg": "net.vidaatv.hisense.android.tv",
+          "note": "VIDAA Channels Plus"
+        },
+        {
+          "pkg": "com.vidaa.oemtabcontentprovider",
+          "note": "VIDAA content tab feed"
+        },
+        {
+          "pkg": "com.hisense.odinbrowser",
+          "note": "built-in browser"
+        },
+        {
+          "pkg": "com.windowsight.windowsighttv.hisense.artstudio"
+        }
+      ]
+    },
+    {
+      "title": "Retail / hotel / factory",
+      "packages": [
+        {
+          "pkg": "com.vt.storemode"
+        },
+        {
+          "pkg": "com.vt.tv.b2b"
+        },
+        {
+          "pkg": "com.vt.factory"
+        },
+        {
+          "pkg": "com.vt.fte",
+          "note": "first-time experience"
+        }
+      ]
+    },
+    {
+      "title": "Voice (Google Assistant kept)",
+      "packages": [
+        {
+          "pkg": "com.vt.alexa",
+          "note": "HiAlexa"
+        }
+      ]
+    },
+    {
+      "title": "Broadcast interactive (unused without tuner use)",
+      "packages": [
+        {
+          "pkg": "tv.mopa.ginga",
+          "optional": true
+        },
+        {
+          "pkg": "com.vt.tv.interactive",
+          "optional": true
+        }
+      ]
+    },
+    {
+      "title": "Cleaners / calibration extras",
+      "packages": [
+        {
+          "pkg": "com.vt.tv.protector",
+          "note": "DeviceAssistant cleaner"
+        },
+        {
+          "pkg": "com.vt.tv.calmanconnector"
+        },
+        {
+          "pkg": "com.vt.roomcalibration"
+        },
+        {
+          "pkg": "com.vt.tv.mediacenter",
+          "note": "USB / DLNA media center"
+        },
+        {
+          "pkg": "com.vt.tv.singlelisten",
+          "note": "MyMusic"
+        }
+      ]
+    },
+    {
+      "title": "Google partner / feedback",
+      "packages": [
+        {
+          "pkg": "com.google.android.partnersetup"
+        },
+        {
+          "pkg": "com.google.android.feedback"
+        },
+        {
+          "pkg": "com.android.tv.feedbackconsent"
+        }
+      ]
+    },
+    {
+      "title": "Unused on a television",
+      "packages": [
+        {
+          "pkg": "com.android.printspooler"
+        },
+        {
+          "pkg": "com.google.android.syncadapters.calendar"
+        },
+        {
+          "pkg": "com.android.providers.calendar"
+        },
+        {
+          "pkg": "com.android.providers.contacts"
+        }
+      ]
+    },
+    {
+      "title": "Casting extras (Chromecast / mediashell kept for Photos Ambient — do not disable mediashell)",
+      "packages": [
+        {
+          "pkg": "com.vt.tv.mobiledeviceconnectiontips",
+          "note": "Miracast tips"
+        },
+        {
+          "pkg": "com.vt.tv.airplaykeycheck"
+        },
+        {
+          "pkg": "com.vt.tv.dlna"
+        },
+        {
+          "pkg": "com.mediatek.AirplayAPK"
+        },
+        {
+          "pkg": "com.mediatek.airplaydaemon"
+        },
+        {
+          "pkg": "com.mediatek.partner.airplay_sys",
+          "note": "sticky system_ext priv-app; may partially respawn after reboot"
+        }
+      ]
+    },
+    {
+      "title": "Unused preloaded streaming (owner choice)",
+      "packages": [
+        {
+          "pkg": "com.netflix.ninja",
+          "optional": true
+        },
+        {
+          "pkg": "com.google.android.youtube.tvunplugged",
+          "optional": true
+        },
+        {
+          "pkg": "com.google.android.youtube.tvmusic",
+          "optional": true
+        },
+        {
+          "pkg": "com.tubitv",
+          "optional": true
+        },
+        {
+          "pkg": "tv.pluto.android",
+          "optional": true
+        },
+        {
+          "pkg": "com.instagram.airwave",
+          "optional": true
+        },
+        {
+          "pkg": "com.haystack.android",
+          "optional": true
+        },
+        {
+          "pkg": "com.google.android.play.games"
+        },
+        {
+          "pkg": "com.google.android.youtube.tv",
+          "note": "off here for SmartTube; comment out to keep stock YouTube",
+          "optional": true
+        }
+      ]
+    },
+    {
+      "title": "Launcher phase: after Wi-Fi rejoin. Leaves HOME claim; keep launcherx enabled for volume ramp.",
+      "packages": [
+        {
+          "pkg": "com.google.android.tungsten.setupwraith"
+        }
+      ]
+    }
+  ],
+  "source": {
+    "repo": "Gathin23/cleanyourtv",
+    "path": "examples/hisense-u75-hengshan-android14/debloat.txt",
+    "commit": "c2d6e79381add9daa83e116882f6d6b130dc4a73"
+  }
+}

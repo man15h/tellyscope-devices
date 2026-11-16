@@ -84,6 +84,26 @@
         {
           "pkg": "com.amazon.tv.acr",
           "note": "Automatic Content Recognition"
+        },
+        {
+          "pkg": "com.amazon.neodelegate",
+          "note": "Neo telemetry delegate (HD / PS7717.5746N, Spain)",
+          "optional": true
+        },
+        {
+          "pkg": "com.amazon.neopactservice",
+          "note": "Neo telemetry pact service (HD / PS7717.5746N, Spain)",
+          "optional": true
+        },
+        {
+          "pkg": "com.amazon.device_remote_config_sync_service",
+          "note": "remote config sync (HD / PS7717.5746N, Spain)",
+          "optional": true
+        },
+        {
+          "pkg": "com.amazon.dpcclient",
+          "note": "device policy/provisioning client (HD / PS7717.5746N, Spain)",
+          "optional": true
         }
       ]
     },
@@ -145,6 +165,11 @@
         {
           "pkg": "com.amazon.uxnotification",
           "note": "UX notification popups"
+        },
+        {
+          "pkg": "com.amazon.tv.notificationcenter",
+          "note": "notification center UI (HD / PS7717.5746N, Spain)",
+          "optional": true
         }
       ]
     },
@@ -196,6 +221,81 @@
         {
           "pkg": "com.amazon.tv.mattercohost",
           "note": "Matter smart-home controller"
+        },
+        {
+          "pkg": "com.amazon.fireos.cirruscloud",
+          "note": "Cirrus cloud sync (HD / PS7717.5746N, Spain)",
+          "optional": true
+        },
+        {
+          "pkg": "com.amazon.sync.provider.ipc",
+          "note": "account sync IPC provider (HD / PS7717.5746N, Spain)",
+          "optional": true
+        },
+        {
+          "pkg": "com.amazon.alta.h2clientservice",
+          "note": "Alta HTTP/2 client service (HD / PS7717.5746N, Spain)",
+          "optional": true
+        },
+        {
+          "pkg": "com.amazon.communication.discovery",
+          "note": "device communication discovery (HD / PS7717.5746N, Spain)",
+          "optional": true
+        },
+        {
+          "pkg": "com.amazon.csm.htmlruntime",
+          "note": "CSM HTML runtime (HD / PS7717.5746N, Spain)",
+          "optional": true
+        },
+        {
+          "pkg": "com.amazon.recess",
+          "note": "idle/recess helper (HD / PS7717.5746N, Spain)",
+          "optional": true
+        },
+        {
+          "pkg": "com.amazon.rtcsessioncontroller",
+          "note": "RTC session controller (HD / PS7717.5746N, Spain)",
+          "optional": true
+        },
+        {
+          "pkg": "com.amazon.spiderpork",
+          "note": "Amazon device helper (HD / PS7717.5746N, Spain)",
+          "optional": true
+        },
+        {
+          "pkg": "com.amazon.dummy.alarmclock",
+          "note": "unused dummy placeholder (HD / PS7717.5746N, Spain)",
+          "optional": true
+        },
+        {
+          "pkg": "com.amazon.dummy.calendar",
+          "note": "unused dummy placeholder (HD / PS7717.5746N, Spain)",
+          "optional": true
+        },
+        {
+          "pkg": "com.amazon.dummy.contacts",
+          "note": "unused dummy placeholder (HD / PS7717.5746N, Spain)",
+          "optional": true
+        },
+        {
+          "pkg": "com.amazon.dummy.gallery",
+          "note": "unused dummy placeholder (HD / PS7717.5746N, Spain)",
+          "optional": true
+        },
+        {
+          "pkg": "com.amazon.dummy.music",
+          "note": "unused dummy placeholder (HD / PS7717.5746N, Spain)",
+          "optional": true
+        },
+        {
+          "pkg": "com.amazon.dummy.settings",
+          "note": "unused dummy placeholder (HD / PS7717.5746N, Spain)",
+          "optional": true
+        },
+        {
+          "pkg": "com.android.printspooler",
+          "note": "Android print spooler, unused on a stick (HD / PS7717.5746N, Spain)",
+          "optional": true
         }
       ]
     },
@@ -239,11 +339,56 @@
           "note": "Alexa hints/cues providers (HintsProvider, InstaHintsProvider), ~44 MB resident"
         }
       ]
+    },
+    {
+      "title": "This set has these off; uncomment if you don't use them",
+      "packages": [
+        {
+          "pkg": "com.amazon.alexa.datastore.app",
+          "optional": true
+        },
+        {
+          "pkg": "com.amazon.alexadirectivebrokerservice",
+          "optional": true
+        },
+        {
+          "pkg": "com.amazon.aria",
+          "optional": true
+        },
+        {
+          "pkg": "com.amazon.cardinal",
+          "optional": true
+        },
+        {
+          "pkg": "com.amazon.firetv.androidskillconnectioncapability",
+          "optional": true
+        },
+        {
+          "pkg": "com.amazon.spotify.mediabrowserservice",
+          "optional": true
+        },
+        {
+          "pkg": "com.amazon.tcomm.jackson",
+          "optional": true
+        },
+        {
+          "pkg": "com.amazon.vizzini.ftvcds",
+          "optional": true
+        },
+        {
+          "pkg": "com.ivona.orchestrator",
+          "optional": true
+        },
+        {
+          "pkg": "com.ivona.tts.oem",
+          "optional": true
+        }
+      ]
     }
   ],
   "source": {
     "repo": "Gathin23/cleanyourtv",
     "path": "examples/amazon-fire-tv-stick-lite-2020/debloat.txt",
-    "commit": "575d73f0f30c329aa7ebaea2bc863943fd9bf7f9"
+    "commit": "c2d6e79381add9daa83e116882f6d6b130dc4a73"
   }
 }

@@ -1,0 +1,128 @@
+{
+  "schema": 1,
+  "id": "xgimi-z9x-china",
+  "name": "XGIMI Z9X projector",
+  "tested": {
+    "os": "Android 12",
+    "sdk": 31,
+    "build": null
+  },
+  "launcher": "com.xgimi.home",
+  "keep": [],
+  "groups": [
+    {
+      "title": "Telemetry, ads, help",
+      "packages": [
+        {
+          "pkg": "com.xgimi.adservice",
+          "note": "XGIMI ad service"
+        },
+        {
+          "pkg": "com.xgimi.datareporter",
+          "note": "usage/telemetry reporter"
+        },
+        {
+          "pkg": "com.xgimi.bugreportsender",
+          "note": "bug report uploader"
+        },
+        {
+          "pkg": "com.xgimi.msgcenter",
+          "note": "push message/notification center"
+        },
+        {
+          "pkg": "com.xgimi.instruction30",
+          "note": "help/instruction content"
+        }
+      ]
+    },
+    {
+      "title": "XGIMI extras",
+      "packages": [
+        {
+          "pkg": "com.xgimi.doubanfm",
+          "note": "豆瓣FM / XGIMI music radio"
+        },
+        {
+          "pkg": "com.xgimi.stream.video",
+          "note": "XGIMI video/VIP content app"
+        },
+        {
+          "pkg": "com.xgimi.atmosphere",
+          "note": "dynamic/ambient screensaver"
+        }
+      ]
+    },
+    {
+      "title": "Preloaded China streaming and music (Bilibili was disabled, then re-enabled at the owner's request; leave it out)",
+      "packages": [
+        {
+          "pkg": "com.ktcp.tvvideo",
+          "note": "云视听极光"
+        },
+        {
+          "pkg": "com.netease.cloudmusic.tv",
+          "note": "网易云音乐"
+        },
+        {
+          "pkg": "com.tencent.qqmusictv",
+          "note": "QQ 音乐"
+        },
+        {
+          "pkg": "com.gitvjimi.video",
+          "note": "GITV / 极米视频内容"
+        },
+        {
+          "pkg": "com.cibn.tv",
+          "note": "CIBN"
+        }
+      ]
+    },
+    {
+      "title": "XGIMI account / VIP / payment",
+      "packages": [
+        {
+          "pkg": "com.xgimi.account",
+          "note": "account stub"
+        },
+        {
+          "pkg": "com.xgimi.user",
+          "note": "account/VIP/backup UI and provider"
+        },
+        {
+          "pkg": "com.xgimi.payview",
+          "note": "VIP/payment UI"
+        }
+      ]
+    },
+    {
+      "title": "Optional: voice. Uncomment to disable 极米语音 and Google Assistant. duertts is the only",
+      "packages": [
+        {
+          "pkg": "com.xgimi.duertts",
+          "note": "极米语音 (MonitorService accessibility / TTS)",
+          "optional": true
+        },
+        {
+          "pkg": "com.google.android.katniss",
+          "note": "Google TV Assistant / voice search",
+          "optional": true
+        }
+      ]
+    },
+    {
+      "title": "Optional: firmware updater. Uncomment to disable OTA.",
+      "packages": [
+        {
+          "pkg": "com.xgimi.upgrade",
+          "note": "OTA updater; kept enabled by default",
+          "optional": true
+        }
+      ]
+    }
+  ],
+  "source": {
+    "repo": "Gathin23/cleanyourtv",
+    "path": "examples/xgimi-z9x-china/debloat.txt",
+    "commit": "c2d6e79381add9daa83e116882f6d6b130dc4a73"
+  }
+}
