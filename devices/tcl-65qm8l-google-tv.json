@@ -127,11 +127,106 @@
           "pkg": "com.google.android.apps.tv.launcherx"
         }
       ]
+    },
+    {
+      "title": "Optional, off on the TCL 75QM8L (see the header): uncomment what you don't use.",
+      "packages": [
+        {
+          "pkg": "com.tcl.tv.plus",
+          "note": "TCLtv+ free streaming app; untick its shortcut in the Input panel's \"+\" editor too",
+          "optional": true
+        },
+        {
+          "pkg": "com.tcl.gamebar",
+          "note": "game bar overlay on HDMI inputs",
+          "optional": true
+        },
+        {
+          "pkg": "com.tcl.ui_mediaCenter",
+          "note": "USB media player",
+          "optional": true
+        },
+        {
+          "pkg": "com.tcl.browser",
+          "note": "TCL web browser",
+          "optional": true
+        },
+        {
+          "pkg": "com.google.android.play.games",
+          "note": "Play Games",
+          "optional": true
+        },
+        {
+          "pkg": "com.tcl.t_solo",
+          "note": "T-Solo \"listen alone\" screen; headphones still pair in Settings without it",
+          "optional": true
+        }
+      ]
+    },
+    {
+      "title": "Streaming apps (the last five are placeholders that download the app when opened)",
+      "packages": [
+        {
+          "pkg": "com.netflix.ninja",
+          "note": "Netflix",
+          "optional": true
+        },
+        {
+          "pkg": "com.amazon.amazonvideo.livingroom",
+          "note": "Prime Video",
+          "optional": true
+        },
+        {
+          "pkg": "com.google.android.youtube.tvmusic",
+          "note": "YouTube Music",
+          "optional": true
+        },
+        {
+          "pkg": "com.disney.disneyplus",
+          "note": "Disney+",
+          "optional": true
+        },
+        {
+          "pkg": "com.hulu.livingroomplus",
+          "note": "Hulu",
+          "optional": true
+        },
+        {
+          "pkg": "com.google.android.youtube.tvunplugged",
+          "note": "YouTube TV",
+          "optional": true
+        },
+        {
+          "pkg": "com.tubitv",
+          "note": "Tubi",
+          "optional": true
+        },
+        {
+          "pkg": "com.haystack.android",
+          "note": "Haystack News",
+          "optional": true
+        },
+        {
+          "pkg": "com.instagram.airwave",
+          "note": "Instagram for TV",
+          "optional": true
+        }
+      ]
+    },
+    {
+      "title": "Voice assistant: the remote's mic button stops working without it",
+      "packages": [
+        {
+          "pkg": "com.google.android.katniss",
+          "note": "Google Assistant, voice search and Gemini",
+          "optional": true
+        }
+      ]
     }
   ],
   "source": {
     "repo": "Gathin23/cleanyourtv",
     "path": "examples/tcl-65qm8l-google-tv/debloat.txt",
-    "commit": "d043b6f90e6132f9bd9b4b652da1f43640d1f0b7"
+    "commit": "c2d6e79381add9daa83e116882f6d6b130dc4a73"
   }
 }

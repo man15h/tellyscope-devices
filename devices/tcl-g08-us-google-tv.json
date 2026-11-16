@@ -156,6 +156,16 @@
         },
         {
           "pkg": "com.google.android.play.games"
+        },
+        {
+          "pkg": "tv.pluto.android",
+          "note": "Pluto TV",
+          "optional": true
+        },
+        {
+          "pkg": "com.roku.web.trc",
+          "note": "Roku's free streaming app (The Roku Channel)",
+          "optional": true
         }
       ]
     },
@@ -180,6 +190,6 @@
   "source": {
     "repo": "Gathin23/cleanyourtv",
     "path": "examples/tcl-g08-us-google-tv/debloat.txt",
-    "commit": "575d73f0f30c329aa7ebaea2bc863943fd9bf7f9"
+    "commit": "c2d6e79381add9daa83e116882f6d6b130dc4a73"
   }
 }

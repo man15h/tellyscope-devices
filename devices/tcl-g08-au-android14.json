@@ -1,0 +1,142 @@
+{
+  "schema": 1,
+  "id": "tcl-g08-au-android14",
+  "name": "TCL Smart TV Pro",
+  "tested": {
+    "os": "Android 14",
+    "sdk": null,
+    "build": null
+  },
+  "launcher": "com.google.android.apps.tv.launcherx",
+  "keep": [],
+  "groups": [
+    {
+      "title": "TCL promo, demo and pushed content",
+      "packages": [
+        {
+          "pkg": "com.tcl.dashboard"
+        },
+        {
+          "pkg": "com.tcl.messagebox"
+        },
+        {
+          "pkg": "com.tcl.tv.tclhome_passive",
+          "note": "pushes TCL content to Home at boot"
+        },
+        {
+          "pkg": "com.tcl.exhibit",
+          "note": "store demo"
+        },
+        {
+          "pkg": "com.tcl.esticker",
+          "note": "retail sticker"
+        },
+        {
+          "pkg": "com.tcl.hotelmenu",
+          "note": "hotel portal"
+        },
+        {
+          "pkg": "com.tcl.ocean.instructions",
+          "note": "manual"
+        },
+        {
+          "pkg": "com.tcl.repairguide"
+        }
+      ]
+    },
+    {
+      "title": "Telemetry, account nags, Android ad services",
+      "packages": [
+        {
+          "pkg": "com.tcl.logkit",
+          "note": "log upload"
+        },
+        {
+          "pkg": "com.tcl.usercenter",
+          "note": "TCL account"
+        },
+        {
+          "pkg": "com.google.android.feedback"
+        },
+        {
+          "pkg": "com.android.tv.feedbackconsent"
+        },
+        {
+          "pkg": "com.android.adservices.api"
+        },
+        {
+          "pkg": "com.android.ondevicepersonalization.services"
+        },
+        {
+          "pkg": "com.android.federatedcompute.services"
+        },
+        {
+          "pkg": "com.tcl.guard",
+          "note": "TCL Guard"
+        }
+      ]
+    },
+    {
+      "title": "Extras and duplicates",
+      "packages": [
+        {
+          "pkg": "com.tcl.hearaid",
+          "note": "hearing test"
+        },
+        {
+          "pkg": "com.tcl.t_solo",
+          "note": "\"listen alone\" headphones feature"
+        },
+        {
+          "pkg": "com.tcl.smartalexa",
+          "note": "Alexa"
+        },
+        {
+          "pkg": "com.tcl.magiconnectfree",
+          "note": "MagiConnect phone remote: this set has it off; uncomment if you don't use it",
+          "optional": true
+        },
+        {
+          "pkg": "com.tcl.gamebar",
+          "note": "game bar: disabled, then re-enabled for a console on HDMI 2. Disable it if you have none.",
+          "optional": true
+        },
+        {
+          "pkg": "com.google.android.play.games"
+        },
+        {
+          "pkg": "com.android.printspooler"
+        },
+        {
+          "pkg": "com.tcl.android.webview",
+          "note": "spare webview"
+        },
+        {
+          "pkg": "com.mediatek.support.webview",
+          "note": "spare webview"
+        },
+        {
+          "pkg": "com.mediatek.backgrounddetection"
+        }
+      ]
+    },
+    {
+      "title": "Home takeover for launcher/. On the tested set the saved Wi-Fi belonged to setupwraith at first, so it was",
+      "packages": [
+        {
+          "pkg": "com.google.android.apps.tv.launcherx",
+          "note": "stock Google TV home"
+        },
+        {
+          "pkg": "com.google.android.tungsten.setupwraith",
+          "note": "setup wizard; claims Home once launcherx is off"
+        }
+      ]
+    }
+  ],
+  "source": {
+    "repo": "Gathin23/cleanyourtv",
+    "path": "examples/tcl-g08-au-android14/debloat.txt",
+    "commit": "c2d6e79381add9daa83e116882f6d6b130dc4a73"
+  }
+}

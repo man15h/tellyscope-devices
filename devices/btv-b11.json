@@ -1,0 +1,105 @@
+{
+  "schema": 1,
+  "id": "btv-b11",
+  "name": "BTV B11",
+  "tested": {
+    "os": "Android TV 9",
+    "sdk": 28,
+    "build": null
+  },
+  "launcher": "com.bb.launcher2",
+  "keep": [],
+  "groups": [
+    {
+      "title": "Telemetry and silent installers",
+      "packages": [
+        {
+          "pkg": "com.android.icore",
+          "note": "not an Android package: obfuscated, in /data/app, INSTALL/DELETE_PACKAGES, location, starts at boot"
+        },
+        {
+          "pkg": "com.factorytools.factorystability",
+          "note": "factory stress tool with INSTALL_PACKAGES (disabled only, never opened)"
+        },
+        {
+          "pkg": "com.google.android.feedback"
+        },
+        {
+          "pkg": "com.google.android.apps.pixelmigrate",
+          "note": "Pixel data migration, meaningless on a box"
+        }
+      ]
+    },
+    {
+      "title": "Vendor updater (see the header)",
+      "packages": [
+        {
+          "pkg": "com.bb.ota",
+          "optional": true
+        },
+        {
+          "pkg": "com.bb.otaback",
+          "optional": true
+        }
+      ]
+    },
+    {
+      "title": "Vendor live-TV app",
+      "packages": [
+        {
+          "pkg": "com.droid.stbbtvapp",
+          "note": "\"VIVO TV\": showed a \"service under maintenance\" screen",
+          "optional": true
+        }
+      ]
+    },
+    {
+      "title": "Casting (off by the owner's choice; keep them if you cast from a phone)",
+      "packages": [
+        {
+          "pkg": "com.droidlogic.miracast"
+        },
+        {
+          "pkg": "com.droidlogic.mediacenter",
+          "note": "\"Chromecast+\", a DLNA renderer"
+        }
+      ]
+    },
+    {
+      "title": "Services a box has no use for",
+      "packages": [
+        {
+          "pkg": "com.android.dreams.phototable"
+        },
+        {
+          "pkg": "com.android.camera2"
+        },
+        {
+          "pkg": "com.android.smspush"
+        }
+      ]
+    },
+    {
+      "title": "Preloaded apps (off by the owner's choice). WebView is com.android.webview, so Chrome can go.",
+      "packages": [
+        {
+          "pkg": "com.android.chrome"
+        },
+        {
+          "pkg": "com.android.gallery3d"
+        },
+        {
+          "pkg": "com.android.music"
+        },
+        {
+          "pkg": "com.android.deskclock"
+        }
+      ]
+    }
+  ],
+  "source": {
+    "repo": "Gathin23/cleanyourtv",
+    "path": "examples/btv-b11/debloat.txt",
+    "commit": "c2d6e79381add9daa83e116882f6d6b130dc4a73"
+  }
+}

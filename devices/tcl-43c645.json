@@ -148,6 +148,26 @@
         {
           "pkg": "com.tcl.ui_mediaCenter",
           "note": "USB media player, re-enable for USB drives"
+        },
+        {
+          "pkg": "com.tcl.gamebar",
+          "note": "game mode / VRR overlay for consoles; off on the second 43C645 by choice",
+          "optional": true
+        },
+        {
+          "pkg": "com.tcl.magiconnectfree",
+          "note": "TCL phone sharing app; off on the second 43C645 by choice",
+          "optional": true
+        },
+        {
+          "pkg": "org.chromium.webview_shell",
+          "note": "WebView test shell; off on the second 43C645",
+          "optional": true
+        },
+        {
+          "pkg": "android.autoinstalls.config.google.gtvpai",
+          "note": "silently installs partner apps; off on the second 43C645",
+          "optional": true
         }
       ]
     },
@@ -173,6 +193,6 @@
   "source": {
     "repo": "Gathin23/cleanyourtv",
     "path": "examples/tcl-43c645/debloat.txt",
-    "commit": "ddc3b2cdce299a5f30aa2da2437edc40f3cf6f2e"
+    "commit": "c2d6e79381add9daa83e116882f6d6b130dc4a73"
   }
 }

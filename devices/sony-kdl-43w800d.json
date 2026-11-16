@@ -1,0 +1,99 @@
+{
+  "schema": 1,
+  "id": "sony-kdl-43w800d",
+  "name": "Sony BRAVIA KDL-43W800D",
+  "tested": {
+    "os": "Android TV 8.0",
+    "sdk": 26,
+    "build": "SVPDTV15_PA"
+  },
+  "launcher": "com.google.android.tvlauncher",
+  "keep": [],
+  "groups": [
+    {
+      "title": "Applied 2026-11-15.",
+      "packages": [
+        {
+          "pkg": "com.qterics.da.product",
+          "note": "Qterics device agent"
+        },
+        {
+          "pkg": "com.sony.dtv.da.service",
+          "note": "Sony device agent / remote support"
+        },
+        {
+          "pkg": "com.google.android.feedback",
+          "note": "Feedback / crash reporter"
+        },
+        {
+          "pkg": "com.google.android.tv.bugreportsender",
+          "note": "Bug report sender"
+        },
+        {
+          "pkg": "com.sony.dtv.b2b.vendorprotocol",
+          "note": "SDDP model/MAC/IP broadcast for Control4-style home"
+        }
+      ]
+    },
+    {
+      "title": "Sony content, ads and recommendation rows",
+      "packages": [
+        {
+          "pkg": "com.sony.dtv.discovery",
+          "note": "Discover bar"
+        },
+        {
+          "pkg": "com.sony.dtv.bivlinfo",
+          "note": "feeds Discover"
+        },
+        {
+          "pkg": "com.sony.dtv.sonyselect",
+          "note": "Sony Select promo tile / app store"
+        },
+        {
+          "pkg": "com.sony.dtv.sonyselect.overlay",
+          "note": "its launcher overlay"
+        },
+        {
+          "pkg": "com.sony.dtv.indiametarecommendation",
+          "note": "India content-recommendation feed"
+        },
+        {
+          "pkg": "android.autoinstalls.config.sony.bravia",
+          "note": "Play auto-install of partner apps"
+        }
+      ]
+    },
+    {
+      "title": "Retail demo, tutorials and preloaded help",
+      "packages": [
+        {
+          "pkg": "com.sony.dtv.shopsettings",
+          "note": "in-store demo settings"
+        },
+        {
+          "pkg": "com.sony.dtv.customersupport"
+        },
+        {
+          "pkg": "com.sony.dtv.smarthelp"
+        },
+        {
+          "pkg": "com.sony.dtv.imanual",
+          "note": "i-Manual electronic guide"
+        },
+        {
+          "pkg": "com.sony.dtv.touchpad.tutorial",
+          "note": "touchpad remote tutorial, posts a recommendation card"
+        },
+        {
+          "pkg": "com.google.android.tvtutorials"
+        }
+      ]
+    }
+  ],
+  "source": {
+    "repo": "Gathin23/cleanyourtv",
+    "path": "examples/sony-kdl-43w800d/debloat.txt",
+    "commit": "c2d6e79381add9daa83e116882f6d6b130dc4a73"
+  }
+}

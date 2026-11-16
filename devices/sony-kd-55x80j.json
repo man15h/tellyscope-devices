@@ -1,0 +1,207 @@
+{
+  "schema": 1,
+  "id": "sony-kd-55x80j",
+  "name": "Sony BRAVIA KD-55X80J",
+  "tested": {
+    "os": "Android 12",
+    "sdk": 31,
+    "build": null
+  },
+  "launcher": null,
+  "keep": [],
+  "groups": [
+    {
+      "title": "--- Telemetry, device tracking, crash and feedback reporting -------------------------",
+      "packages": [
+        {
+          "pkg": "com.qterics.da.product",
+          "note": "Qterics device agent"
+        },
+        {
+          "pkg": "com.sony.dtv.da.service",
+          "note": "Sony device agent / remote support"
+        },
+        {
+          "pkg": "com.sonyericsson.idd.agent",
+          "note": "Sony usage-data agent"
+        },
+        {
+          "pkg": "com.sony.dtv.sonybugreportsys"
+        }
+      ]
+    },
+    {
+      "title": "--- Promo tiles, recommendation rows, help and notifications -------------------------",
+      "packages": [
+        {
+          "pkg": "com.sony.dtv.braviashow",
+          "note": "BRAVIA Show DreamService"
+        },
+        {
+          "pkg": "com.sony.dtv.customersupport",
+          "note": "Help tile"
+        },
+        {
+          "pkg": "com.sony.dtv.smarthelp"
+        },
+        {
+          "pkg": "com.sony.dtv.notificationcenter",
+          "note": "\"BRAVIA notifications\" inbox"
+        },
+        {
+          "pkg": "com.sony.dtv.mysony",
+          "note": "My Sony membership/promo app"
+        }
+      ]
+    },
+    {
+      "title": "--- Preloaded third-party and partner apps -----------------------------------------",
+      "packages": [
+        {
+          "pkg": "com.sony.dangbeimarket",
+          "note": "应用中心: partner build of 当贝市场"
+        }
+      ]
+    },
+    {
+      "title": "--- Hotel / commercial mode and the Node.js runtime it drives -----------------------",
+      "packages": [
+        {
+          "pkg": "com.sony.dtv.b2b.hotelmode",
+          "note": "always-running service, boot + periodic restart receivers"
+        },
+        {
+          "pkg": "com.sony.dtv.b2b.noderuntime.normal"
+        },
+        {
+          "pkg": "com.sony.dtv.b2b.noderuntime.privilege"
+        },
+        {
+          "pkg": "com.sony.dtv.b2b.noderuntimeextension.bpk"
+        },
+        {
+          "pkg": "com.sony.dtv.b2b.prosettings"
+        },
+        {
+          "pkg": "com.sony.dtv.b2b.importexport"
+        }
+      ]
+    },
+    {
+      "title": "--- Retail demo, tutorials and motion sensing --------------------------------------",
+      "packages": [
+        {
+          "pkg": "com.sony.dtv.demosupport"
+        },
+        {
+          "pkg": "com.sony.dtv.demosystemsupport"
+        },
+        {
+          "pkg": "com.sony.dtv.multiscreendemo"
+        },
+        {
+          "pkg": "com.sony.dtv.gestureapp"
+        },
+        {
+          "pkg": "com.sony.dtv.distancealert"
+        },
+        {
+          "pkg": "com.sony.dtv.sensingcamera.fwupdate",
+          "note": "camera firmware updater, kept on",
+          "optional": true
+        },
+        {
+          "pkg": "com.sony.dtv.sensingcamera.settings"
+        }
+      ]
+    },
+    {
+      "title": "--- Redundant casting stacks (乐播投屏 already provides AirPlay on this set) ---------",
+      "packages": [
+        {
+          "pkg": "com.sony.huey.dlna.module"
+        },
+        {
+          "pkg": "com.sony.huey.dlna.renderersettings"
+        },
+        {
+          "pkg": "com.sonyericsson.dlna"
+        }
+      ]
+    },
+    {
+      "title": "--- First-run setup wizard: HOME ownership -----------------------------------------",
+      "packages": [
+        {
+          "pkg": "com.google.android.tungsten.setupwraith"
+        }
+      ]
+    },
+    {
+      "title": "--- Printing and one-time partner setup ---------------------------------------------",
+      "packages": [
+        {
+          "pkg": "com.android.printspooler"
+        },
+        {
+          "pkg": "com.sony.dtv.QuickSetupCustomizer"
+        }
+      ]
+    },
+    {
+      "title": "--- Kept on purpose (commented out = kept) ------------------------------------------",
+      "packages": [
+        {
+          "pkg": "com.sony.dtv.systemupdate",
+          "note": "OTA firmware update: the one updater worth leaving on",
+          "optional": true
+        },
+        {
+          "pkg": "com.sony.dtv.tvx",
+          "note": "Live TV / every HDMI input",
+          "optional": true
+        },
+        {
+          "pkg": "com.sony.dtv.osat.album",
+          "note": "Sony Media Player (USB photos)",
+          "optional": true
+        },
+        {
+          "pkg": "com.sony.dtv.osat.music",
+          "note": "Sony Media Player (USB music)",
+          "optional": true
+        },
+        {
+          "pkg": "com.sony.dtv.osat.video",
+          "note": "Sony Media Player (USB video)",
+          "optional": true
+        },
+        {
+          "pkg": "com.sony.dtv.imanual",
+          "note": "i-Manual",
+          "optional": true
+        },
+        {
+          "pkg": "com.sony.dtv.irblaster",
+          "note": "IR blaster settings (the daemon irbservice stays on)",
+          "optional": true
+        },
+        {
+          "pkg": "com.sony.dtv.b2b.rs232csupport",
+          "note": "RS232 / uid-1000 plumbing, kept on the X80J list",
+          "optional": true
+        },
+        {
+          "pkg": "com.sony.dtv.appassistant",
+          "note": "应用助手: off in that run, but this list leaves it enabled",
+          "optional": true
+        }
+      ]
+    }
+  ],
+  "source": {
+    "repo": "Gathin23/cleanyourtv",
+    "path": "examples/sony-kd-55x80j/debloat.txt",
+    "commit": "c2d6e79381add9daa83e116882f6d6b130dc4a73"
+  }
+}

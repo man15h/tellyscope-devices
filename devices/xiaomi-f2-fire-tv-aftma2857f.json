@@ -182,11 +182,237 @@
           "optional": true
         }
       ]
+    },
+    {
+      "title": "This set has these off; uncomment if you don't use them (verified disabled & reboot-checked on Xiaomi TV F Pro 32 (2026) L32MB-FPEU, Spain)",
+      "packages": [
+        {
+          "pkg": "com.amazon.neo.minerva",
+          "note": "metrics pipeline",
+          "optional": true
+        },
+        {
+          "pkg": "com.amazon.neodelegate",
+          "optional": true
+        },
+        {
+          "pkg": "com.amazon.neopactservice",
+          "optional": true
+        },
+        {
+          "pkg": "com.amazon.tcomm.jackson",
+          "note": "Amazon telemetry transport (tcomm itself stays protected)",
+          "optional": true
+        },
+        {
+          "pkg": "com.amazon.csm.htmlruntime",
+          "optional": true
+        },
+        {
+          "pkg": "com.amazon.communication.discovery",
+          "optional": true
+        },
+        {
+          "pkg": "com.amazon.fireos.cirruscloud",
+          "optional": true
+        },
+        {
+          "pkg": "com.amazon.rtcsessioncontroller",
+          "optional": true
+        },
+        {
+          "pkg": "com.amazon.alta.h2clientservice",
+          "optional": true
+        },
+        {
+          "pkg": "com.amazon.audiolatencymeasurer",
+          "optional": true
+        },
+        {
+          "pkg": "com.amazon.dpcclient",
+          "note": "device personalization, ad profiles",
+          "optional": true
+        },
+        {
+          "pkg": "com.amazon.media.recommendations",
+          "note": "sponsored / recommendation rows",
+          "optional": true
+        },
+        {
+          "pkg": "com.amazon.tv.releasenotes",
+          "note": "\"What's new\" notes",
+          "optional": true
+        },
+        {
+          "pkg": "com.amazon.tv.notificationcenter",
+          "optional": true
+        },
+        {
+          "pkg": "com.amazon.tv.localgallery",
+          "note": "local gallery (not the USB media player)",
+          "optional": true
+        },
+        {
+          "pkg": "com.amazon.naatyam",
+          "optional": true
+        },
+        {
+          "pkg": "com.amazon.sync.provider.ipc",
+          "optional": true
+        },
+        {
+          "pkg": "com.amazon.device_remote_config_sync_service",
+          "optional": true
+        },
+        {
+          "pkg": "com.amazon.ssm",
+          "note": "System Status Monitor",
+          "optional": true
+        },
+        {
+          "pkg": "com.amazon.dummy.alarmclock",
+          "optional": true
+        },
+        {
+          "pkg": "com.amazon.dummy.calendar",
+          "optional": true
+        },
+        {
+          "pkg": "com.amazon.dummy.contacts",
+          "optional": true
+        },
+        {
+          "pkg": "com.amazon.dummy.gallery",
+          "optional": true
+        },
+        {
+          "pkg": "com.amazon.dummy.music",
+          "optional": true
+        },
+        {
+          "pkg": "com.amazon.dummy.settings",
+          "optional": true
+        },
+        {
+          "pkg": "com.amazon.vizzini.ftvcds",
+          "note": "Alexa voice CDS (com.amazon.vizzini re-enables at boot, omitted)",
+          "optional": true
+        },
+        {
+          "pkg": "com.amazon.aria",
+          "note": "Alexa surfaces",
+          "optional": true
+        },
+        {
+          "pkg": "com.amazon.cardinal",
+          "note": "Alexa calling / messaging",
+          "optional": true
+        },
+        {
+          "pkg": "com.ivona.orchestrator",
+          "note": "Alexa TTS",
+          "optional": true
+        },
+        {
+          "pkg": "com.ivona.tts.oem",
+          "note": "Alexa TTS",
+          "optional": true
+        },
+        {
+          "pkg": "com.amazon.aca",
+          "note": "Alexa hints and cues",
+          "optional": true
+        },
+        {
+          "pkg": "com.amazon.aiondec",
+          "note": "Alexa skill connections",
+          "optional": true
+        },
+        {
+          "pkg": "com.amazon.alexa.datastore.app",
+          "optional": true
+        },
+        {
+          "pkg": "com.amazon.alexadirectivebrokerservice",
+          "optional": true
+        },
+        {
+          "pkg": "com.amazon.alexa.externalmediaplayer.fireos",
+          "optional": true
+        },
+        {
+          "pkg": "com.amazon.alexamediaplayer.runtime.ftv",
+          "optional": true
+        },
+        {
+          "pkg": "com.amazon.tv.alexaalerts",
+          "note": "alarms, timers, reminders",
+          "optional": true
+        },
+        {
+          "pkg": "com.amazon.tv.alexanotifications",
+          "optional": true
+        },
+        {
+          "pkg": "com.amazon.audiohome",
+          "note": "Alexa Home Theater",
+          "optional": true
+        },
+        {
+          "pkg": "com.amazon.firetv.androidskillconnectioncapability",
+          "optional": true
+        },
+        {
+          "pkg": "com.amazon.bueller.photos",
+          "note": "Amazon Photos",
+          "optional": true
+        },
+        {
+          "pkg": "com.amazon.spiderpork",
+          "note": "Amazon Luna",
+          "optional": true
+        },
+        {
+          "pkg": "com.amazon.spotify.mediabrowserservice",
+          "note": "Spotify over Alexa",
+          "optional": true
+        },
+        {
+          "pkg": "com.amazon.ftv.profilepicker",
+          "note": "Fire TV profile picker",
+          "optional": true
+        },
+        {
+          "pkg": "com.amazon.ftv.screensaver",
+          "note": "ambient screensaver",
+          "optional": true
+        },
+        {
+          "pkg": "com.android.bips",
+          "note": "Built-in Print Service",
+          "optional": true
+        },
+        {
+          "pkg": "com.android.printspooler",
+          "note": "Print Spooler",
+          "optional": true
+        },
+        {
+          "pkg": "com.android.nfc",
+          "note": "NFC service (unused on TV)",
+          "optional": true
+        },
+        {
+          "pkg": "com.amazon.tv.forcedotaupdater.v2",
+          "note": "Firmware update promoter (leave commented to keep OTA updates; core OTA packages remain protected)",
+          "optional": true
+        }
+      ]
     }
   ],
   "source": {
     "repo": "Gathin23/cleanyourtv",
     "path": "examples/xiaomi-f2-fire-tv-aftma2857f/debloat.txt",
-    "commit": "985bbd14d0b01517988724668e310211d72d86fc"
+    "commit": "c2d6e79381add9daa83e116882f6d6b130dc4a73"
   }
 }

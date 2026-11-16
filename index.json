@@ -2,7 +2,7 @@
   "schema": 1,
   "source": {
     "repo": "Gathin23/cleanyourtv",
-    "commit": "ddc3b2cdce299a5f30aa2da2437edc40f3cf6f2e"
+    "commit": "c2d6e79381add9daa83e116882f6d6b130dc4a73"
   },
   "devices": [
     {
@@ -139,7 +139,7 @@
       "match": null,
       "sdk": 28,
       "file": "devices/amazon-fire-tv-stick-lite-2020.json",
-      "sha256": "7fb0d2d64df285e71ce1c1f768916155a5de8e4f13bbb4070da0d0ef7cc1c9cc"
+      "sha256": "9c87b2125865ad63aa4ee9f3859c27b528b0a761da8f8b692a16e03d0feb2596"
     },
     {
       "id": "anker-nebula-d2140",
@@ -278,6 +278,14 @@
       "sha256": "d66f5dc388113d5d100ffd29d99056b01abba9b39841654d76796b6c9e3f9cf8"
     },
     {
+      "id": "btv-b11",
+      "name": "BTV B11",
+      "match": null,
+      "sdk": 28,
+      "file": "devices/btv-b11.json",
+      "sha256": "9b6ab574ba3fcf428f72a81dadf7d68c3f2725117a996e983a87f4ec406d9449"
+    },
+    {
       "id": "byintek-t5-max",
       "name": "BYINTEK T5 Max projector",
       "match": null,
@@ -356,6 +364,14 @@
       "sdk": 34,
       "file": "devices/chiq-gtvu65.json",
       "sha256": "1003936d23c1062519bc5199c2d11bc606cb28acd13f95c772a72041bb77d472"
+    },
+    {
+      "id": "chiq-m75q10s",
+      "name": "CHiQ M75Q10S 75\" 4K",
+      "match": null,
+      "sdk": 34,
+      "file": "devices/chiq-m75q10s.json",
+      "sha256": "7f7aa6715c72692d423296cbc454d1309f327527054d9c20c1571a37dbdffb60"
     },
     {
       "id": "compac-atv-r2",
@@ -788,6 +804,14 @@
       "sdk": null,
       "file": "devices/hisense-u7-wutaishan.json",
       "sha256": "8325a82829ef0992bb56d72d4a40fea4832f4dfbc0aae6275c68f2a61364c479"
+    },
+    {
+      "id": "hisense-u75-hengshan-android14",
+      "name": "Hisense 65U75K",
+      "match": null,
+      "sdk": null,
+      "file": "devices/hisense-u75-hengshan-android14.json",
+      "sha256": "5ecb3f608faad3ef4d371dbce58377e6df014483f88ba3f1ed046b8ad7df717f"
     },
     {
       "id": "hisense-u75-hengshan",
@@ -2069,7 +2093,7 @@
       "match": null,
       "sdk": 29,
       "file": "devices/sony-bravia-4k-ur3.json",
-      "sha256": "f4f8b9242e4248104fba30d69088d16bb2d03e9946883c7f8427f3bf8ae38955"
+      "sha256": "a6137f1dc9214e2191334da9d2239d1e65d233aa2cc0ddbb443c94369cf11635"
     },
     {
       "id": "sony-bravia-4k-vh1",
@@ -2256,6 +2280,14 @@
       "sha256": "0f6f15639196fa48aee6db36145240f0caae5573aede1f40da303bc428cdca6d"
     },
     {
+      "id": "sony-kd-55x80j",
+      "name": "Sony BRAVIA KD-55X80J",
+      "match": null,
+      "sdk": 31,
+      "file": "devices/sony-kd-55x80j.json",
+      "sha256": "dc6fec2f617958af9673abb55290796a21f27257dc90d4fca7af7fb86f8471ac"
+    },
+    {
       "id": "sony-kd-55x8509c",
       "name": "Sony BRAVIA KD-55X8509C",
       "match": null,
@@ -2326,6 +2358,14 @@
       "sdk": null,
       "file": "devices/sony-kd-65x9300d.json",
       "sha256": "3ffd18e541ee4743aff56a874a52bafe51822cb7d5466d05af9cb2f2f9988981"
+    },
+    {
+      "id": "sony-kdl-43w800d",
+      "name": "Sony BRAVIA KDL-43W800D",
+      "match": null,
+      "sdk": 26,
+      "file": "devices/sony-kdl-43w800d.json",
+      "sha256": "bda902a455eb0129c73147179a640bce4e75a66f3aa84c06a4ab0e5e647ac9a1"
     },
     {
       "id": "sony-kdl-43w950d",
@@ -2557,7 +2597,7 @@
       "match": null,
       "sdk": 30,
       "file": "devices/tcl-43c645.json",
-      "sha256": "5e08a43718667baf2150dca4e95cc0bc053462e99c543d7c8996e3565c4f8977"
+      "sha256": "2916c551a8426aaf0f0cd6d079c99757d7d0b1ed699c66cbbd3b5f59a52494a4"
     },
     {
       "id": "tcl-43ep660",
@@ -2893,7 +2933,7 @@
       "match": null,
       "sdk": null,
       "file": "devices/tcl-65qm8l-google-tv.json",
-      "sha256": "77b18efab754131c3a6bcfbef1636c62ab60ba8f573a64cf8ac8055185066385"
+      "sha256": "9e65ab6b9ba683c9ac7d291cf47e70b0277aa33684732239f393249dce7041f9"
     },
     {
       "id": "tcl-65x10",
@@ -3088,6 +3128,14 @@
       "sha256": "1b8efbb57bc4724b32b5f3d217c8f2848645decba0d6de208979504c984e2f3d"
     },
     {
+      "id": "tcl-g08-au-android14",
+      "name": "TCL Smart TV Pro",
+      "match": null,
+      "sdk": null,
+      "file": "devices/tcl-g08-au-android14.json",
+      "sha256": "4a1826615fabc5b9b0ec603f64a2ed6237eccf09f67a4e01f4c78ab115536c8a"
+    },
+    {
       "id": "tcl-g08-eu-android12",
       "name": "TCL Smart TV Pro",
       "match": null,
@@ -3101,7 +3149,7 @@
       "match": null,
       "sdk": null,
       "file": "devices/tcl-g08-us-google-tv.json",
-      "sha256": "d49bbb7efd806e526a0cace3078774f064f4610e05a5098ebda88629310419d9"
+      "sha256": "562534b0f931753a96f1d6f23121b1236216f49e155acb2164109367dbba7fdf"
     },
     {
       "id": "tcl-g09-google-tv",
@@ -3488,12 +3536,20 @@
       "sha256": "f3b5774d4325771bb1a98ac9f353dd38195fa016171409c54e7c5117fefc5dae"
     },
     {
+      "id": "xgimi-z9x-china",
+      "name": "XGIMI Z9X projector",
+      "match": null,
+      "sdk": 31,
+      "file": "devices/xgimi-z9x-china.json",
+      "sha256": "edeb55659123a24943b7a31ac73601446ac70b38c78f6b9f6c1aba007bee72b2"
+    },
+    {
       "id": "xiaomi-f2-fire-tv-aftma2857f",
       "name": "Xiaomi F2 Fire TV",
       "match": null,
       "sdk": 28,
       "file": "devices/xiaomi-f2-fire-tv-aftma2857f.json",
-      "sha256": "8e6c145924c4fecb562b13ee9277a70d398bf156147f4c1d5d587a36974e328b"
+      "sha256": "769b48d9a9f03b1ec4dbe65fc7651b32522d4e4dcab10d641f8709e6d0c933dc"
     },
     {
       "id": "xiaomi-fire-tv-aftne4e43f",
