@@ -1,0 +1,220 @@
+{
+  "schema": 1,
+  "id": "vstv-mt9255t",
+  "name": "VSTV MT9255T / MT5862",
+  "tested": {
+    "os": "Android 9",
+    "sdk": 28,
+    "build": "TVOS-04.16.031.01.12"
+  },
+  "launcher": null,
+  "keep": [],
+  "groups": [
+    {
+      "title": "--- Safe: vendor diagnostics and factory tooling. No everyday feature is lost. ---",
+      "packages": [
+        {
+          "pkg": "com.vstv.diagnosis",
+          "note": "\"Diagnosis\" - vendor telemetry/self-test app"
+        },
+        {
+          "pkg": "com.vstv.factory",
+          "note": "\"Factory Menu\" - service-menu UI"
+        },
+        {
+          "pkg": "com.vstv.factory.test",
+          "note": "VsFactoryTest - panel/burn-in test routines"
+        }
+      ]
+    },
+    {
+      "title": "--- Firmware update path. ---",
+      "packages": [
+        {
+          "pkg": "com.vstv.upgradecenter",
+          "optional": true
+        },
+        {
+          "pkg": "com.vstv.ota",
+          "optional": true
+        }
+      ]
+    },
+    {
+      "title": "--- Safe: AOSP dead weight on a TV. No launcher tile, no runtime use. ---",
+      "packages": [
+        {
+          "pkg": "com.android.printspooler",
+          "note": "no printing on this board"
+        },
+        {
+          "pkg": "com.android.wallpaperbackup"
+        },
+        {
+          "pkg": "com.android.dreams.basic",
+          "note": "screensaver/daydream"
+        },
+        {
+          "pkg": "com.android.soundrecorder"
+        },
+        {
+          "pkg": "com.android.htmlviewer",
+          "note": "opens file:// HTML; the browser app covers this"
+        },
+        {
+          "pkg": "com.android.backupconfirm"
+        },
+        {
+          "pkg": "com.android.sharedstoragebackup"
+        },
+        {
+          "pkg": "com.android.proxyhandler"
+        },
+        {
+          "pkg": "com.android.cts.ctsshim",
+          "note": "CTS test shims, no UI"
+        },
+        {
+          "pkg": "com.android.cts.priv.ctsshim"
+        },
+        {
+          "pkg": "com.google.android.onetimeinitializer"
+        },
+        {
+          "pkg": "com.google.android.partnersetup"
+        }
+      ]
+    },
+    {
+      "title": "--- Off by choice on this unit: no voice/assistant use. Uncomment to get voice back. ---",
+      "packages": [
+        {
+          "pkg": "com.vstv.tv.assistant",
+          "note": "\"TvAssistant\" - remote microphone / voice assistant"
+        },
+        {
+          "pkg": "com.google.android.katniss",
+          "note": "Google Assistant + voice search (remote mic button)"
+        },
+        {
+          "pkg": "com.vs.phone.remote.search.assistants",
+          "note": "\"VsVoiceAssistants\" - voice search backend"
+        },
+        {
+          "pkg": "com.google.android.tv.remote.service",
+          "note": "Google TV phone remote app pairing (not voice, but unused)",
+          "optional": true
+        }
+      ]
+    },
+    {
+      "title": "--- Your call: these cost RAM but remove a feature you may use. ---",
+      "packages": [
+        {
+          "pkg": "com.vstv.mcast",
+          "note": "\"MiraCast\" - screen casting from a phone",
+          "optional": true
+        },
+        {
+          "pkg": "com.vstv_india.mediacenter",
+          "note": "\"Media Center\" - USB/network media playback",
+          "optional": true
+        },
+        {
+          "pkg": "com.vstv.filebrowser",
+          "note": "\"FileBrowser\" - on-TV file manager",
+          "optional": true
+        },
+        {
+          "pkg": "com.google.android.marvin.talkback",
+          "note": "Android Accessibility Suite (screen reader)",
+          "optional": true
+        },
+        {
+          "pkg": "com.google.android.syncadapters.calendar",
+          "optional": true
+        },
+        {
+          "pkg": "com.google.android.syncadapters.contacts",
+          "optional": true
+        }
+      ]
+    },
+    {
+      "title": "--- Off on this unit only: sideload-only, no Play Store and no Play Services. ---",
+      "packages": [
+        {
+          "pkg": "com.android.vending",
+          "note": "Play Store (+ its child processes)",
+          "optional": true
+        },
+        {
+          "pkg": "com.google.android.gms",
+          "note": "Play Services: persistent/gms/unstable/ui, ~85 MB PSS",
+          "optional": true
+        },
+        {
+          "pkg": "com.google.android.gsf",
+          "note": "Google Services Framework, only useful with gms",
+          "optional": true
+        },
+        {
+          "pkg": "com.vs.phoneremote.google",
+          "note": "\"Phone Remote\" pairing, unused while voice/phone remote is off.",
+          "optional": true
+        }
+      ]
+    },
+    {
+      "title": "--- Never disable (left commented as a reminder) ---",
+      "packages": [
+        {
+          "pkg": "com.vstv.mercurylauncher",
+          "optional": true
+        },
+        {
+          "pkg": "com.vstv.fbhome",
+          "optional": true
+        },
+        {
+          "pkg": "com.vstv.input",
+          "optional": true
+        },
+        {
+          "pkg": "com.vstv.septembersettings",
+          "optional": true
+        },
+        {
+          "pkg": "com.vstv.global.service",
+          "optional": true
+        },
+        {
+          "pkg": "com.mediatek.tvinput",
+          "optional": true
+        },
+        {
+          "pkg": "com.mediatek.tvinputservice.arbitratorservice",
+          "optional": true
+        },
+        {
+          "pkg": "com.mediatek.wwtv.tvcenter",
+          "optional": true
+        },
+        {
+          "pkg": "com.android.tv.settings",
+          "note": "TV settings UI used by Setup/inputs",
+          "optional": true
+        },
+        {
+          "pkg": "com.android.webview",
+          "optional": true
+        }
+      ]
+    }
+  ],
+  "source": {
+    "repo": "Gathin23/cleanyourtv",
+    "path": "examples/vstv-mt9255t/debloat.txt",
+    "commit": "311a34b164034514fb1fe0bd526a32b1b46f9070"
+  }
+}

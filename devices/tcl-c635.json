@@ -5,7 +5,7 @@
   "tested": {
     "os": "Android TV 11",
     "sdk": 30,
-    "build": null
+    "build": "RP1A.200622.001"
   },
   "launcher": "com.google.android.apps.tv.launcherx",
   "keep": [],
@@ -16,7 +16,12 @@
         {
           "pkg": "com.tcl.overseasappshow",
           "note": "factory promo/app-show service, re-enables partner packages"
-        },
+        }
+      ]
+    },
+    {
+      "title": "--- TCL telemetry, analytics, and background services",
+      "packages": [
         {
           "pkg": "com.tcl.bi",
           "note": "TCL analytics & telemetry (BI service)"
@@ -24,7 +29,12 @@
         {
           "pkg": "com.tcl.logkit",
           "note": "TCL log collection"
-        },
+        }
+      ]
+    },
+    {
+      "title": "--- Promo feeds and partner attribution",
+      "packages": [
         {
           "pkg": "com.tcl.waterfall.overseas",
           "note": "TCL recommendation waterfall feed"
@@ -40,7 +50,12 @@
         {
           "pkg": "com.google.android.partnersetup",
           "note": "partner app attribution"
-        },
+        }
+      ]
+    },
+    {
+      "title": "--- Stock apps and retail demo overlays",
+      "packages": [
         {
           "pkg": "com.tcl.browser",
           "note": "stock TCL web browser"
@@ -66,11 +81,116 @@
           "note": "factory test/demo shortcut"
         }
       ]
+    },
+    {
+      "title": "--- Second unit candidates (tested on TCL 55C635i, uncomment to apply)",
+      "packages": [
+        {
+          "pkg": "com.tcl.ttvs",
+          "note": "TCL TV service & remote key BI logging (firmware updater on some sets)",
+          "optional": true
+        },
+        {
+          "pkg": "com.tcl.dashboard",
+          "note": "TCL dashboard overlay",
+          "optional": true
+        },
+        {
+          "pkg": "com.tcl.messagebox",
+          "note": "TCL notification/message box popup service",
+          "optional": true
+        },
+        {
+          "pkg": "com.tcl.guard",
+          "note": "TCL safety guard / system manager",
+          "optional": true
+        },
+        {
+          "pkg": "com.tcl.smartalexa",
+          "note": "TCL Alexa integration service",
+          "optional": true
+        },
+        {
+          "pkg": "com.tcl.hearaid",
+          "note": "TCL hearing aid service",
+          "optional": true
+        },
+        {
+          "pkg": "com.tcl.usercenter",
+          "note": "TCL user center / account service",
+          "optional": true
+        },
+        {
+          "pkg": "com.google.android.apps.nbu.smartconnect.tv",
+          "note": "Google Next Billion Users Smart Connect",
+          "optional": true
+        },
+        {
+          "pkg": "com.google.android.feedback",
+          "note": "Google crash and feedback reporting",
+          "optional": true
+        },
+        {
+          "pkg": "com.google.android.onetimeinitializer",
+          "note": "Google one-time initialization",
+          "optional": true
+        },
+        {
+          "pkg": "com.google.android.syncadapters.calendar",
+          "note": "Google Calendar sync adapter",
+          "optional": true
+        },
+        {
+          "pkg": "com.google.android.marvin.talkback",
+          "note": "TalkBack screen reader",
+          "optional": true
+        }
+      ]
+    },
+    {
+      "title": "--- Stock Google TV Home and Setup Wizard",
+      "packages": [
+        {
+          "pkg": "com.google.android.apps.tv.launcherx",
+          "note": "stock Google TV launcher",
+          "optional": true
+        },
+        {
+          "pkg": "com.google.android.tungsten.setupwraith",
+          "note": "Google TV setup wizard; disabling it gives Home back but costs casting",
+          "optional": true
+        }
+      ]
+    },
+    {
+      "title": "--- Voice assistants",
+      "packages": [
+        {
+          "pkg": "com.google.android.katniss",
+          "note": "Google Assistant voice search",
+          "optional": true
+        },
+        {
+          "pkg": "com.tcl.assistant",
+          "note": "TCL voice assistant service",
+          "optional": true
+        },
+        {
+          "pkg": "com.tcl.micmanager",
+          "note": "TCL remote microphone manager",
+          "optional": true
+        },
+        {
+          "pkg": "com.google.android.tv.assistant",
+          "note": "Google Assistant TV wrapper",
+          "optional": true
+        }
+      ]
     }
   ],
   "source": {
     "repo": "Gathin23/cleanyourtv",
     "path": "examples/tcl-c635/debloat.txt",
-    "commit": "575d73f0f30c329aa7ebaea2bc863943fd9bf7f9"
+    "commit": "311a34b164034514fb1fe0bd526a32b1b46f9070"
   }
 }

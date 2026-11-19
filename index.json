@@ -2,7 +2,7 @@
   "schema": 1,
   "source": {
     "repo": "Gathin23/cleanyourtv",
-    "commit": "c2d6e79381add9daa83e116882f6d6b130dc4a73"
+    "commit": "311a34b164034514fb1fe0bd526a32b1b46f9070"
   },
   "devices": [
     {
@@ -811,7 +811,7 @@
       "match": null,
       "sdk": null,
       "file": "devices/hisense-u75-hengshan-android14.json",
-      "sha256": "5ecb3f608faad3ef4d371dbce58377e6df014483f88ba3f1ed046b8ad7df717f"
+      "sha256": "6d9fac7a2f17c4e18907fe7a5625079c705f3a407ff963555585c1542057c5e9"
     },
     {
       "id": "hisense-u75-hengshan",
@@ -1742,6 +1742,14 @@
       "sdk": null,
       "file": "devices/redmi-mitv-mooq3.json",
       "sha256": "7443f677f1c82948e9dc96811125e1b7644fffc3fcc6584a8ed90056d828dc39"
+    },
+    {
+      "id": "rockchip-u1-max",
+      "name": "U1 Max",
+      "match": null,
+      "sdk": 28,
+      "file": "devices/rockchip-u1-max.json",
+      "sha256": "37d8edce73d94d032d3e1d4792010d1b153b612c027cde593c2290106a1fb169"
     },
     {
       "id": "rocktek-g2",
@@ -3045,7 +3053,7 @@
       "match": null,
       "sdk": 30,
       "file": "devices/tcl-c635.json",
-      "sha256": "03972d1109f279f08784bdb99fde66f522805c74310bbff4504c5ea30c4ec804"
+      "sha256": "a2827245efdde8e928446856a4311d56cce3a7a4300ab866b51fa1edc4751f01"
     },
     {
       "id": "tcl-c755-google-tv",
@@ -3341,7 +3349,7 @@
       "match": null,
       "sdk": 34,
       "file": "devices/toshiba-65ua2363dg.json",
-      "sha256": "0082598f99dcc36518be454f521bee753e387ae92df20ac0fbc8ee8f9aa89c46"
+      "sha256": "cf30694c298a4e4be60dd7e8aac5312d177b8762fcfd5309e52cf7659ace3251"
     },
     {
       "id": "toshiba-cosmos-android-tv",
@@ -3416,6 +3424,14 @@
       "sha256": "245aa2fd3dcd9769c438ddf9cc55c8c5bd69b3beb3463313fcd430c09addfd08"
     },
     {
+      "id": "vidda-vl7r-pro",
+      "name": "Vidda VL7R-PRO 4K laser projector",
+      "match": null,
+      "sdk": 34,
+      "file": "devices/vidda-vl7r-pro.json",
+      "sha256": "c644d4ffe2f8176acafbea29947ba88a7612d563a2735025ff26560cc2c69b16"
+    },
+    {
       "id": "visio-32",
       "name": "VISIO 32\"",
       "match": null,
@@ -3438,6 +3454,22 @@
       "sdk": null,
       "file": "devices/vityas-hitv-50-m7332.json",
       "sha256": "462b20bbe78cfc06e5a78da2beb922018910be5be32522301eaace5f30a63983"
+    },
+    {
+      "id": "vivensis-vx-smart",
+      "name": "Vivensis VX Smart",
+      "match": null,
+      "sdk": 31,
+      "file": "devices/vivensis-vx-smart.json",
+      "sha256": "b00f38fa5210f14e5154bbeef94dc735092324dd838231644fb9cb0ff4e316de"
+    },
+    {
+      "id": "vstv-mt9255t",
+      "name": "VSTV MT9255T / MT5862",
+      "match": null,
+      "sdk": 28,
+      "file": "devices/vstv-mt9255t.json",
+      "sha256": "8e4ef2d68e0c5f3ec2d9c94e83b47d0002ec63026b07e792ac9e5b1dd3d5ca66"
     },
     {
       "id": "vu-4k-lushan",
@@ -3605,7 +3637,7 @@
       "match": null,
       "sdk": null,
       "file": "devices/xiaomi-mi-tv-4a.json",
-      "sha256": "d656f1984ca92954253c55929360e3144ee0107398d2514a184591e1dc9974eb"
+      "sha256": "ea42773f36119c993b086cd65c1e2b04e6c7362897e02479625a8562bf73b8aa"
     },
     {
       "id": "xiaomi-mitv-aesp0",

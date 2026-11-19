@@ -1,0 +1,71 @@
+{
+  "schema": 1,
+  "id": "vivensis-vx-smart",
+  "name": "Vivensis VX Smart",
+  "tested": {
+    "os": "Android TV 12",
+    "sdk": 31,
+    "build": "STTB.220726.001.C2.2.4_20250613"
+  },
+  "launcher": null,
+  "keep": [],
+  "groups": [
+    {
+      "title": "Telemetry and factory test packages",
+      "packages": [
+        {
+          "pkg": "com.google.android.feedback"
+        },
+        {
+          "pkg": "com.sdt.producttest",
+          "note": "Skyworth factory test package"
+        }
+      ]
+    },
+    {
+      "title": "Preloaded apps and unused services",
+      "packages": [
+        {
+          "pkg": "com.android.camera2"
+        },
+        {
+          "pkg": "com.android.dreams.basic"
+        },
+        {
+          "pkg": "com.android.gallery3d"
+        },
+        {
+          "pkg": "com.android.music"
+        },
+        {
+          "pkg": "com.android.printspooler"
+        },
+        {
+          "pkg": "com.android.wallpaperbackup"
+        },
+        {
+          "pkg": "com.globo.globotv",
+          "optional": true
+        },
+        {
+          "pkg": "com.google.android.marvin.talkback"
+        },
+        {
+          "pkg": "com.google.android.play.games"
+        },
+        {
+          "pkg": "com.google.android.tts"
+        },
+        {
+          "pkg": "com.google.android.youtube.tvmusic",
+          "optional": true
+        }
+      ]
+    }
+  ],
+  "source": {
+    "repo": "Gathin23/cleanyourtv",
+    "path": "examples/vivensis-vx-smart/debloat.txt",
+    "commit": "311a34b164034514fb1fe0bd526a32b1b46f9070"
+  }
+}

@@ -92,6 +92,14 @@
           "note": "calendar sync"
         },
         {
+          "pkg": "com.android.providers.calendar",
+          "note": "calendar provider (second unit, four weeks: nothing missed)"
+        },
+        {
+          "pkg": "com.mstar.android.tv.disclaimercustomization",
+          "note": "vendor disclaimer pop-ups (second unit, four weeks)"
+        },
+        {
           "pkg": "com.android.settings.intelligence",
           "note": "the search box inside Settings; the menus keep working"
         },
@@ -123,11 +131,46 @@
           "optional": true
         }
       ]
+    },
+    {
+      "title": "Off on the second unit by its owner's choice, four weeks; kept on the header unit. Uncomment what you do not use.",
+      "packages": [
+        {
+          "pkg": "com.amazon.amazonvideo.livingroom",
+          "note": "Prime Video",
+          "optional": true
+        },
+        {
+          "pkg": "com.google.android.youtube.tvmusic",
+          "note": "YouTube Music",
+          "optional": true
+        },
+        {
+          "pkg": "com.google.android.play.games",
+          "note": "Play Games",
+          "optional": true
+        },
+        {
+          "pkg": "com.google.android.katniss",
+          "note": "Google Assistant and voice search",
+          "optional": true
+        },
+        {
+          "pkg": "com.google.android.tts",
+          "note": "Google Speech Services; the Assistant speaks with it",
+          "optional": true
+        },
+        {
+          "pkg": "com.google.android.tv.remote.service",
+          "note": "the phone-app remote",
+          "optional": true
+        }
+      ]
     }
   ],
   "source": {
     "repo": "Gathin23/cleanyourtv",
     "path": "examples/toshiba-65ua2363dg/debloat.txt",
-    "commit": "d043b6f90e6132f9bd9b4b652da1f43640d1f0b7"
+    "commit": "311a34b164034514fb1fe0bd526a32b1b46f9070"
   }
 }
