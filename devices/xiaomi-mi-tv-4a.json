@@ -102,11 +102,19 @@
           "pkg": "com.google.android.leanbacklauncher.recommendations"
         }
       ]
+    },
+    {
+      "title": "Factory test app that also answers HOME (firmware .6148); disabled so Home can never land on it",
+      "packages": [
+        {
+          "pkg": "com.duokan.factorytest"
+        }
+      ]
     }
   ],
   "source": {
     "repo": "Gathin23/cleanyourtv",
     "path": "examples/xiaomi-mi-tv-4a/debloat.txt",
-    "commit": "575d73f0f30c329aa7ebaea2bc863943fd9bf7f9"
+    "commit": "311a34b164034514fb1fe0bd526a32b1b46f9070"
   }
 }

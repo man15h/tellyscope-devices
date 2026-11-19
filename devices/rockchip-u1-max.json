@@ -1,0 +1,106 @@
+{
+  "schema": 1,
+  "id": "rockchip-u1-max",
+  "name": "U1 Max",
+  "tested": {
+    "os": "Android 9",
+    "sdk": 28,
+    "build": "2019-06-22"
+  },
+  "launcher": "com.droidlogic.mboxlauncher",
+  "keep": [],
+  "groups": [
+    {
+      "title": "Backup, sync and print services nobody uses on a box",
+      "packages": [
+        {
+          "pkg": "com.google.android.partnersetup"
+        },
+        {
+          "pkg": "com.google.android.backuptransport"
+        },
+        {
+          "pkg": "com.google.android.syncadapters.contacts"
+        },
+        {
+          "pkg": "com.android.wallpaperbackup"
+        },
+        {
+          "pkg": "com.android.sharedstoragebackup"
+        },
+        {
+          "pkg": "com.android.printspooler"
+        },
+        {
+          "pkg": "com.android.bookmarkprovider"
+        },
+        {
+          "pkg": "com.android.companiondevicemanager"
+        }
+      ]
+    },
+    {
+      "title": "Voice assistant / Google search",
+      "packages": [
+        {
+          "pkg": "com.google.android.googlequicksearchbox"
+        }
+      ]
+    },
+    {
+      "title": "Casting receivers",
+      "packages": [
+        {
+          "pkg": "com.rockchips.dlna"
+        },
+        {
+          "pkg": "com.waxrain.airplaydmr",
+          "note": "third-party AirPlay receiver"
+        }
+      ]
+    },
+    {
+      "title": "Test and preloaded extras (disabled only, never started)",
+      "packages": [
+        {
+          "pkg": "com.cghs.stresstest"
+        },
+        {
+          "pkg": "com.rockchip.devicetest"
+        },
+        {
+          "pkg": "com.example.a",
+          "note": "ProductTest"
+        },
+        {
+          "pkg": "cyx.browser"
+        },
+        {
+          "pkg": "com.android.htmlviewer"
+        },
+        {
+          "pkg": "com.android.camera2"
+        },
+        {
+          "pkg": "com.android.dreams.basic"
+        }
+      ]
+    },
+    {
+      "title": "Chinese keyboards (the Latin keyboard stays)",
+      "packages": [
+        {
+          "pkg": "com.android.inputmethod.pinyin"
+        },
+        {
+          "pkg": "jp.co.omronsoft.openwnn"
+        }
+      ]
+    }
+  ],
+  "source": {
+    "repo": "Gathin23/cleanyourtv",
+    "path": "examples/rockchip-u1-max/debloat.txt",
+    "commit": "311a34b164034514fb1fe0bd526a32b1b46f9070"
+  }
+}

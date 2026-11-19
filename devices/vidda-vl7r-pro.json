@@ -1,0 +1,243 @@
+{
+  "schema": 1,
+  "id": "vidda-vl7r-pro",
+  "name": "Vidda VL7R-PRO 4K laser projector",
+  "tested": {
+    "os": "Android 14",
+    "sdk": 34,
+    "build": "UQ1A.240105.004.A1"
+  },
+  "launcher": null,
+  "keep": [],
+  "groups": [
+    {
+      "title": "Advertising",
+      "packages": [
+        {
+          "pkg": "com.hisense.business.ad",
+          "note": "ad SDK"
+        },
+        {
+          "pkg": "com.hisense.service.ad",
+          "note": "ad service"
+        }
+      ]
+    },
+    {
+      "title": "Telemetry and reporting",
+      "packages": [
+        {
+          "pkg": "com.hisense.platformreport",
+          "note": "platform data reporter"
+        },
+        {
+          "pkg": "com.hisense.logupload",
+          "note": "log uploader"
+        },
+        {
+          "pkg": "com.hisense.hitv.das",
+          "note": "DasApp reporter (JuUI)"
+        }
+      ]
+    },
+    {
+      "title": "Vendor push channel",
+      "packages": [
+        {
+          "pkg": "com.hisense.service.message"
+        }
+      ]
+    },
+    {
+      "title": "Retail, hotel, meeting-room and first-run modes",
+      "packages": [
+        {
+          "pkg": "com.hisense.demonstrate",
+          "note": "shop demo loop"
+        },
+        {
+          "pkg": "com.hisense.hotelmenu",
+          "note": "hotel mode menu"
+        },
+        {
+          "pkg": "com.meetingroom",
+          "note": "meeting-room mode, answers HOME at -100"
+        },
+        {
+          "pkg": "com.jamdeo.tv.fte",
+          "note": "first-run wizard (already past)"
+        }
+      ]
+    },
+    {
+      "title": "Preloaded content and gimmicks",
+      "packages": [
+        {
+          "pkg": "com.hisense.electronictutorial",
+          "note": "electronic manual"
+        },
+        {
+          "pkg": "com.vision.aibook",
+          "note": "AI picture book"
+        },
+        {
+          "pkg": "com.hisense.tv.weather",
+          "note": "stock weather tile"
+        },
+        {
+          "pkg": "com.jamdeo.calendar",
+          "note": "calendar"
+        },
+        {
+          "pkg": "com.ju.miguvideoTV.cmcc",
+          "note": "Migu Video carrier preload"
+        },
+        {
+          "pkg": "com.kookong.tvplus",
+          "note": "TV plus / remote live content"
+        },
+        {
+          "pkg": "com.vt.ambiencelife",
+          "note": "ambience / wallpaper gimmick"
+        },
+        {
+          "pkg": "com.speech.enchatroom",
+          "note": "English chat room gimmick"
+        }
+      ]
+    },
+    {
+      "title": "Accounts, payment and store locks (optional)",
+      "packages": [
+        {
+          "pkg": "com.hisense.hitv.hicloud.account",
+          "note": "HiCloud vendor account"
+        },
+        {
+          "pkg": "com.hisense.hitv.payment",
+          "note": "payment service"
+        },
+        {
+          "pkg": "com.hisense.locking",
+          "note": "lock service"
+        }
+      ]
+    },
+    {
+      "title": "Screen casting and multi-screen gimmicks (if not using vendor cast)",
+      "packages": [
+        {
+          "pkg": "com.ms.ucast.ucastapp",
+          "note": "ucast casting"
+        },
+        {
+          "pkg": "com.ms.weshare",
+          "note": "weshare casting"
+        },
+        {
+          "pkg": "com.hisense.multiscreen.screenhelper",
+          "note": "multi-screen helper"
+        },
+        {
+          "pkg": "com.hisense.pcm.share",
+          "note": "PC screen share"
+        },
+        {
+          "pkg": "com.hisense.nas.pt",
+          "note": "vendor NAS client"
+        },
+        {
+          "pkg": "com.hisense.nasservice",
+          "note": "vendor NAS background service"
+        }
+      ]
+    },
+    {
+      "title": "Voice assistant chain",
+      "packages": [
+        {
+          "pkg": "com.keylab.speech.core.vidaa",
+          "note": "speech core service"
+        },
+        {
+          "pkg": "com.keylab.speech.view.vidaa",
+          "note": "speech assistant UI and second-screen launcher"
+        },
+        {
+          "pkg": "com.hispeech.ai.area",
+          "note": "HiSpeech AI service"
+        },
+        {
+          "pkg": "com.intelligent.speech",
+          "note": "intelligent speech engine"
+        },
+        {
+          "pkg": "com.hisense.msvoicetome",
+          "note": "voice service"
+        },
+        {
+          "pkg": "com.vt.mic.service",
+          "note": "microphone background service"
+        },
+        {
+          "pkg": "com.aispeech.dui.dds.tvassistant",
+          "note": "TV assistant voice stub"
+        },
+        {
+          "pkg": "com.hisense.tv.aivirtualassistant",
+          "note": "AI virtual assistant character"
+        }
+      ]
+    },
+    {
+      "title": "Background bloat and unneeded services",
+      "packages": [
+        {
+          "pkg": "com.android.nearby.halfsheet",
+          "note": "nearby halfsheet"
+        },
+        {
+          "pkg": "com.android.wallpaperpicker",
+          "note": "AOSP wallpaper picker"
+        },
+        {
+          "pkg": "com.android.wechathci",
+          "note": "voice handwriting input engine"
+        },
+        {
+          "pkg": "com.jamdeo.screensaver",
+          "note": "stock screensaver"
+        },
+        {
+          "pkg": "com.jamdeo.tv.jurestartapp",
+          "note": "restart helper"
+        },
+        {
+          "pkg": "com.jamdeo.tv.mediacenter",
+          "note": "stock media center"
+        },
+        {
+          "pkg": "com.hisense.childlock",
+          "note": "child lock"
+        },
+        {
+          "pkg": "com.hisense.aiot",
+          "note": "smart home IoT service"
+        }
+      ]
+    },
+    {
+      "title": "Stock launcher (JuUI 聚好看). Declares priority 50. Disabling it allows replacement launchers (Aerial,",
+      "packages": [
+        {
+          "pkg": "com.jamdeo.tv.vod"
+        }
+      ]
+    }
+  ],
+  "source": {
+    "repo": "Gathin23/cleanyourtv",
+    "path": "examples/vidda-vl7r-pro/debloat.txt",
+    "commit": "311a34b164034514fb1fe0bd526a32b1b46f9070"
+  }
+}

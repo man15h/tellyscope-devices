@@ -193,7 +193,7 @@
         },
         {
           "pkg": "com.google.android.youtube.tv",
-          "note": "off here for SmartTube; comment out to keep stock YouTube",
+          "note": "off on that unit for SmartTube; uncomment to disable it",
           "optional": true
         }
       ]
@@ -210,6 +210,6 @@
   "source": {
     "repo": "Gathin23/cleanyourtv",
     "path": "examples/hisense-u75-hengshan-android14/debloat.txt",
-    "commit": "c2d6e79381add9daa83e116882f6d6b130dc4a73"
+    "commit": "311a34b164034514fb1fe0bd526a32b1b46f9070"
   }
 }
