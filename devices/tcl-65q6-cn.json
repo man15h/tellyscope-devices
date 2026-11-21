@@ -1,0 +1,146 @@
+{
+  "schema": 1,
+  "id": "tcl-65q6-cn",
+  "name": "TCL 65Q6",
+  "tested": {
+    "os": "Android 8.0.0",
+    "sdk": 26,
+    "build": null
+  },
+  "launcher": "com.tcl.cyberui",
+  "keep": [],
+  "groups": [
+    {
+      "title": "TCL analytics, reporting and popups",
+      "packages": [
+        {
+          "pkg": "com.tcl.bi",
+          "note": "analytics/behaviour reporting, holds a silent-install permission"
+        },
+        {
+          "pkg": "com.tcl.usagestats",
+          "note": "usage statistics"
+        },
+        {
+          "pkg": "com.tcl.recognize.service",
+          "note": "ACR content recognition"
+        },
+        {
+          "pkg": "com.tcl.c2dm.client",
+          "note": "TCL push channel"
+        },
+        {
+          "pkg": "com.android.tcl.messagebox",
+          "note": "image-message popup receiver"
+        },
+        {
+          "pkg": "com.tcl.tvhealthcheck",
+          "note": "diagnostics uploader"
+        },
+        {
+          "pkg": "com.tcl.xian.StartandroidService",
+          "note": "background reporting service"
+        },
+        {
+          "pkg": "com.tcl.m",
+          "note": "MenuHelp"
+        }
+      ]
+    },
+    {
+      "title": "Boot ad downloader (the clip itself is a file, see the header)",
+      "packages": [
+        {
+          "pkg": "com.tcl.bootadservice",
+          "note": "downloads the boot advertisement"
+        }
+      ]
+    },
+    {
+      "title": "Preloads, shopping and TCL's own media apps",
+      "packages": [
+        {
+          "pkg": "com.tcl.weixin",
+          "note": "TV WeChat"
+        },
+        {
+          "pkg": "com.tcl.gamecenter",
+          "note": "game center"
+        },
+        {
+          "pkg": "com.tcl.ffkaraoke",
+          "note": "karaoke preload"
+        },
+        {
+          "pkg": "com.tcl.ffeducation",
+          "note": "education preload"
+        },
+        {
+          "pkg": "com.huan.edu.lexue.frontend",
+          "note": "education preload"
+        },
+        {
+          "pkg": "com.tcl.tshop",
+          "note": "TV shopping"
+        },
+        {
+          "pkg": "com.kugou.tv",
+          "note": "Kugou music preload"
+        },
+        {
+          "pkg": "com.tcl.tclmusic",
+          "note": "TCL music"
+        },
+        {
+          "pkg": "com.vcinema.client.tv",
+          "note": "cinema preload"
+        },
+        {
+          "pkg": "com.tcl.qiyiguo",
+          "note": "iQiyi-linked preload"
+        },
+        {
+          "pkg": "jd.video.basecomponent",
+          "note": "JD video"
+        },
+        {
+          "pkg": "com.tcl.appreciate.art",
+          "note": "art promo (the stock screensaver)"
+        }
+      ]
+    },
+    {
+      "title": "Left by a test run, not by the retail firmware",
+      "packages": [
+        {
+          "pkg": "com.example.tvcapture",
+          "note": "capture test leftover"
+        },
+        {
+          "pkg": "com.iflytek.mictest",
+          "note": "microphone test leftover"
+        }
+      ]
+    },
+    {
+      "title": "The owner's choice: the store and the OTA user interface, with the firmware updater kept",
+      "packages": [
+        {
+          "pkg": "com.tcl.versionUpdateApp",
+          "note": "OTA user interface; com.snm.upgrade (the updater) stays",
+          "optional": true
+        },
+        {
+          "pkg": "com.tcl.appmarket2",
+          "note": "TCL app store; 当贝市场 installed instead",
+          "optional": true
+        }
+      ]
+    }
+  ],
+  "source": {
+    "repo": "Gathin23/cleanyourtv",
+    "path": "examples/tcl-65q6-cn/debloat.txt",
+    "commit": "f63a1ebcdcd63aae1ec1b6f62aa4d2a6858c116b"
+  }
+}

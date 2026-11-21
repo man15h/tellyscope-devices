@@ -1,0 +1,131 @@
+{
+  "schema": 1,
+  "id": "mediatek-m7332",
+  "name": "MediaTek m7332 Android TV board",
+  "tested": {
+    "os": "Android 11",
+    "sdk": 30,
+    "build": "RP1A.200720.011"
+  },
+  "launcher": null,
+  "keep": [],
+  "groups": [
+    {
+      "title": "Vendor apps: onboarding, demo, cleaners and utilities this firmware preloads",
+      "packages": [
+        {
+          "pkg": "com.rp.instroduce",
+          "note": "vendor intro slides, run once and never again"
+        },
+        {
+          "pkg": "com.rp.uhd",
+          "note": "4K demo app; its service crash-loops (see the header)"
+        },
+        {
+          "pkg": "com.rp.memoryclean",
+          "note": "\"memory cleaner\": kills apps in the background"
+        },
+        {
+          "pkg": "com.rp.calculator"
+        },
+        {
+          "pkg": "com.rp.calendar"
+        },
+        {
+          "pkg": "com.rp.writenumbertool",
+          "note": "factory serial-number writer, no use outside the line"
+        }
+      ]
+    },
+    {
+      "title": "Cast middleware",
+      "packages": [
+        {
+          "pkg": "com.android.toofifi",
+          "note": "cast receiver hub: AirPlay, Chromecast and DLNA from phones"
+        },
+        {
+          "pkg": "com.mphotool.apiservice",
+          "note": "the service behind it, phones home and holds LAN ports open"
+        }
+      ]
+    },
+    {
+      "title": "Preloaded junk",
+      "packages": [
+        {
+          "pkg": "com.fqcx.welcome",
+          "note": "full-screen welcome/promo app at boot"
+        },
+        {
+          "pkg": "com.fqcx.wb",
+          "note": "vendor helper that opens a promo page"
+        }
+      ]
+    },
+    {
+      "title": "AOSP extras a TV does not need",
+      "packages": [
+        {
+          "pkg": "com.android.printspooler"
+        },
+        {
+          "pkg": "com.mediatek.android.leanbacklauncher.partnercustomizer",
+          "note": "partner rows for the stock launcher"
+        },
+        {
+          "pkg": "fusion.android.tv.demo",
+          "note": "retail demo mode"
+        },
+        {
+          "pkg": "com.mstar.android.tv.disclaimercustomization",
+          "note": "disclaimer screen, first-run only"
+        },
+        {
+          "pkg": "com.android.providers.calendar"
+        },
+        {
+          "pkg": "com.android.dreams.basic",
+          "note": "stock \"colors\" screensaver"
+        },
+        {
+          "pkg": "com.android.wallpaperbackup"
+        }
+      ]
+    },
+    {
+      "title": "The stock launcher: disable only after another launcher owns HOME",
+      "packages": [
+        {
+          "pkg": "com.rp.launcher"
+        }
+      ]
+    },
+    {
+      "title": "Factory menus, kept (see the header)",
+      "packages": [
+        {
+          "pkg": "com.rp.factorytest",
+          "optional": true
+        },
+        {
+          "pkg": "com.rp.rpfactory",
+          "optional": true
+        },
+        {
+          "pkg": "com.rp.hardwaredetect",
+          "optional": true
+        },
+        {
+          "pkg": "mediatek.factorymenu.ui",
+          "optional": true
+        }
+      ]
+    }
+  ],
+  "source": {
+    "repo": "Gathin23/cleanyourtv",
+    "path": "examples/mediatek-m7332/debloat.txt",
+    "commit": "f63a1ebcdcd63aae1ec1b6f62aa4d2a6858c116b"
+  }
+}

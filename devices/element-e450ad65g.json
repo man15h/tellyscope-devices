@@ -1,0 +1,171 @@
+{
+  "schema": 1,
+  "id": "element-e450ad65g",
+  "name": "Element E450AD65G",
+  "tested": {
+    "os": "Android 14",
+    "sdk": 34,
+    "build": null
+  },
+  "launcher": "com.google.android.apps.tv.launcherx",
+  "keep": [],
+  "groups": [
+    {
+      "title": "--- Content recognition, ads and telemetry ---",
+      "packages": [
+        {
+          "pkg": "tv.anoki.acr.anokiacroptin",
+          "note": "Anoki ACR: recognises what is on screen"
+        },
+        {
+          "pkg": "com.android.adservices.api",
+          "note": "Privacy Sandbox ad services"
+        },
+        {
+          "pkg": "com.android.ondevicepersonalization.services",
+          "note": "on-device ad personalisation"
+        },
+        {
+          "pkg": "com.android.federatedcompute.services",
+          "note": "federated learning for the above"
+        },
+        {
+          "pkg": "com.android.tv.feedbackconsent",
+          "note": "feedback consent prompts"
+        },
+        {
+          "pkg": "com.google.android.feedback",
+          "note": "feedback reporter"
+        }
+      ]
+    },
+    {
+      "title": "--- Partner rows, store demo, disclaimer, manual ---",
+      "packages": [
+        {
+          "pkg": "fusion.android.tv.demo",
+          "note": "store/demo mode"
+        },
+        {
+          "pkg": "com.mstar.android.tv.disclaimercustomization",
+          "note": "first-run disclaimer screen"
+        },
+        {
+          "pkg": "com.mediatek.android.leanbacklauncher.partnercustomizer",
+          "note": "partner rows for the stock launcher"
+        },
+        {
+          "pkg": "com.google.android.partnersetup",
+          "note": "Play partner customizations"
+        },
+        {
+          "pkg": "com.mtc.emanual",
+          "note": "on-screen manual (the FAV key opens it on the Sharp set)"
+        },
+        {
+          "pkg": "com.mtc.emanual.overlay.ok"
+        }
+      ]
+    },
+    {
+      "title": "--- Apps the owner does not use (off by choice; all still installed) ---",
+      "packages": [
+        {
+          "pkg": "com.google.android.youtube.tvmusic",
+          "optional": true
+        },
+        {
+          "pkg": "com.google.android.youtube.tvunplugged",
+          "note": "YouTube TV",
+          "optional": true
+        },
+        {
+          "pkg": "com.google.android.videos",
+          "note": "Google TV movies and shows",
+          "optional": true
+        },
+        {
+          "pkg": "com.apple.atve.androidtv.appletv",
+          "optional": true
+        },
+        {
+          "pkg": "com.wbd.stream",
+          "note": "Max",
+          "optional": true
+        },
+        {
+          "pkg": "com.sling",
+          "optional": true
+        },
+        {
+          "pkg": "com.philo.philo.google",
+          "optional": true
+        },
+        {
+          "pkg": "com.tubitv",
+          "optional": true
+        },
+        {
+          "pkg": "com.xumo.xumo.tv",
+          "optional": true
+        },
+        {
+          "pkg": "com.roku.web.trc",
+          "note": "The Roku Channel",
+          "optional": true
+        },
+        {
+          "pkg": "com.plexapp.android",
+          "optional": true
+        },
+        {
+          "pkg": "com.spotify.tv.android",
+          "optional": true
+        },
+        {
+          "pkg": "com.google.android.play.games",
+          "optional": true
+        }
+      ]
+    },
+    {
+      "title": "--- Voice, Chromecast and Miracast (off by choice) ---",
+      "packages": [
+        {
+          "pkg": "com.google.android.katniss",
+          "note": "Google Assistant / voice search"
+        },
+        {
+          "pkg": "com.google.android.tv.assistant",
+          "note": "Assistant mic LED service"
+        },
+        {
+          "pkg": "com.google.android.apps.mediashell",
+          "note": "Chromecast built-in"
+        },
+        {
+          "pkg": "com.mediatek.androidbox",
+          "note": "Miracast / Wi-Fi Display sink (MiracastService)"
+        }
+      ]
+    },
+    {
+      "title": "--- Stock Google TV home and setup wizard ---",
+      "packages": [
+        {
+          "pkg": "com.google.android.tungsten.setupwraith",
+          "note": "first-run wizard; claims HOME. Re-enable before a factory reset"
+        },
+        {
+          "pkg": "com.google.android.apps.tv.launcherx",
+          "note": "stock Google TV home"
+        }
+      ]
+    }
+  ],
+  "source": {
+    "repo": "Gathin23/cleanyourtv",
+    "path": "examples/element-e450ad65g/debloat.txt",
+    "commit": "f63a1ebcdcd63aae1ec1b6f62aa4d2a6858c116b"
+  }
+}

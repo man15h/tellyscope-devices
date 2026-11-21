@@ -1,0 +1,52 @@
+{
+  "schema": 1,
+  "id": "aurzen-boom-air",
+  "name": "Aurzen BOOM Air portable projector",
+  "tested": {
+    "os": "Android 11",
+    "sdk": 30,
+    "build": null
+  },
+  "launcher": null,
+  "keep": [],
+  "groups": [
+    {
+      "title": "Batch 1: telemetry and partner plumbing",
+      "packages": [
+        {
+          "pkg": "com.google.android.feedback"
+        },
+        {
+          "pkg": "com.google.android.partnersetup",
+          "note": "Google partner attribution pings"
+        }
+      ]
+    },
+    {
+      "title": "Batch 2: the owner's choice",
+      "packages": [
+        {
+          "pkg": "com.google.android.play.games"
+        },
+        {
+          "pkg": "com.google.android.marvin.talkback",
+          "note": "TalkBack screen reader: keep it if anyone uses it"
+        }
+      ]
+    },
+    {
+      "title": "Commented out, not dropped: tools/disable.sh refused this one on this unit (see the header), so the",
+      "packages": [
+        {
+          "pkg": "com.mstar.android.tv.disclaimercustomization",
+          "optional": true
+        }
+      ]
+    }
+  ],
+  "source": {
+    "repo": "Gathin23/cleanyourtv",
+    "path": "examples/aurzen-boom-air/debloat.txt",
+    "commit": "f63a1ebcdcd63aae1ec1b6f62aa4d2a6858c116b"
+  }
+}
