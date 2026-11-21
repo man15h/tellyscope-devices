@@ -2,7 +2,7 @@
   "schema": 1,
   "source": {
     "repo": "Gathin23/cleanyourtv",
-    "commit": "311a34b164034514fb1fe0bd526a32b1b46f9070"
+    "commit": "f63a1ebcdcd63aae1ec1b6f62aa4d2a6858c116b"
   },
   "devices": [
     {
@@ -206,6 +206,14 @@
       "sha256": "bdb732ec0e192a44dfc450f4fed3d550dd21dd68f0b0e0cf58fc58eb4c763461"
     },
     {
+      "id": "aurzen-boom-air",
+      "name": "Aurzen BOOM Air portable projector",
+      "match": null,
+      "sdk": 30,
+      "file": "devices/aurzen-boom-air.json",
+      "sha256": "12908e35761e50efd23a2b98e4d7dc9056e3a0328d55ce13d38702299eba49ee"
+    },
+    {
       "id": "beko-b43b880b",
       "name": "Beko B43B880B 43\" Android TV",
       "match": null,
@@ -284,6 +292,14 @@
       "sdk": 28,
       "file": "devices/btv-b11.json",
       "sha256": "9b6ab574ba3fcf428f72a81dadf7d68c3f2725117a996e983a87f4ec406d9449"
+    },
+    {
+      "id": "btv-b13",
+      "name": "BTV B13",
+      "match": null,
+      "sdk": 30,
+      "file": "devices/btv-b13.json",
+      "sha256": "8c2588e97abc611f37c3b3db1ac9b61ad4166f6b956b289984622bf0f02afe21"
     },
     {
       "id": "byintek-t5-max",
@@ -372,6 +388,14 @@
       "sdk": 34,
       "file": "devices/chiq-m75q10s.json",
       "sha256": "7f7aa6715c72692d423296cbc454d1309f327527054d9c20c1571a37dbdffb60"
+    },
+    {
+      "id": "chiq-u43qm8v",
+      "name": "CHiQ U43QM8V 43\"",
+      "match": null,
+      "sdk": 30,
+      "file": "devices/chiq-u43qm8v.json",
+      "sha256": "eb44c50a1e2c72d8a7d20af0871631c12cd68a142bbd12ee2a5226b5c558c1fb"
     },
     {
       "id": "compac-atv-r2",
@@ -478,12 +502,28 @@
       "sha256": "8285674aa9682bbd10e5466a739a3c0d6a917a43e26e2a9949647266041db471"
     },
     {
+      "id": "element-e450ad65g",
+      "name": "Element E450AD65G",
+      "match": null,
+      "sdk": 34,
+      "file": "devices/element-e450ad65g.json",
+      "sha256": "c646f99274b4e4e89a6aebada513c2b6ad6113a402bc9ca687149bf6d7976a36"
+    },
+    {
       "id": "engy-ai-pont",
       "name": "ENGY AI PONT",
       "match": null,
       "sdk": 34,
       "file": "devices/engy-ai-pont.json",
       "sha256": "340b2009e211fcfafa254f8e8acd49e261dc5ae6e6fc4cc02b32ec4fc2a71e0d"
+    },
+    {
+      "id": "epson-ef21",
+      "name": "Epson EF-21 laser projector",
+      "match": null,
+      "sdk": 34,
+      "file": "devices/epson-ef21.json",
+      "sha256": "e6bf25e7403cc6f3c6e0652f04bba091f86bd22aac0d198f5acca4dbdab39fdf"
     },
     {
       "id": "epson-ls800",
@@ -660,6 +700,14 @@
       "sdk": 28,
       "file": "devices/haier-hra962x2.json",
       "sha256": "d43e82705c571be3020a1fe2438eaa72d8b091bbb96eb22ae8139368c3e07963"
+    },
+    {
+      "id": "haier-l55f5",
+      "name": "Haier L55F5",
+      "match": null,
+      "sdk": 33,
+      "file": "devices/haier-l55f5.json",
+      "sha256": "94af8c52492faedbef0da869374859d71d3ec1387702f9087da56fdf16c9fcfc"
     },
     {
       "id": "haier-matrixtv-be",
@@ -1142,6 +1190,14 @@
       "sha256": "d29210df2b6ddc6dcc100f307df57c07d096b58e853bd4496af4e3ccd8d88c9f"
     },
     {
+      "id": "mediatek-m7332",
+      "name": "MediaTek m7332 Android TV board",
+      "match": null,
+      "sdk": 30,
+      "file": "devices/mediatek-m7332.json",
+      "sha256": "864d1c6305e464bab3788c1243c3b9689f10994a486fb99dd61b61b229d50dc6"
+    },
+    {
       "id": "metz-43mub8000",
       "name": "Metz 43MUB8000",
       "match": null,
@@ -1180,6 +1236,14 @@
       "sdk": null,
       "file": "devices/mtc-uk-2k-android-tv.json",
       "sha256": "f3dbe8fb3d9825c7d655cb692f1c1f13279d6b809f54dc3a01bd52016719a6c5"
+    },
+    {
+      "id": "next-nek7",
+      "name": "Next NEK7",
+      "match": null,
+      "sdk": 28,
+      "file": "devices/next-nek7.json",
+      "sha256": "babaf2d6066cc89a686d4005fbf5d43f92f932485e2327ec940d48ffd397da75"
     },
     {
       "id": "next-start-pro-4k",
@@ -1552,6 +1616,14 @@
       "sha256": "513d02cfdac787f804aaa14884729df2fbf5ed5f2c87ecdac7d7da2646063119"
     },
     {
+      "id": "philips-65oled908",
+      "name": "Philips 65OLED908/12",
+      "match": null,
+      "sdk": 34,
+      "file": "devices/philips-65oled908.json",
+      "sha256": "db55a5dd00b558d420030d48d0ece3688da6b9048350e360ccd3b52b74e25b3b"
+    },
+    {
       "id": "philips-65pml9506",
       "name": "Philips 65PML9506/12",
       "match": null,
@@ -1864,6 +1936,14 @@
       "sha256": "ef5785577298e9ce2905971bceadb15afcbb9a34883d5f69770383d993efab70"
     },
     {
+      "id": "sharp-2t-c43gh3000x",
+      "name": "SHARP 2T-C43GH3000X",
+      "match": null,
+      "sdk": 30,
+      "file": "devices/sharp-2t-c43gh3000x.json",
+      "sha256": "b0ca8759152b5ed948d8e31b7fe5dea8ba026f6aee787dd47f162703438ef5fd"
+    },
+    {
       "id": "sharp-32gf3265e",
       "name": "Sharp 32GF3265E",
       "match": null,
@@ -1990,6 +2070,14 @@
       "sdk": 29,
       "file": "devices/skyworth-7t861-a23.json",
       "sha256": "c2270b14e743698db97d0140506a2ac84ae920fd9fdb9493e5156550e5f4811c"
+    },
+    {
+      "id": "skyworth-7t864-h5d",
+      "name": "Skyworth 7T864_H5D",
+      "match": null,
+      "sdk": 29,
+      "file": "devices/skyworth-7t864-h5d.json",
+      "sha256": "89384dc6ccf75a696be185d78448d3f701b34e16245c69f650be583ac39ca427"
     },
     {
       "id": "skyworth-8r40-k5c",
@@ -2928,6 +3016,14 @@
       "sha256": "81e4d0128f9923556e90bb84a4b9aee6e73c5d53060dc5fd849505afb823bf66"
     },
     {
+      "id": "tcl-65q6-cn",
+      "name": "TCL 65Q6",
+      "match": null,
+      "sdk": 26,
+      "file": "devices/tcl-65q6-cn.json",
+      "sha256": "f6d1038493299b01f98b2f0efdda5bd1957cb20feabf9d04cf5a24a6111047fb"
+    },
+    {
       "id": "tcl-65q650g",
       "name": "TCL 65Q650G",
       "match": null,
@@ -3093,7 +3189,7 @@
       "match": null,
       "sdk": 30,
       "file": "devices/tcl-g03-google-tv.json",
-      "sha256": "00f901d796fe4965830457bafbd7aa2a9f46baa0d6f0c223007fcbbac36ee497"
+      "sha256": "c3881420a5cb9f40c7d66ca088d6dbf1457278f3a76783473e978b5a18908612"
     },
     {
       "id": "tcl-g05-google-tv",
@@ -3205,7 +3301,7 @@
       "match": null,
       "sdk": 34,
       "file": "devices/tcl-q7c-google-tv.json",
-      "sha256": "50b98b1fc07b00c102d2122bba2a373485b66f76039afc91b07065467bc8cd0a"
+      "sha256": "5f2cc55d3b53b7db9845d5f107dcecbe14e411dacfdb6b9b51cbefcc6cb9149a"
     },
     {
       "id": "tcl-qm6k-google-tv",

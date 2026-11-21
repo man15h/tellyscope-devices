@@ -1,0 +1,38 @@
+{
+  "schema": 1,
+  "id": "btv-b13",
+  "name": "BTV B13",
+  "tested": {
+    "os": "Android 11",
+    "sdk": 30,
+    "build": null
+  },
+  "launcher": "com.bb.launcher2",
+  "keep": [],
+  "groups": [
+    {
+      "title": "Telemetry: tools/privacy.py matched these two and nothing else on a 100-package read of the box",
+      "packages": [
+        {
+          "pkg": "com.google.android.partnersetup"
+        },
+        {
+          "pkg": "com.google.android.feedback"
+        }
+      ]
+    },
+    {
+      "title": "Vendor live TV app; the box's own installer brings it back if it is removed (see the header)",
+      "packages": [
+        {
+          "pkg": "com.live.evo"
+        }
+      ]
+    }
+  ],
+  "source": {
+    "repo": "Gathin23/cleanyourtv",
+    "path": "examples/btv-b13/debloat.txt",
+    "commit": "f63a1ebcdcd63aae1ec1b6f62aa4d2a6858c116b"
+  }
+}

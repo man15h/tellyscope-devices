@@ -69,6 +69,16 @@
           "note": "TCL web-video recommendation portal"
         },
         {
+          "pkg": "com.tcl.tv.tclchannel",
+          "note": "off on the AR37 US unit (see the header), left on in the shared list",
+          "optional": true
+        },
+        {
+          "pkg": "com.tcl.tv.plus",
+          "note": "off on the AR37 US unit (see the header), left on in the shared list",
+          "optional": true
+        },
+        {
           "pkg": "android.autoinstalls.config.google.gtvpai",
           "note": "silently installs partner apps"
         },
@@ -247,6 +257,6 @@
   "source": {
     "repo": "Gathin23/cleanyourtv",
     "path": "examples/tcl-g03-google-tv/debloat.txt",
-    "commit": "ddc3b2cdce299a5f30aa2da2437edc40f3cf6f2e"
+    "commit": "f63a1ebcdcd63aae1ec1b6f62aa4d2a6858c116b"
   }
 }

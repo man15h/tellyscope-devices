@@ -1,0 +1,116 @@
+{
+  "schema": 1,
+  "id": "philips-65oled908",
+  "name": "Philips 65OLED908/12",
+  "tested": {
+    "os": "Google TV 14",
+    "sdk": 34,
+    "build": "3000518"
+  },
+  "launcher": null,
+  "keep": [],
+  "groups": [
+    {
+      "title": "--- telemetry: the TV reporting on you --------------------------------------",
+      "packages": [
+        {
+          "pkg": "tv.samba.ssm",
+          "note": "Samba TV ACR: recognises what is on screen, for ad targeting"
+        },
+        {
+          "pkg": "com.google.android.feedback",
+          "note": "Market Feedback Agent (Google usage reports)"
+        },
+        {
+          "pkg": "org.droidtv.candeebug",
+          "note": "Philips \"DAC\" analytics and debug log uploader"
+        }
+      ]
+    },
+    {
+      "title": "--- promoted content and retail junk ----------------------------------------",
+      "packages": [
+        {
+          "pkg": "com.google.android.apps.tv.dreamx",
+          "note": "Google ambient screensaver with suggestions; Orba has its own"
+        },
+        {
+          "pkg": "com.tpv.nftgallery",
+          "note": "\"NFT Collection\" art gallery"
+        },
+        {
+          "pkg": "org.droidtv.demome",
+          "note": "retail demo mode"
+        },
+        {
+          "pkg": "com.google.android.play.games",
+          "note": "Play Games, not used on a TV"
+        }
+      ]
+    },
+    {
+      "title": "--- services for other countries --------------------------------------------",
+      "packages": [
+        {
+          "pkg": "tv.mopa.ginga",
+          "note": "Ginga, Brazilian interactive TV",
+          "optional": true
+        },
+        {
+          "pkg": "org.droidtv.astrahdplus",
+          "note": "HD+ (German satellite operator) pages; not used in France"
+        }
+      ]
+    },
+    {
+      "title": "--- unused home and audio integrations --------------------------------------",
+      "packages": [
+        {
+          "pkg": "org.droidtv.control4adapterservice",
+          "note": "Control4 home automation (4 packages)"
+        },
+        {
+          "pkg": "org.droidtv.control4app"
+        },
+        {
+          "pkg": "org.droidtv.control4sddp"
+        },
+        {
+          "pkg": "org.droidtv.control4UcService"
+        },
+        {
+          "pkg": "org.droidtv.amazonalexa",
+          "note": "Alexa bridge; Google Assistant is separate"
+        },
+        {
+          "pkg": "com.phorus.playfi.tv",
+          "note": "DTS Play-Fi multi-room audio"
+        },
+        {
+          "pkg": "com.phorus.playfi.softap",
+          "note": "its soft access point"
+        }
+      ]
+    },
+    {
+      "title": "--- owner's choice on this unit ---------------------------------------------",
+      "packages": [
+        {
+          "pkg": "org.droidtv.aurora",
+          "note": "Aurora ambient display (art and clock when the TV is idle)",
+          "optional": true
+        },
+        {
+          "pkg": "org.droidtv.sunrise",
+          "note": "Sunrise alarm (Ambilight wake-up light)",
+          "optional": true
+        }
+      ]
+    }
+  ],
+  "source": {
+    "repo": "Gathin23/cleanyourtv",
+    "path": "examples/philips-65oled908/debloat.txt",
+    "commit": "f63a1ebcdcd63aae1ec1b6f62aa4d2a6858c116b"
+  }
+}

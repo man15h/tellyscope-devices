@@ -1,0 +1,135 @@
+{
+  "schema": 1,
+  "id": "haier-l55f5",
+  "name": "Haier L55F5",
+  "tested": {
+    "os": "Android 13",
+    "sdk": 33,
+    "build": "13-R-20250109.0858"
+  },
+  "launcher": null,
+  "keep": [],
+  "groups": [
+    {
+      "title": "Ads, telemetry, promo, silent installs",
+      "packages": [
+        {
+          "pkg": "com.yunos.advert.service",
+          "note": "AdvertService + FakeNotification: system ads"
+        },
+        {
+          "pkg": "com.haier.tv.electag",
+          "note": "ad material library: no entry components, silent download perms"
+        },
+        {
+          "pkg": "com.haier.activeuser",
+          "note": "active-user stats upload (BOOT_SEND_ACCESSTOKEN, SCREEN_ON)"
+        },
+        {
+          "pkg": "com.haier.tv.modelintroduction",
+          "note": "retail demo mode"
+        },
+        {
+          "pkg": "com.haier.tv.downloadapk",
+          "note": "background APK downloader (boot + connectivity), silent installs"
+        },
+        {
+          "pkg": "com.yunos.tv.edu",
+          "note": "AliOS education content app"
+        },
+        {
+          "pkg": "com.yunos.music",
+          "note": "AliOS music app (RECORD_AUDIO)"
+        }
+      ]
+    },
+    {
+      "title": "Voice assistant stack (owner does not use voice)",
+      "packages": [
+        {
+          "pkg": "com.haier.tv.intelligentvoice",
+          "note": "Haier voice assistant"
+        },
+        {
+          "pkg": "com.haier.tv.tmallasr",
+          "note": "Tmall Genie ASR"
+        },
+        {
+          "pkg": "com.haier.tv.voicemedia",
+          "note": "voice media search"
+        },
+        {
+          "pkg": "com.haier.tv.mic.detect",
+          "note": "microphone detection"
+        }
+      ]
+    },
+    {
+      "title": "Haier smart-home / IoT (owner does not use UHome)",
+      "packages": [
+        {
+          "pkg": "com.haier.uhome.uplustv",
+          "note": "U+ cloud TV"
+        },
+        {
+          "pkg": "com.haierubic.usmartdevice",
+          "note": "smart-device service (remote power control)"
+        },
+        {
+          "pkg": "com.haier.tv.iotprovider",
+          "note": "IoT provider"
+        }
+      ]
+    },
+    {
+      "title": "Updates (owner choice: no auto-updates). The AliOS firmware updater is commented out below, the way",
+      "packages": [
+        {
+          "pkg": "com.yunos.osupdate",
+          "note": "AliOS firmware update service: kept enabled in the",
+          "optional": true
+        },
+        {
+          "pkg": "com.haier.tv.appversion",
+          "note": "Haier app updater with INSTALL_PACKAGES (background app installs)"
+        }
+      ]
+    },
+    {
+      "title": "Unused AOSP apps (music/gallery3d kept for USB media)",
+      "packages": [
+        {
+          "pkg": "com.android.deskclock",
+          "note": "AOSP clock"
+        },
+        {
+          "pkg": "com.android.calendar",
+          "note": "AOSP calendar"
+        },
+        {
+          "pkg": "com.android.contacts",
+          "note": "AOSP contacts"
+        },
+        {
+          "pkg": "com.android.camera2",
+          "note": "AOSP camera"
+        }
+      ]
+    },
+    {
+      "title": "Content home and HOME stub, applied after the replacement launcher owned Home (2026-10-25 session).",
+      "packages": [
+        {
+          "pkg": "com.haier.tv.provision",
+          "note": "preferred HOME stub; disabled after the launcher took Home",
+          "optional": true
+        }
+      ]
+    }
+  ],
+  "source": {
+    "repo": "Gathin23/cleanyourtv",
+    "path": "examples/haier-l55f5/debloat.txt",
+    "commit": "f63a1ebcdcd63aae1ec1b6f62aa4d2a6858c116b"
+  }
+}

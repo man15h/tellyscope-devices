@@ -1,0 +1,103 @@
+{
+  "schema": 1,
+  "id": "skyworth-7t864-h5d",
+  "name": "Skyworth 7T864_H5D",
+  "tested": {
+    "os": "Android 10",
+    "sdk": 29,
+    "build": "QQ2A.200305.004.A1"
+  },
+  "launcher": null,
+  "keep": [],
+  "groups": [
+    {
+      "title": "--- Telemetry, ad push, background monitors (disabled by default) ---",
+      "packages": [
+        {
+          "pkg": "com.tianci.ad",
+          "note": "Tianci advertising cloud push receiver, keeps a background connection open"
+        },
+        {
+          "pkg": "com.tianci.de",
+          "note": "Tianci Data Engine daemons listening for package add/update"
+        },
+        {
+          "pkg": "com.skyworth.performance.monitors",
+          "note": "Background performance/telemetry monitor"
+        }
+      ]
+    },
+    {
+      "title": "--- Factory diagnostics and unused device services (disabled by default) ---",
+      "packages": [
+        {
+          "pkg": "com.skyworth.testtime",
+          "note": "Factory test timer"
+        },
+        {
+          "pkg": "com.skyworthdigital.stb.dataprovider",
+          "note": "Diagnostics data provider"
+        },
+        {
+          "pkg": "com.skyworth.microphone",
+          "note": "Karaoke / external microphone companion; com.loostone.tuning keeps system audio"
+        },
+        {
+          "pkg": "com.coocaa.guide",
+          "note": "Boot guide and EPG program guide / push receiver; not used without broadcast TV",
+          "optional": true
+        }
+      ]
+    },
+    {
+      "title": "--- Optional, kept on the tested unit: uncomment to disable ---",
+      "packages": [
+        {
+          "pkg": "com.tianci.appstore",
+          "note": "Built-in app store. Disabling it leaves no way to install apps without a sideload.",
+          "optional": true
+        },
+        {
+          "pkg": "com.skyworth.angel.voice",
+          "note": "Remote voice key / XiaoWei AI assistant",
+          "optional": true
+        },
+        {
+          "pkg": "com.skyworth.smartcast",
+          "note": "Phone screen casting",
+          "optional": true
+        },
+        {
+          "pkg": "com.coocaa.os.upgrade",
+          "note": "System OTA updater. Keep it if you want firmware updates.",
+          "optional": true
+        },
+        {
+          "pkg": "com.coocaa.theme_package_ccos_nine",
+          "note": "Stock Coocaa OS theme. Kept here because Office Mode still draws its home with it.",
+          "optional": true
+        },
+        {
+          "pkg": "com.coocaa.app_browser",
+          "note": "App store browser",
+          "optional": true
+        },
+        {
+          "pkg": "com.coocaa.tvmanager",
+          "note": "CooCaa content recommendation and app/storage scanning manager; also scans USB, so keep it if USB drives must show up",
+          "optional": true
+        },
+        {
+          "pkg": "com.coocaa.factory",
+          "note": "Factory menu app. This is where the ADB switch lives, so keep it if you may need to turn ADB back on.",
+          "optional": true
+        }
+      ]
+    }
+  ],
+  "source": {
+    "repo": "Gathin23/cleanyourtv",
+    "path": "examples/skyworth-7t864-h5d/debloat.txt",
+    "commit": "f63a1ebcdcd63aae1ec1b6f62aa4d2a6858c116b"
+  }
+}
