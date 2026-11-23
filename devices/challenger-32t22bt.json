@@ -104,10 +104,11 @@
       ]
     },
     {
-      "title": "Stock launcher (disable only after installing and setting an alternative launcher as Home)",
+      "title": "Stock launcher: kept. Disabling it with no other Home installed leaves the TV without a Home screen.",
       "packages": [
         {
-          "pkg": "com.cvte.tv.launcher"
+          "pkg": "com.cvte.tv.launcher",
+          "optional": true
         }
       ]
     }
@@ -115,6 +116,6 @@
   "source": {
     "repo": "Gathin23/cleanyourtv",
     "path": "examples/challenger-32t22bt/debloat.txt",
-    "commit": "575d73f0f30c329aa7ebaea2bc863943fd9bf7f9"
+    "commit": "fe6cdcefa817da9f6facd3a17a3c5a086124f258"
   }
 }

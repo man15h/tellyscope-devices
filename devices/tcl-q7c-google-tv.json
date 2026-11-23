@@ -450,11 +450,48 @@
           "optional": true
         }
       ]
+    },
+    {
+      "title": "Eleventh unit: the eight apps installed on that set (TCL 85QM8B, Italy), off by the owner's choice on",
+      "packages": [
+        {
+          "pkg": "com.apple.atve.androidtv.appletv",
+          "optional": true
+        },
+        {
+          "pkg": "com.cbs.ca",
+          "optional": true
+        },
+        {
+          "pkg": "com.discovery.dplay",
+          "optional": true
+        },
+        {
+          "pkg": "com.disney.disneyplus",
+          "optional": true
+        },
+        {
+          "pkg": "it.mediaset.infinitytv",
+          "optional": true
+        },
+        {
+          "pkg": "it.rainet.androidtv",
+          "optional": true
+        },
+        {
+          "pkg": "it.telecomitalia.cubovision",
+          "optional": true
+        },
+        {
+          "pkg": "tv.wuaki.apptv",
+          "optional": true
+        }
+      ]
     }
   ],
   "source": {
     "repo": "Gathin23/cleanyourtv",
     "path": "examples/tcl-q7c-google-tv/debloat.txt",
-    "commit": "a1e948c665abf5af86c3aab08fe05053686a6bf3"
+    "commit": "fe6cdcefa817da9f6facd3a17a3c5a086124f258"
   }
 }

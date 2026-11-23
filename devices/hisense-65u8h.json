@@ -1,0 +1,159 @@
+{
+  "schema": 1,
+  "id": "hisense-65u8h",
+  "name": "Hisense 65U8H",
+  "tested": {
+    "os": "Android 11",
+    "sdk": 30,
+    "build": "RTT2.211209.001"
+  },
+  "launcher": "com.google.android.apps.tv.launcherx",
+  "keep": [],
+  "groups": [
+    {
+      "title": "Tracking",
+      "packages": [
+        {
+          "pkg": "com.hisense.evservice",
+          "note": "Vtp_ACR, viewing-data content recognition"
+        },
+        {
+          "pkg": "android.autoinstalls.config.google.gtvpai",
+          "note": "Google TV partner auto-installs (PAI)"
+        },
+        {
+          "pkg": "com.google.android.partnersetup",
+          "note": "partner referral tracking"
+        },
+        {
+          "pkg": "com.google.android.feedback",
+          "note": "crash/feedback uploader"
+        },
+        {
+          "pkg": "com.google.android.syncadapters.calendar",
+          "note": "calendar sync, unused on a TV"
+        }
+      ]
+    },
+    {
+      "title": "Retail, first-run and preloads",
+      "packages": [
+        {
+          "pkg": "com.hisense.storemode",
+          "note": "shop demo loop"
+        },
+        {
+          "pkg": "com.hisense.fte",
+          "note": "first-time setup hooks"
+        },
+        {
+          "pkg": "com.vt.eula",
+          "note": "EULA screen"
+        },
+        {
+          "pkg": "com.google.android.onetimeinitializer",
+          "note": "one-time setup helper, already past"
+        },
+        {
+          "pkg": "com.hisense.hibrowser",
+          "note": "stock browser"
+        },
+        {
+          "pkg": "com.hisense.tv.protector",
+          "note": "DeviceAssistant cleaner and \"turbo mode\""
+        },
+        {
+          "pkg": "com.vt.tv.mediacenter",
+          "note": "USB media centre"
+        },
+        {
+          "pkg": "com.android.printspooler",
+          "note": "printing, unused on a TV"
+        },
+        {
+          "pkg": "com.android.dreams.basic",
+          "note": "stock screensaver; dreamx is kept"
+        },
+        {
+          "pkg": "com.google.android.youtube.tvmusic",
+          "note": "YouTube Music"
+        }
+      ]
+    },
+    {
+      "title": "Voice assistants",
+      "packages": [
+        {
+          "pkg": "com.google.android.katniss",
+          "note": "Google Assistant"
+        },
+        {
+          "pkg": "com.google.android.tv.assistant",
+          "note": "Google TV assistant"
+        },
+        {
+          "pkg": "com.hisense.alexa",
+          "note": "HiAlexa"
+        }
+      ]
+    },
+    {
+      "title": "DLNA",
+      "packages": [
+        {
+          "pkg": "com.hisense.tv.dlna",
+          "note": "DLNA media renderer"
+        }
+      ]
+    },
+    {
+      "title": "Streaming apps not used in this home (by choice; keep the ones you use). This set had these six off.",
+      "packages": [
+        {
+          "pkg": "com.amazon.amazonvideo.livingroom",
+          "note": "Prime Video",
+          "optional": true
+        },
+        {
+          "pkg": "com.hulu.livingroomplus",
+          "note": "Hulu",
+          "optional": true
+        },
+        {
+          "pkg": "com.wbd.stream",
+          "note": "Max",
+          "optional": true
+        },
+        {
+          "pkg": "com.tubitv",
+          "note": "Tubi",
+          "optional": true
+        },
+        {
+          "pkg": "tv.pluto.android",
+          "note": "Pluto TV",
+          "optional": true
+        },
+        {
+          "pkg": "com.haystack.android",
+          "note": "Haystack News",
+          "optional": true
+        }
+      ]
+    },
+    {
+      "title": "Google TV's setup wizard. Its RecoveryActivity claims HOME and beats the new launcher once",
+      "packages": [
+        {
+          "pkg": "com.google.android.tungsten.setupwraith",
+          "note": "setup wizard; owns the saved Wi-Fi until it is re-joined"
+        }
+      ]
+    }
+  ],
+  "source": {
+    "repo": "Gathin23/cleanyourtv",
+    "path": "examples/hisense-65u8h/debloat.txt",
+    "commit": "fe6cdcefa817da9f6facd3a17a3c5a086124f258"
+  }
+}

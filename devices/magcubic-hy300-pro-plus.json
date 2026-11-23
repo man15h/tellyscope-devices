@@ -61,7 +61,7 @@
         },
         {
           "pkg": "com.android.toofifi",
-          "note": "phone-remote service on port 8899 (no auth), mic, camera, location",
+          "note": "phone-remote service on port 8899 (no auth), mic, camera, location; a",
           "optional": true
         }
       ]
@@ -70,6 +70,6 @@
   "source": {
     "repo": "Gathin23/cleanyourtv",
     "path": "examples/magcubic-hy300-pro-plus/debloat.txt",
-    "commit": "ddc3b2cdce299a5f30aa2da2437edc40f3cf6f2e"
+    "commit": "fe6cdcefa817da9f6facd3a17a3c5a086124f258"
   }
 }

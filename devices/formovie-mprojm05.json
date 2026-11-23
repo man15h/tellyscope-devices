@@ -93,6 +93,16 @@
           "pkg": "com.fengmi.autofocustest",
           "note": "untested: factory autofocus test (second unit's build), one activity, no",
           "optional": true
+        },
+        {
+          "pkg": "com.formovie.launchboard",
+          "note": "untested for days: Formovie app drawer (MainActivity with ALL_APPS and a",
+          "optional": true
+        },
+        {
+          "pkg": "com.netflix.ninja",
+          "note": "off by choice on the third unit (no account); preloaded, so disabled",
+          "optional": true
         }
       ]
     },
@@ -108,6 +118,6 @@
   "source": {
     "repo": "Gathin23/cleanyourtv",
     "path": "examples/formovie-mprojm05/debloat.txt",
-    "commit": "baadd07a7d095cc3ea72e6ccb615987bf1fb97c4"
+    "commit": "fe6cdcefa817da9f6facd3a17a3c5a086124f258"
   }
 }
