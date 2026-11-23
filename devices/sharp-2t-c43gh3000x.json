@@ -1,0 +1,125 @@
+{
+  "schema": 1,
+  "id": "sharp-2t-c43gh3000x",
+  "name": "SHARP 2T-C43GH3000X",
+  "tested": {
+    "os": "Android 11",
+    "sdk": 30,
+    "build": null
+  },
+  "launcher": "com.google.android.apps.tv.launcherx",
+  "keep": [],
+  "groups": [
+    {
+      "title": "--- Skyworth and Google telemetry, partner installs ---",
+      "packages": [
+        {
+          "pkg": "com.smartdevice.recordactivation",
+          "note": "records first activation"
+        },
+        {
+          "pkg": "com.smartdevice.aftersale",
+          "note": "\"after-sale\" service: boot + network receivers, can install APKs"
+        },
+        {
+          "pkg": "com.google.android.feedback",
+          "note": "Market Feedback Agent"
+        },
+        {
+          "pkg": "com.google.android.partnersetup",
+          "note": "partner-app attribution"
+        },
+        {
+          "pkg": "android.autoinstalls.config.google.gtvpai",
+          "note": "silently installs partner apps"
+        },
+        {
+          "pkg": "com.google.android.apps.nbu.smartconnect.tv",
+          "note": "data-saver VPN"
+        }
+      ]
+    },
+    {
+      "title": "--- Skyworth content, retail demo and preloads ---",
+      "packages": [
+        {
+          "pkg": "com.smartdevice.leanbacklauncher.customizer",
+          "note": "partner config that injects rows into the home screen"
+        },
+        {
+          "pkg": "com.coocaa.demonow.lightining",
+          "note": "\"Demo Now\" retail mode, boot receiver"
+        },
+        {
+          "pkg": "fusion.android.tv.demo",
+          "note": "retail demo mode"
+        },
+        {
+          "pkg": "com.Smartdevice.emanual",
+          "note": "on-screen manual"
+        },
+        {
+          "pkg": "com.smartdevice.dailymanage",
+          "note": "TV Guard / cleaner"
+        },
+        {
+          "pkg": "com.smartdevice.myapp",
+          "note": "Daily Key app manager; the remote's profile button opened it (see README.md)"
+        },
+        {
+          "pkg": "com.mstar.android.tv.disclaimercustomization",
+          "note": "disclaimer screen used only by first-run setup"
+        }
+      ]
+    },
+    {
+      "title": "--- Unused ---",
+      "packages": [
+        {
+          "pkg": "com.android.printspooler",
+          "note": "printing"
+        },
+        {
+          "pkg": "com.android.cts.ctsshim",
+          "note": "Android test shim"
+        },
+        {
+          "pkg": "com.android.cts.priv.ctsshim",
+          "note": "Android test shim"
+        },
+        {
+          "pkg": "com.android.settings.intelligence",
+          "note": "suggestions in Settings"
+        },
+        {
+          "pkg": "com.google.android.youtube.tvmusic",
+          "note": "YouTube Music, off by choice",
+          "optional": true
+        },
+        {
+          "pkg": "com.google.android.play.games",
+          "note": "Play Games, off by choice",
+          "optional": true
+        }
+      ]
+    },
+    {
+      "title": "--- After the new launcher is Home ---",
+      "packages": [
+        {
+          "pkg": "com.google.android.apps.tv.dreamx",
+          "note": "ambient-mode screensaver"
+        },
+        {
+          "pkg": "com.google.android.tungsten.setupwraith",
+          "note": "its RecoveryActivity takes Home otherwise; check its Wi-Fi first (above)"
+        }
+      ]
+    }
+  ],
+  "source": {
+    "repo": "Gathin23/cleanyourtv",
+    "path": "examples/sharp-2t-c43gh3000x/debloat.txt",
+    "commit": "fe6cdcefa817da9f6facd3a17a3c5a086124f258"
+  }
+}

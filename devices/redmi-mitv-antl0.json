@@ -77,7 +77,7 @@
       ]
     },
     {
-      "title": "Stock launcher (duokan content wall, incl. a PREDETAIL_AD_ACTIVITY); replaced by launcher/.",
+      "title": "Do not `pm hide` it either, not even to hand Home to a third-party launcher (#4305). On this firmware",
       "packages": [
         {
           "pkg": "com.mitv.tvhome",
@@ -89,6 +89,6 @@
   "source": {
     "repo": "Gathin23/cleanyourtv",
     "path": "examples/redmi-mitv-antl0/debloat.txt",
-    "commit": "575d73f0f30c329aa7ebaea2bc863943fd9bf7f9"
+    "commit": "fe6cdcefa817da9f6facd3a17a3c5a086124f258"
   }
 }

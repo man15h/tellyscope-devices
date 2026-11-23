@@ -1,0 +1,270 @@
+{
+  "schema": 1,
+  "id": "thomson-atv-r1",
+  "name": "Thomson ATV R1 TV stick",
+  "tested": {
+    "os": "Android TV 9",
+    "sdk": 28,
+    "build": "PTT1.210114.001"
+  },
+  "launcher": "com.google.android.tvlauncher",
+  "keep": [],
+  "groups": [
+    {
+      "title": "SCBC/Realtek preload junk",
+      "packages": [
+        {
+          "pkg": "com.apps.channels",
+          "note": "\"S-Channel\" content rows on Home"
+        },
+        {
+          "pkg": "com.apps.clear",
+          "note": "\"TV Booster\" cleaner"
+        },
+        {
+          "pkg": "com.apps.esticker",
+          "note": "ShowService demo sticker overlay"
+        },
+        {
+          "pkg": "com.apps.function.gdpr",
+          "note": "SCBC data-consent agent"
+        },
+        {
+          "pkg": "com.apps.networkspeed",
+          "note": "speed-test preload"
+        },
+        {
+          "pkg": "com.apps.puresound",
+          "note": "\"sound effect\" app: SYSTEM_ALERT_WINDOW + install-referrer hooks"
+        },
+        {
+          "pkg": "com.apps.timeclock",
+          "note": "WorldClock preload"
+        },
+        {
+          "pkg": "com.apps.wifihotspot",
+          "note": "stick as a Wi-Fi hotspot"
+        }
+      ]
+    },
+    {
+      "title": "Partner plumbing and promo stores",
+      "packages": [
+        {
+          "pkg": "android.autoinstalls.config.scbc.device",
+          "note": "Play auto-installs of partner apps"
+        },
+        {
+          "pkg": "com.google.android.partnersetup",
+          "note": "partner-app attribution"
+        },
+        {
+          "pkg": "com.google.android.onetimeinitializer",
+          "note": "one-time setup leftovers"
+        },
+        {
+          "pkg": "com.vewd.core.service",
+          "note": "Vewd app-store/HbbTV engine, asks CAMERA + RECORD_AUDIO"
+        },
+        {
+          "pkg": "com.google.android.apps.nbu.smartconnect.tv",
+          "note": "Google data-saver VPN preload"
+        }
+      ]
+    },
+    {
+      "title": "Google telemetry and extras",
+      "packages": [
+        {
+          "pkg": "com.google.android.feedback",
+          "note": "Market Feedback Agent"
+        },
+        {
+          "pkg": "com.google.android.tv.bugreportsender",
+          "note": "bug report uploader"
+        },
+        {
+          "pkg": "com.google.android.backuptransport",
+          "note": "Google cloud backup transport"
+        },
+        {
+          "pkg": "com.google.android.syncadapters.calendar",
+          "note": "calendar sync, no calendar app on a stick"
+        },
+        {
+          "pkg": "com.google.android.play.games",
+          "note": "Play Games"
+        },
+        {
+          "pkg": "com.google.android.backdrop",
+          "note": "Google ambient screensaver; the launcher ships its own clock"
+        },
+        {
+          "pkg": "com.google.android.marvin.talkback",
+          "note": "TalkBack screen reader"
+        },
+        {
+          "pkg": "com.google.android.katniss",
+          "note": "RE-ENABLED: voice search kept (see header)",
+          "optional": true
+        },
+        {
+          "pkg": "com.google.android.speech.pumpkin",
+          "note": "RE-ENABLED with katniss: offline speech recognition",
+          "optional": true
+        },
+        {
+          "pkg": "com.google.android.tts",
+          "note": "RE-ENABLED: the assistant speaks its answers",
+          "optional": true
+        },
+        {
+          "pkg": "com.google.android.tv.remote.service",
+          "note": "RE-ENABLED: its AtvSearchAssistantService answers the mic button",
+          "optional": true
+        }
+      ]
+    },
+    {
+      "title": "Apps the owner does not use",
+      "packages": [
+        {
+          "pkg": "com.netflix.ninja",
+          "optional": true
+        },
+        {
+          "pkg": "com.amazon.amazonvideo.livingroom",
+          "note": "Prime Video",
+          "optional": true
+        },
+        {
+          "pkg": "ru.rt.video.app.tv",
+          "note": "Wink / Rostelecom",
+          "optional": true
+        },
+        {
+          "pkg": "tv.okko.androidtv",
+          "note": "Okko",
+          "optional": true
+        },
+        {
+          "pkg": "com.google.android.youtube.tvmusic",
+          "note": "YouTube Music preload",
+          "optional": true
+        },
+        {
+          "pkg": "com.tcl.browser",
+          "note": "TCL browser preload"
+        }
+      ]
+    },
+    {
+      "title": "Android parts a TV stick does not need",
+      "packages": [
+        {
+          "pkg": "com.android.cts.ctsshim",
+          "note": "Android test shim"
+        },
+        {
+          "pkg": "com.android.cts.priv.ctsshim",
+          "note": "Android test shim"
+        },
+        {
+          "pkg": "com.android.printspooler",
+          "note": "printing"
+        },
+        {
+          "pkg": "com.android.gallery3d",
+          "note": "legacy photo viewer (File Manager + USB player kept)"
+        },
+        {
+          "pkg": "com.android.dreams.basic",
+          "note": "stock \"colors\" screensaver"
+        },
+        {
+          "pkg": "com.android.wallpaperbackup"
+        },
+        {
+          "pkg": "com.android.wallpaper.livepicker"
+        },
+        {
+          "pkg": "com.android.sharedstoragebackup"
+        },
+        {
+          "pkg": "com.android.providers.calendar",
+          "note": "provider only, no calendar client"
+        },
+        {
+          "pkg": "com.android.providers.contacts",
+          "note": "provider only, no contacts client"
+        },
+        {
+          "pkg": "com.android.providers.userdictionary"
+        },
+        {
+          "pkg": "com.android.companiondevicemanager",
+          "note": "companion-device pairing dialogs"
+        },
+        {
+          "pkg": "com.android.backupconfirm"
+        },
+        {
+          "pkg": "com.android.htmlviewer",
+          "note": "internal HTML viewer"
+        },
+        {
+          "pkg": "com.android.settings.intelligence",
+          "note": "Settings search box; menus keep working"
+        },
+        {
+          "pkg": "com.android.se",
+          "note": "Secure Element (eSIM/NFC): nothing here has one"
+        }
+      ]
+    },
+    {
+      "title": "OTA updaters: kept enabled in this shared list; comment both in only if you want the stick to",
+      "packages": [
+        {
+          "pkg": "com.apps.ota",
+          "note": "system OTA updater, off on the owner's unit",
+          "optional": true
+        },
+        {
+          "pkg": "com.apps.authota",
+          "note": "Auth OTA updater, off on the owner's unit",
+          "optional": true
+        }
+      ]
+    },
+    {
+      "title": "Stock launcher and its rows - LAST, only after launcher/build-and-install.sh moved Home.",
+      "packages": [
+        {
+          "pkg": "com.google.android.tvrecommendations",
+          "note": "recommendation rows for the stock launcher"
+        },
+        {
+          "pkg": "com.google.android.leanbacklauncher.recommendations"
+        },
+        {
+          "pkg": "com.google.android.leanbacklauncher",
+          "note": "old launcher, no HOME activity on this build"
+        },
+        {
+          "pkg": "com.realtek.leanbacklauncher.partnercustomizer",
+          "note": "partner config injecting apps/rows into Home"
+        },
+        {
+          "pkg": "com.google.android.tvlauncher",
+          "note": "the stock Home itself"
+        }
+      ]
+    }
+  ],
+  "source": {
+    "repo": "Gathin23/cleanyourtv",
+    "path": "examples/thomson-atv-r1/debloat.txt",
+    "commit": "fe6cdcefa817da9f6facd3a17a3c5a086124f258"
+  }
+}

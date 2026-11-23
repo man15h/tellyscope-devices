@@ -1,0 +1,94 @@
+{
+  "schema": 1,
+  "id": "chiq-u43qm8v",
+  "name": "CHiQ U43QM8V 43\"",
+  "tested": {
+    "os": "Android 11",
+    "sdk": 30,
+    "build": null
+  },
+  "launcher": "com.google.android.apps.tv.launcherx",
+  "keep": [],
+  "groups": [
+    {
+      "title": "Vendor apps",
+      "packages": [
+        {
+          "pkg": "com.homwee.store"
+        },
+        {
+          "pkg": "com.homwee.help"
+        },
+        {
+          "pkg": "com.homwee.upgrade",
+          "note": "vendor app updater (the firmware one, com.homwee.dmt.upgrade, is kept); the Play Store still updates apps"
+        }
+      ]
+    },
+    {
+      "title": "Partner installs, telemetry and account sync",
+      "packages": [
+        {
+          "pkg": "android.autoinstalls.config.google.gtvpai"
+        },
+        {
+          "pkg": "com.google.android.feedback"
+        },
+        {
+          "pkg": "com.google.android.syncadapters.calendar"
+        }
+      ]
+    },
+    {
+      "title": "Preloaded apps",
+      "packages": [
+        {
+          "pkg": "com.amazon.amazonvideo.livingroom"
+        },
+        {
+          "pkg": "com.wbd.stream"
+        },
+        {
+          "pkg": "com.iqiyi.i18n.tv"
+        },
+        {
+          "pkg": "com.google.android.youtube.tvmusic"
+        },
+        {
+          "pkg": "com.google.android.play.games"
+        }
+      ]
+    },
+    {
+      "title": "Personal choice: comment out what you use",
+      "packages": [
+        {
+          "pkg": "com.google.android.katniss",
+          "note": "Google Assistant (the mic button stops working)"
+        }
+      ]
+    },
+    {
+      "title": "Disabling setupwraith gives Home back, and on this set it cost nothing: the owner's 20 November 2026",
+      "packages": [
+        {
+          "pkg": "com.google.android.tungsten.setupwraith"
+        }
+      ]
+    },
+    {
+      "title": "Stock launcher, replaced by launcher/. Left to launcher/build-and-install.sh, which disables it only",
+      "packages": [
+        {
+          "pkg": "com.google.android.apps.tv.launcherx",
+          "optional": true
+        }
+      ]
+    }
+  ],
+  "source": {
+    "repo": "Gathin23/cleanyourtv",
+    "path": "examples/chiq-u43qm8v/debloat.txt",
+    "commit": "fe6cdcefa817da9f6facd3a17a3c5a086124f258"
+  }
+}

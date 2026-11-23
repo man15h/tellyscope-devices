@@ -1,0 +1,100 @@
+{
+  "schema": 1,
+  "id": "epson-ef21",
+  "name": "Epson EF-21 laser projector",
+  "tested": {
+    "os": "Google TV 14",
+    "sdk": 34,
+    "build": null
+  },
+  "launcher": "com.google.android.apps.tv.launcherx",
+  "keep": [],
+  "groups": [
+    {
+      "title": "Batch 1: telemetry, ads and partner plumbing",
+      "packages": [
+        {
+          "pkg": "com.android.adservices.api",
+          "note": "Android ad services (Topics, attribution)"
+        },
+        {
+          "pkg": "com.google.android.feedback"
+        },
+        {
+          "pkg": "com.android.tv.feedbackconsent"
+        },
+        {
+          "pkg": "com.google.android.partnersetup",
+          "note": "Google partner attribution pings"
+        },
+        {
+          "pkg": "com.mstar.android.tv.disclaimercustomization",
+          "note": "setup-only disclaimer screen"
+        }
+      ]
+    },
+    {
+      "title": "Batch 2: preloaded apps and features (owner's choice: no voice assistant, no casting)",
+      "packages": [
+        {
+          "pkg": "com.google.android.play.games"
+        },
+        {
+          "pkg": "com.google.android.youtube.tv",
+          "note": "owner uses another YouTube client",
+          "optional": true
+        },
+        {
+          "pkg": "com.google.android.youtube.tvmusic",
+          "optional": true
+        },
+        {
+          "pkg": "com.netflix.ninja",
+          "optional": true
+        },
+        {
+          "pkg": "com.google.android.katniss",
+          "note": "Google Assistant / Gemini, voice search"
+        },
+        {
+          "pkg": "com.google.android.apps.mediashell",
+          "note": "Chromecast built-in"
+        },
+        {
+          "pkg": "com.google.android.apps.tv.dreamx",
+          "note": "Google ambient screensaver; the launcher's Clock screensaver replaces it"
+        }
+      ]
+    },
+    {
+      "title": "Batch 3: Google extras not needed on this projector",
+      "packages": [
+        {
+          "pkg": "com.google.android.syncadapters.calendar",
+          "note": "Google Calendar sync"
+        },
+        {
+          "pkg": "com.google.android.marvin.talkback",
+          "note": "screen reader; comment out if you need it"
+        },
+        {
+          "pkg": "com.google.android.tts",
+          "note": "Google text-to-speech, used by TalkBack and voice"
+        }
+      ]
+    },
+    {
+      "title": "Batch 4: launcher handover. setupwraith's RecoveryActivity claims HOME behind launcherx and would take Home",
+      "packages": [
+        {
+          "pkg": "com.google.android.tungsten.setupwraith"
+        }
+      ]
+    }
+  ],
+  "source": {
+    "repo": "Gathin23/cleanyourtv",
+    "path": "examples/epson-ef21/debloat.txt",
+    "commit": "fe6cdcefa817da9f6facd3a17a3c5a086124f258"
+  }
+}

@@ -1,0 +1,161 @@
+{
+  "schema": 1,
+  "id": "glofiish-ix40",
+  "name": "Glofiish iX 40 Smart 40\"",
+  "tested": {
+    "os": "Android TV 7.1.1",
+    "sdk": 25,
+    "build": "NMF26Q"
+  },
+  "launcher": "com.hikeen.transfer",
+  "keep": [],
+  "groups": [
+    {
+      "title": "FOTA updater (Adups, this board's OTA channel): off on the tested unit, kept on in this list so",
+      "packages": [
+        {
+          "pkg": "com.adups.fota",
+          "optional": true
+        },
+        {
+          "pkg": "com.adups.fota.sysoper",
+          "optional": true
+        }
+      ]
+    },
+    {
+      "title": "Test shims and the stock screensaver",
+      "packages": [
+        {
+          "pkg": "com.android.cts.ctsshim",
+          "note": "CTS test shim"
+        },
+        {
+          "pkg": "com.android.cts.priv.ctsshim",
+          "note": "CTS test shim, privileged half"
+        },
+        {
+          "pkg": "com.android.dreams.phototable",
+          "note": "photo-table screensaver"
+        }
+      ]
+    },
+    {
+      "title": "Stock gallery, live wallpapers and wallpaper backup",
+      "packages": [
+        {
+          "pkg": "com.android.gallery3d",
+          "note": "AOSP gallery"
+        },
+        {
+          "pkg": "com.android.wallpaper.livepicker",
+          "note": "live-wallpaper picker"
+        },
+        {
+          "pkg": "com.android.wallpaperbackup",
+          "note": "wallpaper backup service"
+        }
+      ]
+    },
+    {
+      "title": "Google backup, feedback, sync and telemetry",
+      "packages": [
+        {
+          "pkg": "com.google.android.apps.turbo",
+          "note": "Device Health Services"
+        },
+        {
+          "pkg": "com.google.android.backuptransport"
+        },
+        {
+          "pkg": "com.google.android.feedback"
+        },
+        {
+          "pkg": "com.google.android.instantapps.supervisor"
+        },
+        {
+          "pkg": "com.google.android.printservice.recommendation"
+        },
+        {
+          "pkg": "com.google.android.syncadapters.calendar"
+        },
+        {
+          "pkg": "com.google.android.syncadapters.contacts"
+        },
+        {
+          "pkg": "com.google.android.tv.bugreportsender"
+        }
+      ]
+    },
+    {
+      "title": "Maker Leanback and setup customisation",
+      "packages": [
+        {
+          "pkg": "com.google.android.leanbacklauncher.partnercustomizer",
+          "note": "partner customiser for the Leanback home"
+        },
+        {
+          "pkg": "com.google.android.leanbacklauncher.partnerwidget"
+        },
+        {
+          "pkg": "com.google.android.tvsetup.partnercustomizer",
+          "note": "setup wizard partner pages"
+        },
+        {
+          "pkg": "com.hikeen.guide"
+        }
+      ]
+    },
+    {
+      "title": "Preloaded apps the owner does not use",
+      "packages": [
+        {
+          "pkg": "com.accuweather.android"
+        },
+        {
+          "pkg": "com.likhtar.home"
+        },
+        {
+          "pkg": "com.realtek.media.player",
+          "note": "Realtek's media player"
+        },
+        {
+          "pkg": "com.svox.pico",
+          "note": "Pico text-to-speech engine"
+        },
+        {
+          "pkg": "org.xwalk.core",
+          "note": "Crosswalk runtime"
+        },
+        {
+          "pkg": "yo.app"
+        }
+      ]
+    },
+    {
+      "title": "Off on the tested unit by the owner's choice - uncomment the ones you use",
+      "packages": [
+        {
+          "pkg": "com.android.chrome",
+          "note": "Chrome 65",
+          "optional": true
+        },
+        {
+          "pkg": "com.google.android.youtube.tv",
+          "note": "YouTube TV; the owner watches YouTube in SmartTube",
+          "optional": true
+        },
+        {
+          "pkg": "com.rtk.android.miracast",
+          "note": "Miracast screen mirroring",
+          "optional": true
+        }
+      ]
+    }
+  ],
+  "source": {
+    "repo": "Gathin23/cleanyourtv",
+    "path": "examples/glofiish-ix40/debloat.txt",
+    "commit": "fe6cdcefa817da9f6facd3a17a3c5a086124f258"
+  }
+}

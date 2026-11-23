@@ -1,0 +1,196 @@
+{
+  "schema": 1,
+  "id": "next-nek7",
+  "name": "Next NEK7",
+  "tested": {
+    "os": "Android TV 9",
+    "sdk": 28,
+    "build": "PPR1.180610.011"
+  },
+  "launcher": "com.droidlogic.mboxlauncher",
+  "keep": [],
+  "groups": [
+    {
+      "title": "Factory and burn-in test apps",
+      "packages": [
+        {
+          "pkg": "com.videostrong.factorytest",
+          "note": "BoxFactoryTest_Prebuilt; never opened, see PROMPT.md"
+        },
+        {
+          "pkg": "com.softwinner.agingdragonbox",
+          "note": "VSDragonAging, the factory burn-in runner"
+        }
+      ]
+    },
+    {
+      "title": "Vendor junk wearing an Android name: .TVOptimizer with a BOOT_COMPLETED receiver",
+      "packages": [
+        {
+          "pkg": "com.android.core.process"
+        }
+      ]
+    },
+    {
+      "title": "Ad consent SDK shipped as an app (.com.common.ad.cmp.CmpMainActivity)",
+      "packages": [
+        {
+          "pkg": "com.yjlink.secretsettings"
+        }
+      ]
+    },
+    {
+      "title": "Background \"saver\" daemon",
+      "packages": [
+        {
+          "pkg": "com.ecosaver.daemon"
+        }
+      ]
+    },
+    {
+      "title": "Play auto-install list: reinstalls the vendor's preloads on a fresh account",
+      "packages": [
+        {
+          "pkg": "android.autoinstalls.config.MECOOL"
+        }
+      ]
+    },
+    {
+      "title": "Feedback and bug-report senders",
+      "packages": [
+        {
+          "pkg": "com.google.android.feedback"
+        },
+        {
+          "pkg": "com.google.android.tv.bugreportsender"
+        }
+      ]
+    },
+    {
+      "title": "Recommendation rows and the stock launcher's own feed",
+      "packages": [
+        {
+          "pkg": "com.google.android.tvrecommendations"
+        },
+        {
+          "pkg": "com.google.android.leanbacklauncher.recommendations"
+        }
+      ]
+    },
+    {
+      "title": "Vendor screensavers",
+      "packages": [
+        {
+          "pkg": "com.vs.customdream"
+        },
+        {
+          "pkg": "com.whale.screensaver"
+        },
+        {
+          "pkg": "com.android.dreams.basic"
+        }
+      ]
+    },
+    {
+      "title": "Android bits a streaming box never uses",
+      "packages": [
+        {
+          "pkg": "com.android.printspooler"
+        },
+        {
+          "pkg": "com.android.camera2",
+          "note": "a box has no camera; the package only adds a permission surface"
+        },
+        {
+          "pkg": "com.android.music",
+          "note": "Android's stock music player, superseded on this box"
+        },
+        {
+          "pkg": "com.google.android.syncadapters.calendar"
+        },
+        {
+          "pkg": "com.google.android.syncadapters.contacts"
+        }
+      ]
+    },
+    {
+      "title": "Preloaded apps the owner does not use (off by choice, not by rule)",
+      "packages": [
+        {
+          "pkg": "com.dsmart.go.android",
+          "note": "D-Smart Go, the owner's own streaming app",
+          "optional": true
+        },
+        {
+          "pkg": "com.google.android.youtube.tv",
+          "note": "owner watches with SmartTube, so this belongs to that owner",
+          "optional": true
+        },
+        {
+          "pkg": "com.google.android.music",
+          "note": "Play Music, discontinued by Google"
+        },
+        {
+          "pkg": "com.droidlogic.videoplayer",
+          "note": "\"MoviePlayer\" / Film Oynatıcı, the preloaded player; MX Player stays"
+        },
+        {
+          "pkg": "com.next.iptv",
+          "note": "Next IPTV, preloaded and not used by this owner",
+          "optional": true
+        }
+      ]
+    },
+    {
+      "title": "Receivers the owner does not use",
+      "packages": [
+        {
+          "pkg": "com.waxrain.airplaydmr",
+          "note": "AirPin PRO: AirPlay/DLNA sink, starts at boot, holds INSTALL_PACKAGES"
+        }
+      ]
+    },
+    {
+      "title": "Seen in docs/TROUBLESHOOTING.md and other lists, not tried on this box yet: comment in to test",
+      "packages": [
+        {
+          "pkg": "com.vs.market",
+          "note": "vendor app store",
+          "optional": true
+        },
+        {
+          "pkg": "com.vs.drawer",
+          "note": "sideload drawer for phone-only apps",
+          "optional": true
+        },
+        {
+          "pkg": "com.tcl.browser",
+          "optional": true
+        },
+        {
+          "pkg": "com.google.android.marvin.talkback",
+          "optional": true
+        },
+        {
+          "pkg": "com.droidlogic.miracast",
+          "optional": true
+        },
+        {
+          "pkg": "dev.vodik7.atvtoolsserver",
+          "note": "Windows/ADB tool server the owner uses; it listens on the LAN",
+          "optional": true
+        },
+        {
+          "pkg": "com.google.android.leanbacklauncher",
+          "note": "only after the replacement Home is confirmed",
+          "optional": true
+        }
+      ]
+    }
+  ],
+  "source": {
+    "repo": "Gathin23/cleanyourtv",
+    "path": "examples/next-nek7/debloat.txt",
+    "commit": "fe6cdcefa817da9f6facd3a17a3c5a086124f258"
+  }
+}

@@ -11,13 +11,10 @@
   "keep": [],
   "groups": [
     {
-      "title": "Launcher partner customization and Google partner setup",
+      "title": "Launcher partner customization",
       "packages": [
         {
           "pkg": "com.realtek.leanbacklauncher.partnercustomizer"
-        },
-        {
-          "pkg": "com.google.android.partnersetup"
         },
         {
           "pkg": "android.autoinstalls.config.google.gtvpai",
@@ -36,10 +33,6 @@
           "note": "ambient mode screensaver"
         },
         {
-          "pkg": "com.apps.scast",
-          "note": "likely screen mirroring"
-        },
-        {
           "pkg": "com.apps.wifihotspot"
         },
         {
@@ -53,6 +46,34 @@
         },
         {
           "pkg": "com.android.tv.feedbackconsent"
+        }
+      ]
+    },
+    {
+      "title": "Google Assistant and voice search. Fine to disable; you lose Google Assistant voice (remote mic).",
+      "packages": [
+        {
+          "pkg": "com.google.android.katniss"
+        }
+      ]
+    },
+    {
+      "title": "Realtek system services",
+      "packages": [
+        {
+          "pkg": "com.realtek.connecteddevices"
+        },
+        {
+          "pkg": "com.realtek.connecteddevices.overlay"
+        },
+        {
+          "pkg": "com.realtek.energymode",
+          "note": "disabled on this set with no issue seen"
+        },
+        {
+          "pkg": "com.realtek.rtkvirtualkeyboard",
+          "note": "Realtek on-screen keyboard; off on this set (latin IME kept), left on here: lists never disable a keyboard",
+          "optional": true
         }
       ]
     },
@@ -102,6 +123,9 @@
           "pkg": "com.apps.mk.gameui"
         },
         {
+          "pkg": "com.apps.mk.sk"
+        },
+        {
           "pkg": "com.apps.puresound"
         },
         {
@@ -121,7 +145,7 @@
         },
         {
           "pkg": "com.google.android.tungsten.setupwraith",
-          "note": "setup wizard; on this set YouTube casting from a phone still works after a reboot (tested 2026-10-25)"
+          "note": "setup wizard; com.realtek.systemservice re-enables it at every boot"
         }
       ]
     }
@@ -129,6 +153,6 @@
   "source": {
     "repo": "Gathin23/cleanyourtv",
     "path": "examples/prismplus-q65-ultra-r10g/debloat.txt",
-    "commit": "575d73f0f30c329aa7ebaea2bc863943fd9bf7f9"
+    "commit": "fe6cdcefa817da9f6facd3a17a3c5a086124f258"
   }
 }
