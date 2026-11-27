@@ -124,6 +124,44 @@
       ]
     },
     {
+      "title": "Spare webviews, print spooler and MediaTek background detection (fourth unit; also in the AU Android 14 list)",
+      "packages": [
+        {
+          "pkg": "com.android.printspooler"
+        },
+        {
+          "pkg": "com.tcl.android.webview",
+          "note": "spare webview; com.google.android.webview is the active one"
+        },
+        {
+          "pkg": "com.mediatek.support.webview",
+          "note": "spare webview"
+        },
+        {
+          "pkg": "com.mediatek.backgrounddetection"
+        }
+      ]
+    },
+    {
+      "title": "Also off on the fourth unit, one day so far (lived with on the Android 12 EU list); uncomment to try them",
+      "packages": [
+        {
+          "pkg": "com.mediatek.network",
+          "note": "MediaTek network monitor; Wi-Fi and ADB kept working",
+          "optional": true
+        },
+        {
+          "pkg": "com.google.android.syncadapters.calendar",
+          "optional": true
+        },
+        {
+          "pkg": "com.google.android.onetimeinitializer",
+          "note": "runs once at first setup",
+          "optional": true
+        }
+      ]
+    },
+    {
       "title": "Off by the owner's choice",
       "packages": [
         {
@@ -201,6 +239,36 @@
         {
           "pkg": "com.google.android.youtube.tv",
           "optional": true
+        },
+        {
+          "pkg": "com.google.android.videos",
+          "note": "Play Movies & TV (off on the fourth unit)",
+          "optional": true
+        },
+        {
+          "pkg": "com.disney.disneyplus",
+          "note": "Disney+ (off on the fourth unit)",
+          "optional": true
+        },
+        {
+          "pkg": "com.wbd.stream",
+          "note": "HBO Max (off on the fourth unit)",
+          "optional": true
+        },
+        {
+          "pkg": "com.iqiyi.i18n.tv",
+          "note": "iQIYI (off on the fourth unit)",
+          "optional": true
+        },
+        {
+          "pkg": "com.tcl.t_solo",
+          "note": "\"listen alone\" headphone audio (off on the fourth unit)",
+          "optional": true
+        },
+        {
+          "pkg": "com.tcl.hearaid",
+          "note": "hearing test; off on the fourth unit, sound not checked; the India unit",
+          "optional": true
         }
       ]
     }
@@ -208,6 +276,6 @@
   "source": {
     "repo": "Gathin23/cleanyourtv",
     "path": "examples/tcl-65c6k-google-tv/debloat.txt",
-    "commit": "57733360177173c880a023380a864114a03feb25"
+    "commit": "be6087056a1c7d4f08f3f1cc778d92374d86ef27"
   }
 }

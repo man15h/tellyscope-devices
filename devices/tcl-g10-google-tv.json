@@ -203,6 +203,31 @@
       ]
     },
     {
+      "title": "Off on the US S551G for one session so far (uncomment what you don't use)",
+      "packages": [
+        {
+          "pkg": "com.tcl.android.webview",
+          "note": "TCL's own WebView; Google's stays on",
+          "optional": true
+        },
+        {
+          "pkg": "com.google.android.partnersetup",
+          "note": "partner setup at first boot",
+          "optional": true
+        },
+        {
+          "pkg": "com.google.android.onetimeinitializer",
+          "note": "one-time setup at first boot",
+          "optional": true
+        },
+        {
+          "pkg": "com.google.android.syncadapters.calendar",
+          "note": "Google Calendar sync",
+          "optional": true
+        }
+      ]
+    },
+    {
       "title": "Off on the 55C69B unit (France); this set has them off, uncomment if you don't use them",
       "packages": [
         {
@@ -301,6 +326,6 @@
   "source": {
     "repo": "Gathin23/cleanyourtv",
     "path": "examples/tcl-g10-google-tv/debloat.txt",
-    "commit": "ddc3b2cdce299a5f30aa2da2437edc40f3cf6f2e"
+    "commit": "be6087056a1c7d4f08f3f1cc778d92374d86ef27"
   }
 }

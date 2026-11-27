@@ -174,11 +174,31 @@
           "optional": true
         }
       ]
+    },
+    {
+      "title": "Optional, tested on the third unit only (65Q7D Pro, one evening). Uncomment what you do not use.",
+      "packages": [
+        {
+          "pkg": "tv.mopa.ginga",
+          "note": "Ginga, the interactive-TV middleware of Brazil's ISDB-Tb broadcasts",
+          "optional": true
+        },
+        {
+          "pkg": "com.tcl.magiconnectfree",
+          "note": "TCL MagiConnect, the phone-to-TV companion; Cast is mediashell, kept",
+          "optional": true
+        },
+        {
+          "pkg": "com.tcl.gallery",
+          "note": "TCL's own screensavers and photo frame; Google's screensaver is dreamx",
+          "optional": true
+        }
+      ]
     }
   ],
   "source": {
     "repo": "Gathin23/cleanyourtv",
     "path": "examples/tcl-55q7d-pro-google-tv/debloat.txt",
-    "commit": "ddc3b2cdce299a5f30aa2da2437edc40f3cf6f2e"
+    "commit": "be6087056a1c7d4f08f3f1cc778d92374d86ef27"
   }
 }

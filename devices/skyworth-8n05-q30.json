@@ -1,0 +1,111 @@
+{
+  "schema": 1,
+  "id": "skyworth-8n05-q30",
+  "name": "Skyworth 8N05 Q30 / 65Q30",
+  "tested": {
+    "os": "Android 8.0",
+    "sdk": 26,
+    "build": "OPR6.170623.012"
+  },
+  "launcher": "com.tianci.movieplatform",
+  "keep": [],
+  "groups": [
+    {
+      "title": "Ads, push, telemetry and silent install",
+      "packages": [
+        {
+          "pkg": "com.tianci.ad",
+          "note": "boot ad"
+        },
+        {
+          "pkg": "com.tianci.push",
+          "note": "push service with usage analytics"
+        },
+        {
+          "pkg": "com.coocaa.sysreport",
+          "note": "usage reporting on boot, screen and app install"
+        },
+        {
+          "pkg": "com.tongji.cesu",
+          "note": "statistics agent"
+        },
+        {
+          "pkg": "com.tianci.autoinstaller",
+          "note": "silently installs promoted apps"
+        },
+        {
+          "pkg": "com.coocaa.messageprovider",
+          "note": "message and push provider"
+        }
+      ]
+    },
+    {
+      "title": "Commercial portals, remote support and markets",
+      "packages": [
+        {
+          "pkg": "com.coocaa.mall",
+          "note": "shopping portal"
+        },
+        {
+          "pkg": "com.coocaa.app_browser",
+          "note": "promoted-app browser"
+        },
+        {
+          "pkg": "com.coocaa.tvpitv",
+          "note": "shopping channel"
+        },
+        {
+          "pkg": "com.coocaa.os.customerservice",
+          "note": "remote support and help"
+        },
+        {
+          "pkg": "com.skyworth.smarthome_tv",
+          "note": "smart-home hub"
+        },
+        {
+          "pkg": "com.skyworth.skymarket",
+          "note": "Skyworth app market"
+        }
+      ]
+    },
+    {
+      "title": "Value-added apps and cleaners",
+      "packages": [
+        {
+          "pkg": "com.bajintech.karaok",
+          "note": "karaoke"
+        },
+        {
+          "pkg": "com.coocaa.educate",
+          "note": "kids and education channel"
+        },
+        {
+          "pkg": "com.tianci.family.photograph",
+          "note": "family photo album"
+        },
+        {
+          "pkg": "com.dianshiyouhua",
+          "note": "\"TV optimiser\" cleaner"
+        },
+        {
+          "pkg": "com.qq.cleaning",
+          "note": "cleaner"
+        }
+      ]
+    },
+    {
+      "title": "Commented out: the home screen's My Apps button opens AppStoreHomeActivityV3 in this package, so",
+      "packages": [
+        {
+          "pkg": "com.tianci.appstore",
+          "optional": true
+        }
+      ]
+    }
+  ],
+  "source": {
+    "repo": "Gathin23/cleanyourtv",
+    "path": "examples/skyworth-8n05-q30/debloat.txt",
+    "commit": "be6087056a1c7d4f08f3f1cc778d92374d86ef27"
+  }
+}

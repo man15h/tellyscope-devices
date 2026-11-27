@@ -1,0 +1,90 @@
+{
+  "schema": 1,
+  "id": "formuler-z10-neo",
+  "name": "Formuler Z10 Neo",
+  "tested": {
+    "os": "Android TV 10",
+    "sdk": null,
+    "build": null
+  },
+  "launcher": null,
+  "keep": [],
+  "groups": [
+    {
+      "title": "Formuler stock launcher (replaced by launcher/) - already disabled",
+      "packages": [
+        {
+          "pkg": "tv.formuler.siptv.leanbacklauncher.real"
+        }
+      ]
+    },
+    {
+      "title": "Formuler background services",
+      "packages": [
+        {
+          "pkg": "tv.formuler.helpcenter"
+        },
+        {
+          "pkg": "tv.formuler.real.upgrade",
+          "note": "firmware updater, left enabled",
+          "optional": true
+        },
+        {
+          "pkg": "tv.formuler.remoteupgrade.z",
+          "note": "firmware updater, left enabled",
+          "optional": true
+        },
+        {
+          "pkg": "tv.formuler.service.networkstorage.real"
+        },
+        {
+          "pkg": "tv.formuler.service.real",
+          "note": "KEEP: MyTVOnline binds its TVService; disabled, the tuner reports tvservice_not_connected",
+          "optional": true
+        },
+        {
+          "pkg": "tv.formuler.productservice",
+          "note": "KEEP: MyTVOnline binds its AFR service; disabled, it crashes on launch (\"failed to bind afr service\")",
+          "optional": true
+        }
+      ]
+    },
+    {
+      "title": "AOSP/demo apps",
+      "packages": [
+        {
+          "pkg": "com.android.dreams.basic"
+        },
+        {
+          "pkg": "com.android.wallpaperbackup"
+        },
+        {
+          "pkg": "com.android.providers.userdictionary"
+        }
+      ]
+    },
+    {
+      "title": "Google feedback (preloaded)",
+      "packages": [
+        {
+          "pkg": "com.google.android.feedback"
+        }
+      ]
+    },
+    {
+      "title": "MediaTek / board services (kept Live TV: com.mediatek.wwtv.tvcenter)",
+      "packages": [
+        {
+          "pkg": "com.mediatek.wwtv.tvcenter",
+          "note": "Live TV / tuner - KEPT for HDMI/antenna",
+          "optional": true
+        }
+      ]
+    }
+  ],
+  "source": {
+    "repo": "Gathin23/cleanyourtv",
+    "path": "examples/formuler-z10-neo/debloat.txt",
+    "commit": "be6087056a1c7d4f08f3f1cc778d92374d86ef27"
+  }
+}

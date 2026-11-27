@@ -1,0 +1,108 @@
+{
+  "schema": 1,
+  "id": "verizon-stream-tv-gen2",
+  "name": "Verizon Stream TV",
+  "tested": {
+    "os": "Android TV 14",
+    "sdk": 34,
+    "build": "UTT1.250115.001"
+  },
+  "launcher": "com.verizon.qlv.launcher",
+  "keep": [],
+  "groups": [
+    {
+      "title": "=== ARRIS diagnostics and telemetry ===",
+      "packages": [
+        {
+          "pkg": "com.arris.bugreport",
+          "note": "ARRIS internal bug-reporting tool"
+        },
+        {
+          "pkg": "com.arris.gtvs",
+          "note": "ARRIS Google TV service shim"
+        },
+        {
+          "pkg": "com.arris.oemdata",
+          "note": "OEM data collection"
+        },
+        {
+          "pkg": "com.arris.upnpapp",
+          "note": "UPnP helper"
+        },
+        {
+          "pkg": "com.arris.arus.usbinstaller",
+          "note": "ARRIS USB installer; ADB sideloading works without it"
+        },
+        {
+          "pkg": "com.arris.disablepaiapps",
+          "note": "ARRIS tool that disables preinstalled apps"
+        }
+      ]
+    },
+    {
+      "title": "=== Broadcom platform helpers ===",
+      "packages": [
+        {
+          "pkg": "com.broadcom.dnyhelper",
+          "note": "Broadcom DNS helper (not the resolver)"
+        },
+        {
+          "pkg": "com.broadcom.nrdphelper",
+          "note": "Netflix Ready Device Platform helper; Netflix works without it"
+        }
+      ]
+    },
+    {
+      "title": "=== One-time setup wizards ===",
+      "packages": [
+        {
+          "pkg": "com.omni.simplesetup",
+          "note": "setup wizard"
+        },
+        {
+          "pkg": "com.arris.setup",
+          "note": "ARRIS setup wizard"
+        },
+        {
+          "pkg": "com.uei.quicksetsetup",
+          "note": "UEI remote setup wizard (com.uei.quicksetsdk kept for pairing)"
+        }
+      ]
+    },
+    {
+      "title": "=== Google TV noise and unused apps ===",
+      "packages": [
+        {
+          "pkg": "com.google.android.tvrecommendations",
+          "note": "recommendation rows on the stock home"
+        },
+        {
+          "pkg": "com.google.android.play.games",
+          "note": "Google Play Games"
+        },
+        {
+          "pkg": "com.google.android.marvin.talkback",
+          "note": "TalkBack"
+        },
+        {
+          "pkg": "com.google.android.youtube.tvmusic",
+          "note": "YouTube Music for TV",
+          "optional": true
+        }
+      ]
+    },
+    {
+      "title": "=== Stock launcher (only once the new launcher is Home) ===",
+      "packages": [
+        {
+          "pkg": "com.verizon.qlv.launcher"
+        }
+      ]
+    }
+  ],
+  "source": {
+    "repo": "Gathin23/cleanyourtv",
+    "path": "examples/verizon-stream-tv-gen2/debloat.txt",
+    "commit": "be6087056a1c7d4f08f3f1cc778d92374d86ef27"
+  }
+}
