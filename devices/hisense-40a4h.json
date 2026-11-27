@@ -1,0 +1,130 @@
+{
+  "schema": 1,
+  "id": "hisense-40a4h",
+  "name": "Hisense 40A4H",
+  "tested": {
+    "os": "Android TV 14",
+    "sdk": 34,
+    "build": null
+  },
+  "launcher": "com.google.android.tvlauncher",
+  "keep": [],
+  "groups": [
+    {
+      "title": "--- Silent installs and partner promo rows ---",
+      "packages": [
+        {
+          "pkg": "android.autoinstalls.config.hisense",
+          "note": "silently installs promoted apps"
+        },
+        {
+          "pkg": "android.autoinstalls.config.hkc",
+          "note": "same, a Play-installed config stub"
+        },
+        {
+          "pkg": "com.google.android.leanbacklauncher.partnercustomizer",
+          "note": "partner promo rows on the stock launcher"
+        },
+        {
+          "pkg": "com.google.android.tvrecommendations",
+          "note": "recommendation / sponsored rows"
+        },
+        {
+          "pkg": "fusion.android.tv.demo",
+          "note": "store demo mode"
+        }
+      ]
+    },
+    {
+      "title": "--- Manufacturer and Google telemetry ---",
+      "packages": [
+        {
+          "pkg": "com.cvte.tv.infoprovider",
+          "note": "CVTE device-info / telemetry service"
+        },
+        {
+          "pkg": "com.cvte.tv.hisenseproductregister",
+          "note": "product registration (country select at setup)"
+        },
+        {
+          "pkg": "com.google.android.feedback",
+          "note": "feedback / crash uploader"
+        },
+        {
+          "pkg": "com.android.tv.feedbackconsent",
+          "note": "feedback consent prompt"
+        },
+        {
+          "pkg": "com.google.android.partnersetup",
+          "note": "partner / OEM attribution"
+        }
+      ]
+    },
+    {
+      "title": "--- Setup leftovers and unused services ---",
+      "packages": [
+        {
+          "pkg": "com.mstar.android.tv.disclaimercustomization",
+          "note": "store-mode disclaimer"
+        },
+        {
+          "pkg": "com.google.android.syncadapters.calendar",
+          "note": "calendar sync, on a TV"
+        },
+        {
+          "pkg": "com.android.providers.calendar"
+        }
+      ]
+    },
+    {
+      "title": "--- Re-enables packages at every boot (see header) ---",
+      "packages": [
+        {
+          "pkg": "com.at.factory.factorymanager"
+        }
+      ]
+    },
+    {
+      "title": "--- Off by choice on the tested set (keep what you use) ---",
+      "packages": [
+        {
+          "pkg": "com.google.android.katniss",
+          "note": "voice search / Assistant (about 64 MB in two processes)"
+        },
+        {
+          "pkg": "com.google.android.apps.mediashell",
+          "note": "Chromecast built-in"
+        },
+        {
+          "pkg": "com.google.android.tts",
+          "note": "Google text-to-speech"
+        },
+        {
+          "pkg": "com.google.android.marvin.talkback",
+          "note": "screen reader"
+        },
+        {
+          "pkg": "com.netflix.ninja",
+          "optional": true
+        },
+        {
+          "pkg": "air.com.vudu.air.DownloaderTablet",
+          "note": "Vudu / Fandango at Home (Play-installed preload)",
+          "optional": true
+        },
+        {
+          "pkg": "com.google.android.videos",
+          "note": "Google TV / Play Movies"
+        },
+        {
+          "pkg": "com.google.android.play.games"
+        }
+      ]
+    }
+  ],
+  "source": {
+    "repo": "Gathin23/cleanyourtv",
+    "path": "examples/hisense-40a4h/debloat.txt",
+    "commit": "be6087056a1c7d4f08f3f1cc778d92374d86ef27"
+  }
+}

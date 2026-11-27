@@ -2,7 +2,7 @@
   "schema": 1,
   "source": {
     "repo": "Gathin23/cleanyourtv",
-    "commit": "fe6cdcefa817da9f6facd3a17a3c5a086124f258"
+    "commit": "be6087056a1c7d4f08f3f1cc778d92374d86ef27"
   },
   "devices": [
     {
@@ -531,7 +531,7 @@
       "match": null,
       "sdk": 34,
       "file": "devices/epson-ls800.json",
-      "sha256": "fd8a94bdaadf7d3d0d503a89d515155efcdd516f2feb8613de405b05e5bdb34a"
+      "sha256": "2935b571cb8280b5d283a92792f5a02f7b14a713e2f52777d69a6a8cf9d42e78"
     },
     {
       "id": "essentiel-b-r3",
@@ -596,6 +596,14 @@
       "sdk": 30,
       "file": "devices/formovie-xming-page-one-tianshan.json",
       "sha256": "47153b9bc81d3da898090c1102dadab1caf5175c0960184400d33bf343eb66b3"
+    },
+    {
+      "id": "formuler-z10-neo",
+      "name": "Formuler Z10 Neo",
+      "match": null,
+      "sdk": null,
+      "file": "devices/formuler-z10-neo.json",
+      "sha256": "cf3913d4a1cf9178e8e80479bd8b4bbf0339bc1a87b1097356f4c77abe31168c"
     },
     {
       "id": "freebox-player-pop",
@@ -742,6 +750,14 @@
       "sha256": "a7c21afe9fe7501bb6a6df8e59a66254bd6c5b4a964c036672b826a46a89ea60"
     },
     {
+      "id": "hisense-40a4h",
+      "name": "Hisense 40A4H",
+      "match": null,
+      "sdk": 34,
+      "file": "devices/hisense-40a4h.json",
+      "sha256": "6a1277b19f405bb0d53aa0cced349c8c1649694a95727858b0ccdf88856ec7a0"
+    },
+    {
       "id": "hisense-65d62qh",
       "name": "Hisense 65D62QH",
       "match": null,
@@ -835,7 +851,7 @@
       "match": null,
       "sdk": null,
       "file": "devices/hisense-hismarttv-a4.json",
-      "sha256": "13724bf68bdaa5b259ad04bd1a7e4b83c1c4a96f50997d8763d0441fb2f1f352"
+      "sha256": "713e88d270819e4a2530725d6a1cf5160bade833a14d2762820aafbe9b90b1f8"
     },
     {
       "id": "hisense-smarttv-4k-ffm-android11",
@@ -996,6 +1012,14 @@
       "sdk": 34,
       "file": "devices/jmgo-n1s-holan.json",
       "sha256": "74664e038e16e5eb4bf3877672626b7818c39591338505736afc1da3de3ef2e8"
+    },
+    {
+      "id": "jvc-4k-isdb-ktc-hongkong",
+      "name": "JVC 4K ISDB TV",
+      "match": null,
+      "sdk": 30,
+      "file": "devices/jvc-4k-isdb-ktc-hongkong.json",
+      "sha256": "50929f64b09798d33f3ae5432e90c20f6d9bb89392029eaf9801f127642f9de7"
     },
     {
       "id": "jvc-4k-smart-tv-elliniko",
@@ -1332,6 +1356,14 @@
       "sdk": 34,
       "file": "devices/nonete-portable-projector-h726.json",
       "sha256": "8e1252628b403e5c717a7d8ba445bf31ed71e484981ab347355108ca1a29a218"
+    },
+    {
+      "id": "nvidia-shield-tv-2015",
+      "name": "NVIDIA SHIELD Android TV 2015",
+      "match": null,
+      "sdk": 30,
+      "file": "devices/nvidia-shield-tv-2015.json",
+      "sha256": "8f0823ed597c2ea57ef4934f048ad8f6255adbc359d30e70f60fafad62ac0dc4"
     },
     {
       "id": "nvidia-shield-tv-2017",
@@ -2096,6 +2128,14 @@
       "sha256": "f68eeac63396cfa3a0d965c6aeb634eb15e593f08f3045a2179a07a3a6da7a56"
     },
     {
+      "id": "skyworth-8n05-q30",
+      "name": "Skyworth 8N05 Q30 / 65Q30",
+      "match": null,
+      "sdk": 26,
+      "file": "devices/skyworth-8n05-q30.json",
+      "sha256": "561b2c6c24c516f16d260d7d6cda3e378211233e72a4b7713c43a672579bcd91"
+    },
+    {
       "id": "skyworth-8r40-k5c",
       "name": "Skyworth / Coocaa 8R40_K5C",
       "match": null,
@@ -2134,6 +2174,14 @@
       "sdk": null,
       "file": "devices/skyworth-swtv-21ae.json",
       "sha256": "e1d901f765b2406a6d6c98fad4312cbabe0150aed8a25663e98b98e0933ca380"
+    },
+    {
+      "id": "skyworth-swtv-22ae-fhd-android11",
+      "name": "Skyworth SWTV-22AE-FHD",
+      "match": null,
+      "sdk": 30,
+      "file": "devices/skyworth-swtv-22ae-fhd-android11.json",
+      "sha256": "fd1ba6b5419cbc972c3230fa24e06d860eacfc22bf3f66601e29d953a9e20840"
     },
     {
       "id": "skyworth-swtv-22ae-fhd",
@@ -2341,7 +2389,7 @@
       "match": null,
       "sdk": 34,
       "file": "devices/sony-bravia-vu31.json",
-      "sha256": "820ef6246ef784606b95ef5766c7673369bb791b908050dc82ee58db777f8ac0"
+      "sha256": "1a91dedff0060361670dbcb5db8ae8518a6680876321cf080178475792a65f72"
     },
     {
       "id": "sony-kd-43x8000g",
@@ -2736,6 +2784,14 @@
       "sha256": "8df3178da80dc0f5d19a4771e83b0570a28022c986505fe0009bc79514499e38"
     },
     {
+      "id": "tcl-43s434",
+      "name": "TCL 43S434",
+      "match": null,
+      "sdk": 28,
+      "file": "devices/tcl-43s434.json",
+      "sha256": "47f92f63bec543da187f2639c51f16255f6a821d8f02d890dea35924ccd5044b"
+    },
+    {
       "id": "tcl-43s450f-ca",
       "name": "TCL 43S450F-CA",
       "match": null,
@@ -2917,7 +2973,15 @@
       "match": null,
       "sdk": null,
       "file": "devices/tcl-55q7d-pro-google-tv.json",
-      "sha256": "029264d5670e56d407592f6fd56b679cb433825918699e47554f4d9c7725b69d"
+      "sha256": "deeb411a24225bc22bf92265139da6ff3e18f05fb6ad7ed4d1726b6de496ddc3"
+    },
+    {
+      "id": "tcl-55q9k",
+      "name": "TCL 55Q9K",
+      "match": null,
+      "sdk": 30,
+      "file": "devices/tcl-55q9k.json",
+      "sha256": "a90aa72113350654de99a005054bf98560021b5f14f265a51fa661b7737a2ddb"
     },
     {
       "id": "tcl-55s450g",
@@ -2957,7 +3021,7 @@
       "match": null,
       "sdk": 34,
       "file": "devices/tcl-65c6k-google-tv.json",
-      "sha256": "853f5c77cf706cd08256bc55295c111a39f27dd849d1dd73eef654b1ca1940d8"
+      "sha256": "ca2b26fe83551feb32ab4445032a930727f65bbbf440d7b259575a0608f9a564"
     },
     {
       "id": "tcl-65c725",
@@ -3261,7 +3325,7 @@
       "match": null,
       "sdk": null,
       "file": "devices/tcl-g08-au-android14.json",
-      "sha256": "4a1826615fabc5b9b0ec603f64a2ed6237eccf09f67a4e01f4c78ab115536c8a"
+      "sha256": "e2b79b2591ffcb2f39e6a37e761ea230e6f41b7069a1e182bd357b04163a2c55"
     },
     {
       "id": "tcl-g08-eu-android12",
@@ -3293,7 +3357,7 @@
       "match": null,
       "sdk": 31,
       "file": "devices/tcl-g10-google-tv.json",
-      "sha256": "84ccc1958a74dfd50c12615708ce5220d9cfe219851a5be8ff089d9bb6e61d67"
+      "sha256": "80bea61d5aea7ebe53c37f93dc1c0fee062814688f5082ba33ac8e1a2c818549"
     },
     {
       "id": "tcl-l40s66e",
@@ -3398,6 +3462,14 @@
       "sdk": 34,
       "file": "devices/thomson-43rt1055.json",
       "sha256": "8a0279832449b4e802cc6beec4170954d2900eada2450ae4097abec5f080ee6d"
+    },
+    {
+      "id": "thomson-65qg7c14",
+      "name": "Thomson 65QG7C14",
+      "match": null,
+      "sdk": 34,
+      "file": "devices/thomson-65qg7c14.json",
+      "sha256": "8d86fae3fe893449bcd4236ecfba8edb169427593ea7ff83c43a9a1872979efb"
     },
     {
       "id": "thomson-atv-r1",
@@ -3526,6 +3598,14 @@
       "sdk": 34,
       "file": "devices/tuvio-td43ufbcv5.json",
       "sha256": "0909886079f57e3520362f49d723c5a595f3d0557e5e190db24d3acbbd39c6a3"
+    },
+    {
+      "id": "verizon-stream-tv-gen2",
+      "name": "Verizon Stream TV",
+      "match": null,
+      "sdk": 34,
+      "file": "devices/verizon-stream-tv-gen2.json",
+      "sha256": "d7c83213a9581607f76bb02100b9e6ef5599006ebc3e54879c0a4e607e9b47be"
     },
     {
       "id": "verizon-stream-tv",
@@ -3769,11 +3849,11 @@
     },
     {
       "id": "xiaomi-mitv-aesp0",
-      "name": "Xiaomi MiTV-AESP0",
+      "name": "Xiaomi Mi TV Stick",
       "match": null,
       "sdk": 28,
       "file": "devices/xiaomi-mitv-aesp0.json",
-      "sha256": "f8defe110aeca4c6b760c572f68a4b2a5244e62fca68256dfaa521c6c9149cb9"
+      "sha256": "c25a2956e02b840484bc565542d59c208d63922dd5f4d9477fa4510f4f953a68"
     },
     {
       "id": "xiaomi-mitv-afmu0",
@@ -3909,7 +3989,7 @@
       "match": null,
       "sdk": 34,
       "file": "devices/xiaomi-mitv-mftr0-android14.json",
-      "sha256": "94e395ee4c2c6d30030fb71a1f9105defa75c2f6418912faabc3c09668122d65"
+      "sha256": "d6383c1da56bcf7186c0e769b2bbee323bec88a313d6258eb81dcc0c22d3812c"
     },
     {
       "id": "xiaomi-mitv-mftr0",

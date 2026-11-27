@@ -151,17 +151,27 @@
         },
         {
           "pkg": "com.google.android.katniss",
-          "note": "Google Assistant / voice search; the mic button stops working (5th)",
+          "note": "Google Assistant / voice search; the mic button stops working (5th, 6th)",
           "optional": true
         },
         {
           "pkg": "com.sony.dtv.assistantadapter",
-          "note": "Sony's Assistant setup glue, boot receiver only (5th)",
+          "note": "Sony's Assistant setup glue, boot receiver only (5th, 6th)",
           "optional": true
         },
         {
           "pkg": "com.google.android.youtube.tvmusic",
-          "note": "YouTube Music (system app) (5th)",
+          "note": "YouTube Music (system app) (5th, 6th)",
+          "optional": true
+        },
+        {
+          "pkg": "com.google.android.apps.mediashell",
+          "note": "Chromecast built-in; casting to the TV stops (6th)",
+          "optional": true
+        },
+        {
+          "pkg": "com.sony.dtv.airplayapp",
+          "note": "AirPlay (6th)",
           "optional": true
         }
       ]
@@ -184,6 +194,6 @@
   "source": {
     "repo": "Gathin23/cleanyourtv",
     "path": "examples/sony-bravia-vu31/debloat.txt",
-    "commit": "3f175120f9802ab4364f61d040db9aa78ec71493"
+    "commit": "be6087056a1c7d4f08f3f1cc778d92374d86ef27"
   }
 }

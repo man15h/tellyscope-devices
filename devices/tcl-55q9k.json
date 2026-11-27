@@ -1,0 +1,89 @@
+{
+  "schema": 1,
+  "id": "tcl-55q9k",
+  "name": "TCL 55Q9K",
+  "tested": {
+    "os": "Android 11",
+    "sdk": 30,
+    "build": "RQ3A.210705.001"
+  },
+  "launcher": "com.tcl.workmode",
+  "keep": [],
+  "groups": [
+    {
+      "title": "",
+      "packages": [
+        {
+          "pkg": "com.tcl.bootadservice",
+          "note": "full-screen ad before Home"
+        },
+        {
+          "pkg": "com.tcl.profilemanager",
+          "note": "audience / profile reporting"
+        },
+        {
+          "pkg": "com.tcl.xian.StartandroidService",
+          "note": "background reporting service"
+        },
+        {
+          "pkg": "com.tcl.logkit",
+          "note": "log collection and upload"
+        },
+        {
+          "pkg": "com.tcl.recognize.service",
+          "note": "screen recognition; also receives PackageInstall.renew and"
+        },
+        {
+          "pkg": "com.tcl.appreciate.art",
+          "note": "art-wallpaper / screensaver promo content"
+        },
+        {
+          "pkg": "com.tcl.atomic.servicecenter",
+          "note": "home-screen recommendation cards (plugin host)"
+        },
+        {
+          "pkg": "com.tcl.c2dm.client",
+          "note": "TCL push, long-lived connection"
+        },
+        {
+          "pkg": "com.tcl.wholenetsearch",
+          "note": "whole-net search; results carry VOD promotions"
+        },
+        {
+          "pkg": "com.tcl.playskill",
+          "note": "\"tips\" promo app"
+        },
+        {
+          "pkg": "com.tcl.repairguide",
+          "note": "repair-guide app"
+        },
+        {
+          "pkg": "com.tcl.useragreement",
+          "note": "user-agreement popup"
+        },
+        {
+          "pkg": "android.autoinstalls.config.tcl.device",
+          "note": "first-boot auto-install of preloaded apps"
+        }
+      ]
+    },
+    {
+      "title": "",
+      "packages": [
+        {
+          "pkg": "com.tcl.ffeducation",
+          "note": "kids / education content"
+        },
+        {
+          "pkg": "com.tcl.ffkaraoke",
+          "note": "karaoke"
+        }
+      ]
+    }
+  ],
+  "source": {
+    "repo": "Gathin23/cleanyourtv",
+    "path": "examples/tcl-55q9k/debloat.txt",
+    "commit": "be6087056a1c7d4f08f3f1cc778d92374d86ef27"
+  }
+}

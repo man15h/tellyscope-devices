@@ -1,0 +1,103 @@
+{
+  "schema": 1,
+  "id": "thomson-65qg7c14",
+  "name": "Thomson 65QG7C14",
+  "tested": {
+    "os": "Google TV 14",
+    "sdk": 34,
+    "build": "UKRC.260302.020"
+  },
+  "launcher": null,
+  "keep": [],
+  "groups": [
+    {
+      "title": "Tracking",
+      "packages": [
+        {
+          "pkg": "tv.anoki.acr.anokiacroptin",
+          "note": "Anoki ACR (automatic content recognition)"
+        },
+        {
+          "pkg": "com.google.android.feedback",
+          "note": "Google feedback"
+        },
+        {
+          "pkg": "com.google.android.partnersetup",
+          "note": "partner setup and attribution"
+        }
+      ]
+    },
+    {
+      "title": "Promos and retail demo",
+      "packages": [
+        {
+          "pkg": "com.realtek.retailmode",
+          "note": "retail demo mode"
+        },
+        {
+          "pkg": "com.realtek.leanbacklauncher.partnercustomizer",
+          "note": "partner rows on the Google TV home"
+        },
+        {
+          "pkg": "com.realtek.karaoke.userguide",
+          "note": "karaoke how-to screen"
+        },
+        {
+          "pkg": "com.google.android.play.games",
+          "note": "Play Games"
+        }
+      ]
+    },
+    {
+      "title": "Streaming and broadcast apps",
+      "packages": [
+        {
+          "pkg": "com.netflix.ninja",
+          "note": "Netflix",
+          "optional": true
+        },
+        {
+          "pkg": "com.netflix.tokenmanager",
+          "note": "Netflix sign-in helper",
+          "optional": true
+        },
+        {
+          "pkg": "com.amazon.amazonvideo.livingroom",
+          "note": "Prime Video",
+          "optional": true
+        },
+        {
+          "pkg": "com.seraphic.hbbtv.app",
+          "note": "HbbTV red button",
+          "optional": true
+        }
+      ]
+    },
+    {
+      "title": "Off by the owner's choice",
+      "packages": [
+        {
+          "pkg": "com.google.android.videos",
+          "note": "Google TV movie store"
+        },
+        {
+          "pkg": "com.google.android.katniss",
+          "note": "Google Assistant (remote mic button); keyboard dictation stays"
+        },
+        {
+          "pkg": "com.realtek.kara",
+          "note": "karaoke microphone"
+        },
+        {
+          "pkg": "com.rtk.mediabrowser",
+          "note": "USB media player (VLC installed instead)"
+        }
+      ]
+    }
+  ],
+  "source": {
+    "repo": "Gathin23/cleanyourtv",
+    "path": "examples/thomson-65qg7c14/debloat.txt",
+    "commit": "be6087056a1c7d4f08f3f1cc778d92374d86ef27"
+  }
+}

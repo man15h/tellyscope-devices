@@ -116,7 +116,9 @@
           "note": "spare webview"
         },
         {
-          "pkg": "com.mediatek.backgrounddetection"
+          "pkg": "com.mediatek.backgrounddetection",
+          "note": "KEEP: despite its name it is on the standby path. Its QhbReceiver",
+          "optional": true
         }
       ]
     },
@@ -137,6 +139,6 @@
   "source": {
     "repo": "Gathin23/cleanyourtv",
     "path": "examples/tcl-g08-au-android14/debloat.txt",
-    "commit": "c2d6e79381add9daa83e116882f6d6b130dc4a73"
+    "commit": "be6087056a1c7d4f08f3f1cc778d92374d86ef27"
   }
 }

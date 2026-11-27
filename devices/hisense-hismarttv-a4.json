@@ -22,6 +22,11 @@
         },
         {
           "pkg": "com.google.android.tv.bugreportsender"
+        },
+        {
+          "pkg": "com.google.android.partnersetup",
+          "note": "partner referral tracking; off on the second unit for one session so far, and in the Android 11 list",
+          "optional": true
         }
       ]
     },
@@ -60,6 +65,11 @@
         {
           "pkg": "com.seraphic.browser",
           "note": "Hisense browser"
+        },
+        {
+          "pkg": "com.hisense.hibrowser",
+          "note": "HiBrowser, the browser on the second unit's build; off there for one session so far",
+          "optional": true
         },
         {
           "pkg": "com.google.android.music",
@@ -111,6 +121,6 @@
   "source": {
     "repo": "Gathin23/cleanyourtv",
     "path": "examples/hisense-hismarttv-a4/debloat.txt",
-    "commit": "575d73f0f30c329aa7ebaea2bc863943fd9bf7f9"
+    "commit": "be6087056a1c7d4f08f3f1cc778d92374d86ef27"
   }
 }

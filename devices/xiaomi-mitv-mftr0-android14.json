@@ -31,7 +31,7 @@
         },
         {
           "pkg": "com.mitv.overseaservice",
-          "note": "overseas ad-service partner helper (OS3)"
+          "note": "overseas ad-service partner helper (OS3), and the LED-DFX owner; see the note above"
         },
         {
           "pkg": "com.miui.hybrid.tv",
@@ -131,6 +131,6 @@
   "source": {
     "repo": "Gathin23/cleanyourtv",
     "path": "examples/xiaomi-mitv-mftr0-android14/debloat.txt",
-    "commit": "ddc3b2cdce299a5f30aa2da2437edc40f3cf6f2e"
+    "commit": "be6087056a1c7d4f08f3f1cc778d92374d86ef27"
   }
 }

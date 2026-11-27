@@ -1,0 +1,86 @@
+{
+  "schema": 1,
+  "id": "skyworth-swtv-22ae-fhd-android11",
+  "name": "Skyworth SWTV-22AE-FHD",
+  "tested": {
+    "os": "Android 11",
+    "sdk": 30,
+    "build": "RTM7.230903.221"
+  },
+  "launcher": "com.google.android.apps.tv.launcherx",
+  "keep": [],
+  "groups": [
+    {
+      "title": "Skyworth telemetry and activation",
+      "packages": [
+        {
+          "pkg": "com.smartdevice.recordactivation",
+          "note": "records first activation"
+        },
+        {
+          "pkg": "com.smartdevice.aftersale",
+          "note": "\"after-sale\" service: boot + network receivers, can install APKs"
+        },
+        {
+          "pkg": "com.google.android.feedback"
+        }
+      ]
+    },
+    {
+      "title": "Content rows and recommendations",
+      "packages": [
+        {
+          "pkg": "com.smartdevice.recommendation",
+          "note": "Coocaa recommendation rows and analytics"
+        },
+        {
+          "pkg": "com.smartdevice.leanbacklauncher.customizer",
+          "note": "partner config that injects rows into the home screen"
+        }
+      ]
+    },
+    {
+      "title": "Retail demo, manual, unused",
+      "packages": [
+        {
+          "pkg": "com.coocaa.demonow.lightining",
+          "note": "\"Demo Now\" retail mode"
+        },
+        {
+          "pkg": "fusion.android.tv.demo",
+          "note": "shop demo player (Skyworth ePop)"
+        },
+        {
+          "pkg": "com.mstar.android.tv.disclaimercustomization",
+          "note": "retail legal-disclaimer dialogs"
+        },
+        {
+          "pkg": "com.Smartdevice.emanual",
+          "note": "on-screen manual"
+        },
+        {
+          "pkg": "com.google.android.play.games",
+          "note": "Google Play Games"
+        }
+      ]
+    },
+    {
+      "title": "Stock Google TV home and setup wizard",
+      "packages": [
+        {
+          "pkg": "com.google.android.tungsten.setupwraith",
+          "note": "setup wizard recovery activity claiming HOME"
+        },
+        {
+          "pkg": "com.google.android.apps.tv.launcherx",
+          "note": "stock Google TV launcher"
+        }
+      ]
+    }
+  ],
+  "source": {
+    "repo": "Gathin23/cleanyourtv",
+    "path": "examples/skyworth-swtv-22ae-fhd-android11/debloat.txt",
+    "commit": "be6087056a1c7d4f08f3f1cc778d92374d86ef27"
+  }
+}

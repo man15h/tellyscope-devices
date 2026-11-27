@@ -1,0 +1,55 @@
+{
+  "schema": 1,
+  "id": "jvc-4k-isdb-ktc-hongkong",
+  "name": "JVC 4K ISDB TV",
+  "tested": {
+    "os": "Android TV 11",
+    "sdk": 30,
+    "build": "RTM7.230903.140"
+  },
+  "launcher": "com.google.android.apps.tv.launcherx",
+  "keep": [],
+  "groups": [
+    {
+      "title": "--- Google apps not used (owner's choice) ---",
+      "packages": [
+        {
+          "pkg": "com.google.android.play.games"
+        },
+        {
+          "pkg": "com.google.android.videos",
+          "note": "Play Movies; a second profile keeps its own enabled copy"
+        }
+      ]
+    },
+    {
+      "title": "--- Google ambient-mode screensaver ---",
+      "packages": [
+        {
+          "pkg": "com.google.android.apps.tv.dreamx",
+          "note": "pick another screensaver first (README.md)"
+        }
+      ]
+    },
+    {
+      "title": "--- Re-enabled by the firmware at every boot (see header) ---",
+      "packages": [
+        {
+          "pkg": "com.google.android.katniss",
+          "note": "Assistant / voice search",
+          "optional": true
+        },
+        {
+          "pkg": "com.google.android.marvin.talkback",
+          "note": "TalkBack screen reader",
+          "optional": true
+        }
+      ]
+    }
+  ],
+  "source": {
+    "repo": "Gathin23/cleanyourtv",
+    "path": "examples/jvc-4k-isdb-ktc-hongkong/debloat.txt",
+    "commit": "be6087056a1c7d4f08f3f1cc778d92374d86ef27"
+  }
+}
